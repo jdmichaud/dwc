@@ -1,0 +1,37 @@
+{
+  "name": "@jdmichaud/dwc",
+  "version": "0.0.1",
+  "description": "DICOMWeb Client",
+  "main": "dist/index.js",
+  "scripts": {
+    "all": "npm run lint && npm test && npm run build",
+    "test": "jest",
+    "lint": "eslint --config .eslintrc.js 'src/**/*.ts' --ignore-pattern 'src/**/*.spec.ts'",
+    "build": "npm run generate-classes && rollup -c rollup.config.js",
+    "ppublish": "npm run all && npm publish",
+    "dev": "rollup -w -c dev/rollup.config.js",
+    "generate-classes": "dicom-class-generator node_modules/@jdmichaud/dicom-model/dist/data-dictionary/data-elements.csv src/dicom-web-response.ts.template src/dicom-web-response.ts && dicom-class-generator node_modules/@jdmichaud/dicom-model/dist/data-dictionary/data-elements.csv src/dicom-web-dataset.ts.template src/dicom-web-dataset.ts"
+  },
+  "devDependencies": {
+    "@jdmichaud/dicom-model": "^0.6.1",
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@types/jest": "^26.0.10",
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.7.0",
+    "jest": "^26.4.0",
+    "rollup": "^2.26.2",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-serve": "^1.0.3",
+    "rollup-plugin-sourcemaps": "^0.6.2",
+    "rollup-plugin-terser": "^7.0.0",
+    "rollup-plugin-typescript2": "^0.27.2",
+    "ts-jest": "^26.2.0",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  },
+  "files": [
+    "dist"
+  ]
+}
