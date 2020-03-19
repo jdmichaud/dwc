@@ -1,0 +1,18 @@
+import { Dataset, Element } from './dataset';
+
+/**
+ * Implements a Dataset. All the fields are optional and can thus be undefined.
+ */
+export class BaseDataset implements Dataset {
+  constructor(private readonly dataset: Dataset) {
+    if (dataset === undefined) {
+      throw new Error('BaseDataset requires a DICOM valid dataset as parameter');
+    }
+  }
+
+  get link(): string {
+    return this.dataset.link;
+  }
+
+{{ fields }}
+}
