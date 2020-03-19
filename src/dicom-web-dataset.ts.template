@@ -1,0 +1,67 @@
+/* eslint-disable */
+import { Dataset } from '@jdmichaud/dicom-model';
+
+import { DICOMWebResponse, Element } from './dicom-web-response';
+import { Requester } from './requester';
+
+/**
+ * Implements a Dataset. All the fields are optional and can thus be undefined.
+ */
+export class DICOMWebDataset implements Dataset {
+  constructor(public readonly dwResponse: DICOMWebResponse, protected readonly requester: Requester) {
+    if (dwResponse === undefined) {
+      throw new Error('DICOMWebDataset requires a DICOM valid DICOMWeb response as parameter');
+    }
+  }
+
+  get link(): string {
+    return this.dwResponse.link;
+  }
+
+  private async retrieveWideField<T>(element: string): Promise<Response> {
+    return await (async () => {
+      const response = await this.requester.qido({
+        path: element,
+      });
+      return await response;
+    })();
+  }
+
+  // Metadata ------------------------------------------------------------------
+{{~ it.elements :element}}{{? !element.isLinkable }}
+  // {{=element.prettyName }}
+  get {{=element.keyword}}(): {{=element.returnedType}} | undefined {
+    return this.x{{=element.tag.toLowerCase()}};
+  }
+
+  get x{{=element.tag.toLowerCase()}}(): {{=element.returnedType}} | undefined {
+    const element = this.dwResponse['{{=element.tag.toLowerCase()}}'];
+    {{? element.vr === 'SQ' }}return this.dwResponse['{{=element.tag.toLowerCase()}}']?.Value.map(v => new DICOMWebDataset(v, this.requester));
+    {{??}}return this.dwResponse['{{=element.tag.toLowerCase()}}']?.Value{{? element.onlyOneElement }}[0]{{?}};{{?}}
+  }
+{{?}}{{~}}
+
+  // Bulkdata ------------------------------------------------------------------
+{{~ it.elements :element}}{{? element.isLinkable }}
+  // {{=element.prettyName }}
+  get {{=element.keyword}}(): {{=element.returnedType}} | string | undefined {
+    return this.x{{=element.tag.toLowerCase()}};
+  }
+
+  get x{{=element.tag.toLowerCase()}}(): {{=element.returnedType}} | string | undefined {
+    const element = this.dwResponse['{{=element.tag.toLowerCase()}}'];
+    return element === undefined || typeof element === 'string' ? element : element.Value{{? element.onlyOneElement }}[0]{{?}};
+  }
+
+  async get{{=element.keyword}}(): Promise<{{=element.returnedType}}> {
+    const element = this.dwResponse['{{=element.tag.toLowerCase()}}'];
+    if (typeof element !== 'string') {
+      return this.x{{=element.tag.toLowerCase()}} as any;
+    }
+    const response = await this.requester.qido({ path: element });
+    {{? element.returnedType === 'string' }}return response.text();
+    {{??}}{{? element.returnedType === 'Uint8Array' }}return new {{=element.returnedType}}(await response.arrayBuffer());
+    {{??}}throw new Error('Not yet implemented');{{?}}{{?}}
+  }
+{{?}}{{~}}
+}
