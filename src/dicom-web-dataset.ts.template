@@ -1,6 +1,8 @@
 /* eslint-disable */
 import { Dataset } from '@jdmichaud/dicom-model';
 
+// "strict" must be false in tsconfig.json to compile that file for now otherwise, node runs our of memory.
+
 import { DICOMWebResponse, Element } from './dicom-web-response';
 import { Requester } from './requester';
 
@@ -16,6 +18,17 @@ export class DICOMWebDataset implements Dataset {
 
   get link(): string {
     return this.dwResponse.link;
+  }
+
+  private toDate(datestr: string | undefined): Date | undefined{
+    if (datestr === undefined) return undefined;
+    const canondatestr = (datestr.includes('.'))
+      ? datestr.split('.').join('') // ACR-NEMA Standard 300 date format
+      : datestr;
+    const year = Number(canondatestr.substr(0, 4));
+    const month = Number(canondatestr.substr(4, 2));
+    const day = Number(canondatestr.substr(6, 2));
+    return new Date(year, month, day);
   }
 
   private async retrieveWideField<T>(element: string): Promise<Response> {
@@ -35,9 +48,10 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x{{=element.tag.toLowerCase()}}(): {{=element.returnedType}} | undefined {
-    const element = this.dwResponse['{{=element.tag.toLowerCase()}}'];
-    {{? element.vr === 'SQ' }}return this.dwResponse['{{=element.tag.toLowerCase()}}']?.Value.map(v => new DICOMWebDataset(v, this.requester));
-    {{??}}return this.dwResponse['{{=element.tag.toLowerCase()}}']?.Value{{? element.onlyOneElement }}[0]{{?}};{{?}}
+    const value = this.dwResponse['{{=element.tag.toLowerCase()}}']?.Value;
+    {{? element.vr === 'DA' }}return {{? element.onlyOneElement }}this.toDate(value?.[0]){{??}}value?.map(v => this.toDate(v)){{?}};
+    {{??}}{{? element.vr === 'SQ' }}return value?.map(v => new DICOMWebDataset(v, this.requester));
+    {{??}}return value{{? element.onlyOneElement }}?.[0]{{?}};{{?}}{{?}}
   }
 {{?}}{{~}}
 
@@ -50,7 +64,7 @@ export class DICOMWebDataset implements Dataset {
 
   get x{{=element.tag.toLowerCase()}}(): {{=element.returnedType}} | string | undefined {
     const element = this.dwResponse['{{=element.tag.toLowerCase()}}'];
-    return element === undefined || typeof element === 'string' ? element : element.Value{{? element.onlyOneElement }}[0]{{?}};
+    return element === undefined || typeof element === 'string' ? element : element.Value{{? element.onlyOneElement }}[0]{{??}} as any{{?}};
   }
 
   async get{{=element.keyword}}(): Promise<{{=element.returnedType}}> {
