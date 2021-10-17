@@ -1,12 +1,17 @@
 export async function responseToJson<T>(response: Response): Promise<T> {
   const body = await response.json();
   if (!response.ok) {
-    const error = body.error ?? '';7
-    throw new Error(`${response.status} ${response.statusText} ${error}`);
+    const error = body.error ?? '';
+    throw new Error(`${response.status} ${response.statusText}: ${error}`);
   }
   return body;
 }
 
 export async function responseToImage(response: Response): Promise<ImageBitmap> {
+  if (!response.ok) {
+    const body = await response.json();
+    const error = body.error ?? '';
+    throw new Error(`${response.status} ${response.statusText}: ${error}`);
+  }
   return createImageBitmap(await response.blob());
 }
