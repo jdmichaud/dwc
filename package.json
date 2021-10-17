@@ -13,7 +13,7 @@
     "lint": "eslint --config .eslintrc.js 'src/**/*.ts' --ignore-pattern 'src/**/*.spec.ts'",
     "build": "npm run generate-classes && rollup -c rollup.config.js",
     "ppublish": "npm run all && npm publish",
-    "dev": "rollup -w -c dev/rollup.config.js",
+    "serve": "rollup -w -c dev/rollup.config.js",
     "generate-classes": "dicom-class-generator node_modules/@jdmichaud/dicom-model/dist/data-dictionary/data-elements.csv src/dicom-web-response.ts.template src/dicom-web-response.ts && dicom-class-generator node_modules/@jdmichaud/dicom-model/dist/data-dictionary/data-elements.csv src/dicom-web-dataset.ts.template src/dicom-web-dataset.ts"
   },
   "devDependencies": {

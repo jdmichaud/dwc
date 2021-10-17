@@ -3,7 +3,7 @@ import { DICOMWebResponse } from './dicom-web-response';
 import { QidoAttributeSpecifier, WadoAttributeSpecifier } from './parameters';
 import { Requester } from './requester';
 import { Series } from './series';
-import { responseToJson } from './utils';
+import { responseToImage, responseToJson } from './utils';
 
 /**
  * Hard dependency to BaseDataset for now:
@@ -30,5 +30,16 @@ export class Study extends DICOMWebDataset {
     });
     const dwResponse = await responseToJson<DICOMWebResponse>(response);
     return new Study(dwResponse, this.requester)
+  }
+
+  async thumbnail(wadoAttributeSpecifier: WadoAttributeSpecifier = {}): Promise<ImageBitmap> {
+    const series = await this.series();
+    if (series.length === 0) {
+      throw new Error('Study has no series. Cannot create thumbnail.');
+    }
+    return responseToImage(await this.requester.wado({
+      path: `${series[0].link}/thumbnail`,
+      ...wadoAttributeSpecifier
+    }));
   }
 }
