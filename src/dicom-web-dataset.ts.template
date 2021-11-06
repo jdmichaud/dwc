@@ -73,8 +73,12 @@ export class DICOMWebDataset implements Dataset {
       return this.x{{=element.tag.toLowerCase()}} as any;
     }
     const response = await this.requester.qido({ path: element });
-    {{? element.returnedType === 'string' }}return response.text();
-    {{??}}{{? element.returnedType === 'Uint8Array' }}return new {{=element.returnedType}}(await response.arrayBuffer());
+    {{? element.returnedType === 'string' }}const value = response.text();
+    this.dwResponse['{{=element.tag.toLowerCase()}}'] = { Value: [value], vr: '{{=element.vr}}' };
+    return value;
+    {{??}}{{? element.returnedType === 'Uint8Array' }}const value = new {{=element.returnedType}}(await response.arrayBuffer());
+    this.dwResponse['{{=element.tag.toLowerCase()}}'] = { Value: [value], vr: '{{=element.vr}}' };
+    return value;
     {{??}}throw new Error('Not yet implemented');{{?}}{{?}}
   }
 {{?}}{{~}}

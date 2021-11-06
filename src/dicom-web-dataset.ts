@@ -37289,7 +37289,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00020001 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00020001'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -37309,7 +37311,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00020102 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00020102'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -37329,7 +37333,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00080081 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00080081'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37349,7 +37355,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00080092 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00080092'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37369,7 +37377,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00080108 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00080108'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -37389,7 +37399,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00080114 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00080114'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37409,7 +37421,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00080115 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00080115'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37429,7 +37443,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00080116 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00080116'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37449,7 +37465,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00081190 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00081190'] = { Value: [value], vr: 'UT' };
+    return value;
     
   }
 
@@ -37469,7 +37487,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00082111 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00082111'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37489,7 +37509,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00082256 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00082256'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37509,7 +37531,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00082258 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00082258'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37529,7 +37553,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00084000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00084000'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -37549,7 +37575,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x001021b0 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['001021b0'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -37569,7 +37597,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00104000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00104000'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -37589,7 +37619,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00120051 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00120051'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37742,7 +37774,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00140046 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00140046'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -37762,7 +37796,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00141010 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00141010'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37782,7 +37818,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00141040 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00141040'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37802,7 +37840,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00142018 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00142018'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37822,7 +37862,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00142206 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00142206'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37842,7 +37884,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00142210 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00142210'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -37862,7 +37906,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00142222 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00142222'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37882,7 +37928,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00143022 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00143022'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -37902,7 +37950,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00143050 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00143050'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -37922,7 +37972,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00143070 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00143070'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -37942,7 +37994,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00143080 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00143080'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -37962,7 +38016,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00143099 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00143099'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -37982,7 +38038,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00144006 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00144006'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38002,7 +38060,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0014400c as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0014400c'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38022,7 +38082,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0014400f as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0014400f'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38042,7 +38104,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00144054 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00144054'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38062,7 +38126,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00144056 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00144056'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38082,7 +38148,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0014405c as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0014405c'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38102,7 +38170,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00144072 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00144072'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38122,7 +38192,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00144082 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00144082'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38142,7 +38214,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0014409b as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0014409b'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38162,7 +38236,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0018003a as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0018003a'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38182,7 +38258,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00184000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00184000'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38202,7 +38280,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00187006 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00187006'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38222,7 +38302,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00187008 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00187008'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38242,7 +38324,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00187040 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00187040'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38262,7 +38346,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00187041 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00187041'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38282,7 +38368,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00187062 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00187062'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38302,7 +38390,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00189080 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00189080'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38322,7 +38412,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00189185 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00189185'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38342,7 +38434,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00189424 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00189424'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38362,7 +38456,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0018a003 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0018a003'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38382,7 +38478,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00204000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00204000'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38402,7 +38500,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00209158 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00209158'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38422,7 +38522,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00240044 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00240044'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38461,7 +38563,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281201 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281201'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38481,7 +38585,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281202 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281202'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38501,7 +38607,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281203 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281203'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38521,7 +38629,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281204 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281204'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38541,7 +38651,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281211 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281211'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38561,7 +38673,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281212 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281212'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38581,7 +38695,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281213 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281213'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38601,7 +38717,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281221 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281221'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38621,7 +38739,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281222 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281222'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38641,7 +38761,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281223 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281223'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38661,7 +38783,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281351 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00281351'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38681,7 +38805,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00281408 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00281408'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -38701,7 +38827,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00282000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00282000'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -38740,7 +38868,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00284000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00284000'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38760,7 +38890,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00286190 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00286190'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38780,7 +38912,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00287fe0 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00287fe0'] = { Value: [value], vr: 'UT' };
+    return value;
     
   }
 
@@ -38800,7 +38934,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00324000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00324000'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38820,7 +38956,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00384000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00384000'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38840,7 +38978,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00400031 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00400031'] = { Value: [value], vr: 'UT' };
+    return value;
     
   }
 
@@ -38860,7 +39000,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00400032 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00400032'] = { Value: [value], vr: 'UT' };
+    return value;
     
   }
 
@@ -38880,7 +39022,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00400280 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00400280'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38900,7 +39044,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00400310 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00400310'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38920,7 +39066,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00400400 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00400400'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -38940,7 +39088,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00400553 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00400553'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38960,7 +39110,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00400556 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00400556'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -38980,7 +39132,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00400602 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00400602'] = { Value: [value], vr: 'UT' };
+    return value;
     
   }
 
@@ -39000,7 +39154,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00401102 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00401102'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39020,7 +39176,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00401400 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00401400'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -39040,7 +39198,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00402400 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00402400'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -39060,7 +39220,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040a074 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['0040a074'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -39080,7 +39242,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040a089 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['0040a089'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -39100,7 +39264,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040a160 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0040a160'] = { Value: [value], vr: 'UT' };
+    return value;
     
   }
 
@@ -39120,7 +39286,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040a16a as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0040a16a'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39140,7 +39308,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040a224 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0040a224'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39160,7 +39330,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040a297 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0040a297'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39180,7 +39352,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040a33a as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0040a33a'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39200,7 +39374,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040a353 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0040a353'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39220,7 +39396,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040a992 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0040a992'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39240,7 +39418,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040e001 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0040e001'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39260,7 +39440,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0040e010 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0040e010'] = { Value: [value], vr: 'UT' };
+    return value;
     
   }
 
@@ -39280,7 +39462,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00420010 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00420010'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39300,7 +39484,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00420011 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00420011'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -39320,7 +39506,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00440001 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00440001'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39340,7 +39528,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00440003 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00440003'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -39360,7 +39550,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00440009 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00440009'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -39380,7 +39572,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00480107 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00480107'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39400,7 +39594,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00620006 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00620006'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39439,7 +39635,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00660004 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00660004'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -39497,7 +39695,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00660023 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00660023'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -39517,7 +39717,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00660024 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00660024'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -39537,7 +39739,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00660025 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00660025'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -39557,7 +39761,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00660029 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00660029'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -39577,7 +39783,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00660032 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00660032'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -39597,7 +39805,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00686280 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00686280'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39617,7 +39827,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00686300 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00686300'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -39637,7 +39849,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00686345 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00686345'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39657,7 +39871,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00700006 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00700006'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39677,7 +39893,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00700208 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00700208'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39697,7 +39915,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00700256 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['00700256'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -39717,7 +39937,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0070030f as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0070030f'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39737,7 +39959,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00720068 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00720068'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -39757,7 +39981,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0072006e as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0072006e'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39777,7 +40003,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00720070 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00720070'] = { Value: [value], vr: 'UT' };
+    return value;
     
   }
 
@@ -39797,7 +40025,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00741006 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00741006'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39817,7 +40047,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x0074100a as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['0074100a'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39837,7 +40069,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00741238 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00741238'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -39857,7 +40091,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00780010 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00780010'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39915,7 +40151,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x00880906 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['00880906'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -39935,7 +40173,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x01000424 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['01000424'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -39955,7 +40195,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x04000115 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['04000115'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -39975,7 +40217,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x04000120 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['04000120'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -39995,7 +40239,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x04000310 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['04000310'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -40015,7 +40261,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x04000404 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['04000404'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -40035,7 +40283,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x04000520 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['04000520'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -40055,7 +40305,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x20100010 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['20100010'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40075,7 +40327,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x20100150 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['20100150'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40095,7 +40349,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x20100152 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['20100152'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40115,7 +40371,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x22000002 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['22000002'] = { Value: [value], vr: 'UT' };
+    return value;
     
   }
 
@@ -40135,7 +40393,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x22000004 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['22000004'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40155,7 +40415,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x22000005 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['22000005'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40175,7 +40437,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x30020004 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['30020004'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40195,7 +40459,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x30060006 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['30060006'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40215,7 +40481,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x30060028 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['30060028'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40235,7 +40503,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x30060088 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['30060088'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40255,7 +40525,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x30080012 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['30080012'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40275,7 +40547,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x30080066 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['30080066'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40295,7 +40569,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x30080074 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['30080074'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40315,7 +40591,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x30080202 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['30080202'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40335,7 +40613,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a0004 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a0004'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40355,7 +40635,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a000e as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a000e'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40375,7 +40657,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a007b as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a007b'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40395,7 +40679,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a00c3 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a00c3'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40415,7 +40701,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a00dd as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a00dd'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40435,7 +40723,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a0196 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a0196'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40455,7 +40745,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a01a6 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a01a6'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40475,7 +40767,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a01b2 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a01b2'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40495,7 +40789,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a01ba as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a01ba'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40515,7 +40811,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a01d0 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a01d0'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40535,7 +40833,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a02eb as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a02eb'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40555,7 +40855,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a0402 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a0402'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40575,7 +40877,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x300a0422 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['300a0422'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40595,7 +40899,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x40000010 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['40000010'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40615,7 +40921,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x40004000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['40004000'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40635,7 +40943,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x4008010b as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['4008010b'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40655,7 +40965,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x40080115 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['40080115'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40675,7 +40987,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x40080300 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['40080300'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40695,7 +41009,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x40084000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['40084000'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40715,7 +41031,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x40101006 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['40101006'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -40735,7 +41053,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x40101013 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['40101013'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40755,7 +41075,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x40101068 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['40101068'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40775,7 +41097,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x4010106c as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['4010106c'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
@@ -40795,7 +41119,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x40101078 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['40101078'] = { Value: [value], vr: 'ST' };
+    return value;
     
   }
 
@@ -40815,7 +41141,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x50xx200c as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['50xx200c'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -40835,7 +41163,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x50xx200e as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['50xx200e'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -40855,7 +41185,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x50xx3000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['50xx3000'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -40875,7 +41207,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x54000110 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['54000110'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -40895,7 +41229,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x54000112 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['54000112'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -40915,7 +41251,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x5400100a as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['5400100a'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -40935,7 +41273,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x54001010 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['54001010'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -40993,7 +41333,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x60xx3000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['60xx3000'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -41013,7 +41355,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x60xx4000 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return response.text();
+    const value = response.text();
+    this.dwResponse['60xx4000'] = { Value: [value], vr: 'LT' };
+    return value;
     
   }
 
@@ -41033,7 +41377,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x7fe00010 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['7fe00010'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -41053,7 +41399,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x7fe00020 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['7fe00020'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -41073,7 +41421,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x7fe00030 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['7fe00030'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -41093,7 +41443,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x7fe00040 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['7fe00040'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -41113,7 +41465,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x7fxx0010 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['7fxx0010'] = { Value: [value], vr: 'OB or OW' };
+    return value;
     
   }
 
@@ -41133,7 +41487,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x7fxx0020 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['7fxx0020'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -41153,7 +41509,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x7fxx0030 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['7fxx0030'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -41173,7 +41531,9 @@ export class DICOMWebDataset implements Dataset {
       return this.x7fxx0040 as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['7fxx0040'] = { Value: [value], vr: 'OW' };
+    return value;
     
   }
 
@@ -41193,7 +41553,9 @@ export class DICOMWebDataset implements Dataset {
       return this.xfffcfffc as any;
     }
     const response = await this.requester.qido({ path: element });
-    return new Uint8Array(await response.arrayBuffer());
+    const value = new Uint8Array(await response.arrayBuffer());
+    this.dwResponse['fffcfffc'] = { Value: [value], vr: 'OB' };
+    return value;
     
   }
 
