@@ -1,8 +1,6 @@
 /* eslint-disable */
 import { Dataset } from '@jdmichaud/dicom-model';
 
-// "strict" must be false in tsconfig.json to compile that file for now otherwise, node runs our of memory.
-
 import { DICOMWebResponse, Element } from './dicom-web-response';
 import { Requester } from './requester';
 

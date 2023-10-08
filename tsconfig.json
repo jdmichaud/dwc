@@ -5,9 +5,9 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "target": "ES2020",
-    "strict": false,
+    "strict": true,
     "sourceMap": true,
-    "moduleResolution": "node",
+    "moduleResolution": "node"
   },
   "include": [
     "src/**/*"
