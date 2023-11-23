@@ -14,19 +14,32 @@ export class Study extends DICOMWebDataset {
     super(dwResponse, requester);
   }
 
+  get link(): string {
+    return `/studies/${this.StudyInstanceUID}/series`;
+  }
+
   async series(qidoAttributeSpecifier: QidoAttributeSpecifier = {}): Promise<Array<Series>> {
     qidoAttributeSpecifier.includefield = qidoAttributeSpecifier.includefield ?? [];
     qidoAttributeSpecifier.includefield.push('SeriesInstanceUID');
     return (await responseToJson<Array<DICOMWebResponse>>(await this.requester.qido({
-      path: `/studies/${this.StudyInstanceUID}/series`,
-      ...qidoAttributeSpecifier
+      path: this.link,
+      ...qidoAttributeSpecifier,
     }))).map(dwResponse => new Series(dwResponse, this.requester));
+  }
+
+  async query(qidoAttributeSpecifier: QidoAttributeSpecifier = {}): Promise<Study> {
+    const response = await this.requester.qido({
+      path: this.link,
+      ...qidoAttributeSpecifier,
+    });
+    const dwResponse = await responseToJson<DICOMWebResponse>(response);
+    return new Study(dwResponse, this.requester)
   }
 
   async metadata(wadoAttributeSpecifier: WadoAttributeSpecifier = {}): Promise<Study> {
     const response = await this.requester.wado({
-      path: this.link,
-      ...wadoAttributeSpecifier
+      path: `${this.link}/metadata`,
+      ...wadoAttributeSpecifier,
     });
     const dwResponse = await responseToJson<DICOMWebResponse>(response);
     return new Study(dwResponse, this.requester)
@@ -39,7 +52,7 @@ export class Study extends DICOMWebDataset {
     }
     return responseToImage(await this.requester.wado({
       path: `${series[0].link}/thumbnail`,
-      ...wadoAttributeSpecifier
+      ...wadoAttributeSpecifier,
     }));
   }
 }

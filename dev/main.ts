@@ -9,17 +9,14 @@ async function main(): Promise<void> {
   const seriess = await studies[0].series();
   const instances = await seriess[0].instances();
   // Test out SQ feature for enhanced CT datasets
-  const instance = await instances[0].metadata({ includeFields: [
-    'SharedFunctionalGroupsSequence',
-    'PerFrameFunctionalGroupsSequence',
-  ] });
-  // console.log(instance.SharedFunctionalGroupsSequence[0].MRImagingModifierSequence[0].PixelBandwidth)
+  const instance = await instances[0].metadata();
+  console.log(instance.SharedFunctionalGroupsSequence?.[0]?.MRImagingModifierSequence?.[0]?.PixelBandwidth);
 
   // render the native view of that instance
   const thumbnail = await instances[0].thumbnail();
 
   const vp = document.getElementById('viewport') as HTMLCanvasElement;
-  const ctx = vp.getContext('2d');
+  const ctx = vp.getContext('2d') as CanvasRenderingContext2D;
   ctx.drawImage(thumbnail, 0, 0, 512, 512);
 
   // Retrieve raw pixels

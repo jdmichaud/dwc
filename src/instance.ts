@@ -10,19 +10,32 @@ export class Instance extends DICOMWebDataset {
     super(dwResponse, requester);
   }
 
+  get link(): string {
+    return `/studies/${this.StudyInstanceUID}/series/${this.SeriesInstanceUID}/instances/${this.SOPInstanceUID}`;
+  }
+
   async frames(qidoAttributeSpecifier: QidoAttributeSpecifier = {}): Promise<Array<Frames>> {
     qidoAttributeSpecifier.includefield = qidoAttributeSpecifier.includefield ?? [];
     qidoAttributeSpecifier.includefield.push('SOPInstanceUID');
     return (await responseToJson<Array<DICOMWebResponse>>(await this.requester.qido({
-      path: `/instances/${this.SOPInstanceUID}`,
-      ...qidoAttributeSpecifier
+      path: this.link,
+      ...qidoAttributeSpecifier,
     }))).map(dwResponse => new Frames(dwResponse, this.requester));
   }
 
-  async metadata(qidoAttributeSpecifier: QidoAttributeSpecifier = {}): Promise<Instance> {
+  async query(qidoAttributeSpecifier: QidoAttributeSpecifier = {}): Promise<Instance> {
     const response = await this.requester.qido({
       path: this.link,
-      ...qidoAttributeSpecifier
+      ...qidoAttributeSpecifier,
+    });
+    const dwResponse = await responseToJson<DICOMWebResponse>(response);
+    return new Instance(dwResponse, this.requester)
+  }
+
+  async metadata(wadoAttributeSpecifier: WadoAttributeSpecifier = {}): Promise<Instance> {
+    const response = await this.requester.wado({
+      path: `${this.link}/metadata`,
+      ...wadoAttributeSpecifier,
     });
     const dwResponse = await responseToJson<DICOMWebResponse>(response);
     return new Instance(dwResponse, this.requester)
@@ -31,14 +44,14 @@ export class Instance extends DICOMWebDataset {
   async thumbnail(wadoAttributeSpecifier: WadoAttributeSpecifier = {}): Promise<ImageBitmap> {
     return responseToImage(await this.requester.wado({
       path: `${this.link}/thumbnail`,
-      ...wadoAttributeSpecifier
+      ...wadoAttributeSpecifier,
     }));
   }
 
   async render(wadoAttributeSpecifier: WadoAttributeSpecifier = {}): Promise<ImageBitmap> {
     return responseToImage(await this.requester.wado({
       path: `${this.link}/render`,
-      ...wadoAttributeSpecifier
+      ...wadoAttributeSpecifier,
     }));
   }
 }

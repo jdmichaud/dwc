@@ -14,10 +14,6 @@ export class DICOMWebDataset implements Dataset {
     }
   }
 
-  get link(): string {
-    return this.dwResponse.link;
-  }
-
   private toDate(datestr: string | undefined): Date | undefined{
     if (datestr === undefined) return undefined;
     const canondatestr = (datestr.includes('.'))
