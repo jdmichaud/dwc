@@ -19,6 +19,13 @@
 // SOFTWARE.
 
 export async function responseToJson<T>(response: Response): Promise<T> {
+  const warning = response.headers.get('warning');
+  if (warning !== null && warning !== undefined) {
+    console.warn(warning);
+  }
+  if (response.status === 204) { // no content
+    return [] as any;
+  }
   const body = await response.json();
   if (!response.ok) {
     const error = body.error ?? '';
@@ -28,6 +35,10 @@ export async function responseToJson<T>(response: Response): Promise<T> {
 }
 
 export async function responseToImage(response: Response): Promise<ImageBitmap> {
+  const warning = response.headers.get('warning');
+  if (warning !== null && warning !== undefined) {
+    console.warn(warning);
+  }
   if (!response.ok) {
     const body = await response.json();
     const error = body.error ?? '';
