@@ -1,6 +1,6 @@
 {
   "name": "@jdmichaud/dwc",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "DICOMWeb Client",
   "main": "dist/index.js",
   "repository": {
