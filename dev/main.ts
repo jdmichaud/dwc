@@ -13,15 +13,15 @@ async function main(): Promise<void> {
   console.log(instance.SharedFunctionalGroupsSequence?.[0]?.MRImagingModifierSequence?.[0]?.PixelBandwidth);
 
   // render the native view of that instance
-  const thumbnail = await instances[0].thumbnail();
+  // const thumbnail = await instances[0].thumbnail();
 
-  const vp = document.getElementById('viewport') as HTMLCanvasElement;
-  const ctx = vp.getContext('2d') as CanvasRenderingContext2D;
-  ctx.drawImage(thumbnail, 0, 0, 512, 512);
+  // const vp = document.getElementById('viewport') as HTMLCanvasElement;
+  // const ctx = vp.getContext('2d') as CanvasRenderingContext2D;
+  // ctx.drawImage(thumbnail, 0, 0, 512, 512);
 
-  // Retrieve raw pixels
-  const pixels = await instance.PixelData;
-  console.log(pixels);
+  // // Retrieve raw pixels
+  // const pixels = await instance.PixelData;
+  // console.log(pixels);
 
   // For debugging purposes
   (window as any).factory = factory;
