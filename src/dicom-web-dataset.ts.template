@@ -53,7 +53,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x{{=element.tag.toLowerCase()}}(): {{=element.returnedType}} | undefined {
-    const value = this.dwResponse['{{=element.tag.toLowerCase()}}']?.Value;
+    const value = this.dwResponse['{{=element.tag.toUpperCase()}}']?.Value;
     {{? element.vr === 'SQ' }}
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     {{??}}{{? !element.tag.toLowerCase().includes('x') }}return convert(value{{? element.onlyOneElement }}?.[0]{{?}}, 0x{{=element.tag.toLowerCase()}}, '{{=element.returnedType}}');{{??}}throw new Error('Unsupported field {{=element.keyword}} ({{=element.tag}})');{{?}}{{?}}
@@ -76,21 +76,21 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x{{=element.tag.toLowerCase()}}(): {{=element.returnedType}} | string | undefined {
-    const element = this.dwResponse['{{=element.tag.toLowerCase()}}'];
+    const element = this.dwResponse['{{=element.tag.toUpperCase()}}'];
     return element === undefined || typeof element === 'string' ? element : element.Value{{? element.onlyOneElement }}[0]{{??}} as any{{?}};
   }
 
   async get{{=element.keyword}}(): Promise<{{=element.returnedType}}> {
-    const element = this.dwResponse['{{=element.tag.toLowerCase()}}'];
+    const element = this.dwResponse['{{=element.tag.toUpperCase()}}'];
     if (typeof element !== 'string') {
       return this.x{{=element.tag.toLowerCase()}} as any;
     }
     const response = await this.requester.qido({ path: element });
     {{? element.returnedType === 'string' }}const value = response.text();
-    this.dwResponse['{{=element.tag.toLowerCase()}}'] = { Value: [value], vr: '{{=element.vr}}' };
+    this.dwResponse['{{=element.tag.toUpperCase()}}'] = { Value: [value], vr: '{{=element.vr}}' };
     return value;
     {{??}}{{? element.returnedType === 'Uint8Array' }}const value = new {{=element.returnedType}}(await response.arrayBuffer());
-    this.dwResponse['{{=element.tag.toLowerCase()}}'] = { Value: [value], vr: '{{=element.vr}}' };
+    this.dwResponse['{{=element.tag.toUpperCase()}}'] = { Value: [value], vr: '{{=element.vr}}' };
     return value;
     {{??}}throw new Error('Not yet implemented');{{?}}{{?}}
   }

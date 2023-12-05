@@ -92,7 +92,7 @@ export interface DICOMWebResponse {
   // Referenced Transfer Syntax UID in File
   '00041512': Element | undefined;
   // Referenced Related General SOP Class UID in File
-  '0004151a': Element | undefined;
+  '0004151A': Element | undefined;
   // Number of References
   '00041600': Element | undefined;
   // Length to End
@@ -118,9 +118,9 @@ export interface DICOMWebResponse {
   // SOP Instance UID
   '00080018': Element | undefined;
   // Related General SOP Class UID
-  '0008001a': Element | undefined;
+  '0008001A': Element | undefined;
   // Original Specialized SOP Class UID
-  '0008001b': Element | undefined;
+  '0008001B': Element | undefined;
   // Study Date
   '00080020': Element | undefined;
   // Series Date
@@ -134,7 +134,7 @@ export interface DICOMWebResponse {
   // Curve Date
   '00080025': Element | undefined;
   // Acquisition DateTime
-  '0008002a': Element | undefined;
+  '0008002A': Element | undefined;
   // Study Time
   '00080030': Element | undefined;
   // Series Time
@@ -212,13 +212,13 @@ export interface DICOMWebResponse {
   // Extended Code Meaning
   '00080108': Element | undefined;
   // Context Group Extension Flag
-  '0008010b': Element | undefined;
+  '0008010B': Element | undefined;
   // Coding Scheme UID
-  '0008010c': Element | undefined;
+  '0008010C': Element | undefined;
   // Context Group Extension Creator UID
-  '0008010d': Element | undefined;
+  '0008010D': Element | undefined;
   // Context Identifier
-  '0008010f': Element | undefined;
+  '0008010F': Element | undefined;
   // Coding Scheme Identification Sequence
   '00080110': Element | undefined;
   // Coding Scheme Registry
@@ -242,9 +242,9 @@ export interface DICOMWebResponse {
   // Procedure Code Sequence
   '00081032': Element | undefined;
   // Series Description
-  '0008103e': Element | undefined;
+  '0008103E': Element | undefined;
   // Series Description Code Sequence
-  '0008103f': Element | undefined;
+  '0008103F': Element | undefined;
   // Institutional Department Name
   '00081040': Element | undefined;
   // Physician(s) of Record
@@ -286,21 +286,21 @@ export interface DICOMWebResponse {
   // Referenced Stereometric Instance Sequence
   '00081134': Element | undefined;
   // Referenced Waveform Sequence
-  '0008113a': Element | undefined;
+  '0008113A': Element | undefined;
   // Referenced Image Sequence
   '00081140': Element | undefined;
   // Referenced Curve Sequence
   '00081145': Element | undefined;
   // Referenced Instance Sequence
-  '0008114a': Element | undefined;
+  '0008114A': Element | undefined;
   // Referenced Real World Value Mapping Instance Sequence
-  '0008114b': Element | undefined;
+  '0008114B': Element | undefined;
   // Referenced SOP Class UID
   '00081150': Element | undefined;
   // Referenced SOP Instance UID
   '00081155': Element | undefined;
   // SOP Classes Supported
-  '0008115a': Element | undefined;
+  '0008115A': Element | undefined;
   // Referenced Frame Number
   '00081160': Element | undefined;
   // Simple Frame List
@@ -348,7 +348,7 @@ export interface DICOMWebResponse {
   // Number of Event Timers
   '00082129': Element | undefined;
   // Number of Views in Stage
-  '0008212a': Element | undefined;
+  '0008212A': Element | undefined;
   // Event Elapsed Time(s)
   '00082130': Element | undefined;
   // Event Timer Name(s)
@@ -404,9 +404,9 @@ export interface DICOMWebResponse {
   // Anatomic Location Of Examining Instrument Code Sequence (Trial)
   '00082259': Element | undefined;
   // Anatomic Structure Space Or Region Modifier Code Sequence (Trial)
-  '0008225a': Element | undefined;
+  '0008225A': Element | undefined;
   // OnAxis Background Anatomic Structure Code Sequence (Trial)
-  '0008225c': Element | undefined;
+  '0008225C': Element | undefined;
   // Alternate Representation Sequence
   '00083001': Element | undefined;
   // Irradiation Event UID
@@ -522,15 +522,15 @@ export interface DICOMWebResponse {
   // Occupation
   '00102180': Element | undefined;
   // Smoking Status
-  '001021a0': Element | undefined;
+  '001021A0': Element | undefined;
   // Additional Patient History
-  '001021b0': Element | undefined;
+  '001021B0': Element | undefined;
   // Pregnancy Status
-  '001021c0': Element | undefined;
+  '001021C0': Element | undefined;
   // Last Menstrual Date
-  '001021d0': Element | undefined;
+  '001021D0': Element | undefined;
   // Patient's Religious Preference
-  '001021f0': Element | undefined;
+  '001021F0': Element | undefined;
   // Patient Species Description
   '00102201': Element | undefined;
   // Patient Species Code Sequence
@@ -652,11 +652,11 @@ export interface DICOMWebResponse {
   // Indication Description
   '00142018': Element | undefined;
   // Indication Type
-  '0014201a': Element | undefined;
+  '0014201A': Element | undefined;
   // Indication Disposition
-  '0014201c': Element | undefined;
+  '0014201C': Element | undefined;
   // Indication ROI Sequence
-  '0014201e': Element | undefined;
+  '0014201E': Element | undefined;
   // Indication Physical Property Sequence
   '00142030': Element | undefined;
   // Property Label
@@ -670,11 +670,11 @@ export interface DICOMWebResponse {
   // Coordinate System Data Set Mapping
   '00142208': Element | undefined;
   // Coordinate System Axis Number
-  '0014220a': Element | undefined;
+  '0014220A': Element | undefined;
   // Coordinate System Axis Type
-  '0014220c': Element | undefined;
+  '0014220C': Element | undefined;
   // Coordinate System Axis Units
-  '0014220e': Element | undefined;
+  '0014220E': Element | undefined;
   // Coordinate System Axis Values
   '00142210': Element | undefined;
   // Coordinate System Transform Sequence
@@ -688,9 +688,9 @@ export interface DICOMWebResponse {
   // Transformed Axis Units
   '00142228': Element | undefined;
   // Coordinate System Transform Rotation and Scale Matrix
-  '0014222a': Element | undefined;
+  '0014222A': Element | undefined;
   // Coordinate System Transform Translation Matrix
-  '0014222c': Element | undefined;
+  '0014222C': Element | undefined;
   // Internal Detector Frame Time
   '00143011': Element | undefined;
   // Number of Frames Integrated
@@ -740,13 +740,13 @@ export interface DICOMWebResponse {
   // Receiver Equipment Sequence
   '00144008': Element | undefined;
   // Amplifier Type
-  '0014400a': Element | undefined;
+  '0014400A': Element | undefined;
   // Receiver Notes
-  '0014400c': Element | undefined;
+  '0014400C': Element | undefined;
   // Pre-Amplifier Equipment Sequence
-  '0014400e': Element | undefined;
+  '0014400E': Element | undefined;
   // Pre-Amplifier Notes
-  '0014400f': Element | undefined;
+  '0014400F': Element | undefined;
   // Transmit Transducer Sequence
   '00144010': Element | undefined;
   // Receive Transducer Sequence
@@ -768,13 +768,13 @@ export interface DICOMWebResponse {
   // Location of Measured Beam Diameter
   '00144019': Element | undefined;
   // Nominal Frequency
-  '0014401a': Element | undefined;
+  '0014401A': Element | undefined;
   // Measured Center Frequency
-  '0014401b': Element | undefined;
+  '0014401B': Element | undefined;
   // Measured Bandwidth
-  '0014401c': Element | undefined;
+  '0014401C': Element | undefined;
   // Element Pitch B
-  '0014401d': Element | undefined;
+  '0014401D': Element | undefined;
   // Pulser Settings Sequence
   '00144020': Element | undefined;
   // Pulse Width
@@ -802,9 +802,9 @@ export interface DICOMWebResponse {
   // DAC Gain Points
   '00144038': Element | undefined;
   // DAC Time Points
-  '0014403a': Element | undefined;
+  '0014403A': Element | undefined;
   // DAC Amplitude
-  '0014403c': Element | undefined;
+  '0014403C': Element | undefined;
   // Pre-Amplifier Settings Sequence
   '00144040': Element | undefined;
   // Transmit Transducer Settings Sequence
@@ -824,9 +824,9 @@ export interface DICOMWebResponse {
   // Probe Center Location Z
   '00144059': Element | undefined;
   // Sound Path Length
-  '0014405a': Element | undefined;
+  '0014405A': Element | undefined;
   // Delay Law Identifier
-  '0014405c': Element | undefined;
+  '0014405C': Element | undefined;
   // Gate Settings Sequence
   '00144060': Element | undefined;
   // Gate Threshold
@@ -844,11 +844,11 @@ export interface DICOMWebResponse {
   // Procedure Expiration Date
   '00144078': Element | undefined;
   // Procedure Last Modified Date
-  '0014407a': Element | undefined;
+  '0014407A': Element | undefined;
   // Calibration Time
-  '0014407c': Element | undefined;
+  '0014407C': Element | undefined;
   // Calibration Date
-  '0014407e': Element | undefined;
+  '0014407E': Element | undefined;
   // Probe Drive Equipment Sequence
   '00144080': Element | undefined;
   // Drive Type
@@ -870,33 +870,33 @@ export interface DICOMWebResponse {
   // Probe Orientation Angle
   '00144089': Element | undefined;
   // User Selected Gain Y
-  '0014408b': Element | undefined;
+  '0014408B': Element | undefined;
   // User Selected Phase
-  '0014408c': Element | undefined;
+  '0014408C': Element | undefined;
   // User Selected Offset X
-  '0014408d': Element | undefined;
+  '0014408D': Element | undefined;
   // User Selected Offset Y
-  '0014408e': Element | undefined;
+  '0014408E': Element | undefined;
   // Channel Settings Sequence
   '00144091': Element | undefined;
   // Channel Threshold
   '00144092': Element | undefined;
   // Scanner Settings Sequence
-  '0014409a': Element | undefined;
+  '0014409A': Element | undefined;
   // Scan Procedure
-  '0014409b': Element | undefined;
+  '0014409B': Element | undefined;
   // Translation Rate X
-  '0014409c': Element | undefined;
+  '0014409C': Element | undefined;
   // Translation Rate Y
-  '0014409d': Element | undefined;
+  '0014409D': Element | undefined;
   // Channel Overlap
-  '0014409f': Element | undefined;
+  '0014409F': Element | undefined;
   // Image Quality Indicator Type
-  '001440a0': Element | undefined;
+  '001440A0': Element | undefined;
   // Image Quality Indicator Material
-  '001440a1': Element | undefined;
+  '001440A1': Element | undefined;
   // Image Quality Indicator Size
-  '001440a2': Element | undefined;
+  '001440A2': Element | undefined;
   // LINAC Energy
   '00145002': Element | undefined;
   // LINAC Output
@@ -932,7 +932,7 @@ export interface DICOMWebResponse {
   // Intervention Drug Code Sequence
   '00180029': Element | undefined;
   // Additional Drug Sequence
-  '0018002a': Element | undefined;
+  '0018002A': Element | undefined;
   // Radionuclide
   '00180030': Element | undefined;
   // Radiopharmaceutical
@@ -954,7 +954,7 @@ export interface DICOMWebResponse {
   // Therapy Description
   '00180039': Element | undefined;
   // Intervention Description
-  '0018003a': Element | undefined;
+  '0018003A': Element | undefined;
   // Cine Rate
   '00180040': Element | undefined;
   // Initial Cine Run State
@@ -1038,9 +1038,9 @@ export interface DICOMWebResponse {
   // Secondary Capture Device Software Versions
   '00181019': Element | undefined;
   // Hardcopy Device Software Version
-  '0018101a': Element | undefined;
+  '0018101A': Element | undefined;
   // Hardcopy Device Manufacturer's Model Name
-  '0018101b': Element | undefined;
+  '0018101B': Element | undefined;
   // Software Version(s)
   '00181020': Element | undefined;
   // Video Image Format Acquired
@@ -1092,11 +1092,11 @@ export interface DICOMWebResponse {
   // Trigger Time Offset
   '00181069': Element | undefined;
   // Synchronization Trigger
-  '0018106a': Element | undefined;
+  '0018106A': Element | undefined;
   // Synchronization Channel
-  '0018106c': Element | undefined;
+  '0018106C': Element | undefined;
   // Trigger Sample Position
-  '0018106e': Element | undefined;
+  '0018106E': Element | undefined;
   // Radiopharmaceutical Route
   '00181070': Element | undefined;
   // Radiopharmaceutical Volume
@@ -1164,7 +1164,7 @@ export interface DICOMWebResponse {
   // Table Angle
   '00181138': Element | undefined;
   // Table Type
-  '0018113a': Element | undefined;
+  '0018113A': Element | undefined;
   // Rotation Direction
   '00181140': Element | undefined;
   // Angular Position
@@ -1198,9 +1198,9 @@ export interface DICOMWebResponse {
   // Rectification Type
   '00181156': Element | undefined;
   // Radiation Mode
-  '0018115a': Element | undefined;
+  '0018115A': Element | undefined;
   // Image and Fluoroscopy Area Dose Product
-  '0018115e': Element | undefined;
+  '0018115E': Element | undefined;
   // Filter Type
   '00181160': Element | undefined;
   // Type of Filters
@@ -1228,11 +1228,11 @@ export interface DICOMWebResponse {
   // Anode Target Material
   '00181191': Element | undefined;
   // Body Part Thickness
-  '001811a0': Element | undefined;
+  '001811A0': Element | undefined;
   // Compression Force
-  '001811a2': Element | undefined;
+  '001811A2': Element | undefined;
   // Paddle Description
-  '001811a4': Element | undefined;
+  '001811A4': Element | undefined;
   // Date of Last Calibration
   '00181200': Element | undefined;
   // Time of Last Calibration
@@ -1464,11 +1464,11 @@ export interface DICOMWebResponse {
   // Region Location Min X0
   '00186018': Element | undefined;
   // Region Location Min Y0
-  '0018601a': Element | undefined;
+  '0018601A': Element | undefined;
   // Region Location Max X1
-  '0018601c': Element | undefined;
+  '0018601C': Element | undefined;
   // Region Location Max Y1
-  '0018601e': Element | undefined;
+  '0018601E': Element | undefined;
   // Reference Pixel X0
   '00186020': Element | undefined;
   // Reference Pixel Y0
@@ -1480,11 +1480,11 @@ export interface DICOMWebResponse {
   // Reference Pixel Physical Value X
   '00186028': Element | undefined;
   // Reference Pixel Physical Value Y
-  '0018602a': Element | undefined;
+  '0018602A': Element | undefined;
   // Physical Delta X
-  '0018602c': Element | undefined;
+  '0018602C': Element | undefined;
   // Physical Delta Y
-  '0018602e': Element | undefined;
+  '0018602E': Element | undefined;
   // Transducer Frequency
   '00186030': Element | undefined;
   // Transducer Type
@@ -1500,17 +1500,17 @@ export interface DICOMWebResponse {
   // Doppler Sample Volume X Position
   '00186039': Element | undefined;
   // Doppler Sample Volume Y Position (Retired)
-  '0018603a': Element | undefined;
+  '0018603A': Element | undefined;
   // Doppler Sample Volume Y Position
-  '0018603b': Element | undefined;
+  '0018603B': Element | undefined;
   // TM-Line Position X0 (Retired)
-  '0018603c': Element | undefined;
+  '0018603C': Element | undefined;
   // TM-Line Position X0
-  '0018603d': Element | undefined;
+  '0018603D': Element | undefined;
   // TM-Line Position Y0 (Retired)
-  '0018603e': Element | undefined;
+  '0018603E': Element | undefined;
   // TM-Line Position Y0
-  '0018603f': Element | undefined;
+  '0018603F': Element | undefined;
   // TM-Line Position X1 (Retired)
   '00186040': Element | undefined;
   // TM-Line Position X1
@@ -1526,11 +1526,11 @@ export interface DICOMWebResponse {
   // Pixel Component Range Start
   '00186048': Element | undefined;
   // Pixel Component Range Stop
-  '0018604a': Element | undefined;
+  '0018604A': Element | undefined;
   // Pixel Component Physical Units
-  '0018604c': Element | undefined;
+  '0018604C': Element | undefined;
   // Pixel Component Data Type
-  '0018604e': Element | undefined;
+  '0018604E': Element | undefined;
   // Number of Table Break Points
   '00186050': Element | undefined;
   // Table of X Break Points
@@ -1542,7 +1542,7 @@ export interface DICOMWebResponse {
   // Table of Pixel Values
   '00186058': Element | undefined;
   // Table of Parameter Values
-  '0018605a': Element | undefined;
+  '0018605A': Element | undefined;
   // R Wave Time Vector
   '00186060': Element | undefined;
   // Detector Conditions Nominal Flag
@@ -1558,11 +1558,11 @@ export interface DICOMWebResponse {
   // Detector Mode
   '00187008': Element | undefined;
   // Detector ID
-  '0018700a': Element | undefined;
+  '0018700A': Element | undefined;
   // Date of Last Detector Calibration
-  '0018700c': Element | undefined;
+  '0018700C': Element | undefined;
   // Time of Last Detector Calibration
-  '0018700e': Element | undefined;
+  '0018700E': Element | undefined;
   // Exposures on Detector Since Last Calibration
   '00187010': Element | undefined;
   // Exposures on Detector Since Manufactured
@@ -1574,7 +1574,7 @@ export interface DICOMWebResponse {
   // Detector Activation Offset From Exposure
   '00187016': Element | undefined;
   // Detector Binning
-  '0018701a': Element | undefined;
+  '0018701A': Element | undefined;
   // Detector Element Physical Size
   '00187020': Element | undefined;
   // Detector Element Spacing
@@ -1586,9 +1586,9 @@ export interface DICOMWebResponse {
   // Detector Active Origin
   '00187028': Element | undefined;
   // Detector Manufacturer Name
-  '0018702a': Element | undefined;
+  '0018702A': Element | undefined;
   // Detector Manufacturer's Model Name
-  '0018702b': Element | undefined;
+  '0018702B': Element | undefined;
   // Field of View Origin
   '00187030': Element | undefined;
   // Field of View Rotation
@@ -1612,7 +1612,7 @@ export interface DICOMWebResponse {
   // Grid Period
   '00187048': Element | undefined;
   // Grid Focal Distance
-  '0018704c': Element | undefined;
+  '0018704C': Element | undefined;
   // Filter Material
   '00187050': Element | undefined;
   // Filter Thickness Minimum
@@ -1936,17 +1936,17 @@ export interface DICOMWebResponse {
   // ASL Crusher Flag
   '00189259': Element | undefined;
   // ASL Crusher Flow Limit
-  '0018925a': Element | undefined;
+  '0018925A': Element | undefined;
   // ASL Crusher Description
-  '0018925b': Element | undefined;
+  '0018925B': Element | undefined;
   // ASL Bolus Cut-off Flag
-  '0018925c': Element | undefined;
+  '0018925C': Element | undefined;
   // ASL Bolus Cut-off Timing Sequence
-  '0018925d': Element | undefined;
+  '0018925D': Element | undefined;
   // ASL Bolus Cut-off Technique
-  '0018925e': Element | undefined;
+  '0018925E': Element | undefined;
   // ASL Bolus Cut-off Delay Time
-  '0018925f': Element | undefined;
+  '0018925F': Element | undefined;
   // ASL Slab Sequence
   '00189260': Element | undefined;
   // Chemical Shift Minimum Integration Limit in ppm
@@ -2354,27 +2354,27 @@ export interface DICOMWebResponse {
   // Transducer Scan Pattern Code Sequence
   '00189809': Element | undefined;
   // Aliased Data Type
-  '0018980b': Element | undefined;
+  '0018980B': Element | undefined;
   // Position Measuring Device Used
-  '0018980c': Element | undefined;
+  '0018980C': Element | undefined;
   // Transducer Geometry Code Sequence
-  '0018980d': Element | undefined;
+  '0018980D': Element | undefined;
   // Transducer Beam Steering Code Sequence
-  '0018980e': Element | undefined;
+  '0018980E': Element | undefined;
   // Transducer Application Code Sequence
-  '0018980f': Element | undefined;
+  '0018980F': Element | undefined;
   // Zero Velocity Pixel Value
   '00189810': Element | undefined;
   // Contributing Equipment Sequence
-  '0018a001': Element | undefined;
+  '0018A001': Element | undefined;
   // Contribution DateTime
-  '0018a002': Element | undefined;
+  '0018A002': Element | undefined;
   // Contribution Description
-  '0018a003': Element | undefined;
+  '0018A003': Element | undefined;
   // Study Instance UID
-  '0020000d': Element | undefined;
+  '0020000D': Element | undefined;
   // Series Instance UID
-  '0020000e': Element | undefined;
+  '0020000E': Element | undefined;
   // Study ID
   '00200010': Element | undefined;
   // Series Number
@@ -2424,7 +2424,7 @@ export interface DICOMWebResponse {
   // Masking Image
   '00200080': Element | undefined;
   // Report Number
-  '002000aa': Element | undefined;
+  '002000AA': Element | undefined;
   // Temporal Position Identifier
   '00200100': Element | undefined;
   // Number of Temporal Positions
@@ -2468,7 +2468,7 @@ export interface DICOMWebResponse {
   // Number of Series Related Instances
   '00201209': Element | undefined;
   // Source Image IDs
-  '002031xx': Element | undefined;
+  '002031XX': Element | undefined;
   // Modifying Device ID
   '00203401': Element | undefined;
   // Modified Image ID
@@ -2582,17 +2582,17 @@ export interface DICOMWebResponse {
   // Volume to Transducer Mapping Matrix
   '00209309': Element | undefined;
   // Volume to Table Mapping Matrix
-  '0020930a': Element | undefined;
+  '0020930A': Element | undefined;
   // Volume to Transducer Relationship
-  '0020930b': Element | undefined;
+  '0020930B': Element | undefined;
   // Patient Frame of Reference Source
-  '0020930c': Element | undefined;
+  '0020930C': Element | undefined;
   // Temporal Position Time Offset
-  '0020930d': Element | undefined;
+  '0020930D': Element | undefined;
   // Plane Position (Volume) Sequence
-  '0020930e': Element | undefined;
+  '0020930E': Element | undefined;
   // Plane Orientation (Volume) Sequence
-  '0020930f': Element | undefined;
+  '0020930F': Element | undefined;
   // Temporal Position Sequence
   '00209310': Element | undefined;
   // Dimension Organization Type
@@ -2632,15 +2632,15 @@ export interface DICOMWebResponse {
   // Cylinder Axis
   '00220009': Element | undefined;
   // Emmetropic Magnification
-  '0022000a': Element | undefined;
+  '0022000A': Element | undefined;
   // Intra Ocular Pressure
-  '0022000b': Element | undefined;
+  '0022000B': Element | undefined;
   // Horizontal Field of View
-  '0022000c': Element | undefined;
+  '0022000C': Element | undefined;
   // Pupil Dilated
-  '0022000d': Element | undefined;
+  '0022000D': Element | undefined;
   // Degree of Dilation
-  '0022000e': Element | undefined;
+  '0022000E': Element | undefined;
   // Stereo Baseline Angle
   '00220010': Element | undefined;
   // Stereo Baseline Displacement
@@ -2662,15 +2662,15 @@ export interface DICOMWebResponse {
   // Lenses Code Sequence
   '00220019': Element | undefined;
   // Channel Description Code Sequence
-  '0022001a': Element | undefined;
+  '0022001A': Element | undefined;
   // Refractive State Sequence
-  '0022001b': Element | undefined;
+  '0022001B': Element | undefined;
   // Mydriatic Agent Code Sequence
-  '0022001c': Element | undefined;
+  '0022001C': Element | undefined;
   // Relative Image Position Code Sequence
-  '0022001d': Element | undefined;
+  '0022001D': Element | undefined;
   // Camera Angle of View
-  '0022001e': Element | undefined;
+  '0022001E': Element | undefined;
   // Stereo Pairs Sequence
   '00220020': Element | undefined;
   // Left Image Sequence
@@ -2702,7 +2702,7 @@ export interface DICOMWebResponse {
   // Maximum Across-scan Distortion
   '00220049': Element | undefined;
   // Mydriatic Agent Concentration
-  '0022004e': Element | undefined;
+  '0022004E': Element | undefined;
   // Illumination Wave Length
   '00220055': Element | undefined;
   // Illumination Power
@@ -3092,7 +3092,7 @@ export interface DICOMWebResponse {
   // Frame Increment Pointer
   '00280009': Element | undefined;
   // Frame Dimension Pointer
-  '0028000a': Element | undefined;
+  '0028000A': Element | undefined;
   // Rows
   '00280010': Element | undefined;
   // Columns
@@ -3116,7 +3116,7 @@ export interface DICOMWebResponse {
   // Corrected Image
   '00280051': Element | undefined;
   // Compression Recognition Code
-  '0028005f': Element | undefined;
+  '0028005F': Element | undefined;
   // Compression Code
   '00280060': Element | undefined;
   // Compression Originator
@@ -3204,13 +3204,13 @@ export interface DICOMWebResponse {
   // Details of Coefficients
   '00280404': Element | undefined;
   // Rows For Nth Order Coefficients
-  '002804x0': Element | undefined;
+  '002804X0': Element | undefined;
   // Columns For Nth Order Coefficients
-  '002804x1': Element | undefined;
+  '002804X1': Element | undefined;
   // Coefficient Coding
-  '002804x2': Element | undefined;
+  '002804X2': Element | undefined;
   // Coefficient Coding Pointers
-  '002804x3': Element | undefined;
+  '002804X3': Element | undefined;
   // DCT Label
   '00280700': Element | undefined;
   // Data Block Description
@@ -3230,19 +3230,19 @@ export interface DICOMWebResponse {
   // Code Number Format
   '00280740': Element | undefined;
   // Code Label
-  '002808x0': Element | undefined;
+  '002808X0': Element | undefined;
   // Number of Tables
-  '002808x2': Element | undefined;
+  '002808X2': Element | undefined;
   // Code Table Location
-  '002808x3': Element | undefined;
+  '002808X3': Element | undefined;
   // Bits For Code Word
-  '002808x4': Element | undefined;
+  '002808X4': Element | undefined;
   // Image Data Location
-  '002808x8': Element | undefined;
+  '002808X8': Element | undefined;
   // Pixel Spacing Calibration Type
-  '00280a02': Element | undefined;
+  '00280A02': Element | undefined;
   // Pixel Spacing Calibration Description
-  '00280a04': Element | undefined;
+  '00280A04': Element | undefined;
   // Pixel Intensity Relationship
   '00281040': Element | undefined;
   // Pixel Intensity Relationship Sign
@@ -3316,7 +3316,7 @@ export interface DICOMWebResponse {
   // Partial View Code Sequence
   '00281352': Element | undefined;
   // Spatial Locations Preserved
-  '0028135a': Element | undefined;
+  '0028135A': Element | undefined;
   // Data Frame Assignment Sequence
   '00281401': Element | undefined;
   // Data Path Assignment
@@ -3334,15 +3334,15 @@ export interface DICOMWebResponse {
   // Blending Lookup Table Data
   '00281408': Element | undefined;
   // Enhanced Palette Color Lookup Table Sequence
-  '0028140b': Element | undefined;
+  '0028140B': Element | undefined;
   // Blending LUT 2 Sequence
-  '0028140c': Element | undefined;
+  '0028140C': Element | undefined;
   // Blending LUT 2 Transfer Function
-  '0028140d': Element | undefined;
+  '0028140D': Element | undefined;
   // Data Path ID
-  '0028140e': Element | undefined;
+  '0028140E': Element | undefined;
   // RGB LUT Transfer Function
-  '0028140f': Element | undefined;
+  '0028140F': Element | undefined;
   // Alpha LUT Transfer Function
   '00281410': Element | undefined;
   // ICC Profile
@@ -3420,17 +3420,17 @@ export interface DICOMWebResponse {
   // Luminance Characteristics ID
   '00287009': Element | undefined;
   // Display Subsystem Configuration Sequence
-  '0028700a': Element | undefined;
+  '0028700A': Element | undefined;
   // Configuration ID
-  '0028700b': Element | undefined;
+  '0028700B': Element | undefined;
   // Configuration Name
-  '0028700c': Element | undefined;
+  '0028700C': Element | undefined;
   // Configuration Description
-  '0028700d': Element | undefined;
+  '0028700D': Element | undefined;
   // Referenced Target Luminance Characteristics ID
-  '0028700e': Element | undefined;
+  '0028700E': Element | undefined;
   // QA Results Sequence
-  '0028700f': Element | undefined;
+  '0028700F': Element | undefined;
   // Display Subsystem QA Results Sequence
   '00287010': Element | undefined;
   // Configuration QA Results Sequence
@@ -3452,17 +3452,17 @@ export interface DICOMWebResponse {
   // Display Function Type
   '00287019': Element | undefined;
   // Gamma Value
-  '0028701a': Element | undefined;
+  '0028701A': Element | undefined;
   // Number of Luminance Points
-  '0028701b': Element | undefined;
+  '0028701B': Element | undefined;
   // Luminance Response Sequence
-  '0028701c': Element | undefined;
+  '0028701C': Element | undefined;
   // Target Minimum Luminance
-  '0028701d': Element | undefined;
+  '0028701D': Element | undefined;
   // Target Maximum Luminance
-  '0028701e': Element | undefined;
+  '0028701E': Element | undefined;
   // Luminance Value
-  '0028701f': Element | undefined;
+  '0028701F': Element | undefined;
   // Luminance Response Description
   '00287020': Element | undefined;
   // White Point Flag
@@ -3484,17 +3484,17 @@ export interface DICOMWebResponse {
   // Test Result
   '00287029': Element | undefined;
   // Test Result Comment
-  '0028702a': Element | undefined;
+  '0028702A': Element | undefined;
   // Test Image Validation
-  '0028702b': Element | undefined;
+  '0028702B': Element | undefined;
   // Test Pattern Code Sequence
-  '0028702c': Element | undefined;
+  '0028702C': Element | undefined;
   // Measurement Pattern Code Sequence
-  '0028702d': Element | undefined;
+  '0028702D': Element | undefined;
   // Visual Evaluation Method Code Sequence
-  '0028702e': Element | undefined;
+  '0028702E': Element | undefined;
   // Pixel Data Provider URL
-  '00287fe0': Element | undefined;
+  '00287FE0': Element | undefined;
   // Data Point Rows
   '00289001': Element | undefined;
   // Data Point Columns
@@ -3552,9 +3552,9 @@ export interface DICOMWebResponse {
   // Equipment Coordinate System Identification
   '00289537': Element | undefined;
   // Study Status ID
-  '0032000a': Element | undefined;
+  '0032000A': Element | undefined;
   // Study Priority ID
-  '0032000c': Element | undefined;
+  '0032000C': Element | undefined;
   // Study ID Issuer
   '00320012': Element | undefined;
   // Study Verified Date
@@ -3618,15 +3618,15 @@ export interface DICOMWebResponse {
   // Route of Admissions
   '00380016': Element | undefined;
   // Scheduled Admission Date
-  '0038001a': Element | undefined;
+  '0038001A': Element | undefined;
   // Scheduled Admission Time
-  '0038001b': Element | undefined;
+  '0038001B': Element | undefined;
   // Scheduled Discharge Date
-  '0038001c': Element | undefined;
+  '0038001C': Element | undefined;
   // Scheduled Discharge Time
-  '0038001d': Element | undefined;
+  '0038001D': Element | undefined;
   // Scheduled Patient Institution Residence
-  '0038001e': Element | undefined;
+  '0038001E': Element | undefined;
   // Admitting Date
   '00380020': Element | undefined;
   // Admitting Time
@@ -3662,81 +3662,81 @@ export interface DICOMWebResponse {
   // Visit Comments
   '00384000': Element | undefined;
   // Waveform Originality
-  '003a0004': Element | undefined;
+  '003A0004': Element | undefined;
   // Number of Waveform Channels
-  '003a0005': Element | undefined;
+  '003A0005': Element | undefined;
   // Number of Waveform Samples
-  '003a0010': Element | undefined;
+  '003A0010': Element | undefined;
   // Sampling Frequency
-  '003a001a': Element | undefined;
+  '003A001A': Element | undefined;
   // Multiplex Group Label
-  '003a0020': Element | undefined;
+  '003A0020': Element | undefined;
   // Channel Definition Sequence
-  '003a0200': Element | undefined;
+  '003A0200': Element | undefined;
   // Waveform Channel Number
-  '003a0202': Element | undefined;
+  '003A0202': Element | undefined;
   // Channel Label
-  '003a0203': Element | undefined;
+  '003A0203': Element | undefined;
   // Channel Status
-  '003a0205': Element | undefined;
+  '003A0205': Element | undefined;
   // Channel Source Sequence
-  '003a0208': Element | undefined;
+  '003A0208': Element | undefined;
   // Channel Source Modifiers Sequence
-  '003a0209': Element | undefined;
+  '003A0209': Element | undefined;
   // Source Waveform Sequence
-  '003a020a': Element | undefined;
+  '003A020A': Element | undefined;
   // Channel Derivation Description
-  '003a020c': Element | undefined;
+  '003A020C': Element | undefined;
   // Channel Sensitivity
-  '003a0210': Element | undefined;
+  '003A0210': Element | undefined;
   // Channel Sensitivity Units Sequence
-  '003a0211': Element | undefined;
+  '003A0211': Element | undefined;
   // Channel Sensitivity Correction Factor
-  '003a0212': Element | undefined;
+  '003A0212': Element | undefined;
   // Channel Baseline
-  '003a0213': Element | undefined;
+  '003A0213': Element | undefined;
   // Channel Time Skew
-  '003a0214': Element | undefined;
+  '003A0214': Element | undefined;
   // Channel Sample Skew
-  '003a0215': Element | undefined;
+  '003A0215': Element | undefined;
   // Channel Offset
-  '003a0218': Element | undefined;
+  '003A0218': Element | undefined;
   // Waveform Bits Stored
-  '003a021a': Element | undefined;
+  '003A021A': Element | undefined;
   // Filter Low Frequency
-  '003a0220': Element | undefined;
+  '003A0220': Element | undefined;
   // Filter High Frequency
-  '003a0221': Element | undefined;
+  '003A0221': Element | undefined;
   // Notch Filter Frequency
-  '003a0222': Element | undefined;
+  '003A0222': Element | undefined;
   // Notch Filter Bandwidth
-  '003a0223': Element | undefined;
+  '003A0223': Element | undefined;
   // Waveform Data Display Scale
-  '003a0230': Element | undefined;
+  '003A0230': Element | undefined;
   // Waveform Display Background CIELab Value
-  '003a0231': Element | undefined;
+  '003A0231': Element | undefined;
   // Waveform Presentation Group Sequence
-  '003a0240': Element | undefined;
+  '003A0240': Element | undefined;
   // Presentation Group Number
-  '003a0241': Element | undefined;
+  '003A0241': Element | undefined;
   // Channel Display Sequence
-  '003a0242': Element | undefined;
+  '003A0242': Element | undefined;
   // Channel Recommended Display CIELab Value
-  '003a0244': Element | undefined;
+  '003A0244': Element | undefined;
   // Channel Position
-  '003a0245': Element | undefined;
+  '003A0245': Element | undefined;
   // Display Shading Flag
-  '003a0246': Element | undefined;
+  '003A0246': Element | undefined;
   // Fractional Channel Display Scale
-  '003a0247': Element | undefined;
+  '003A0247': Element | undefined;
   // Absolute Channel Display Scale
-  '003a0248': Element | undefined;
+  '003A0248': Element | undefined;
   // Multiplexed Audio Channels Description Code Sequence
-  '003a0300': Element | undefined;
+  '003A0300': Element | undefined;
   // Channel Identification Code
-  '003a0301': Element | undefined;
+  '003A0301': Element | undefined;
   // Channel Mode
-  '003a0302': Element | undefined;
+  '003A0302': Element | undefined;
   // Scheduled Station AE Title
   '00400001': Element | undefined;
   // Scheduled Procedure Step Start Date
@@ -3756,9 +3756,9 @@ export interface DICOMWebResponse {
   // Scheduled Procedure Step ID
   '00400009': Element | undefined;
   // Stage Code Sequence
-  '0040000a': Element | undefined;
+  '0040000A': Element | undefined;
   // Scheduled Performing Physician Identification Sequence
-  '0040000b': Element | undefined;
+  '0040000B': Element | undefined;
   // Scheduled Station Name
   '00400010': Element | undefined;
   // Scheduled Procedure Step Location
@@ -3784,7 +3784,7 @@ export interface DICOMWebResponse {
   // Assigning Jurisdiction Code Sequence
   '00400039': Element | undefined;
   // Assigning Agency or Department Code Sequence
-  '0040003a': Element | undefined;
+  '0040003A': Element | undefined;
   // Scheduled Procedure Step Sequence
   '00400100': Element | undefined;
   // Referenced Non-Image Composite SOP Instance Sequence
@@ -3844,7 +3844,7 @@ export interface DICOMWebResponse {
   // Distance Source to Support
   '00400307': Element | undefined;
   // Exposure Dose Sequence
-  '0040030e': Element | undefined;
+  '0040030E': Element | undefined;
   // Comments on Radiation Dose
   '00400310': Element | undefined;
   // X-Ray Output
@@ -3874,7 +3874,7 @@ export interface DICOMWebResponse {
   // Scheduled Specimen Sequence
   '00400500': Element | undefined;
   // Specimen Accession Number
-  '0040050a': Element | undefined;
+  '0040050A': Element | undefined;
   // Container Identifier
   '00400512': Element | undefined;
   // Issuer of the Container Identifier Sequence
@@ -3884,7 +3884,7 @@ export interface DICOMWebResponse {
   // Container Type Code Sequence
   '00400518': Element | undefined;
   // Container Description
-  '0040051a': Element | undefined;
+  '0040051A': Element | undefined;
   // Container Component Sequence
   '00400520': Element | undefined;
   // Specimen Sequence
@@ -3902,7 +3902,7 @@ export interface DICOMWebResponse {
   // Acquisition Context Description
   '00400556': Element | undefined;
   // Specimen Type Code Sequence
-  '0040059a': Element | undefined;
+  '0040059A': Element | undefined;
   // Specimen Description Sequence
   '00400560': Element | undefined;
   // Issuer of the Specimen Identifier Sequence
@@ -3918,23 +3918,23 @@ export interface DICOMWebResponse {
   // Specimen Localization Content Item Sequence
   '00400620': Element | undefined;
   // Slide Identifier
-  '004006fa': Element | undefined;
+  '004006FA': Element | undefined;
   // Image Center Point Coordinates Sequence
-  '0040071a': Element | undefined;
+  '0040071A': Element | undefined;
   // X Offset in Slide Coordinate System
-  '0040072a': Element | undefined;
+  '0040072A': Element | undefined;
   // Y Offset in Slide Coordinate System
-  '0040073a': Element | undefined;
+  '0040073A': Element | undefined;
   // Z Offset in Slide Coordinate System
-  '0040074a': Element | undefined;
+  '0040074A': Element | undefined;
   // Pixel Spacing Sequence
-  '004008d8': Element | undefined;
+  '004008D8': Element | undefined;
   // Coordinate System Axis Code Sequence
-  '004008da': Element | undefined;
+  '004008DA': Element | undefined;
   // Measurement Units Code Sequence
-  '004008ea': Element | undefined;
+  '004008EA': Element | undefined;
   // Vital Stain Code Sequence (Trial)
-  '004009f8': Element | undefined;
+  '004009F8': Element | undefined;
   // Requested Procedure ID
   '00401001': Element | undefined;
   // Reason for the Requested Procedure
@@ -3954,7 +3954,7 @@ export interface DICOMWebResponse {
   // Reporting Priority
   '00401009': Element | undefined;
   // Reason for Requested Procedure Code Sequence
-  '0040100a': Element | undefined;
+  '0040100A': Element | undefined;
   // Names of Intended Recipients of Results
   '00401010': Element | undefined;
   // Intended Recipients of Results Identification Sequence
@@ -4088,263 +4088,263 @@ export interface DICOMWebResponse {
   // Real World Value Slope
   '00409225': Element | undefined;
   // Findings Flag (Trial)
-  '0040a007': Element | undefined;
+  '0040A007': Element | undefined;
   // Relationship Type
-  '0040a010': Element | undefined;
+  '0040A010': Element | undefined;
   // Findings Sequence (Trial)
-  '0040a020': Element | undefined;
+  '0040A020': Element | undefined;
   // Findings Group UID (Trial)
-  '0040a021': Element | undefined;
+  '0040A021': Element | undefined;
   // Referenced Findings Group UID (Trial)
-  '0040a022': Element | undefined;
+  '0040A022': Element | undefined;
   // Findings Group Recording Date (Trial)
-  '0040a023': Element | undefined;
+  '0040A023': Element | undefined;
   // Findings Group Recording Time (Trial)
-  '0040a024': Element | undefined;
+  '0040A024': Element | undefined;
   // Findings Source Category Code Sequence (Trial)
-  '0040a026': Element | undefined;
+  '0040A026': Element | undefined;
   // Verifying Organization
-  '0040a027': Element | undefined;
+  '0040A027': Element | undefined;
   // Documenting Organization Identifier Code Sequence (Trial)
-  '0040a028': Element | undefined;
+  '0040A028': Element | undefined;
   // Verification DateTime
-  '0040a030': Element | undefined;
+  '0040A030': Element | undefined;
   // Observation DateTime
-  '0040a032': Element | undefined;
+  '0040A032': Element | undefined;
   // Value Type
-  '0040a040': Element | undefined;
+  '0040A040': Element | undefined;
   // Concept Name Code Sequence
-  '0040a043': Element | undefined;
+  '0040A043': Element | undefined;
   // Measurement Precision Description (Trial)
-  '0040a047': Element | undefined;
+  '0040A047': Element | undefined;
   // Continuity Of Content
-  '0040a050': Element | undefined;
+  '0040A050': Element | undefined;
   // Urgency or Priority Alerts (Trial)
-  '0040a057': Element | undefined;
+  '0040A057': Element | undefined;
   // Sequencing Indicator (Trial)
-  '0040a060': Element | undefined;
+  '0040A060': Element | undefined;
   // Document Identifier Code Sequence (Trial)
-  '0040a066': Element | undefined;
+  '0040A066': Element | undefined;
   // Document Author (Trial)
-  '0040a067': Element | undefined;
+  '0040A067': Element | undefined;
   // Document Author Identifier Code Sequence (Trial)
-  '0040a068': Element | undefined;
+  '0040A068': Element | undefined;
   // Identifier Code Sequence (Trial)
-  '0040a070': Element | undefined;
+  '0040A070': Element | undefined;
   // Verifying Observer Sequence
-  '0040a073': Element | undefined;
+  '0040A073': Element | undefined;
   // Object Binary Identifier (Trial)
-  '0040a074': Element | undefined;
+  '0040A074': Element | undefined;
   // Verifying Observer Name
-  '0040a075': Element | undefined;
+  '0040A075': Element | undefined;
   // Documenting Observer Identifier Code Sequence (Trial)
-  '0040a076': Element | undefined;
+  '0040A076': Element | undefined;
   // Author Observer Sequence
-  '0040a078': Element | undefined;
+  '0040A078': Element | undefined;
   // Participant Sequence
-  '0040a07a': Element | undefined;
+  '0040A07A': Element | undefined;
   // Custodial Organization Sequence
-  '0040a07c': Element | undefined;
+  '0040A07C': Element | undefined;
   // Participation Type
-  '0040a080': Element | undefined;
+  '0040A080': Element | undefined;
   // Participation DateTime
-  '0040a082': Element | undefined;
+  '0040A082': Element | undefined;
   // Observer Type
-  '0040a084': Element | undefined;
+  '0040A084': Element | undefined;
   // Procedure Identifier Code Sequence (Trial)
-  '0040a085': Element | undefined;
+  '0040A085': Element | undefined;
   // Verifying Observer Identification Code Sequence
-  '0040a088': Element | undefined;
+  '0040A088': Element | undefined;
   // Object Directory Binary Identifier (Trial)
-  '0040a089': Element | undefined;
+  '0040A089': Element | undefined;
   // Equivalent CDA Document Sequence
-  '0040a090': Element | undefined;
+  '0040A090': Element | undefined;
   // Referenced Waveform Channels
-  '0040a0b0': Element | undefined;
+  '0040A0B0': Element | undefined;
   // Date of Document or Verbal Transaction (Trial)
-  '0040a110': Element | undefined;
+  '0040A110': Element | undefined;
   // Time of Document Creation or Verbal Transaction (Trial)
-  '0040a112': Element | undefined;
+  '0040A112': Element | undefined;
   // DateTime
-  '0040a120': Element | undefined;
+  '0040A120': Element | undefined;
   // Date
-  '0040a121': Element | undefined;
+  '0040A121': Element | undefined;
   // Time
-  '0040a122': Element | undefined;
+  '0040A122': Element | undefined;
   // Person Name
-  '0040a123': Element | undefined;
+  '0040A123': Element | undefined;
   // UID
-  '0040a124': Element | undefined;
+  '0040A124': Element | undefined;
   // Report Status ID (Trial)
-  '0040a125': Element | undefined;
+  '0040A125': Element | undefined;
   // Temporal Range Type
-  '0040a130': Element | undefined;
+  '0040A130': Element | undefined;
   // Referenced Sample Positions
-  '0040a132': Element | undefined;
+  '0040A132': Element | undefined;
   // Referenced Frame Numbers
-  '0040a136': Element | undefined;
+  '0040A136': Element | undefined;
   // Referenced Time Offsets
-  '0040a138': Element | undefined;
+  '0040A138': Element | undefined;
   // Referenced DateTime
-  '0040a13a': Element | undefined;
+  '0040A13A': Element | undefined;
   // Text Value
-  '0040a160': Element | undefined;
+  '0040A160': Element | undefined;
   // Floating Point Value
-  '0040a161': Element | undefined;
+  '0040A161': Element | undefined;
   // Rational Numerator Value
-  '0040a162': Element | undefined;
+  '0040A162': Element | undefined;
   // Rational Denominator Value
-  '0040a163': Element | undefined;
+  '0040A163': Element | undefined;
   // Observation Category Code Sequence (Trial)
-  '0040a167': Element | undefined;
+  '0040A167': Element | undefined;
   // Concept Code Sequence
-  '0040a168': Element | undefined;
+  '0040A168': Element | undefined;
   // Bibliographic Citation (Trial)
-  '0040a16a': Element | undefined;
+  '0040A16A': Element | undefined;
   // Purpose of Reference Code Sequence
-  '0040a170': Element | undefined;
+  '0040A170': Element | undefined;
   // Observation UID
-  '0040a171': Element | undefined;
+  '0040A171': Element | undefined;
   // Referenced Observation UID (Trial)
-  '0040a172': Element | undefined;
+  '0040A172': Element | undefined;
   // Referenced Observation Class (Trial)
-  '0040a173': Element | undefined;
+  '0040A173': Element | undefined;
   // Referenced Object Observation Class (Trial)
-  '0040a174': Element | undefined;
+  '0040A174': Element | undefined;
   // Annotation Group Number
-  '0040a180': Element | undefined;
+  '0040A180': Element | undefined;
   // Observation Date (Trial)
-  '0040a192': Element | undefined;
+  '0040A192': Element | undefined;
   // Observation Time (Trial)
-  '0040a193': Element | undefined;
+  '0040A193': Element | undefined;
   // Measurement Automation (Trial)
-  '0040a194': Element | undefined;
+  '0040A194': Element | undefined;
   // Modifier Code Sequence
-  '0040a195': Element | undefined;
+  '0040A195': Element | undefined;
   // Identification Description (Trial)
-  '0040a224': Element | undefined;
+  '0040A224': Element | undefined;
   // Coordinates Set Geometric Type (Trial)
-  '0040a290': Element | undefined;
+  '0040A290': Element | undefined;
   // Algorithm Code Sequence (Trial)
-  '0040a296': Element | undefined;
+  '0040A296': Element | undefined;
   // Algorithm Description (Trial)
-  '0040a297': Element | undefined;
+  '0040A297': Element | undefined;
   // Pixel Coordinates Set (Trial)
-  '0040a29a': Element | undefined;
+  '0040A29A': Element | undefined;
   // Measured Value Sequence
-  '0040a300': Element | undefined;
+  '0040A300': Element | undefined;
   // Numeric Value Qualifier Code Sequence
-  '0040a301': Element | undefined;
+  '0040A301': Element | undefined;
   // Current Observer (Trial)
-  '0040a307': Element | undefined;
+  '0040A307': Element | undefined;
   // Numeric Value
-  '0040a30a': Element | undefined;
+  '0040A30A': Element | undefined;
   // Referenced Accession Sequence (Trial)
-  '0040a313': Element | undefined;
+  '0040A313': Element | undefined;
   // Report Status Comment (Trial)
-  '0040a33a': Element | undefined;
+  '0040A33A': Element | undefined;
   // Procedure Context Sequence (Trial)
-  '0040a340': Element | undefined;
+  '0040A340': Element | undefined;
   // Verbal Source (Trial)
-  '0040a352': Element | undefined;
+  '0040A352': Element | undefined;
   // Address (Trial)
-  '0040a353': Element | undefined;
+  '0040A353': Element | undefined;
   // Telephone Number (Trial)
-  '0040a354': Element | undefined;
+  '0040A354': Element | undefined;
   // Verbal Source Identifier Code Sequence (Trial)
-  '0040a358': Element | undefined;
+  '0040A358': Element | undefined;
   // Predecessor Documents Sequence
-  '0040a360': Element | undefined;
+  '0040A360': Element | undefined;
   // Referenced Request Sequence
-  '0040a370': Element | undefined;
+  '0040A370': Element | undefined;
   // Performed Procedure Code Sequence
-  '0040a372': Element | undefined;
+  '0040A372': Element | undefined;
   // Current Requested Procedure Evidence Sequence
-  '0040a375': Element | undefined;
+  '0040A375': Element | undefined;
   // Report Detail Sequence (Trial)
-  '0040a380': Element | undefined;
+  '0040A380': Element | undefined;
   // Pertinent Other Evidence Sequence
-  '0040a385': Element | undefined;
+  '0040A385': Element | undefined;
   // HL7 Structured Document Reference Sequence
-  '0040a390': Element | undefined;
+  '0040A390': Element | undefined;
   // Observation Subject UID (Trial)
-  '0040a402': Element | undefined;
+  '0040A402': Element | undefined;
   // Observation Subject Class (Trial)
-  '0040a403': Element | undefined;
+  '0040A403': Element | undefined;
   // Observation Subject Type Code Sequence (Trial)
-  '0040a404': Element | undefined;
+  '0040A404': Element | undefined;
   // Completion Flag
-  '0040a491': Element | undefined;
+  '0040A491': Element | undefined;
   // Completion Flag Description
-  '0040a492': Element | undefined;
+  '0040A492': Element | undefined;
   // Verification Flag
-  '0040a493': Element | undefined;
+  '0040A493': Element | undefined;
   // Archive Requested
-  '0040a494': Element | undefined;
+  '0040A494': Element | undefined;
   // Preliminary Flag
-  '0040a496': Element | undefined;
+  '0040A496': Element | undefined;
   // Content Template Sequence
-  '0040a504': Element | undefined;
+  '0040A504': Element | undefined;
   // Identical Documents Sequence
-  '0040a525': Element | undefined;
+  '0040A525': Element | undefined;
   // Observation Subject Context Flag (Trial)
-  '0040a600': Element | undefined;
+  '0040A600': Element | undefined;
   // Observer Context Flag (Trial)
-  '0040a601': Element | undefined;
+  '0040A601': Element | undefined;
   // Procedure Context Flag (Trial)
-  '0040a603': Element | undefined;
+  '0040A603': Element | undefined;
   // Content Sequence
-  '0040a730': Element | undefined;
+  '0040A730': Element | undefined;
   // Relationship Sequence (Trial)
-  '0040a731': Element | undefined;
+  '0040A731': Element | undefined;
   // Relationship Type Code Sequence (Trial)
-  '0040a732': Element | undefined;
+  '0040A732': Element | undefined;
   // Language Code Sequence (Trial)
-  '0040a744': Element | undefined;
+  '0040A744': Element | undefined;
   // Uniform Resource Locator (Trial)
-  '0040a992': Element | undefined;
+  '0040A992': Element | undefined;
   // Waveform Annotation Sequence
-  '0040b020': Element | undefined;
+  '0040B020': Element | undefined;
   // Template Identifier
-  '0040db00': Element | undefined;
+  '0040DB00': Element | undefined;
   // Template Version
-  '0040db06': Element | undefined;
+  '0040DB06': Element | undefined;
   // Template Local Version
-  '0040db07': Element | undefined;
+  '0040DB07': Element | undefined;
   // Template Extension Flag
-  '0040db0b': Element | undefined;
+  '0040DB0B': Element | undefined;
   // Template Extension Organization UID
-  '0040db0c': Element | undefined;
+  '0040DB0C': Element | undefined;
   // Template Extension Creator UID
-  '0040db0d': Element | undefined;
+  '0040DB0D': Element | undefined;
   // Referenced Content Item Identifier
-  '0040db73': Element | undefined;
+  '0040DB73': Element | undefined;
   // HL7 Instance Identifier
-  '0040e001': Element | undefined;
+  '0040E001': Element | undefined;
   // HL7 Document Effective Time
-  '0040e004': Element | undefined;
+  '0040E004': Element | undefined;
   // HL7 Document Type Code Sequence
-  '0040e006': Element | undefined;
+  '0040E006': Element | undefined;
   // Document Class Code Sequence
-  '0040e008': Element | undefined;
+  '0040E008': Element | undefined;
   // Retrieve URI
-  '0040e010': Element | undefined;
+  '0040E010': Element | undefined;
   // Retrieve Location UID
-  '0040e011': Element | undefined;
+  '0040E011': Element | undefined;
   // Type of Instances
-  '0040e020': Element | undefined;
+  '0040E020': Element | undefined;
   // DICOM Retrieval Sequence
-  '0040e021': Element | undefined;
+  '0040E021': Element | undefined;
   // DICOM Media Retrieval Sequence
-  '0040e022': Element | undefined;
+  '0040E022': Element | undefined;
   // WADO Retrieval Sequence
-  '0040e023': Element | undefined;
+  '0040E023': Element | undefined;
   // XDS Retrieval Sequence
-  '0040e024': Element | undefined;
+  '0040E024': Element | undefined;
   // Repository Unique ID
-  '0040e030': Element | undefined;
+  '0040E030': Element | undefined;
   // Home Community ID
-  '0040e031': Element | undefined;
+  '0040E031': Element | undefined;
   // Document Title
   '00420010': Element | undefined;
   // Encapsulated Document
@@ -4370,9 +4370,9 @@ export interface DICOMWebResponse {
   // Product Description
   '00440009': Element | undefined;
   // Product Lot Identifier
-  '0044000a': Element | undefined;
+  '0044000A': Element | undefined;
   // Product Expiration DateTime
-  '0044000b': Element | undefined;
+  '0044000B': Element | undefined;
   // Substance Administration DateTime
   '00440010': Element | undefined;
   // Substance Administration Notes
@@ -4596,11 +4596,11 @@ export interface DICOMWebResponse {
   // Optical Path Identification Sequence
   '00480207': Element | undefined;
   // Plane Position (Slide) Sequence
-  '0048021a': Element | undefined;
+  '0048021A': Element | undefined;
   // Column Position In Total Image Pixel Matrix
-  '0048021e': Element | undefined;
+  '0048021E': Element | undefined;
   // Row Position In Total Image Pixel Matrix
-  '0048021f': Element | undefined;
+  '0048021F': Element | undefined;
   // Pixel Origin Interpretation
   '00480301': Element | undefined;
   // Calibration Image
@@ -4624,15 +4624,15 @@ export interface DICOMWebResponse {
   // Inter-Marker Distance
   '00500019': Element | undefined;
   // Container Component Material
-  '0050001a': Element | undefined;
+  '0050001A': Element | undefined;
   // Container Component ID
-  '0050001b': Element | undefined;
+  '0050001B': Element | undefined;
   // Container Component Length
-  '0050001c': Element | undefined;
+  '0050001C': Element | undefined;
   // Container Component Diameter
-  '0050001d': Element | undefined;
+  '0050001D': Element | undefined;
   // Container Component Description
-  '0050001e': Element | undefined;
+  '0050001E': Element | undefined;
   // Device Description
   '00500020': Element | undefined;
   // Contrast/Bolus Ingredient Percent by Volume
@@ -4686,7 +4686,7 @@ export interface DICOMWebResponse {
   // Interpolation Type
   '00520039': Element | undefined;
   // Refractive Index Applied
-  '0052003a': Element | undefined;
+  '0052003A': Element | undefined;
   // Energy Window Vector
   '00540010': Element | undefined;
   // Number of Energy Windows
@@ -4880,17 +4880,17 @@ export interface DICOMWebResponse {
   // Segment Algorithm Name
   '00620009': Element | undefined;
   // Segment Identification Sequence
-  '0062000a': Element | undefined;
+  '0062000A': Element | undefined;
   // Referenced Segment Number
-  '0062000b': Element | undefined;
+  '0062000B': Element | undefined;
   // Recommended Display Grayscale Value
-  '0062000c': Element | undefined;
+  '0062000C': Element | undefined;
   // Recommended Display CIELab Value
-  '0062000d': Element | undefined;
+  '0062000D': Element | undefined;
   // Maximum Fractional Value
-  '0062000e': Element | undefined;
+  '0062000E': Element | undefined;
   // Segmented Property Type Code Sequence
-  '0062000f': Element | undefined;
+  '0062000F': Element | undefined;
   // Segmentation Fractional Type
   '00620010': Element | undefined;
   // Segmented Property Type Modifier Code Sequence
@@ -4910,7 +4910,7 @@ export interface DICOMWebResponse {
   // Vector Grid Data
   '00640009': Element | undefined;
   // Pre Deformation Matrix Registration Sequence
-  '0064000f': Element | undefined;
+  '0064000F': Element | undefined;
   // Post Deformation Matrix Registration Sequence
   '00640010': Element | undefined;
   // Number of Surfaces
@@ -4924,15 +4924,15 @@ export interface DICOMWebResponse {
   // Surface Processing
   '00660009': Element | undefined;
   // Surface Processing Ratio
-  '0066000a': Element | undefined;
+  '0066000A': Element | undefined;
   // Surface Processing Description
-  '0066000b': Element | undefined;
+  '0066000B': Element | undefined;
   // Recommended Presentation Opacity
-  '0066000c': Element | undefined;
+  '0066000C': Element | undefined;
   // Recommended Presentation Type
-  '0066000d': Element | undefined;
+  '0066000D': Element | undefined;
   // Finite Volume
-  '0066000e': Element | undefined;
+  '0066000E': Element | undefined;
   // Manifold
   '00660010': Element | undefined;
   // Surface Points Sequence
@@ -4952,15 +4952,15 @@ export interface DICOMWebResponse {
   // Maximum Point Distance
   '00660019': Element | undefined;
   // Points Bounding Box Coordinates
-  '0066001a': Element | undefined;
+  '0066001A': Element | undefined;
   // Axis of Rotation
-  '0066001b': Element | undefined;
+  '0066001B': Element | undefined;
   // Center of Rotation
-  '0066001c': Element | undefined;
+  '0066001C': Element | undefined;
   // Number of Vectors
-  '0066001e': Element | undefined;
+  '0066001E': Element | undefined;
   // Vector Dimensionality
-  '0066001f': Element | undefined;
+  '0066001F': Element | undefined;
   // Vector Accuracy
   '00660020': Element | undefined;
   // Vector Coordinate Data
@@ -4980,17 +4980,17 @@ export interface DICOMWebResponse {
   // Primitive Point Index List
   '00660029': Element | undefined;
   // Surface Count
-  '0066002a': Element | undefined;
+  '0066002A': Element | undefined;
   // Referenced Surface Sequence
-  '0066002b': Element | undefined;
+  '0066002B': Element | undefined;
   // Referenced Surface Number
-  '0066002c': Element | undefined;
+  '0066002C': Element | undefined;
   // Segment Surface Generation Algorithm Identification Sequence
-  '0066002d': Element | undefined;
+  '0066002D': Element | undefined;
   // Segment Surface Source Instance Sequence
-  '0066002e': Element | undefined;
+  '0066002E': Element | undefined;
   // Algorithm Family Code Sequence
-  '0066002f': Element | undefined;
+  '0066002F': Element | undefined;
   // Algorithm Name Code Sequence
   '00660030': Element | undefined;
   // Algorithm Version
@@ -5032,21 +5032,21 @@ export interface DICOMWebResponse {
   // Information Summary
   '00686280': Element | undefined;
   // Implant Regulatory Disapproval Code Sequence
-  '006862a0': Element | undefined;
+  '006862A0': Element | undefined;
   // Overall Template Spatial Tolerance
-  '006862a5': Element | undefined;
+  '006862A5': Element | undefined;
   // HPGL Document Sequence
-  '006862c0': Element | undefined;
+  '006862C0': Element | undefined;
   // HPGL Document ID
-  '006862d0': Element | undefined;
+  '006862D0': Element | undefined;
   // HPGL Document Label
-  '006862d5': Element | undefined;
+  '006862D5': Element | undefined;
   // View Orientation Code Sequence
-  '006862e0': Element | undefined;
+  '006862E0': Element | undefined;
   // View Orientation Modifier
-  '006862f0': Element | undefined;
+  '006862F0': Element | undefined;
   // HPGL Document Scaling
-  '006862f2': Element | undefined;
+  '006862F2': Element | undefined;
   // HPGL Document
   '00686300': Element | undefined;
   // HPGL Contour Pen Number
@@ -5072,23 +5072,23 @@ export interface DICOMWebResponse {
   // Surface Model Scaling Factor
   '00686390': Element | undefined;
   // Materials Code Sequence
-  '006863a0': Element | undefined;
+  '006863A0': Element | undefined;
   // Coating Materials Code Sequence
-  '006863a4': Element | undefined;
+  '006863A4': Element | undefined;
   // Implant Type Code Sequence
-  '006863a8': Element | undefined;
+  '006863A8': Element | undefined;
   // Fixation Method Code Sequence
-  '006863ac': Element | undefined;
+  '006863AC': Element | undefined;
   // Mating Feature Sets Sequence
-  '006863b0': Element | undefined;
+  '006863B0': Element | undefined;
   // Mating Feature Set ID
-  '006863c0': Element | undefined;
+  '006863C0': Element | undefined;
   // Mating Feature Set Label
-  '006863d0': Element | undefined;
+  '006863D0': Element | undefined;
   // Mating Feature Sequence
-  '006863e0': Element | undefined;
+  '006863E0': Element | undefined;
   // Mating Feature ID
-  '006863f0': Element | undefined;
+  '006863F0': Element | undefined;
   // Mating Feature Degree of Freedom Sequence
   '00686400': Element | undefined;
   // Degree of Freedom ID
@@ -5108,13 +5108,13 @@ export interface DICOMWebResponse {
   // 3D Degree of Freedom Axis
   '00686490': Element | undefined;
   // Range of Freedom
-  '006864a0': Element | undefined;
+  '006864A0': Element | undefined;
   // 3D Mating Point
-  '006864c0': Element | undefined;
+  '006864C0': Element | undefined;
   // 3D Mating Axes
-  '006864d0': Element | undefined;
+  '006864D0': Element | undefined;
   // 2D Degree of Freedom Axis
-  '006864f0': Element | undefined;
+  '006864F0': Element | undefined;
   // Planning Landmark Point Sequence
   '00686500': Element | undefined;
   // Planning Landmark Line Sequence
@@ -5134,15 +5134,15 @@ export interface DICOMWebResponse {
   // 3D Point Coordinates
   '00686590': Element | undefined;
   // 2D Line Coordinates Sequence
-  '006865a0': Element | undefined;
+  '006865A0': Element | undefined;
   // 2D Line Coordinates
-  '006865b0': Element | undefined;
+  '006865B0': Element | undefined;
   // 3D Line Coordinates
-  '006865d0': Element | undefined;
+  '006865D0': Element | undefined;
   // 2D Plane Coordinates Sequence
-  '006865e0': Element | undefined;
+  '006865E0': Element | undefined;
   // 2D Plane Intersection
-  '006865f0': Element | undefined;
+  '006865F0': Element | undefined;
   // 3D Plane Origin
   '00686610': Element | undefined;
   // 3D Plane Normal
@@ -5198,7 +5198,7 @@ export interface DICOMWebResponse {
   // Displayed Area Bottom Right Hand Corner
   '00700053': Element | undefined;
   // Displayed Area Selection Sequence
-  '0070005a': Element | undefined;
+  '0070005A': Element | undefined;
   // Graphic Layer Sequence
   '00700060': Element | undefined;
   // Graphic Layer Order
@@ -5326,13 +5326,13 @@ export interface DICOMWebResponse {
   // Matrix Registration Sequence
   '00700309': Element | undefined;
   // Matrix Sequence
-  '0070030a': Element | undefined;
+  '0070030A': Element | undefined;
   // Frame of Reference Transformation Matrix Type
-  '0070030c': Element | undefined;
+  '0070030C': Element | undefined;
   // Registration Type Code Sequence
-  '0070030d': Element | undefined;
+  '0070030D': Element | undefined;
   // Fiducial Description
-  '0070030f': Element | undefined;
+  '0070030F': Element | undefined;
   // Fiducial Identifier
   '00700310': Element | undefined;
   // Fiducial Identifier Code Sequence
@@ -5344,11 +5344,11 @@ export interface DICOMWebResponse {
   // Graphic Coordinates Data Sequence
   '00700318': Element | undefined;
   // Fiducial UID
-  '0070031a': Element | undefined;
+  '0070031A': Element | undefined;
   // Fiducial Set Sequence
-  '0070031c': Element | undefined;
+  '0070031C': Element | undefined;
   // Fiducial Sequence
-  '0070031e': Element | undefined;
+  '0070031E': Element | undefined;
   // Graphic Layer Recommended Display CIELab Value
   '00700401': Element | undefined;
   // Blending Sequence
@@ -5368,11 +5368,11 @@ export interface DICOMWebResponse {
   // Hanging Protocol Creator
   '00720008': Element | undefined;
   // Hanging Protocol Creation DateTime
-  '0072000a': Element | undefined;
+  '0072000A': Element | undefined;
   // Hanging Protocol Definition Sequence
-  '0072000c': Element | undefined;
+  '0072000C': Element | undefined;
   // Hanging Protocol User Identification Code Sequence
-  '0072000e': Element | undefined;
+  '0072000E': Element | undefined;
   // Hanging Protocol User Group Name
   '00720010': Element | undefined;
   // Source Hanging Protocol Sequence
@@ -5398,11 +5398,11 @@ export interface DICOMWebResponse {
   // Relative Time
   '00720038': Element | undefined;
   // Relative Time Units
-  '0072003a': Element | undefined;
+  '0072003A': Element | undefined;
   // Abstract Prior Value
-  '0072003c': Element | undefined;
+  '0072003C': Element | undefined;
   // Abstract Prior Code Sequence
-  '0072003e': Element | undefined;
+  '0072003E': Element | undefined;
   // Image Set Label
   '00720040': Element | undefined;
   // Selector Attribute VR
@@ -5424,11 +5424,11 @@ export interface DICOMWebResponse {
   // Selector LT Value
   '00720068': Element | undefined;
   // Selector PN Value
-  '0072006a': Element | undefined;
+  '0072006A': Element | undefined;
   // Selector SH Value
-  '0072006c': Element | undefined;
+  '0072006C': Element | undefined;
   // Selector ST Value
-  '0072006e': Element | undefined;
+  '0072006E': Element | undefined;
   // Selector UT Value
   '00720070': Element | undefined;
   // Selector DS Value
@@ -5440,11 +5440,11 @@ export interface DICOMWebResponse {
   // Selector UL Value
   '00720078': Element | undefined;
   // Selector US Value
-  '0072007a': Element | undefined;
+  '0072007A': Element | undefined;
   // Selector SL Value
-  '0072007c': Element | undefined;
+  '0072007C': Element | undefined;
   // Selector SS Value
-  '0072007e': Element | undefined;
+  '0072007E': Element | undefined;
   // Selector Code Sequence Value
   '00720080': Element | undefined;
   // Number of Screens
@@ -5458,11 +5458,11 @@ export interface DICOMWebResponse {
   // Display Environment Spatial Position
   '00720108': Element | undefined;
   // Screen Minimum Grayscale Bit Depth
-  '0072010a': Element | undefined;
+  '0072010A': Element | undefined;
   // Screen Minimum Color Bit Depth
-  '0072010c': Element | undefined;
+  '0072010C': Element | undefined;
   // Application Maximum Repaint Time
-  '0072010e': Element | undefined;
+  '0072010E': Element | undefined;
   // Display Sets Sequence
   '00720200': Element | undefined;
   // Display Set Number
@@ -5588,11 +5588,11 @@ export interface DICOMWebResponse {
   // Procedure Step Communications URI Sequence
   '00741008': Element | undefined;
   // Contact URI
-  '0074100a': Element | undefined;
+  '0074100A': Element | undefined;
   // Contact Display Name
-  '0074100c': Element | undefined;
+  '0074100C': Element | undefined;
   // Procedure Step Discontinuation Reason Code Sequence
-  '0074100e': Element | undefined;
+  '0074100E': Element | undefined;
   // Beam Task Sequence
   '00741020': Element | undefined;
   // Beam Task Type
@@ -5608,13 +5608,13 @@ export interface DICOMWebResponse {
   // Table Top Lateral Adjusted Position
   '00741028': Element | undefined;
   // Patient Support Adjusted Angle
-  '0074102a': Element | undefined;
+  '0074102A': Element | undefined;
   // Table Top Eccentric Adjusted Angle
-  '0074102b': Element | undefined;
+  '0074102B': Element | undefined;
   // Table Top Pitch Adjusted Angle
-  '0074102c': Element | undefined;
+  '0074102C': Element | undefined;
   // Table Top Roll Adjusted Angle
-  '0074102d': Element | undefined;
+  '0074102D': Element | undefined;
   // Delivery Verification Image Sequence
   '00741030': Element | undefined;
   // Verification Image Timing
@@ -5626,7 +5626,7 @@ export interface DICOMWebResponse {
   // Double Exposure Meterset (Trial)
   '00741038': Element | undefined;
   // Double Exposure Field Delta (Trial)
-  '0074103a': Element | undefined;
+  '0074103A': Element | undefined;
   // Related Reference RT Image Sequence
   '00741040': Element | undefined;
   // General Machine Verification Sequence
@@ -5638,11 +5638,11 @@ export interface DICOMWebResponse {
   // Failed Attributes Sequence
   '00741048': Element | undefined;
   // Overridden Attributes Sequence
-  '0074104a': Element | undefined;
+  '0074104A': Element | undefined;
   // Conventional Control Point Verification Sequence
-  '0074104c': Element | undefined;
+  '0074104C': Element | undefined;
   // Ion Control Point Verification Sequence
-  '0074104e': Element | undefined;
+  '0074104E': Element | undefined;
   // Attribute Occurrence Sequence
   '00741050': Element | undefined;
   // Attribute Occurrence Pointer
@@ -5690,7 +5690,7 @@ export interface DICOMWebResponse {
   // Double Exposure Meterset
   '00741338': Element | undefined;
   // Double Exposure Field Delta
-  '0074133a': Element | undefined;
+  '0074133A': Element | undefined;
   // Implant Assembly Template Name
   '00760001': Element | undefined;
   // Implant Assembly Template Issuer
@@ -5700,11 +5700,11 @@ export interface DICOMWebResponse {
   // Replaced Implant Assembly Template Sequence
   '00760008': Element | undefined;
   // Implant Assembly Template Type
-  '0076000a': Element | undefined;
+  '0076000A': Element | undefined;
   // Original Implant Assembly Template Sequence
-  '0076000c': Element | undefined;
+  '0076000C': Element | undefined;
   // Derivation Implant Assembly Template Sequence
-  '0076000e': Element | undefined;
+  '0076000E': Element | undefined;
   // Implant Assembly Template Target Anatomy Sequence
   '00760010': Element | undefined;
   // Procedure Type Code Sequence
@@ -5732,11 +5732,11 @@ export interface DICOMWebResponse {
   // Component 1 Referenced Mating Feature ID
   '00760090': Element | undefined;
   // Component 2 Referenced ID
-  '007600a0': Element | undefined;
+  '007600A0': Element | undefined;
   // Component 2 Referenced Mating Feature Set ID
-  '007600b0': Element | undefined;
+  '007600B0': Element | undefined;
   // Component 2 Referenced Mating Feature ID
-  '007600c0': Element | undefined;
+  '007600C0': Element | undefined;
   // Implant Template Group Name
   '00780001': Element | undefined;
   // Implant Template Group Description
@@ -5750,9 +5750,9 @@ export interface DICOMWebResponse {
   // Implant Template Group Target Anatomy Sequence
   '00780028': Element | undefined;
   // Implant Template Group Members Sequence
-  '0078002a': Element | undefined;
+  '0078002A': Element | undefined;
   // Implant Template Group Member ID
-  '0078002e': Element | undefined;
+  '0078002E': Element | undefined;
   // 3D Implant Template Group Member Matching Point
   '00780050': Element | undefined;
   // 3D Implant Template Group Member Matching Axes
@@ -5762,17 +5762,17 @@ export interface DICOMWebResponse {
   // 2D Implant Template Group Member Matching Point
   '00780090': Element | undefined;
   // 2D Implant Template Group Member Matching Axes
-  '007800a0': Element | undefined;
+  '007800A0': Element | undefined;
   // Implant Template Group Variation Dimension Sequence
-  '007800b0': Element | undefined;
+  '007800B0': Element | undefined;
   // Implant Template Group Variation Dimension Name
-  '007800b2': Element | undefined;
+  '007800B2': Element | undefined;
   // Implant Template Group Variation Dimension Rank Sequence
-  '007800b4': Element | undefined;
+  '007800B4': Element | undefined;
   // Referenced Implant Template Group Member ID
-  '007800b6': Element | undefined;
+  '007800B6': Element | undefined;
   // Implant Template Group Variation Dimension Rank
-  '007800b8': Element | undefined;
+  '007800B8': Element | undefined;
   // Surface Scan Acquisition Type Code Sequence
   '00800001': Element | undefined;
   // Surface Scan Mode Code Sequence
@@ -5870,23 +5870,23 @@ export interface DICOMWebResponse {
   // Reason for the Attribute Modification
   '04000565': Element | undefined;
   // Escape Triplet
-  '1000xxx0': Element | undefined;
+  '1000XXX0': Element | undefined;
   // Run Length Triplet
-  '1000xxx1': Element | undefined;
+  '1000XXX1': Element | undefined;
   // Huffman Table Size
-  '1000xxx2': Element | undefined;
+  '1000XXX2': Element | undefined;
   // Huffman Table Triplet
-  '1000xxx3': Element | undefined;
+  '1000XXX3': Element | undefined;
   // Shift Table Size
-  '1000xxx4': Element | undefined;
+  '1000XXX4': Element | undefined;
   // Shift Table Triplet
-  '1000xxx5': Element | undefined;
+  '1000XXX5': Element | undefined;
   // Zonal Map
-  '1010xxxx': Element | undefined;
+  '1010XXXX': Element | undefined;
   // Number of Copies
   '20000010': Element | undefined;
   // Printer Configuration Sequence
-  '2000001e': Element | undefined;
+  '2000001E': Element | undefined;
   // Print Priority
   '20000020': Element | undefined;
   // Medium Type
@@ -5910,17 +5910,17 @@ export interface DICOMWebResponse {
   // Presentation LUT Flag
   '20000069': Element | undefined;
   // Image Box Presentation LUT Flag
-  '2000006a': Element | undefined;
+  '2000006A': Element | undefined;
   // Memory Bit Depth
-  '200000a0': Element | undefined;
+  '200000A0': Element | undefined;
   // Printing Bit Depth
-  '200000a1': Element | undefined;
+  '200000A1': Element | undefined;
   // Media Installed Sequence
-  '200000a2': Element | undefined;
+  '200000A2': Element | undefined;
   // Other Media Available Sequence
-  '200000a4': Element | undefined;
+  '200000A4': Element | undefined;
   // Supported Image Display Formats Sequence
-  '200000a8': Element | undefined;
+  '200000A8': Element | undefined;
   // Referenced Film Box Sequence
   '20000500': Element | undefined;
   // Referenced Stored Print Sequence
@@ -5942,13 +5942,13 @@ export interface DICOMWebResponse {
   // Smoothing Type
   '20100080': Element | undefined;
   // Default Magnification Type
-  '201000a6': Element | undefined;
+  '201000A6': Element | undefined;
   // Other Magnification Types Available
-  '201000a7': Element | undefined;
+  '201000A7': Element | undefined;
   // Default Smoothing Type
-  '201000a8': Element | undefined;
+  '201000A8': Element | undefined;
   // Other Smoothing Types Available
-  '201000a9': Element | undefined;
+  '201000A9': Element | undefined;
   // Border Density
   '20100100': Element | undefined;
   // Empty Image Density
@@ -5966,7 +5966,7 @@ export interface DICOMWebResponse {
   // Maximum Collated Films
   '20100154': Element | undefined;
   // Illumination
-  '2010015e': Element | undefined;
+  '2010015E': Element | undefined;
   // Reflected Ambient Light
   '20100160': Element | undefined;
   // Printer Pixel Spacing
@@ -5988,9 +5988,9 @@ export interface DICOMWebResponse {
   // Requested Resolution ID
   '20200050': Element | undefined;
   // Requested Image Size Flag
-  '202000a0': Element | undefined;
+  '202000A0': Element | undefined;
   // Decimate/Crop Result
-  '202000a2': Element | undefined;
+  '202000A2': Element | undefined;
   // Basic Grayscale Image Sequence
   '20200110': Element | undefined;
   // Basic Color Image Sequence
@@ -6082,9 +6082,9 @@ export interface DICOMWebResponse {
   // Presentation LUT Content Sequence
   '21300080': Element | undefined;
   // Proposed Study Sequence
-  '213000a0': Element | undefined;
+  '213000A0': Element | undefined;
   // Original Image Sequence
-  '213000c0': Element | undefined;
+  '213000C0': Element | undefined;
   // Label Using Information Extracted From Instances
   '22000001': Element | undefined;
   // Label Text
@@ -6104,17 +6104,17 @@ export interface DICOMWebResponse {
   // Include Display Application
   '22000009': Element | undefined;
   // Preserve Composite Instances After Media Creation
-  '2200000a': Element | undefined;
+  '2200000A': Element | undefined;
   // Total Number of Pieces of Media Created
-  '2200000b': Element | undefined;
+  '2200000B': Element | undefined;
   // Requested Media Application Profile
-  '2200000c': Element | undefined;
+  '2200000C': Element | undefined;
   // Referenced Storage Media Sequence
-  '2200000d': Element | undefined;
+  '2200000D': Element | undefined;
   // Failure Attributes
-  '2200000e': Element | undefined;
+  '2200000E': Element | undefined;
   // Allow Lossy Compression
-  '2200000f': Element | undefined;
+  '2200000F': Element | undefined;
   // Request Priority
   '22000020': Element | undefined;
   // RT Image Label
@@ -6124,13 +6124,13 @@ export interface DICOMWebResponse {
   // RT Image Description
   '30020004': Element | undefined;
   // Reported Values Origin
-  '3002000a': Element | undefined;
+  '3002000A': Element | undefined;
   // RT Image Plane
-  '3002000c': Element | undefined;
+  '3002000C': Element | undefined;
   // X-Ray Image Receptor Translation
-  '3002000d': Element | undefined;
+  '3002000D': Element | undefined;
   // X-Ray Image Receptor Angle
-  '3002000e': Element | undefined;
+  '3002000E': Element | undefined;
   // RT Image Orientation
   '30020010': Element | undefined;
   // Image Plane Pixel Spacing
@@ -6180,11 +6180,11 @@ export interface DICOMWebResponse {
   // Normalization Point
   '30040008': Element | undefined;
   // Dose Summation Type
-  '3004000a': Element | undefined;
+  '3004000A': Element | undefined;
   // Grid Frame Offset Vector
-  '3004000c': Element | undefined;
+  '3004000C': Element | undefined;
   // Dose Grid Scaling
-  '3004000e': Element | undefined;
+  '3004000E': Element | undefined;
   // RT Dose ROI Sequence
   '30040010': Element | undefined;
   // Dose Value
@@ -6246,9 +6246,9 @@ export interface DICOMWebResponse {
   // ROI Description
   '30060028': Element | undefined;
   // ROI Display Color
-  '3006002a': Element | undefined;
+  '3006002A': Element | undefined;
   // ROI Volume
-  '3006002c': Element | undefined;
+  '3006002C': Element | undefined;
   // RT Related ROI Sequence
   '30060030': Element | undefined;
   // RT ROI Relationship
@@ -6288,35 +6288,35 @@ export interface DICOMWebResponse {
   // ROI Observation Description
   '30060088': Element | undefined;
   // Related RT ROI Observations Sequence
-  '300600a0': Element | undefined;
+  '300600A0': Element | undefined;
   // RT ROI Interpreted Type
-  '300600a4': Element | undefined;
+  '300600A4': Element | undefined;
   // ROI Interpreter
-  '300600a6': Element | undefined;
+  '300600A6': Element | undefined;
   // ROI Physical Properties Sequence
-  '300600b0': Element | undefined;
+  '300600B0': Element | undefined;
   // ROI Physical Property
-  '300600b2': Element | undefined;
+  '300600B2': Element | undefined;
   // ROI Physical Property Value
-  '300600b4': Element | undefined;
+  '300600B4': Element | undefined;
   // ROI Elemental Composition Sequence
-  '300600b6': Element | undefined;
+  '300600B6': Element | undefined;
   // ROI Elemental Composition Atomic Number
-  '300600b7': Element | undefined;
+  '300600B7': Element | undefined;
   // ROI Elemental Composition Atomic Mass Fraction
-  '300600b8': Element | undefined;
+  '300600B8': Element | undefined;
   // Additional RT ROI Identification Code Sequence
-  '300600b9': Element | undefined;
+  '300600B9': Element | undefined;
   // Frame of Reference Relationship Sequence
-  '300600c0': Element | undefined;
+  '300600C0': Element | undefined;
   // Related Frame of Reference UID
-  '300600c2': Element | undefined;
+  '300600C2': Element | undefined;
   // Frame of Reference Transformation Type
-  '300600c4': Element | undefined;
+  '300600C4': Element | undefined;
   // Frame of Reference Transformation Matrix
-  '300600c6': Element | undefined;
+  '300600C6': Element | undefined;
   // Frame of Reference Transformation Comment
-  '300600c8': Element | undefined;
+  '300600C8': Element | undefined;
   // Measured Dose Reference Sequence
   '30080010': Element | undefined;
   // Measured Dose Description
@@ -6336,11 +6336,11 @@ export interface DICOMWebResponse {
   // Treatment Control Point Time
   '30080025': Element | undefined;
   // Treatment Termination Status
-  '3008002a': Element | undefined;
+  '3008002A': Element | undefined;
   // Treatment Termination Code
-  '3008002b': Element | undefined;
+  '3008002B': Element | undefined;
   // Treatment Verification Status
-  '3008002c': Element | undefined;
+  '3008002C': Element | undefined;
   // Referenced Treatment Record Sequence
   '30080030': Element | undefined;
   // Specified Primary Meterset
@@ -6352,9 +6352,9 @@ export interface DICOMWebResponse {
   // Delivered Secondary Meterset
   '30080037': Element | undefined;
   // Specified Treatment Time
-  '3008003a': Element | undefined;
+  '3008003A': Element | undefined;
   // Delivered Treatment Time
-  '3008003b': Element | undefined;
+  '3008003B': Element | undefined;
   // Control Point Delivery Sequence
   '30080040': Element | undefined;
   // Ion Control Point Delivery Sequence
@@ -6380,7 +6380,7 @@ export interface DICOMWebResponse {
   // Most Recent Treatment Date
   '30080056': Element | undefined;
   // Number of Fractions Delivered
-  '3008005a': Element | undefined;
+  '3008005A': Element | undefined;
   // Override Sequence
   '30080060': Element | undefined;
   // Parameter Sequence Pointer
@@ -6398,7 +6398,7 @@ export interface DICOMWebResponse {
   // Corrected Parameter Sequence
   '30080068': Element | undefined;
   // Correction Value
-  '3008006a': Element | undefined;
+  '3008006A': Element | undefined;
   // Calculated Dose Reference Sequence
   '30080070': Element | undefined;
   // Calculated Dose Reference Number
@@ -6410,7 +6410,7 @@ export interface DICOMWebResponse {
   // Start Meterset
   '30080078': Element | undefined;
   // End Meterset
-  '3008007a': Element | undefined;
+  '3008007A': Element | undefined;
   // Referenced Measured Dose Reference Sequence
   '30080080': Element | undefined;
   // Referenced Measured Dose Reference Number
@@ -6420,23 +6420,23 @@ export interface DICOMWebResponse {
   // Referenced Calculated Dose Reference Number
   '30080092': Element | undefined;
   // Beam Limiting Device Leaf Pairs Sequence
-  '300800a0': Element | undefined;
+  '300800A0': Element | undefined;
   // Recorded Wedge Sequence
-  '300800b0': Element | undefined;
+  '300800B0': Element | undefined;
   // Recorded Compensator Sequence
-  '300800c0': Element | undefined;
+  '300800C0': Element | undefined;
   // Recorded Block Sequence
-  '300800d0': Element | undefined;
+  '300800D0': Element | undefined;
   // Treatment Summary Measured Dose Reference Sequence
-  '300800e0': Element | undefined;
+  '300800E0': Element | undefined;
   // Recorded Snout Sequence
-  '300800f0': Element | undefined;
+  '300800F0': Element | undefined;
   // Recorded Range Shifter Sequence
-  '300800f2': Element | undefined;
+  '300800F2': Element | undefined;
   // Recorded Lateral Spreading Device Sequence
-  '300800f4': Element | undefined;
+  '300800F4': Element | undefined;
   // Recorded Range Modulator Sequence
-  '300800f6': Element | undefined;
+  '300800F6': Element | undefined;
   // Recorded Source Sequence
   '30080100': Element | undefined;
   // Source Serial Number
@@ -6460,9 +6460,9 @@ export interface DICOMWebResponse {
   // Delivered Number of Pulses
   '30080138': Element | undefined;
   // Specified Pulse Repetition Interval
-  '3008013a': Element | undefined;
+  '3008013A': Element | undefined;
   // Delivered Pulse Repetition Interval
-  '3008013c': Element | undefined;
+  '3008013C': Element | undefined;
   // Recorded Source Applicator Sequence
   '30080140': Element | undefined;
   // Referenced Source Applicator Number
@@ -6506,783 +6506,783 @@ export interface DICOMWebResponse {
   // Treatment Time
   '30080251': Element | undefined;
   // RT Plan Label
-  '300a0002': Element | undefined;
+  '300A0002': Element | undefined;
   // RT Plan Name
-  '300a0003': Element | undefined;
+  '300A0003': Element | undefined;
   // RT Plan Description
-  '300a0004': Element | undefined;
+  '300A0004': Element | undefined;
   // RT Plan Date
-  '300a0006': Element | undefined;
+  '300A0006': Element | undefined;
   // RT Plan Time
-  '300a0007': Element | undefined;
+  '300A0007': Element | undefined;
   // Treatment Protocols
-  '300a0009': Element | undefined;
+  '300A0009': Element | undefined;
   // Plan Intent
-  '300a000a': Element | undefined;
+  '300A000A': Element | undefined;
   // Treatment Sites
-  '300a000b': Element | undefined;
+  '300A000B': Element | undefined;
   // RT Plan Geometry
-  '300a000c': Element | undefined;
+  '300A000C': Element | undefined;
   // Prescription Description
-  '300a000e': Element | undefined;
+  '300A000E': Element | undefined;
   // Dose Reference Sequence
-  '300a0010': Element | undefined;
+  '300A0010': Element | undefined;
   // Dose Reference Number
-  '300a0012': Element | undefined;
+  '300A0012': Element | undefined;
   // Dose Reference UID
-  '300a0013': Element | undefined;
+  '300A0013': Element | undefined;
   // Dose Reference Structure Type
-  '300a0014': Element | undefined;
+  '300A0014': Element | undefined;
   // Nominal Beam Energy Unit
-  '300a0015': Element | undefined;
+  '300A0015': Element | undefined;
   // Dose Reference Description
-  '300a0016': Element | undefined;
+  '300A0016': Element | undefined;
   // Dose Reference Point Coordinates
-  '300a0018': Element | undefined;
+  '300A0018': Element | undefined;
   // Nominal Prior Dose
-  '300a001a': Element | undefined;
+  '300A001A': Element | undefined;
   // Dose Reference Type
-  '300a0020': Element | undefined;
+  '300A0020': Element | undefined;
   // Constraint Weight
-  '300a0021': Element | undefined;
+  '300A0021': Element | undefined;
   // Delivery Warning Dose
-  '300a0022': Element | undefined;
+  '300A0022': Element | undefined;
   // Delivery Maximum Dose
-  '300a0023': Element | undefined;
+  '300A0023': Element | undefined;
   // Target Minimum Dose
-  '300a0025': Element | undefined;
+  '300A0025': Element | undefined;
   // Target Prescription Dose
-  '300a0026': Element | undefined;
+  '300A0026': Element | undefined;
   // Target Maximum Dose
-  '300a0027': Element | undefined;
+  '300A0027': Element | undefined;
   // Target Underdose Volume Fraction
-  '300a0028': Element | undefined;
+  '300A0028': Element | undefined;
   // Organ at Risk Full-volume Dose
-  '300a002a': Element | undefined;
+  '300A002A': Element | undefined;
   // Organ at Risk Limit Dose
-  '300a002b': Element | undefined;
+  '300A002B': Element | undefined;
   // Organ at Risk Maximum Dose
-  '300a002c': Element | undefined;
+  '300A002C': Element | undefined;
   // Organ at Risk Overdose Volume Fraction
-  '300a002d': Element | undefined;
+  '300A002D': Element | undefined;
   // Tolerance Table Sequence
-  '300a0040': Element | undefined;
+  '300A0040': Element | undefined;
   // Tolerance Table Number
-  '300a0042': Element | undefined;
+  '300A0042': Element | undefined;
   // Tolerance Table Label
-  '300a0043': Element | undefined;
+  '300A0043': Element | undefined;
   // Gantry Angle Tolerance
-  '300a0044': Element | undefined;
+  '300A0044': Element | undefined;
   // Beam Limiting Device Angle Tolerance
-  '300a0046': Element | undefined;
+  '300A0046': Element | undefined;
   // Beam Limiting Device Tolerance Sequence
-  '300a0048': Element | undefined;
+  '300A0048': Element | undefined;
   // Beam Limiting Device Position Tolerance
-  '300a004a': Element | undefined;
+  '300A004A': Element | undefined;
   // Snout Position Tolerance
-  '300a004b': Element | undefined;
+  '300A004B': Element | undefined;
   // Patient Support Angle Tolerance
-  '300a004c': Element | undefined;
+  '300A004C': Element | undefined;
   // Table Top Eccentric Angle Tolerance
-  '300a004e': Element | undefined;
+  '300A004E': Element | undefined;
   // Table Top Pitch Angle Tolerance
-  '300a004f': Element | undefined;
+  '300A004F': Element | undefined;
   // Table Top Roll Angle Tolerance
-  '300a0050': Element | undefined;
+  '300A0050': Element | undefined;
   // Table Top Vertical Position Tolerance
-  '300a0051': Element | undefined;
+  '300A0051': Element | undefined;
   // Table Top Longitudinal Position Tolerance
-  '300a0052': Element | undefined;
+  '300A0052': Element | undefined;
   // Table Top Lateral Position Tolerance
-  '300a0053': Element | undefined;
+  '300A0053': Element | undefined;
   // RT Plan Relationship
-  '300a0055': Element | undefined;
+  '300A0055': Element | undefined;
   // Fraction Group Sequence
-  '300a0070': Element | undefined;
+  '300A0070': Element | undefined;
   // Fraction Group Number
-  '300a0071': Element | undefined;
+  '300A0071': Element | undefined;
   // Fraction Group Description
-  '300a0072': Element | undefined;
+  '300A0072': Element | undefined;
   // Number of Fractions Planned
-  '300a0078': Element | undefined;
+  '300A0078': Element | undefined;
   // Number of Fraction Pattern Digits Per Day
-  '300a0079': Element | undefined;
+  '300A0079': Element | undefined;
   // Repeat Fraction Cycle Length
-  '300a007a': Element | undefined;
+  '300A007A': Element | undefined;
   // Fraction Pattern
-  '300a007b': Element | undefined;
+  '300A007B': Element | undefined;
   // Number of Beams
-  '300a0080': Element | undefined;
+  '300A0080': Element | undefined;
   // Beam Dose Specification Point
-  '300a0082': Element | undefined;
+  '300A0082': Element | undefined;
   // Beam Dose
-  '300a0084': Element | undefined;
+  '300A0084': Element | undefined;
   // Beam Meterset
-  '300a0086': Element | undefined;
+  '300A0086': Element | undefined;
   // Beam Dose Point Depth
-  '300a0088': Element | undefined;
+  '300A0088': Element | undefined;
   // Beam Dose Point Equivalent Depth
-  '300a0089': Element | undefined;
+  '300A0089': Element | undefined;
   // Beam Dose Point SSD
-  '300a008a': Element | undefined;
+  '300A008A': Element | undefined;
   // Beam Dose Meaning
-  '300a008b': Element | undefined;
+  '300A008B': Element | undefined;
   // Beam Dose Verification Control Point Sequence
-  '300a008c': Element | undefined;
+  '300A008C': Element | undefined;
   // Average Beam Dose Point Depth
-  '300a008d': Element | undefined;
+  '300A008D': Element | undefined;
   // Average Beam Dose Point Equivalent Depth
-  '300a008e': Element | undefined;
+  '300A008E': Element | undefined;
   // Average Beam Dose Point SSD
-  '300a008f': Element | undefined;
+  '300A008F': Element | undefined;
   // Number of Brachy Application Setups
-  '300a00a0': Element | undefined;
+  '300A00A0': Element | undefined;
   // Brachy Application Setup Dose Specification Point
-  '300a00a2': Element | undefined;
+  '300A00A2': Element | undefined;
   // Brachy Application Setup Dose
-  '300a00a4': Element | undefined;
+  '300A00A4': Element | undefined;
   // Beam Sequence
-  '300a00b0': Element | undefined;
+  '300A00B0': Element | undefined;
   // Treatment Machine Name
-  '300a00b2': Element | undefined;
+  '300A00B2': Element | undefined;
   // Primary Dosimeter Unit
-  '300a00b3': Element | undefined;
+  '300A00B3': Element | undefined;
   // Source-Axis Distance
-  '300a00b4': Element | undefined;
+  '300A00B4': Element | undefined;
   // Beam Limiting Device Sequence
-  '300a00b6': Element | undefined;
+  '300A00B6': Element | undefined;
   // RT Beam Limiting Device Type
-  '300a00b8': Element | undefined;
+  '300A00B8': Element | undefined;
   // Source to Beam Limiting Device Distance
-  '300a00ba': Element | undefined;
+  '300A00BA': Element | undefined;
   // Isocenter to Beam Limiting Device Distance
-  '300a00bb': Element | undefined;
+  '300A00BB': Element | undefined;
   // Number of Leaf/Jaw Pairs
-  '300a00bc': Element | undefined;
+  '300A00BC': Element | undefined;
   // Leaf Position Boundaries
-  '300a00be': Element | undefined;
+  '300A00BE': Element | undefined;
   // Beam Number
-  '300a00c0': Element | undefined;
+  '300A00C0': Element | undefined;
   // Beam Name
-  '300a00c2': Element | undefined;
+  '300A00C2': Element | undefined;
   // Beam Description
-  '300a00c3': Element | undefined;
+  '300A00C3': Element | undefined;
   // Beam Type
-  '300a00c4': Element | undefined;
+  '300A00C4': Element | undefined;
   // Beam Delivery Duration Limit
-  '300a00c5': Element | undefined;
+  '300A00C5': Element | undefined;
   // Radiation Type
-  '300a00c6': Element | undefined;
+  '300A00C6': Element | undefined;
   // High-Dose Technique Type
-  '300a00c7': Element | undefined;
+  '300A00C7': Element | undefined;
   // Reference Image Number
-  '300a00c8': Element | undefined;
+  '300A00C8': Element | undefined;
   // Planned Verification Image Sequence
-  '300a00ca': Element | undefined;
+  '300A00CA': Element | undefined;
   // Imaging Device-Specific Acquisition Parameters
-  '300a00cc': Element | undefined;
+  '300A00CC': Element | undefined;
   // Treatment Delivery Type
-  '300a00ce': Element | undefined;
+  '300A00CE': Element | undefined;
   // Number of Wedges
-  '300a00d0': Element | undefined;
+  '300A00D0': Element | undefined;
   // Wedge Sequence
-  '300a00d1': Element | undefined;
+  '300A00D1': Element | undefined;
   // Wedge Number
-  '300a00d2': Element | undefined;
+  '300A00D2': Element | undefined;
   // Wedge Type
-  '300a00d3': Element | undefined;
+  '300A00D3': Element | undefined;
   // Wedge ID
-  '300a00d4': Element | undefined;
+  '300A00D4': Element | undefined;
   // Wedge Angle
-  '300a00d5': Element | undefined;
+  '300A00D5': Element | undefined;
   // Wedge Factor
-  '300a00d6': Element | undefined;
+  '300A00D6': Element | undefined;
   // Total Wedge Tray Water-Equivalent Thickness
-  '300a00d7': Element | undefined;
+  '300A00D7': Element | undefined;
   // Wedge Orientation
-  '300a00d8': Element | undefined;
+  '300A00D8': Element | undefined;
   // Isocenter to Wedge Tray Distance
-  '300a00d9': Element | undefined;
+  '300A00D9': Element | undefined;
   // Source to Wedge Tray Distance
-  '300a00da': Element | undefined;
+  '300A00DA': Element | undefined;
   // Wedge Thin Edge Position
-  '300a00db': Element | undefined;
+  '300A00DB': Element | undefined;
   // Bolus ID
-  '300a00dc': Element | undefined;
+  '300A00DC': Element | undefined;
   // Bolus Description
-  '300a00dd': Element | undefined;
+  '300A00DD': Element | undefined;
   // Number of Compensators
-  '300a00e0': Element | undefined;
+  '300A00E0': Element | undefined;
   // Material ID
-  '300a00e1': Element | undefined;
+  '300A00E1': Element | undefined;
   // Total Compensator Tray Factor
-  '300a00e2': Element | undefined;
+  '300A00E2': Element | undefined;
   // Compensator Sequence
-  '300a00e3': Element | undefined;
+  '300A00E3': Element | undefined;
   // Compensator Number
-  '300a00e4': Element | undefined;
+  '300A00E4': Element | undefined;
   // Compensator ID
-  '300a00e5': Element | undefined;
+  '300A00E5': Element | undefined;
   // Source to Compensator Tray Distance
-  '300a00e6': Element | undefined;
+  '300A00E6': Element | undefined;
   // Compensator Rows
-  '300a00e7': Element | undefined;
+  '300A00E7': Element | undefined;
   // Compensator Columns
-  '300a00e8': Element | undefined;
+  '300A00E8': Element | undefined;
   // Compensator Pixel Spacing
-  '300a00e9': Element | undefined;
+  '300A00E9': Element | undefined;
   // Compensator Position
-  '300a00ea': Element | undefined;
+  '300A00EA': Element | undefined;
   // Compensator Transmission Data
-  '300a00eb': Element | undefined;
+  '300A00EB': Element | undefined;
   // Compensator Thickness Data
-  '300a00ec': Element | undefined;
+  '300A00EC': Element | undefined;
   // Number of Boli
-  '300a00ed': Element | undefined;
+  '300A00ED': Element | undefined;
   // Compensator Type
-  '300a00ee': Element | undefined;
+  '300A00EE': Element | undefined;
   // Compensator Tray ID
-  '300a00ef': Element | undefined;
+  '300A00EF': Element | undefined;
   // Number of Blocks
-  '300a00f0': Element | undefined;
+  '300A00F0': Element | undefined;
   // Total Block Tray Factor
-  '300a00f2': Element | undefined;
+  '300A00F2': Element | undefined;
   // Total Block Tray Water-Equivalent Thickness
-  '300a00f3': Element | undefined;
+  '300A00F3': Element | undefined;
   // Block Sequence
-  '300a00f4': Element | undefined;
+  '300A00F4': Element | undefined;
   // Block Tray ID
-  '300a00f5': Element | undefined;
+  '300A00F5': Element | undefined;
   // Source to Block Tray Distance
-  '300a00f6': Element | undefined;
+  '300A00F6': Element | undefined;
   // Isocenter to Block Tray Distance
-  '300a00f7': Element | undefined;
+  '300A00F7': Element | undefined;
   // Block Type
-  '300a00f8': Element | undefined;
+  '300A00F8': Element | undefined;
   // Accessory Code
-  '300a00f9': Element | undefined;
+  '300A00F9': Element | undefined;
   // Block Divergence
-  '300a00fa': Element | undefined;
+  '300A00FA': Element | undefined;
   // Block Mounting Position
-  '300a00fb': Element | undefined;
+  '300A00FB': Element | undefined;
   // Block Number
-  '300a00fc': Element | undefined;
+  '300A00FC': Element | undefined;
   // Block Name
-  '300a00fe': Element | undefined;
+  '300A00FE': Element | undefined;
   // Block Thickness
-  '300a0100': Element | undefined;
+  '300A0100': Element | undefined;
   // Block Transmission
-  '300a0102': Element | undefined;
+  '300A0102': Element | undefined;
   // Block Number of Points
-  '300a0104': Element | undefined;
+  '300A0104': Element | undefined;
   // Block Data
-  '300a0106': Element | undefined;
+  '300A0106': Element | undefined;
   // Applicator Sequence
-  '300a0107': Element | undefined;
+  '300A0107': Element | undefined;
   // Applicator ID
-  '300a0108': Element | undefined;
+  '300A0108': Element | undefined;
   // Applicator Type
-  '300a0109': Element | undefined;
+  '300A0109': Element | undefined;
   // Applicator Description
-  '300a010a': Element | undefined;
+  '300A010A': Element | undefined;
   // Cumulative Dose Reference Coefficient
-  '300a010c': Element | undefined;
+  '300A010C': Element | undefined;
   // Final Cumulative Meterset Weight
-  '300a010e': Element | undefined;
+  '300A010E': Element | undefined;
   // Number of Control Points
-  '300a0110': Element | undefined;
+  '300A0110': Element | undefined;
   // Control Point Sequence
-  '300a0111': Element | undefined;
+  '300A0111': Element | undefined;
   // Control Point Index
-  '300a0112': Element | undefined;
+  '300A0112': Element | undefined;
   // Nominal Beam Energy
-  '300a0114': Element | undefined;
+  '300A0114': Element | undefined;
   // Dose Rate Set
-  '300a0115': Element | undefined;
+  '300A0115': Element | undefined;
   // Wedge Position Sequence
-  '300a0116': Element | undefined;
+  '300A0116': Element | undefined;
   // Wedge Position
-  '300a0118': Element | undefined;
+  '300A0118': Element | undefined;
   // Beam Limiting Device Position Sequence
-  '300a011a': Element | undefined;
+  '300A011A': Element | undefined;
   // Leaf/Jaw Positions
-  '300a011c': Element | undefined;
+  '300A011C': Element | undefined;
   // Gantry Angle
-  '300a011e': Element | undefined;
+  '300A011E': Element | undefined;
   // Gantry Rotation Direction
-  '300a011f': Element | undefined;
+  '300A011F': Element | undefined;
   // Beam Limiting Device Angle
-  '300a0120': Element | undefined;
+  '300A0120': Element | undefined;
   // Beam Limiting Device Rotation Direction
-  '300a0121': Element | undefined;
+  '300A0121': Element | undefined;
   // Patient Support Angle
-  '300a0122': Element | undefined;
+  '300A0122': Element | undefined;
   // Patient Support Rotation Direction
-  '300a0123': Element | undefined;
+  '300A0123': Element | undefined;
   // Table Top Eccentric Axis Distance
-  '300a0124': Element | undefined;
+  '300A0124': Element | undefined;
   // Table Top Eccentric Angle
-  '300a0125': Element | undefined;
+  '300A0125': Element | undefined;
   // Table Top Eccentric Rotation Direction
-  '300a0126': Element | undefined;
+  '300A0126': Element | undefined;
   // Table Top Vertical Position
-  '300a0128': Element | undefined;
+  '300A0128': Element | undefined;
   // Table Top Longitudinal Position
-  '300a0129': Element | undefined;
+  '300A0129': Element | undefined;
   // Table Top Lateral Position
-  '300a012a': Element | undefined;
+  '300A012A': Element | undefined;
   // Isocenter Position
-  '300a012c': Element | undefined;
+  '300A012C': Element | undefined;
   // Surface Entry Point
-  '300a012e': Element | undefined;
+  '300A012E': Element | undefined;
   // Source to Surface Distance
-  '300a0130': Element | undefined;
+  '300A0130': Element | undefined;
   // Cumulative Meterset Weight
-  '300a0134': Element | undefined;
+  '300A0134': Element | undefined;
   // Table Top Pitch Angle
-  '300a0140': Element | undefined;
+  '300A0140': Element | undefined;
   // Table Top Pitch Rotation Direction
-  '300a0142': Element | undefined;
+  '300A0142': Element | undefined;
   // Table Top Roll Angle
-  '300a0144': Element | undefined;
+  '300A0144': Element | undefined;
   // Table Top Roll Rotation Direction
-  '300a0146': Element | undefined;
+  '300A0146': Element | undefined;
   // Head Fixation Angle
-  '300a0148': Element | undefined;
+  '300A0148': Element | undefined;
   // Gantry Pitch Angle
-  '300a014a': Element | undefined;
+  '300A014A': Element | undefined;
   // Gantry Pitch Rotation Direction
-  '300a014c': Element | undefined;
+  '300A014C': Element | undefined;
   // Gantry Pitch Angle Tolerance
-  '300a014e': Element | undefined;
+  '300A014E': Element | undefined;
   // Patient Setup Sequence
-  '300a0180': Element | undefined;
+  '300A0180': Element | undefined;
   // Patient Setup Number
-  '300a0182': Element | undefined;
+  '300A0182': Element | undefined;
   // Patient Setup Label
-  '300a0183': Element | undefined;
+  '300A0183': Element | undefined;
   // Patient Additional Position
-  '300a0184': Element | undefined;
+  '300A0184': Element | undefined;
   // Fixation Device Sequence
-  '300a0190': Element | undefined;
+  '300A0190': Element | undefined;
   // Fixation Device Type
-  '300a0192': Element | undefined;
+  '300A0192': Element | undefined;
   // Fixation Device Label
-  '300a0194': Element | undefined;
+  '300A0194': Element | undefined;
   // Fixation Device Description
-  '300a0196': Element | undefined;
+  '300A0196': Element | undefined;
   // Fixation Device Position
-  '300a0198': Element | undefined;
+  '300A0198': Element | undefined;
   // Fixation Device Pitch Angle
-  '300a0199': Element | undefined;
+  '300A0199': Element | undefined;
   // Fixation Device Roll Angle
-  '300a019a': Element | undefined;
+  '300A019A': Element | undefined;
   // Shielding Device Sequence
-  '300a01a0': Element | undefined;
+  '300A01A0': Element | undefined;
   // Shielding Device Type
-  '300a01a2': Element | undefined;
+  '300A01A2': Element | undefined;
   // Shielding Device Label
-  '300a01a4': Element | undefined;
+  '300A01A4': Element | undefined;
   // Shielding Device Description
-  '300a01a6': Element | undefined;
+  '300A01A6': Element | undefined;
   // Shielding Device Position
-  '300a01a8': Element | undefined;
+  '300A01A8': Element | undefined;
   // Setup Technique
-  '300a01b0': Element | undefined;
+  '300A01B0': Element | undefined;
   // Setup Technique Description
-  '300a01b2': Element | undefined;
+  '300A01B2': Element | undefined;
   // Setup Device Sequence
-  '300a01b4': Element | undefined;
+  '300A01B4': Element | undefined;
   // Setup Device Type
-  '300a01b6': Element | undefined;
+  '300A01B6': Element | undefined;
   // Setup Device Label
-  '300a01b8': Element | undefined;
+  '300A01B8': Element | undefined;
   // Setup Device Description
-  '300a01ba': Element | undefined;
+  '300A01BA': Element | undefined;
   // Setup Device Parameter
-  '300a01bc': Element | undefined;
+  '300A01BC': Element | undefined;
   // Setup Reference Description
-  '300a01d0': Element | undefined;
+  '300A01D0': Element | undefined;
   // Table Top Vertical Setup Displacement
-  '300a01d2': Element | undefined;
+  '300A01D2': Element | undefined;
   // Table Top Longitudinal Setup Displacement
-  '300a01d4': Element | undefined;
+  '300A01D4': Element | undefined;
   // Table Top Lateral Setup Displacement
-  '300a01d6': Element | undefined;
+  '300A01D6': Element | undefined;
   // Brachy Treatment Technique
-  '300a0200': Element | undefined;
+  '300A0200': Element | undefined;
   // Brachy Treatment Type
-  '300a0202': Element | undefined;
+  '300A0202': Element | undefined;
   // Treatment Machine Sequence
-  '300a0206': Element | undefined;
+  '300A0206': Element | undefined;
   // Source Sequence
-  '300a0210': Element | undefined;
+  '300A0210': Element | undefined;
   // Source Number
-  '300a0212': Element | undefined;
+  '300A0212': Element | undefined;
   // Source Type
-  '300a0214': Element | undefined;
+  '300A0214': Element | undefined;
   // Source Manufacturer
-  '300a0216': Element | undefined;
+  '300A0216': Element | undefined;
   // Active Source Diameter
-  '300a0218': Element | undefined;
+  '300A0218': Element | undefined;
   // Active Source Length
-  '300a021a': Element | undefined;
+  '300A021A': Element | undefined;
   // Source Model ID
-  '300a021b': Element | undefined;
+  '300A021B': Element | undefined;
   // Source Description
-  '300a021c': Element | undefined;
+  '300A021C': Element | undefined;
   // Source Encapsulation Nominal Thickness
-  '300a0222': Element | undefined;
+  '300A0222': Element | undefined;
   // Source Encapsulation Nominal Transmission
-  '300a0224': Element | undefined;
+  '300A0224': Element | undefined;
   // Source Isotope Name
-  '300a0226': Element | undefined;
+  '300A0226': Element | undefined;
   // Source Isotope Half Life
-  '300a0228': Element | undefined;
+  '300A0228': Element | undefined;
   // Source Strength Units
-  '300a0229': Element | undefined;
+  '300A0229': Element | undefined;
   // Reference Air Kerma Rate
-  '300a022a': Element | undefined;
+  '300A022A': Element | undefined;
   // Source Strength
-  '300a022b': Element | undefined;
+  '300A022B': Element | undefined;
   // Source Strength Reference Date
-  '300a022c': Element | undefined;
+  '300A022C': Element | undefined;
   // Source Strength Reference Time
-  '300a022e': Element | undefined;
+  '300A022E': Element | undefined;
   // Application Setup Sequence
-  '300a0230': Element | undefined;
+  '300A0230': Element | undefined;
   // Application Setup Type
-  '300a0232': Element | undefined;
+  '300A0232': Element | undefined;
   // Application Setup Number
-  '300a0234': Element | undefined;
+  '300A0234': Element | undefined;
   // Application Setup Name
-  '300a0236': Element | undefined;
+  '300A0236': Element | undefined;
   // Application Setup Manufacturer
-  '300a0238': Element | undefined;
+  '300A0238': Element | undefined;
   // Template Number
-  '300a0240': Element | undefined;
+  '300A0240': Element | undefined;
   // Template Type
-  '300a0242': Element | undefined;
+  '300A0242': Element | undefined;
   // Template Name
-  '300a0244': Element | undefined;
+  '300A0244': Element | undefined;
   // Total Reference Air Kerma
-  '300a0250': Element | undefined;
+  '300A0250': Element | undefined;
   // Brachy Accessory Device Sequence
-  '300a0260': Element | undefined;
+  '300A0260': Element | undefined;
   // Brachy Accessory Device Number
-  '300a0262': Element | undefined;
+  '300A0262': Element | undefined;
   // Brachy Accessory Device ID
-  '300a0263': Element | undefined;
+  '300A0263': Element | undefined;
   // Brachy Accessory Device Type
-  '300a0264': Element | undefined;
+  '300A0264': Element | undefined;
   // Brachy Accessory Device Name
-  '300a0266': Element | undefined;
+  '300A0266': Element | undefined;
   // Brachy Accessory Device Nominal Thickness
-  '300a026a': Element | undefined;
+  '300A026A': Element | undefined;
   // Brachy Accessory Device Nominal Transmission
-  '300a026c': Element | undefined;
+  '300A026C': Element | undefined;
   // Channel Sequence
-  '300a0280': Element | undefined;
+  '300A0280': Element | undefined;
   // Channel Number
-  '300a0282': Element | undefined;
+  '300A0282': Element | undefined;
   // Channel Length
-  '300a0284': Element | undefined;
+  '300A0284': Element | undefined;
   // Channel Total Time
-  '300a0286': Element | undefined;
+  '300A0286': Element | undefined;
   // Source Movement Type
-  '300a0288': Element | undefined;
+  '300A0288': Element | undefined;
   // Number of Pulses
-  '300a028a': Element | undefined;
+  '300A028A': Element | undefined;
   // Pulse Repetition Interval
-  '300a028c': Element | undefined;
+  '300A028C': Element | undefined;
   // Source Applicator Number
-  '300a0290': Element | undefined;
+  '300A0290': Element | undefined;
   // Source Applicator ID
-  '300a0291': Element | undefined;
+  '300A0291': Element | undefined;
   // Source Applicator Type
-  '300a0292': Element | undefined;
+  '300A0292': Element | undefined;
   // Source Applicator Name
-  '300a0294': Element | undefined;
+  '300A0294': Element | undefined;
   // Source Applicator Length
-  '300a0296': Element | undefined;
+  '300A0296': Element | undefined;
   // Source Applicator Manufacturer
-  '300a0298': Element | undefined;
+  '300A0298': Element | undefined;
   // Source Applicator Wall Nominal Thickness
-  '300a029c': Element | undefined;
+  '300A029C': Element | undefined;
   // Source Applicator Wall Nominal Transmission
-  '300a029e': Element | undefined;
+  '300A029E': Element | undefined;
   // Source Applicator Step Size
-  '300a02a0': Element | undefined;
+  '300A02A0': Element | undefined;
   // Transfer Tube Number
-  '300a02a2': Element | undefined;
+  '300A02A2': Element | undefined;
   // Transfer Tube Length
-  '300a02a4': Element | undefined;
+  '300A02A4': Element | undefined;
   // Channel Shield Sequence
-  '300a02b0': Element | undefined;
+  '300A02B0': Element | undefined;
   // Channel Shield Number
-  '300a02b2': Element | undefined;
+  '300A02B2': Element | undefined;
   // Channel Shield ID
-  '300a02b3': Element | undefined;
+  '300A02B3': Element | undefined;
   // Channel Shield Name
-  '300a02b4': Element | undefined;
+  '300A02B4': Element | undefined;
   // Channel Shield Nominal Thickness
-  '300a02b8': Element | undefined;
+  '300A02B8': Element | undefined;
   // Channel Shield Nominal Transmission
-  '300a02ba': Element | undefined;
+  '300A02BA': Element | undefined;
   // Final Cumulative Time Weight
-  '300a02c8': Element | undefined;
+  '300A02C8': Element | undefined;
   // Brachy Control Point Sequence
-  '300a02d0': Element | undefined;
+  '300A02D0': Element | undefined;
   // Control Point Relative Position
-  '300a02d2': Element | undefined;
+  '300A02D2': Element | undefined;
   // Control Point 3D Position
-  '300a02d4': Element | undefined;
+  '300A02D4': Element | undefined;
   // Cumulative Time Weight
-  '300a02d6': Element | undefined;
+  '300A02D6': Element | undefined;
   // Compensator Divergence
-  '300a02e0': Element | undefined;
+  '300A02E0': Element | undefined;
   // Compensator Mounting Position
-  '300a02e1': Element | undefined;
+  '300A02E1': Element | undefined;
   // Source to Compensator Distance
-  '300a02e2': Element | undefined;
+  '300A02E2': Element | undefined;
   // Total Compensator Tray Water-Equivalent Thickness
-  '300a02e3': Element | undefined;
+  '300A02E3': Element | undefined;
   // Isocenter to Compensator Tray Distance
-  '300a02e4': Element | undefined;
+  '300A02E4': Element | undefined;
   // Compensator Column Offset
-  '300a02e5': Element | undefined;
+  '300A02E5': Element | undefined;
   // Isocenter to Compensator Distances
-  '300a02e6': Element | undefined;
+  '300A02E6': Element | undefined;
   // Compensator Relative Stopping Power Ratio
-  '300a02e7': Element | undefined;
+  '300A02E7': Element | undefined;
   // Compensator Milling Tool Diameter
-  '300a02e8': Element | undefined;
+  '300A02E8': Element | undefined;
   // Ion Range Compensator Sequence
-  '300a02ea': Element | undefined;
+  '300A02EA': Element | undefined;
   // Compensator Description
-  '300a02eb': Element | undefined;
+  '300A02EB': Element | undefined;
   // Radiation Mass Number
-  '300a0302': Element | undefined;
+  '300A0302': Element | undefined;
   // Radiation Atomic Number
-  '300a0304': Element | undefined;
+  '300A0304': Element | undefined;
   // Radiation Charge State
-  '300a0306': Element | undefined;
+  '300A0306': Element | undefined;
   // Scan Mode
-  '300a0308': Element | undefined;
+  '300A0308': Element | undefined;
   // Virtual Source-Axis Distances
-  '300a030a': Element | undefined;
+  '300A030A': Element | undefined;
   // Snout Sequence
-  '300a030c': Element | undefined;
+  '300A030C': Element | undefined;
   // Snout Position
-  '300a030d': Element | undefined;
+  '300A030D': Element | undefined;
   // Snout ID
-  '300a030f': Element | undefined;
+  '300A030F': Element | undefined;
   // Number of Range Shifters
-  '300a0312': Element | undefined;
+  '300A0312': Element | undefined;
   // Range Shifter Sequence
-  '300a0314': Element | undefined;
+  '300A0314': Element | undefined;
   // Range Shifter Number
-  '300a0316': Element | undefined;
+  '300A0316': Element | undefined;
   // Range Shifter ID
-  '300a0318': Element | undefined;
+  '300A0318': Element | undefined;
   // Range Shifter Type
-  '300a0320': Element | undefined;
+  '300A0320': Element | undefined;
   // Range Shifter Description
-  '300a0322': Element | undefined;
+  '300A0322': Element | undefined;
   // Number of Lateral Spreading Devices
-  '300a0330': Element | undefined;
+  '300A0330': Element | undefined;
   // Lateral Spreading Device Sequence
-  '300a0332': Element | undefined;
+  '300A0332': Element | undefined;
   // Lateral Spreading Device Number
-  '300a0334': Element | undefined;
+  '300A0334': Element | undefined;
   // Lateral Spreading Device ID
-  '300a0336': Element | undefined;
+  '300A0336': Element | undefined;
   // Lateral Spreading Device Type
-  '300a0338': Element | undefined;
+  '300A0338': Element | undefined;
   // Lateral Spreading Device Description
-  '300a033a': Element | undefined;
+  '300A033A': Element | undefined;
   // Lateral Spreading Device Water Equivalent Thickness
-  '300a033c': Element | undefined;
+  '300A033C': Element | undefined;
   // Number of Range Modulators
-  '300a0340': Element | undefined;
+  '300A0340': Element | undefined;
   // Range Modulator Sequence
-  '300a0342': Element | undefined;
+  '300A0342': Element | undefined;
   // Range Modulator Number
-  '300a0344': Element | undefined;
+  '300A0344': Element | undefined;
   // Range Modulator ID
-  '300a0346': Element | undefined;
+  '300A0346': Element | undefined;
   // Range Modulator Type
-  '300a0348': Element | undefined;
+  '300A0348': Element | undefined;
   // Range Modulator Description
-  '300a034a': Element | undefined;
+  '300A034A': Element | undefined;
   // Beam Current Modulation ID
-  '300a034c': Element | undefined;
+  '300A034C': Element | undefined;
   // Patient Support Type
-  '300a0350': Element | undefined;
+  '300A0350': Element | undefined;
   // Patient Support ID
-  '300a0352': Element | undefined;
+  '300A0352': Element | undefined;
   // Patient Support Accessory Code
-  '300a0354': Element | undefined;
+  '300A0354': Element | undefined;
   // Fixation Light Azimuthal Angle
-  '300a0356': Element | undefined;
+  '300A0356': Element | undefined;
   // Fixation Light Polar Angle
-  '300a0358': Element | undefined;
+  '300A0358': Element | undefined;
   // Meterset Rate
-  '300a035a': Element | undefined;
+  '300A035A': Element | undefined;
   // Range Shifter Settings Sequence
-  '300a0360': Element | undefined;
+  '300A0360': Element | undefined;
   // Range Shifter Setting
-  '300a0362': Element | undefined;
+  '300A0362': Element | undefined;
   // Isocenter to Range Shifter Distance
-  '300a0364': Element | undefined;
+  '300A0364': Element | undefined;
   // Range Shifter Water Equivalent Thickness
-  '300a0366': Element | undefined;
+  '300A0366': Element | undefined;
   // Lateral Spreading Device Settings Sequence
-  '300a0370': Element | undefined;
+  '300A0370': Element | undefined;
   // Lateral Spreading Device Setting
-  '300a0372': Element | undefined;
+  '300A0372': Element | undefined;
   // Isocenter to Lateral Spreading Device Distance
-  '300a0374': Element | undefined;
+  '300A0374': Element | undefined;
   // Range Modulator Settings Sequence
-  '300a0380': Element | undefined;
+  '300A0380': Element | undefined;
   // Range Modulator Gating Start Value
-  '300a0382': Element | undefined;
+  '300A0382': Element | undefined;
   // Range Modulator Gating Stop Value
-  '300a0384': Element | undefined;
+  '300A0384': Element | undefined;
   // Range Modulator Gating Start Water Equivalent Thickness
-  '300a0386': Element | undefined;
+  '300A0386': Element | undefined;
   // Range Modulator Gating Stop Water Equivalent Thickness
-  '300a0388': Element | undefined;
+  '300A0388': Element | undefined;
   // Isocenter to Range Modulator Distance
-  '300a038a': Element | undefined;
+  '300A038A': Element | undefined;
   // Scan Spot Tune ID
-  '300a0390': Element | undefined;
+  '300A0390': Element | undefined;
   // Number of Scan Spot Positions
-  '300a0392': Element | undefined;
+  '300A0392': Element | undefined;
   // Scan Spot Position Map
-  '300a0394': Element | undefined;
+  '300A0394': Element | undefined;
   // Scan Spot Meterset Weights
-  '300a0396': Element | undefined;
+  '300A0396': Element | undefined;
   // Scanning Spot Size
-  '300a0398': Element | undefined;
+  '300A0398': Element | undefined;
   // Number of Paintings
-  '300a039a': Element | undefined;
+  '300A039A': Element | undefined;
   // Ion Tolerance Table Sequence
-  '300a03a0': Element | undefined;
+  '300A03A0': Element | undefined;
   // Ion Beam Sequence
-  '300a03a2': Element | undefined;
+  '300A03A2': Element | undefined;
   // Ion Beam Limiting Device Sequence
-  '300a03a4': Element | undefined;
+  '300A03A4': Element | undefined;
   // Ion Block Sequence
-  '300a03a6': Element | undefined;
+  '300A03A6': Element | undefined;
   // Ion Control Point Sequence
-  '300a03a8': Element | undefined;
+  '300A03A8': Element | undefined;
   // Ion Wedge Sequence
-  '300a03aa': Element | undefined;
+  '300A03AA': Element | undefined;
   // Ion Wedge Position Sequence
-  '300a03ac': Element | undefined;
+  '300A03AC': Element | undefined;
   // Referenced Setup Image Sequence
-  '300a0401': Element | undefined;
+  '300A0401': Element | undefined;
   // Setup Image Comment
-  '300a0402': Element | undefined;
+  '300A0402': Element | undefined;
   // Motion Synchronization Sequence
-  '300a0410': Element | undefined;
+  '300A0410': Element | undefined;
   // Control Point Orientation
-  '300a0412': Element | undefined;
+  '300A0412': Element | undefined;
   // General Accessory Sequence
-  '300a0420': Element | undefined;
+  '300A0420': Element | undefined;
   // General Accessory ID
-  '300a0421': Element | undefined;
+  '300A0421': Element | undefined;
   // General Accessory Description
-  '300a0422': Element | undefined;
+  '300A0422': Element | undefined;
   // General Accessory Type
-  '300a0423': Element | undefined;
+  '300A0423': Element | undefined;
   // General Accessory Number
-  '300a0424': Element | undefined;
+  '300A0424': Element | undefined;
   // Source to General Accessory Distance
-  '300a0425': Element | undefined;
+  '300A0425': Element | undefined;
   // Applicator Geometry Sequence
-  '300a0431': Element | undefined;
+  '300A0431': Element | undefined;
   // Applicator Aperture Shape
-  '300a0432': Element | undefined;
+  '300A0432': Element | undefined;
   // Applicator Opening
-  '300a0433': Element | undefined;
+  '300A0433': Element | undefined;
   // Applicator Opening X
-  '300a0434': Element | undefined;
+  '300A0434': Element | undefined;
   // Applicator Opening Y
-  '300a0435': Element | undefined;
+  '300A0435': Element | undefined;
   // Source to Applicator Mounting Position Distance
-  '300a0436': Element | undefined;
+  '300A0436': Element | undefined;
   // Referenced RT Plan Sequence
-  '300c0002': Element | undefined;
+  '300C0002': Element | undefined;
   // Referenced Beam Sequence
-  '300c0004': Element | undefined;
+  '300C0004': Element | undefined;
   // Referenced Beam Number
-  '300c0006': Element | undefined;
+  '300C0006': Element | undefined;
   // Referenced Reference Image Number
-  '300c0007': Element | undefined;
+  '300C0007': Element | undefined;
   // Start Cumulative Meterset Weight
-  '300c0008': Element | undefined;
+  '300C0008': Element | undefined;
   // End Cumulative Meterset Weight
-  '300c0009': Element | undefined;
+  '300C0009': Element | undefined;
   // Referenced Brachy Application Setup Sequence
-  '300c000a': Element | undefined;
+  '300C000A': Element | undefined;
   // Referenced Brachy Application Setup Number
-  '300c000c': Element | undefined;
+  '300C000C': Element | undefined;
   // Referenced Source Number
-  '300c000e': Element | undefined;
+  '300C000E': Element | undefined;
   // Referenced Fraction Group Sequence
-  '300c0020': Element | undefined;
+  '300C0020': Element | undefined;
   // Referenced Fraction Group Number
-  '300c0022': Element | undefined;
+  '300C0022': Element | undefined;
   // Referenced Verification Image Sequence
-  '300c0040': Element | undefined;
+  '300C0040': Element | undefined;
   // Referenced Reference Image Sequence
-  '300c0042': Element | undefined;
+  '300C0042': Element | undefined;
   // Referenced Dose Reference Sequence
-  '300c0050': Element | undefined;
+  '300C0050': Element | undefined;
   // Referenced Dose Reference Number
-  '300c0051': Element | undefined;
+  '300C0051': Element | undefined;
   // Brachy Referenced Dose Reference Sequence
-  '300c0055': Element | undefined;
+  '300C0055': Element | undefined;
   // Referenced Structure Set Sequence
-  '300c0060': Element | undefined;
+  '300C0060': Element | undefined;
   // Referenced Patient Setup Number
-  '300c006a': Element | undefined;
+  '300C006A': Element | undefined;
   // Referenced Dose Sequence
-  '300c0080': Element | undefined;
+  '300C0080': Element | undefined;
   // Referenced Tolerance Table Number
-  '300c00a0': Element | undefined;
+  '300C00A0': Element | undefined;
   // Referenced Bolus Sequence
-  '300c00b0': Element | undefined;
+  '300C00B0': Element | undefined;
   // Referenced Wedge Number
-  '300c00c0': Element | undefined;
+  '300C00C0': Element | undefined;
   // Referenced Compensator Number
-  '300c00d0': Element | undefined;
+  '300C00D0': Element | undefined;
   // Referenced Block Number
-  '300c00e0': Element | undefined;
+  '300C00E0': Element | undefined;
   // Referenced Control Point Index
-  '300c00f0': Element | undefined;
+  '300C00F0': Element | undefined;
   // Referenced Control Point Sequence
-  '300c00f2': Element | undefined;
+  '300C00F2': Element | undefined;
   // Referenced Start Control Point Index
-  '300c00f4': Element | undefined;
+  '300C00F4': Element | undefined;
   // Referenced Stop Control Point Index
-  '300c00f6': Element | undefined;
+  '300C00F6': Element | undefined;
   // Referenced Range Shifter Number
-  '300c0100': Element | undefined;
+  '300C0100': Element | undefined;
   // Referenced Lateral Spreading Device Number
-  '300c0102': Element | undefined;
+  '300C0102': Element | undefined;
   // Referenced Range Modulator Number
-  '300c0104': Element | undefined;
+  '300C0104': Element | undefined;
   // Approval Status
-  '300e0002': Element | undefined;
+  '300E0002': Element | undefined;
   // Review Date
-  '300e0004': Element | undefined;
+  '300E0004': Element | undefined;
   // Review Time
-  '300e0005': Element | undefined;
+  '300E0005': Element | undefined;
   // Reviewer Name
-  '300e0008': Element | undefined;
+  '300E0008': Element | undefined;
   // Arbitrary
   '40000010': Element | undefined;
   // Text Comments
@@ -7294,7 +7294,7 @@ export interface DICOMWebResponse {
   // Referenced Interpretation Sequence
   '40080050': Element | undefined;
   // Report Production Status (Trial)
-  '400800ff': Element | undefined;
+  '400800FF': Element | undefined;
   // Interpretation Recorded Date
   '40080100': Element | undefined;
   // Interpretation Recorded Time
@@ -7308,11 +7308,11 @@ export interface DICOMWebResponse {
   // Interpretation Transcription Time
   '40080109': Element | undefined;
   // Interpretation Transcriber
-  '4008010a': Element | undefined;
+  '4008010A': Element | undefined;
   // Interpretation Text
-  '4008010b': Element | undefined;
+  '4008010B': Element | undefined;
   // Interpretation Author
-  '4008010c': Element | undefined;
+  '4008010C': Element | undefined;
   // Interpretation Approver Sequence
   '40080111': Element | undefined;
   // Interpretation Approval Date
@@ -7330,7 +7330,7 @@ export interface DICOMWebResponse {
   // Distribution Name
   '40080119': Element | undefined;
   // Distribution Address
-  '4008011a': Element | undefined;
+  '4008011A': Element | undefined;
   // Interpretation ID
   '40080200': Element | undefined;
   // Interpretation ID Issuer
@@ -7364,7 +7364,7 @@ export interface DICOMWebResponse {
   // OOI Owner Type
   '40101009': Element | undefined;
   // Route Segment Sequence
-  '4010100a': Element | undefined;
+  '4010100A': Element | undefined;
   // Potential Threat Object ID
   '40101010': Element | undefined;
   // Threat Sequence
@@ -7386,17 +7386,17 @@ export interface DICOMWebResponse {
   // Z Effective
   '40101019': Element | undefined;
   // Boarding Pass ID
-  '4010101a': Element | undefined;
+  '4010101A': Element | undefined;
   // Center of Mass
-  '4010101b': Element | undefined;
+  '4010101B': Element | undefined;
   // Center of PTO
-  '4010101c': Element | undefined;
+  '4010101C': Element | undefined;
   // Bounding Polygon
-  '4010101d': Element | undefined;
+  '4010101D': Element | undefined;
   // Route Segment Start Location ID
-  '4010101e': Element | undefined;
+  '4010101E': Element | undefined;
   // Route Segment End Location ID
-  '4010101f': Element | undefined;
+  '4010101F': Element | undefined;
   // Route Segment Location ID Type
   '40101020': Element | undefined;
   // Abort Reason
@@ -7416,9 +7416,9 @@ export interface DICOMWebResponse {
   // Threat Detection Algorithm and Version
   '40101029': Element | undefined;
   // Assigned Location
-  '4010102a': Element | undefined;
+  '4010102A': Element | undefined;
   // Alarm Decision Time
-  '4010102b': Element | undefined;
+  '4010102B': Element | undefined;
   // Alarm Decision
   '40101031': Element | undefined;
   // Number of Total Objects
@@ -7432,7 +7432,7 @@ export interface DICOMWebResponse {
   // TIP Type
   '40101039': Element | undefined;
   // DICOS Version
-  '4010103a': Element | undefined;
+  '4010103A': Element | undefined;
   // OOI Owner Creation Time
   '40101041': Element | undefined;
   // OOI Type
@@ -7480,13 +7480,13 @@ export interface DICOMWebResponse {
   // Total Processing Time
   '40101069': Element | undefined;
   // Detector Calibration Data
-  '4010106c': Element | undefined;
+  '4010106C': Element | undefined;
   // Additional Screening Performed
-  '4010106d': Element | undefined;
+  '4010106D': Element | undefined;
   // Additional Inspection Selection Criteria
-  '4010106e': Element | undefined;
+  '4010106E': Element | undefined;
   // Additional Inspection Method Sequence
-  '4010106f': Element | undefined;
+  '4010106F': Element | undefined;
   // AIT Device Type
   '40101070': Element | undefined;
   // QR Measurements Sequence
@@ -7506,69 +7506,69 @@ export interface DICOMWebResponse {
   // Anomaly Locator Indicator Sequence
   '40101079': Element | undefined;
   // Anomaly Locator Indicator
-  '4010107a': Element | undefined;
+  '4010107A': Element | undefined;
   // PTO Region Sequence
-  '4010107b': Element | undefined;
+  '4010107B': Element | undefined;
   // Inspection Selection Criteria
-  '4010107c': Element | undefined;
+  '4010107C': Element | undefined;
   // Secondary Inspection Method Sequence
-  '4010107d': Element | undefined;
+  '4010107D': Element | undefined;
   // PRCS to RCS Orientation
-  '4010107e': Element | undefined;
+  '4010107E': Element | undefined;
   // MAC Parameters Sequence
-  '4ffe0001': Element | undefined;
+  '4FFE0001': Element | undefined;
   // Curve Dimensions
-  '50xx0005': Element | undefined;
+  '50XX0005': Element | undefined;
   // Number of Points
-  '50xx0010': Element | undefined;
+  '50XX0010': Element | undefined;
   // Type of Data
-  '50xx0020': Element | undefined;
+  '50XX0020': Element | undefined;
   // Curve Description
-  '50xx0022': Element | undefined;
+  '50XX0022': Element | undefined;
   // Axis Units
-  '50xx0030': Element | undefined;
+  '50XX0030': Element | undefined;
   // Axis Labels
-  '50xx0040': Element | undefined;
+  '50XX0040': Element | undefined;
   // Data Value Representation
-  '50xx0103': Element | undefined;
+  '50XX0103': Element | undefined;
   // Minimum Coordinate Value
-  '50xx0104': Element | undefined;
+  '50XX0104': Element | undefined;
   // Maximum Coordinate Value
-  '50xx0105': Element | undefined;
+  '50XX0105': Element | undefined;
   // Curve Range
-  '50xx0106': Element | undefined;
+  '50XX0106': Element | undefined;
   // Curve Data Descriptor
-  '50xx0110': Element | undefined;
+  '50XX0110': Element | undefined;
   // Coordinate Start Value
-  '50xx0112': Element | undefined;
+  '50XX0112': Element | undefined;
   // Coordinate Step Value
-  '50xx0114': Element | undefined;
+  '50XX0114': Element | undefined;
   // Curve Activation Layer
-  '50xx1001': Element | undefined;
+  '50XX1001': Element | undefined;
   // Audio Type
-  '50xx2000': Element | undefined;
+  '50XX2000': Element | undefined;
   // Audio Sample Format
-  '50xx2002': Element | undefined;
+  '50XX2002': Element | undefined;
   // Number of Channels
-  '50xx2004': Element | undefined;
+  '50XX2004': Element | undefined;
   // Number of Samples
-  '50xx2006': Element | undefined;
+  '50XX2006': Element | undefined;
   // Sample Rate
-  '50xx2008': Element | undefined;
+  '50XX2008': Element | undefined;
   // Total Time
-  '50xx200a': Element | undefined;
+  '50XX200A': Element | undefined;
   // Audio Sample Data
-  '50xx200c': Element | undefined;
+  '50XX200C': Element | undefined;
   // Audio Comments
-  '50xx200e': Element | undefined;
+  '50XX200E': Element | undefined;
   // Curve Label
-  '50xx2500': Element | undefined;
+  '50XX2500': Element | undefined;
   // Curve Referenced Overlay Sequence
-  '50xx2600': Element | undefined;
+  '50XX2600': Element | undefined;
   // Curve Referenced Overlay Group
-  '50xx2610': Element | undefined;
+  '50XX2610': Element | undefined;
   // Curve Data
-  '50xx3000': Element | undefined;
+  '50XX3000': Element | undefined;
   // Shared Functional Groups Sequence
   '52009229': Element | undefined;
   // Per-frame Functional Groups Sequence
@@ -7584,7 +7584,7 @@ export interface DICOMWebResponse {
   // Waveform Sample Interpretation
   '54001006': Element | undefined;
   // Waveform Padding Value
-  '5400100a': Element | undefined;
+  '5400100A': Element | undefined;
   // Waveform Data
   '54001010': Element | undefined;
   // First Order Phase Correction Angle
@@ -7592,104 +7592,104 @@ export interface DICOMWebResponse {
   // Spectroscopy Data
   '56000020': Element | undefined;
   // Overlay Rows
-  '60xx0010': Element | undefined;
+  '60XX0010': Element | undefined;
   // Overlay Columns
-  '60xx0011': Element | undefined;
+  '60XX0011': Element | undefined;
   // Overlay Planes
-  '60xx0012': Element | undefined;
+  '60XX0012': Element | undefined;
   // Number of Frames in Overlay
-  '60xx0015': Element | undefined;
+  '60XX0015': Element | undefined;
   // Overlay Description
-  '60xx0022': Element | undefined;
+  '60XX0022': Element | undefined;
   // Overlay Type
-  '60xx0040': Element | undefined;
+  '60XX0040': Element | undefined;
   // Overlay Subtype
-  '60xx0045': Element | undefined;
+  '60XX0045': Element | undefined;
   // Overlay Origin
-  '60xx0050': Element | undefined;
+  '60XX0050': Element | undefined;
   // Image Frame Origin
-  '60xx0051': Element | undefined;
+  '60XX0051': Element | undefined;
   // Overlay Plane Origin
-  '60xx0052': Element | undefined;
+  '60XX0052': Element | undefined;
   // Overlay Compression Code
-  '60xx0060': Element | undefined;
+  '60XX0060': Element | undefined;
   // Overlay Compression Originator
-  '60xx0061': Element | undefined;
+  '60XX0061': Element | undefined;
   // Overlay Compression Label
-  '60xx0062': Element | undefined;
+  '60XX0062': Element | undefined;
   // Overlay Compression Description
-  '60xx0063': Element | undefined;
+  '60XX0063': Element | undefined;
   // Overlay Compression Step Pointers
-  '60xx0066': Element | undefined;
+  '60XX0066': Element | undefined;
   // Overlay Repeat Interval
-  '60xx0068': Element | undefined;
+  '60XX0068': Element | undefined;
   // Overlay Bits Grouped
-  '60xx0069': Element | undefined;
+  '60XX0069': Element | undefined;
   // Overlay Bits Allocated
-  '60xx0100': Element | undefined;
+  '60XX0100': Element | undefined;
   // Overlay Bit Position
-  '60xx0102': Element | undefined;
+  '60XX0102': Element | undefined;
   // Overlay Format
-  '60xx0110': Element | undefined;
+  '60XX0110': Element | undefined;
   // Overlay Location
-  '60xx0200': Element | undefined;
+  '60XX0200': Element | undefined;
   // Overlay Code Label
-  '60xx0800': Element | undefined;
+  '60XX0800': Element | undefined;
   // Overlay Number of Tables
-  '60xx0802': Element | undefined;
+  '60XX0802': Element | undefined;
   // Overlay Code Table Location
-  '60xx0803': Element | undefined;
+  '60XX0803': Element | undefined;
   // Overlay Bits For Code Word
-  '60xx0804': Element | undefined;
+  '60XX0804': Element | undefined;
   // Overlay Activation Layer
-  '60xx1001': Element | undefined;
+  '60XX1001': Element | undefined;
   // Overlay Descriptor - Gray
-  '60xx1100': Element | undefined;
+  '60XX1100': Element | undefined;
   // Overlay Descriptor - Red
-  '60xx1101': Element | undefined;
+  '60XX1101': Element | undefined;
   // Overlay Descriptor - Green
-  '60xx1102': Element | undefined;
+  '60XX1102': Element | undefined;
   // Overlay Descriptor - Blue
-  '60xx1103': Element | undefined;
+  '60XX1103': Element | undefined;
   // Overlays - Gray
-  '60xx1200': Element | undefined;
+  '60XX1200': Element | undefined;
   // Overlays - Red
-  '60xx1201': Element | undefined;
+  '60XX1201': Element | undefined;
   // Overlays - Green
-  '60xx1202': Element | undefined;
+  '60XX1202': Element | undefined;
   // Overlays - Blue
-  '60xx1203': Element | undefined;
+  '60XX1203': Element | undefined;
   // ROI Area
-  '60xx1301': Element | undefined;
+  '60XX1301': Element | undefined;
   // ROI Mean
-  '60xx1302': Element | undefined;
+  '60XX1302': Element | undefined;
   // ROI Standard Deviation
-  '60xx1303': Element | undefined;
+  '60XX1303': Element | undefined;
   // Overlay Label
-  '60xx1500': Element | undefined;
+  '60XX1500': Element | undefined;
   // Overlay Data
-  '60xx3000': Element | undefined;
+  '60XX3000': Element | undefined;
   // Overlay Comments
-  '60xx4000': Element | undefined;
+  '60XX4000': Element | undefined;
   // Pixel Data
-  '7fe00010': Element | undefined;
+  '7FE00010': Element | undefined;
   // Coefficients SDVN
-  '7fe00020': Element | undefined;
+  '7FE00020': Element | undefined;
   // Coefficients SDHN
-  '7fe00030': Element | undefined;
+  '7FE00030': Element | undefined;
   // Coefficients SDDN
-  '7fe00040': Element | undefined;
+  '7FE00040': Element | undefined;
   // Variable Pixel Data
-  '7fxx0010': Element | undefined;
+  '7FXX0010': Element | undefined;
   // Variable Next Data Group
-  '7fxx0011': Element | undefined;
+  '7FXX0011': Element | undefined;
   // Variable Coefficients SDVN
-  '7fxx0020': Element | undefined;
+  '7FXX0020': Element | undefined;
   // Variable Coefficients SDHN
-  '7fxx0030': Element | undefined;
+  '7FXX0030': Element | undefined;
   // Variable Coefficients SDDN
-  '7fxx0040': Element | undefined;
+  '7FXX0040': Element | undefined;
   // Digital Signatures Sequence
-  'fffafffa': Element | undefined;
+  'FFFAFFFA': Element | undefined;
   // Data Set Trailing Padding
-  'fffcfffc': Element | undefined;}
+  'FFFCFFFC': Element | undefined;}

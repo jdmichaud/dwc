@@ -34,4 +34,4 @@ export interface DICOMWebResponse {
   link: string;
 {{~ it.elements :element}}
   // {{=element.prettyName }}
-  '{{=element.tag.toLowerCase()}}': Element | undefined;{{~}}}
+  '{{=element.tag.toUpperCase()}}': Element | undefined;{{~}}}

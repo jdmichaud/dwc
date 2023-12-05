@@ -541,7 +541,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0004151a(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0004151a']?.Value;
+    const value = this.dwResponse['0004151A']?.Value;
     return convert(value, 0x0004151a, 'Array<string | undefined>');
   }
 
@@ -777,7 +777,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008001a(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0008001a']?.Value;
+    const value = this.dwResponse['0008001A']?.Value;
     return convert(value, 0x0008001a, 'Array<string | undefined>');
   }
 
@@ -795,7 +795,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008001b(): string | undefined {
-    const value = this.dwResponse['0008001b']?.Value;
+    const value = this.dwResponse['0008001B']?.Value;
     return convert(value?.[0], 0x0008001b, 'string');
   }
 
@@ -921,7 +921,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008002a(): string | undefined {
-    const value = this.dwResponse['0008002a']?.Value;
+    const value = this.dwResponse['0008002A']?.Value;
     return convert(value?.[0], 0x0008002a, 'string');
   }
 
@@ -1575,7 +1575,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008010b(): string | undefined {
-    const value = this.dwResponse['0008010b']?.Value;
+    const value = this.dwResponse['0008010B']?.Value;
     return convert(value?.[0], 0x0008010b, 'string');
   }
 
@@ -1593,7 +1593,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008010c(): string | undefined {
-    const value = this.dwResponse['0008010c']?.Value;
+    const value = this.dwResponse['0008010C']?.Value;
     return convert(value?.[0], 0x0008010c, 'string');
   }
 
@@ -1611,7 +1611,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008010d(): string | undefined {
-    const value = this.dwResponse['0008010d']?.Value;
+    const value = this.dwResponse['0008010D']?.Value;
     return convert(value?.[0], 0x0008010d, 'string');
   }
 
@@ -1629,7 +1629,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008010f(): string | undefined {
-    const value = this.dwResponse['0008010f']?.Value;
+    const value = this.dwResponse['0008010F']?.Value;
     return convert(value?.[0], 0x0008010f, 'string');
   }
 
@@ -1795,7 +1795,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008103e(): string | undefined {
-    const value = this.dwResponse['0008103e']?.Value;
+    const value = this.dwResponse['0008103E']?.Value;
     return convert(value?.[0], 0x0008103e, 'string');
   }
 
@@ -1813,7 +1813,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008103f(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0008103f']?.Value;
+    const value = this.dwResponse['0008103F']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -2219,7 +2219,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008113a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0008113a']?.Value;
+    const value = this.dwResponse['0008113A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -2279,7 +2279,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008114a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0008114a']?.Value;
+    const value = this.dwResponse['0008114A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -2299,7 +2299,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008114b(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0008114b']?.Value;
+    const value = this.dwResponse['0008114B']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -2355,7 +2355,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008115a(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0008115a']?.Value;
+    const value = this.dwResponse['0008115A']?.Value;
     return convert(value, 0x0008115a, 'Array<string | undefined>');
   }
 
@@ -2763,7 +2763,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008212a(): number | undefined {
-    const value = this.dwResponse['0008212a']?.Value;
+    const value = this.dwResponse['0008212A']?.Value;
     return convert(value?.[0], 0x0008212a, 'number');
   }
 
@@ -3263,7 +3263,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008225a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0008225a']?.Value;
+    const value = this.dwResponse['0008225A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -3283,7 +3283,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0008225c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0008225c']?.Value;
+    const value = this.dwResponse['0008225C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -4347,7 +4347,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001021a0(): string | undefined {
-    const value = this.dwResponse['001021a0']?.Value;
+    const value = this.dwResponse['001021A0']?.Value;
     return convert(value?.[0], 0x001021a0, 'string');
   }
 
@@ -4365,7 +4365,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001021c0(): number | undefined {
-    const value = this.dwResponse['001021c0']?.Value;
+    const value = this.dwResponse['001021C0']?.Value;
     return convert(value?.[0], 0x001021c0, 'number');
   }
 
@@ -4383,7 +4383,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001021d0(): Date | undefined {
-    const value = this.dwResponse['001021d0']?.Value;
+    const value = this.dwResponse['001021D0']?.Value;
     return convert(value?.[0], 0x001021d0, 'Date');
   }
 
@@ -4401,7 +4401,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001021f0(): string | undefined {
-    const value = this.dwResponse['001021f0']?.Value;
+    const value = this.dwResponse['001021F0']?.Value;
     return convert(value?.[0], 0x001021f0, 'string');
   }
 
@@ -5281,7 +5281,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014201a(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0014201a']?.Value;
+    const value = this.dwResponse['0014201A']?.Value;
     return convert(value, 0x0014201a, 'Array<string | undefined>');
   }
 
@@ -5299,7 +5299,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014201c(): string | undefined {
-    const value = this.dwResponse['0014201c']?.Value;
+    const value = this.dwResponse['0014201C']?.Value;
     return convert(value?.[0], 0x0014201c, 'string');
   }
 
@@ -5317,7 +5317,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014201e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0014201e']?.Value;
+    const value = this.dwResponse['0014201E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -5431,7 +5431,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014220a(): number | undefined {
-    const value = this.dwResponse['0014220a']?.Value;
+    const value = this.dwResponse['0014220A']?.Value;
     return convert(value?.[0], 0x0014220a, 'number');
   }
 
@@ -5449,7 +5449,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014220c(): string | undefined {
-    const value = this.dwResponse['0014220c']?.Value;
+    const value = this.dwResponse['0014220C']?.Value;
     return convert(value?.[0], 0x0014220c, 'string');
   }
 
@@ -5467,7 +5467,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014220e(): string | undefined {
-    const value = this.dwResponse['0014220e']?.Value;
+    const value = this.dwResponse['0014220E']?.Value;
     return convert(value?.[0], 0x0014220e, 'string');
   }
 
@@ -5559,7 +5559,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014222a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0014222a']?.Value;
+    const value = this.dwResponse['0014222A']?.Value;
     return convert(value, 0x0014222a, 'Array<number | undefined>');
   }
 
@@ -5577,7 +5577,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014222c(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0014222c']?.Value;
+    const value = this.dwResponse['0014222C']?.Value;
     return convert(value, 0x0014222c, 'Array<number | undefined>');
   }
 
@@ -5929,7 +5929,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014400a(): string | undefined {
-    const value = this.dwResponse['0014400a']?.Value;
+    const value = this.dwResponse['0014400A']?.Value;
     return convert(value?.[0], 0x0014400a, 'string');
   }
 
@@ -5947,7 +5947,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014400e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0014400e']?.Value;
+    const value = this.dwResponse['0014400E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -6151,7 +6151,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014401a(): number | undefined {
-    const value = this.dwResponse['0014401a']?.Value;
+    const value = this.dwResponse['0014401A']?.Value;
     return convert(value?.[0], 0x0014401a, 'number');
   }
 
@@ -6169,7 +6169,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014401b(): number | undefined {
-    const value = this.dwResponse['0014401b']?.Value;
+    const value = this.dwResponse['0014401B']?.Value;
     return convert(value?.[0], 0x0014401b, 'number');
   }
 
@@ -6187,7 +6187,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014401c(): number | undefined {
-    const value = this.dwResponse['0014401c']?.Value;
+    const value = this.dwResponse['0014401C']?.Value;
     return convert(value?.[0], 0x0014401c, 'number');
   }
 
@@ -6205,7 +6205,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014401d(): number | undefined {
-    const value = this.dwResponse['0014401d']?.Value;
+    const value = this.dwResponse['0014401D']?.Value;
     return convert(value?.[0], 0x0014401d, 'number');
   }
 
@@ -6463,7 +6463,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014403a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0014403a']?.Value;
+    const value = this.dwResponse['0014403A']?.Value;
     return convert(value, 0x0014403a, 'Array<number | undefined>');
   }
 
@@ -6481,7 +6481,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014403c(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0014403c']?.Value;
+    const value = this.dwResponse['0014403C']?.Value;
     return convert(value, 0x0014403c, 'Array<number | undefined>');
   }
 
@@ -6631,7 +6631,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014405a(): number | undefined {
-    const value = this.dwResponse['0014405a']?.Value;
+    const value = this.dwResponse['0014405A']?.Value;
     return convert(value?.[0], 0x0014405a, 'number');
   }
 
@@ -6779,7 +6779,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014407a(): Date | undefined {
-    const value = this.dwResponse['0014407a']?.Value;
+    const value = this.dwResponse['0014407A']?.Value;
     return convert(value?.[0], 0x0014407a, 'Date');
   }
 
@@ -6797,7 +6797,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014407c(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0014407c']?.Value;
+    const value = this.dwResponse['0014407C']?.Value;
     return convert(value, 0x0014407c, 'Array<string | undefined>');
   }
 
@@ -6815,7 +6815,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014407e(): Array<Date | undefined> | undefined {
-    const value = this.dwResponse['0014407e']?.Value;
+    const value = this.dwResponse['0014407E']?.Value;
     return convert(value, 0x0014407e, 'Array<Date | undefined>');
   }
 
@@ -7003,7 +7003,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014408b(): number | undefined {
-    const value = this.dwResponse['0014408b']?.Value;
+    const value = this.dwResponse['0014408B']?.Value;
     return convert(value?.[0], 0x0014408b, 'number');
   }
 
@@ -7021,7 +7021,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014408c(): number | undefined {
-    const value = this.dwResponse['0014408c']?.Value;
+    const value = this.dwResponse['0014408C']?.Value;
     return convert(value?.[0], 0x0014408c, 'number');
   }
 
@@ -7039,7 +7039,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014408d(): number | undefined {
-    const value = this.dwResponse['0014408d']?.Value;
+    const value = this.dwResponse['0014408D']?.Value;
     return convert(value?.[0], 0x0014408d, 'number');
   }
 
@@ -7057,7 +7057,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014408e(): number | undefined {
-    const value = this.dwResponse['0014408e']?.Value;
+    const value = this.dwResponse['0014408E']?.Value;
     return convert(value?.[0], 0x0014408e, 'number');
   }
 
@@ -7113,7 +7113,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014409a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0014409a']?.Value;
+    const value = this.dwResponse['0014409A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -7133,7 +7133,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014409c(): number | undefined {
-    const value = this.dwResponse['0014409c']?.Value;
+    const value = this.dwResponse['0014409C']?.Value;
     return convert(value?.[0], 0x0014409c, 'number');
   }
 
@@ -7151,7 +7151,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014409d(): number | undefined {
-    const value = this.dwResponse['0014409d']?.Value;
+    const value = this.dwResponse['0014409D']?.Value;
     return convert(value?.[0], 0x0014409d, 'number');
   }
 
@@ -7169,7 +7169,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014409f(): number | undefined {
-    const value = this.dwResponse['0014409f']?.Value;
+    const value = this.dwResponse['0014409F']?.Value;
     return convert(value?.[0], 0x0014409f, 'number');
   }
 
@@ -7187,7 +7187,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001440a0(): string | undefined {
-    const value = this.dwResponse['001440a0']?.Value;
+    const value = this.dwResponse['001440A0']?.Value;
     return convert(value?.[0], 0x001440a0, 'string');
   }
 
@@ -7205,7 +7205,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001440a1(): string | undefined {
-    const value = this.dwResponse['001440a1']?.Value;
+    const value = this.dwResponse['001440A1']?.Value;
     return convert(value?.[0], 0x001440a1, 'string');
   }
 
@@ -7223,7 +7223,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001440a2(): string | undefined {
-    const value = this.dwResponse['001440a2']?.Value;
+    const value = this.dwResponse['001440A2']?.Value;
     return convert(value?.[0], 0x001440a2, 'string');
   }
 
@@ -7555,7 +7555,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018002a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0018002a']?.Value;
+    const value = this.dwResponse['0018002A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -8495,7 +8495,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018101a(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0018101a']?.Value;
+    const value = this.dwResponse['0018101A']?.Value;
     return convert(value, 0x0018101a, 'Array<string | undefined>');
   }
 
@@ -8513,7 +8513,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018101b(): string | undefined {
-    const value = this.dwResponse['0018101b']?.Value;
+    const value = this.dwResponse['0018101B']?.Value;
     return convert(value?.[0], 0x0018101b, 'string');
   }
 
@@ -8981,7 +8981,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018106a(): string | undefined {
-    const value = this.dwResponse['0018106a']?.Value;
+    const value = this.dwResponse['0018106A']?.Value;
     return convert(value?.[0], 0x0018106a, 'string');
   }
 
@@ -8999,7 +8999,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018106c(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0018106c']?.Value;
+    const value = this.dwResponse['0018106C']?.Value;
     return convert(value, 0x0018106c, 'Array<number | undefined>');
   }
 
@@ -9017,7 +9017,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018106e(): number | undefined {
-    const value = this.dwResponse['0018106e']?.Value;
+    const value = this.dwResponse['0018106E']?.Value;
     return convert(value?.[0], 0x0018106e, 'number');
   }
 
@@ -9629,7 +9629,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018113a(): string | undefined {
-    const value = this.dwResponse['0018113a']?.Value;
+    const value = this.dwResponse['0018113A']?.Value;
     return convert(value?.[0], 0x0018113a, 'string');
   }
 
@@ -9935,7 +9935,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018115a(): string | undefined {
-    const value = this.dwResponse['0018115a']?.Value;
+    const value = this.dwResponse['0018115A']?.Value;
     return convert(value?.[0], 0x0018115a, 'string');
   }
 
@@ -9953,7 +9953,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018115e(): number | undefined {
-    const value = this.dwResponse['0018115e']?.Value;
+    const value = this.dwResponse['0018115E']?.Value;
     return convert(value?.[0], 0x0018115e, 'number');
   }
 
@@ -10205,7 +10205,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001811a0(): number | undefined {
-    const value = this.dwResponse['001811a0']?.Value;
+    const value = this.dwResponse['001811A0']?.Value;
     return convert(value?.[0], 0x001811a0, 'number');
   }
 
@@ -10223,7 +10223,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001811a2(): number | undefined {
-    const value = this.dwResponse['001811a2']?.Value;
+    const value = this.dwResponse['001811A2']?.Value;
     return convert(value?.[0], 0x001811a2, 'number');
   }
 
@@ -10241,7 +10241,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001811a4(): string | undefined {
-    const value = this.dwResponse['001811a4']?.Value;
+    const value = this.dwResponse['001811A4']?.Value;
     return convert(value?.[0], 0x001811a4, 'string');
   }
 
@@ -12317,7 +12317,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018601a(): number | undefined {
-    const value = this.dwResponse['0018601a']?.Value;
+    const value = this.dwResponse['0018601A']?.Value;
     return convert(value?.[0], 0x0018601a, 'number');
   }
 
@@ -12335,7 +12335,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018601c(): number | undefined {
-    const value = this.dwResponse['0018601c']?.Value;
+    const value = this.dwResponse['0018601C']?.Value;
     return convert(value?.[0], 0x0018601c, 'number');
   }
 
@@ -12353,7 +12353,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018601e(): number | undefined {
-    const value = this.dwResponse['0018601e']?.Value;
+    const value = this.dwResponse['0018601E']?.Value;
     return convert(value?.[0], 0x0018601e, 'number');
   }
 
@@ -12461,7 +12461,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018602a(): number | undefined {
-    const value = this.dwResponse['0018602a']?.Value;
+    const value = this.dwResponse['0018602A']?.Value;
     return convert(value?.[0], 0x0018602a, 'number');
   }
 
@@ -12479,7 +12479,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018602c(): number | undefined {
-    const value = this.dwResponse['0018602c']?.Value;
+    const value = this.dwResponse['0018602C']?.Value;
     return convert(value?.[0], 0x0018602c, 'number');
   }
 
@@ -12497,7 +12497,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018602e(): number | undefined {
-    const value = this.dwResponse['0018602e']?.Value;
+    const value = this.dwResponse['0018602E']?.Value;
     return convert(value?.[0], 0x0018602e, 'number');
   }
 
@@ -12641,7 +12641,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018603a(): number | undefined {
-    const value = this.dwResponse['0018603a']?.Value;
+    const value = this.dwResponse['0018603A']?.Value;
     return convert(value?.[0], 0x0018603a, 'number');
   }
 
@@ -12659,7 +12659,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018603b(): number | undefined {
-    const value = this.dwResponse['0018603b']?.Value;
+    const value = this.dwResponse['0018603B']?.Value;
     return convert(value?.[0], 0x0018603b, 'number');
   }
 
@@ -12677,7 +12677,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018603c(): number | undefined {
-    const value = this.dwResponse['0018603c']?.Value;
+    const value = this.dwResponse['0018603C']?.Value;
     return convert(value?.[0], 0x0018603c, 'number');
   }
 
@@ -12695,7 +12695,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018603d(): number | undefined {
-    const value = this.dwResponse['0018603d']?.Value;
+    const value = this.dwResponse['0018603D']?.Value;
     return convert(value?.[0], 0x0018603d, 'number');
   }
 
@@ -12713,7 +12713,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018603e(): number | undefined {
-    const value = this.dwResponse['0018603e']?.Value;
+    const value = this.dwResponse['0018603E']?.Value;
     return convert(value?.[0], 0x0018603e, 'number');
   }
 
@@ -12731,7 +12731,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018603f(): number | undefined {
-    const value = this.dwResponse['0018603f']?.Value;
+    const value = this.dwResponse['0018603F']?.Value;
     return convert(value?.[0], 0x0018603f, 'number');
   }
 
@@ -12875,7 +12875,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018604a(): number | undefined {
-    const value = this.dwResponse['0018604a']?.Value;
+    const value = this.dwResponse['0018604A']?.Value;
     return convert(value?.[0], 0x0018604a, 'number');
   }
 
@@ -12893,7 +12893,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018604c(): number | undefined {
-    const value = this.dwResponse['0018604c']?.Value;
+    const value = this.dwResponse['0018604C']?.Value;
     return convert(value?.[0], 0x0018604c, 'number');
   }
 
@@ -12911,7 +12911,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018604e(): number | undefined {
-    const value = this.dwResponse['0018604e']?.Value;
+    const value = this.dwResponse['0018604E']?.Value;
     return convert(value?.[0], 0x0018604e, 'number');
   }
 
@@ -13019,7 +13019,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018605a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0018605a']?.Value;
+    const value = this.dwResponse['0018605A']?.Value;
     return convert(value, 0x0018605a, 'Array<number | undefined>');
   }
 
@@ -13127,7 +13127,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018700a(): string | undefined {
-    const value = this.dwResponse['0018700a']?.Value;
+    const value = this.dwResponse['0018700A']?.Value;
     return convert(value?.[0], 0x0018700a, 'string');
   }
 
@@ -13145,7 +13145,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018700c(): Date | undefined {
-    const value = this.dwResponse['0018700c']?.Value;
+    const value = this.dwResponse['0018700C']?.Value;
     return convert(value?.[0], 0x0018700c, 'Date');
   }
 
@@ -13163,7 +13163,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018700e(): string | undefined {
-    const value = this.dwResponse['0018700e']?.Value;
+    const value = this.dwResponse['0018700E']?.Value;
     return convert(value?.[0], 0x0018700e, 'string');
   }
 
@@ -13271,7 +13271,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018701a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0018701a']?.Value;
+    const value = this.dwResponse['0018701A']?.Value;
     return convert(value, 0x0018701a, 'Array<number | undefined>');
   }
 
@@ -13379,7 +13379,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018702a(): string | undefined {
-    const value = this.dwResponse['0018702a']?.Value;
+    const value = this.dwResponse['0018702A']?.Value;
     return convert(value?.[0], 0x0018702a, 'string');
   }
 
@@ -13397,7 +13397,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018702b(): string | undefined {
-    const value = this.dwResponse['0018702b']?.Value;
+    const value = this.dwResponse['0018702B']?.Value;
     return convert(value?.[0], 0x0018702b, 'string');
   }
 
@@ -13577,7 +13577,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018704c(): number | undefined {
-    const value = this.dwResponse['0018704c']?.Value;
+    const value = this.dwResponse['0018704C']?.Value;
     return convert(value?.[0], 0x0018704c, 'number');
   }
 
@@ -16489,7 +16489,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018925a(): number | undefined {
-    const value = this.dwResponse['0018925a']?.Value;
+    const value = this.dwResponse['0018925A']?.Value;
     return convert(value?.[0], 0x0018925a, 'number');
   }
 
@@ -16507,7 +16507,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018925b(): string | undefined {
-    const value = this.dwResponse['0018925b']?.Value;
+    const value = this.dwResponse['0018925B']?.Value;
     return convert(value?.[0], 0x0018925b, 'string');
   }
 
@@ -16525,7 +16525,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018925c(): string | undefined {
-    const value = this.dwResponse['0018925c']?.Value;
+    const value = this.dwResponse['0018925C']?.Value;
     return convert(value?.[0], 0x0018925c, 'string');
   }
 
@@ -16543,7 +16543,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018925d(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0018925d']?.Value;
+    const value = this.dwResponse['0018925D']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -16563,7 +16563,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018925e(): string | undefined {
-    const value = this.dwResponse['0018925e']?.Value;
+    const value = this.dwResponse['0018925E']?.Value;
     return convert(value?.[0], 0x0018925e, 'string');
   }
 
@@ -16581,7 +16581,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018925f(): number | undefined {
-    const value = this.dwResponse['0018925f']?.Value;
+    const value = this.dwResponse['0018925F']?.Value;
     return convert(value?.[0], 0x0018925f, 'number');
   }
 
@@ -20343,7 +20343,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018980b(): string | undefined {
-    const value = this.dwResponse['0018980b']?.Value;
+    const value = this.dwResponse['0018980B']?.Value;
     return convert(value?.[0], 0x0018980b, 'string');
   }
 
@@ -20361,7 +20361,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018980c(): string | undefined {
-    const value = this.dwResponse['0018980c']?.Value;
+    const value = this.dwResponse['0018980C']?.Value;
     return convert(value?.[0], 0x0018980c, 'string');
   }
 
@@ -20379,7 +20379,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018980d(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0018980d']?.Value;
+    const value = this.dwResponse['0018980D']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -20399,7 +20399,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018980e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0018980e']?.Value;
+    const value = this.dwResponse['0018980E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -20419,7 +20419,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018980f(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0018980f']?.Value;
+    const value = this.dwResponse['0018980F']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -20457,7 +20457,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018a001(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0018a001']?.Value;
+    const value = this.dwResponse['0018A001']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -20477,7 +20477,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018a002(): string | undefined {
-    const value = this.dwResponse['0018a002']?.Value;
+    const value = this.dwResponse['0018A002']?.Value;
     return convert(value?.[0], 0x0018a002, 'string');
   }
 
@@ -20495,7 +20495,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0020000d(): string | undefined {
-    const value = this.dwResponse['0020000d']?.Value;
+    const value = this.dwResponse['0020000D']?.Value;
     return convert(value?.[0], 0x0020000d, 'string');
   }
 
@@ -20513,7 +20513,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0020000e(): string | undefined {
-    const value = this.dwResponse['0020000e']?.Value;
+    const value = this.dwResponse['0020000E']?.Value;
     return convert(value?.[0], 0x0020000e, 'string');
   }
 
@@ -20963,7 +20963,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002000aa(): number | undefined {
-    const value = this.dwResponse['002000aa']?.Value;
+    const value = this.dwResponse['002000AA']?.Value;
     return convert(value?.[0], 0x002000aa, 'number');
   }
 
@@ -21359,7 +21359,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002031xx(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['002031xx']?.Value;
+    const value = this.dwResponse['002031XX']?.Value;
     throw new Error('Unsupported field SourceImageIDs (002031xx)');
   }
 
@@ -22369,7 +22369,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0020930a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0020930a']?.Value;
+    const value = this.dwResponse['0020930A']?.Value;
     return convert(value, 0x0020930a, 'Array<number | undefined>');
   }
 
@@ -22387,7 +22387,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0020930b(): string | undefined {
-    const value = this.dwResponse['0020930b']?.Value;
+    const value = this.dwResponse['0020930B']?.Value;
     return convert(value?.[0], 0x0020930b, 'string');
   }
 
@@ -22405,7 +22405,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0020930c(): string | undefined {
-    const value = this.dwResponse['0020930c']?.Value;
+    const value = this.dwResponse['0020930C']?.Value;
     return convert(value?.[0], 0x0020930c, 'string');
   }
 
@@ -22423,7 +22423,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0020930d(): number | undefined {
-    const value = this.dwResponse['0020930d']?.Value;
+    const value = this.dwResponse['0020930D']?.Value;
     return convert(value?.[0], 0x0020930d, 'number');
   }
 
@@ -22441,7 +22441,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0020930e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0020930e']?.Value;
+    const value = this.dwResponse['0020930E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -22461,7 +22461,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0020930f(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0020930f']?.Value;
+    const value = this.dwResponse['0020930F']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -22831,7 +22831,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022000a(): number | undefined {
-    const value = this.dwResponse['0022000a']?.Value;
+    const value = this.dwResponse['0022000A']?.Value;
     return convert(value?.[0], 0x0022000a, 'number');
   }
 
@@ -22849,7 +22849,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022000b(): number | undefined {
-    const value = this.dwResponse['0022000b']?.Value;
+    const value = this.dwResponse['0022000B']?.Value;
     return convert(value?.[0], 0x0022000b, 'number');
   }
 
@@ -22867,7 +22867,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022000c(): number | undefined {
-    const value = this.dwResponse['0022000c']?.Value;
+    const value = this.dwResponse['0022000C']?.Value;
     return convert(value?.[0], 0x0022000c, 'number');
   }
 
@@ -22885,7 +22885,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022000d(): string | undefined {
-    const value = this.dwResponse['0022000d']?.Value;
+    const value = this.dwResponse['0022000D']?.Value;
     return convert(value?.[0], 0x0022000d, 'string');
   }
 
@@ -22903,7 +22903,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022000e(): number | undefined {
-    const value = this.dwResponse['0022000e']?.Value;
+    const value = this.dwResponse['0022000E']?.Value;
     return convert(value?.[0], 0x0022000e, 'number');
   }
 
@@ -23111,7 +23111,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022001a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0022001a']?.Value;
+    const value = this.dwResponse['0022001A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -23131,7 +23131,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022001b(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0022001b']?.Value;
+    const value = this.dwResponse['0022001B']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -23151,7 +23151,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022001c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0022001c']?.Value;
+    const value = this.dwResponse['0022001C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -23171,7 +23171,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022001d(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0022001d']?.Value;
+    const value = this.dwResponse['0022001D']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -23191,7 +23191,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022001e(): number | undefined {
-    const value = this.dwResponse['0022001e']?.Value;
+    const value = this.dwResponse['0022001E']?.Value;
     return convert(value?.[0], 0x0022001e, 'number');
   }
 
@@ -23489,7 +23489,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0022004e(): number | undefined {
-    const value = this.dwResponse['0022004e']?.Value;
+    const value = this.dwResponse['0022004E']?.Value;
     return convert(value?.[0], 0x0022004e, 'number');
   }
 
@@ -27129,7 +27129,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028000a(): Array<Uint16Array | undefined> | undefined {
-    const value = this.dwResponse['0028000a']?.Value;
+    const value = this.dwResponse['0028000A']?.Value;
     return convert(value, 0x0028000a, 'Array<Uint16Array | undefined>');
   }
 
@@ -27345,7 +27345,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028005f(): string | undefined {
-    const value = this.dwResponse['0028005f']?.Value;
+    const value = this.dwResponse['0028005F']?.Value;
     return convert(value?.[0], 0x0028005f, 'string');
   }
 
@@ -28137,7 +28137,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002804x0(): number | undefined {
-    const value = this.dwResponse['002804x0']?.Value;
+    const value = this.dwResponse['002804X0']?.Value;
     throw new Error('Unsupported field RowsForNthOrderCoefficients (002804x0)');
   }
 
@@ -28155,7 +28155,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002804x1(): number | undefined {
-    const value = this.dwResponse['002804x1']?.Value;
+    const value = this.dwResponse['002804X1']?.Value;
     throw new Error('Unsupported field ColumnsForNthOrderCoefficients (002804x1)');
   }
 
@@ -28173,7 +28173,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002804x2(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['002804x2']?.Value;
+    const value = this.dwResponse['002804X2']?.Value;
     throw new Error('Unsupported field CoefficientCoding (002804x2)');
   }
 
@@ -28191,7 +28191,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002804x3(): Array<Uint16Array | undefined> | undefined {
-    const value = this.dwResponse['002804x3']?.Value;
+    const value = this.dwResponse['002804X3']?.Value;
     throw new Error('Unsupported field CoefficientCodingPointers (002804x3)');
   }
 
@@ -28371,7 +28371,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002808x0(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['002808x0']?.Value;
+    const value = this.dwResponse['002808X0']?.Value;
     throw new Error('Unsupported field CodeLabel (002808x0)');
   }
 
@@ -28389,7 +28389,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002808x2(): number | undefined {
-    const value = this.dwResponse['002808x2']?.Value;
+    const value = this.dwResponse['002808X2']?.Value;
     throw new Error('Unsupported field NumberOfTables (002808x2)');
   }
 
@@ -28407,7 +28407,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002808x3(): Array<Uint16Array | undefined> | undefined {
-    const value = this.dwResponse['002808x3']?.Value;
+    const value = this.dwResponse['002808X3']?.Value;
     throw new Error('Unsupported field CodeTableLocation (002808x3)');
   }
 
@@ -28425,7 +28425,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002808x4(): number | undefined {
-    const value = this.dwResponse['002808x4']?.Value;
+    const value = this.dwResponse['002808X4']?.Value;
     throw new Error('Unsupported field BitsForCodeWord (002808x4)');
   }
 
@@ -28443,7 +28443,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x002808x8(): Array<Uint16Array | undefined> | undefined {
-    const value = this.dwResponse['002808x8']?.Value;
+    const value = this.dwResponse['002808X8']?.Value;
     throw new Error('Unsupported field ImageDataLocation (002808x8)');
   }
 
@@ -28461,7 +28461,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x00280a02(): string | undefined {
-    const value = this.dwResponse['00280a02']?.Value;
+    const value = this.dwResponse['00280A02']?.Value;
     return convert(value?.[0], 0x00280a02, 'string');
   }
 
@@ -28479,7 +28479,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x00280a04(): string | undefined {
-    const value = this.dwResponse['00280a04']?.Value;
+    const value = this.dwResponse['00280A04']?.Value;
     return convert(value?.[0], 0x00280a04, 'string');
   }
 
@@ -28931,7 +28931,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028135a(): string | undefined {
-    const value = this.dwResponse['0028135a']?.Value;
+    const value = this.dwResponse['0028135A']?.Value;
     return convert(value?.[0], 0x0028135a, 'string');
   }
 
@@ -29079,7 +29079,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028140b(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0028140b']?.Value;
+    const value = this.dwResponse['0028140B']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -29099,7 +29099,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028140c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0028140c']?.Value;
+    const value = this.dwResponse['0028140C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -29119,7 +29119,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028140d(): string | undefined {
-    const value = this.dwResponse['0028140d']?.Value;
+    const value = this.dwResponse['0028140D']?.Value;
     return convert(value?.[0], 0x0028140d, 'string');
   }
 
@@ -29137,7 +29137,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028140e(): string | undefined {
-    const value = this.dwResponse['0028140e']?.Value;
+    const value = this.dwResponse['0028140E']?.Value;
     return convert(value?.[0], 0x0028140e, 'string');
   }
 
@@ -29155,7 +29155,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028140f(): string | undefined {
-    const value = this.dwResponse['0028140f']?.Value;
+    const value = this.dwResponse['0028140F']?.Value;
     return convert(value?.[0], 0x0028140f, 'string');
   }
 
@@ -29799,7 +29799,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028700a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0028700a']?.Value;
+    const value = this.dwResponse['0028700A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -29819,7 +29819,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028700b(): number | undefined {
-    const value = this.dwResponse['0028700b']?.Value;
+    const value = this.dwResponse['0028700B']?.Value;
     return convert(value?.[0], 0x0028700b, 'number');
   }
 
@@ -29837,7 +29837,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028700c(): string | undefined {
-    const value = this.dwResponse['0028700c']?.Value;
+    const value = this.dwResponse['0028700C']?.Value;
     return convert(value?.[0], 0x0028700c, 'string');
   }
 
@@ -29855,7 +29855,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028700d(): string | undefined {
-    const value = this.dwResponse['0028700d']?.Value;
+    const value = this.dwResponse['0028700D']?.Value;
     return convert(value?.[0], 0x0028700d, 'string');
   }
 
@@ -29873,7 +29873,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028700e(): number | undefined {
-    const value = this.dwResponse['0028700e']?.Value;
+    const value = this.dwResponse['0028700E']?.Value;
     return convert(value?.[0], 0x0028700e, 'number');
   }
 
@@ -29891,7 +29891,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028700f(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0028700f']?.Value;
+    const value = this.dwResponse['0028700F']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -30101,7 +30101,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028701a(): number | undefined {
-    const value = this.dwResponse['0028701a']?.Value;
+    const value = this.dwResponse['0028701A']?.Value;
     return convert(value?.[0], 0x0028701a, 'number');
   }
 
@@ -30119,7 +30119,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028701b(): number | undefined {
-    const value = this.dwResponse['0028701b']?.Value;
+    const value = this.dwResponse['0028701B']?.Value;
     return convert(value?.[0], 0x0028701b, 'number');
   }
 
@@ -30137,7 +30137,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028701c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0028701c']?.Value;
+    const value = this.dwResponse['0028701C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -30157,7 +30157,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028701d(): number | undefined {
-    const value = this.dwResponse['0028701d']?.Value;
+    const value = this.dwResponse['0028701D']?.Value;
     return convert(value?.[0], 0x0028701d, 'number');
   }
 
@@ -30175,7 +30175,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028701e(): number | undefined {
-    const value = this.dwResponse['0028701e']?.Value;
+    const value = this.dwResponse['0028701E']?.Value;
     return convert(value?.[0], 0x0028701e, 'number');
   }
 
@@ -30193,7 +30193,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028701f(): number | undefined {
-    const value = this.dwResponse['0028701f']?.Value;
+    const value = this.dwResponse['0028701F']?.Value;
     return convert(value?.[0], 0x0028701f, 'number');
   }
 
@@ -30401,7 +30401,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028702a(): string | undefined {
-    const value = this.dwResponse['0028702a']?.Value;
+    const value = this.dwResponse['0028702A']?.Value;
     return convert(value?.[0], 0x0028702a, 'string');
   }
 
@@ -30419,7 +30419,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028702b(): string | undefined {
-    const value = this.dwResponse['0028702b']?.Value;
+    const value = this.dwResponse['0028702B']?.Value;
     return convert(value?.[0], 0x0028702b, 'string');
   }
 
@@ -30437,7 +30437,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028702c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0028702c']?.Value;
+    const value = this.dwResponse['0028702C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -30457,7 +30457,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028702d(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0028702d']?.Value;
+    const value = this.dwResponse['0028702D']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -30477,7 +30477,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0028702e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0028702e']?.Value;
+    const value = this.dwResponse['0028702E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -31019,7 +31019,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0032000a(): string | undefined {
-    const value = this.dwResponse['0032000a']?.Value;
+    const value = this.dwResponse['0032000A']?.Value;
     return convert(value?.[0], 0x0032000a, 'string');
   }
 
@@ -31037,7 +31037,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0032000c(): string | undefined {
-    const value = this.dwResponse['0032000c']?.Value;
+    const value = this.dwResponse['0032000C']?.Value;
     return convert(value?.[0], 0x0032000c, 'string');
   }
 
@@ -31605,7 +31605,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0038001a(): Date | undefined {
-    const value = this.dwResponse['0038001a']?.Value;
+    const value = this.dwResponse['0038001A']?.Value;
     return convert(value?.[0], 0x0038001a, 'Date');
   }
 
@@ -31623,7 +31623,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0038001b(): string | undefined {
-    const value = this.dwResponse['0038001b']?.Value;
+    const value = this.dwResponse['0038001B']?.Value;
     return convert(value?.[0], 0x0038001b, 'string');
   }
 
@@ -31641,7 +31641,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0038001c(): Date | undefined {
-    const value = this.dwResponse['0038001c']?.Value;
+    const value = this.dwResponse['0038001C']?.Value;
     return convert(value?.[0], 0x0038001c, 'Date');
   }
 
@@ -31659,7 +31659,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0038001d(): string | undefined {
-    const value = this.dwResponse['0038001d']?.Value;
+    const value = this.dwResponse['0038001D']?.Value;
     return convert(value?.[0], 0x0038001d, 'string');
   }
 
@@ -31677,7 +31677,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0038001e(): string | undefined {
-    const value = this.dwResponse['0038001e']?.Value;
+    const value = this.dwResponse['0038001E']?.Value;
     return convert(value?.[0], 0x0038001e, 'string');
   }
 
@@ -31991,7 +31991,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0004(): string | undefined {
-    const value = this.dwResponse['003a0004']?.Value;
+    const value = this.dwResponse['003A0004']?.Value;
     return convert(value?.[0], 0x003a0004, 'string');
   }
 
@@ -32009,7 +32009,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0005(): number | undefined {
-    const value = this.dwResponse['003a0005']?.Value;
+    const value = this.dwResponse['003A0005']?.Value;
     return convert(value?.[0], 0x003a0005, 'number');
   }
 
@@ -32027,7 +32027,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0010(): number | undefined {
-    const value = this.dwResponse['003a0010']?.Value;
+    const value = this.dwResponse['003A0010']?.Value;
     return convert(value?.[0], 0x003a0010, 'number');
   }
 
@@ -32045,7 +32045,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a001a(): number | undefined {
-    const value = this.dwResponse['003a001a']?.Value;
+    const value = this.dwResponse['003A001A']?.Value;
     return convert(value?.[0], 0x003a001a, 'number');
   }
 
@@ -32063,7 +32063,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0020(): string | undefined {
-    const value = this.dwResponse['003a0020']?.Value;
+    const value = this.dwResponse['003A0020']?.Value;
     return convert(value?.[0], 0x003a0020, 'string');
   }
 
@@ -32081,7 +32081,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0200(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['003a0200']?.Value;
+    const value = this.dwResponse['003A0200']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -32101,7 +32101,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0202(): number | undefined {
-    const value = this.dwResponse['003a0202']?.Value;
+    const value = this.dwResponse['003A0202']?.Value;
     return convert(value?.[0], 0x003a0202, 'number');
   }
 
@@ -32119,7 +32119,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0203(): string | undefined {
-    const value = this.dwResponse['003a0203']?.Value;
+    const value = this.dwResponse['003A0203']?.Value;
     return convert(value?.[0], 0x003a0203, 'string');
   }
 
@@ -32137,7 +32137,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0205(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['003a0205']?.Value;
+    const value = this.dwResponse['003A0205']?.Value;
     return convert(value, 0x003a0205, 'Array<string | undefined>');
   }
 
@@ -32155,7 +32155,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0208(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['003a0208']?.Value;
+    const value = this.dwResponse['003A0208']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -32175,7 +32175,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0209(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['003a0209']?.Value;
+    const value = this.dwResponse['003A0209']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -32195,7 +32195,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a020a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['003a020a']?.Value;
+    const value = this.dwResponse['003A020A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -32215,7 +32215,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a020c(): string | undefined {
-    const value = this.dwResponse['003a020c']?.Value;
+    const value = this.dwResponse['003A020C']?.Value;
     return convert(value?.[0], 0x003a020c, 'string');
   }
 
@@ -32233,7 +32233,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0210(): number | undefined {
-    const value = this.dwResponse['003a0210']?.Value;
+    const value = this.dwResponse['003A0210']?.Value;
     return convert(value?.[0], 0x003a0210, 'number');
   }
 
@@ -32251,7 +32251,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0211(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['003a0211']?.Value;
+    const value = this.dwResponse['003A0211']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -32271,7 +32271,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0212(): number | undefined {
-    const value = this.dwResponse['003a0212']?.Value;
+    const value = this.dwResponse['003A0212']?.Value;
     return convert(value?.[0], 0x003a0212, 'number');
   }
 
@@ -32289,7 +32289,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0213(): number | undefined {
-    const value = this.dwResponse['003a0213']?.Value;
+    const value = this.dwResponse['003A0213']?.Value;
     return convert(value?.[0], 0x003a0213, 'number');
   }
 
@@ -32307,7 +32307,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0214(): number | undefined {
-    const value = this.dwResponse['003a0214']?.Value;
+    const value = this.dwResponse['003A0214']?.Value;
     return convert(value?.[0], 0x003a0214, 'number');
   }
 
@@ -32325,7 +32325,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0215(): number | undefined {
-    const value = this.dwResponse['003a0215']?.Value;
+    const value = this.dwResponse['003A0215']?.Value;
     return convert(value?.[0], 0x003a0215, 'number');
   }
 
@@ -32343,7 +32343,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0218(): number | undefined {
-    const value = this.dwResponse['003a0218']?.Value;
+    const value = this.dwResponse['003A0218']?.Value;
     return convert(value?.[0], 0x003a0218, 'number');
   }
 
@@ -32361,7 +32361,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a021a(): number | undefined {
-    const value = this.dwResponse['003a021a']?.Value;
+    const value = this.dwResponse['003A021A']?.Value;
     return convert(value?.[0], 0x003a021a, 'number');
   }
 
@@ -32379,7 +32379,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0220(): number | undefined {
-    const value = this.dwResponse['003a0220']?.Value;
+    const value = this.dwResponse['003A0220']?.Value;
     return convert(value?.[0], 0x003a0220, 'number');
   }
 
@@ -32397,7 +32397,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0221(): number | undefined {
-    const value = this.dwResponse['003a0221']?.Value;
+    const value = this.dwResponse['003A0221']?.Value;
     return convert(value?.[0], 0x003a0221, 'number');
   }
 
@@ -32415,7 +32415,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0222(): number | undefined {
-    const value = this.dwResponse['003a0222']?.Value;
+    const value = this.dwResponse['003A0222']?.Value;
     return convert(value?.[0], 0x003a0222, 'number');
   }
 
@@ -32433,7 +32433,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0223(): number | undefined {
-    const value = this.dwResponse['003a0223']?.Value;
+    const value = this.dwResponse['003A0223']?.Value;
     return convert(value?.[0], 0x003a0223, 'number');
   }
 
@@ -32451,7 +32451,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0230(): number | undefined {
-    const value = this.dwResponse['003a0230']?.Value;
+    const value = this.dwResponse['003A0230']?.Value;
     return convert(value?.[0], 0x003a0230, 'number');
   }
 
@@ -32469,7 +32469,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0231(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['003a0231']?.Value;
+    const value = this.dwResponse['003A0231']?.Value;
     return convert(value, 0x003a0231, 'Array<number | undefined>');
   }
 
@@ -32487,7 +32487,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0240(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['003a0240']?.Value;
+    const value = this.dwResponse['003A0240']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -32507,7 +32507,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0241(): number | undefined {
-    const value = this.dwResponse['003a0241']?.Value;
+    const value = this.dwResponse['003A0241']?.Value;
     return convert(value?.[0], 0x003a0241, 'number');
   }
 
@@ -32525,7 +32525,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0242(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['003a0242']?.Value;
+    const value = this.dwResponse['003A0242']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -32545,7 +32545,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0244(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['003a0244']?.Value;
+    const value = this.dwResponse['003A0244']?.Value;
     return convert(value, 0x003a0244, 'Array<number | undefined>');
   }
 
@@ -32563,7 +32563,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0245(): number | undefined {
-    const value = this.dwResponse['003a0245']?.Value;
+    const value = this.dwResponse['003A0245']?.Value;
     return convert(value?.[0], 0x003a0245, 'number');
   }
 
@@ -32581,7 +32581,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0246(): string | undefined {
-    const value = this.dwResponse['003a0246']?.Value;
+    const value = this.dwResponse['003A0246']?.Value;
     return convert(value?.[0], 0x003a0246, 'string');
   }
 
@@ -32599,7 +32599,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0247(): number | undefined {
-    const value = this.dwResponse['003a0247']?.Value;
+    const value = this.dwResponse['003A0247']?.Value;
     return convert(value?.[0], 0x003a0247, 'number');
   }
 
@@ -32617,7 +32617,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0248(): number | undefined {
-    const value = this.dwResponse['003a0248']?.Value;
+    const value = this.dwResponse['003A0248']?.Value;
     return convert(value?.[0], 0x003a0248, 'number');
   }
 
@@ -32635,7 +32635,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0300(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['003a0300']?.Value;
+    const value = this.dwResponse['003A0300']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -32655,7 +32655,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0301(): number | undefined {
-    const value = this.dwResponse['003a0301']?.Value;
+    const value = this.dwResponse['003A0301']?.Value;
     return convert(value?.[0], 0x003a0301, 'number');
   }
 
@@ -32673,7 +32673,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x003a0302(): string | undefined {
-    const value = this.dwResponse['003a0302']?.Value;
+    const value = this.dwResponse['003A0302']?.Value;
     return convert(value?.[0], 0x003a0302, 'string');
   }
 
@@ -32855,7 +32855,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040000a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040000a']?.Value;
+    const value = this.dwResponse['0040000A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -32875,7 +32875,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040000b(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040000b']?.Value;
+    const value = this.dwResponse['0040000B']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -33083,7 +33083,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040003a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040003a']?.Value;
+    const value = this.dwResponse['0040003A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -33625,7 +33625,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040030e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040030e']?.Value;
+    const value = this.dwResponse['0040030E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -33877,7 +33877,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040050a(): string | undefined {
-    const value = this.dwResponse['0040050a']?.Value;
+    const value = this.dwResponse['0040050A']?.Value;
     return convert(value?.[0], 0x0040050a, 'string');
   }
 
@@ -33973,7 +33973,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040051a(): string | undefined {
-    const value = this.dwResponse['0040051a']?.Value;
+    const value = this.dwResponse['0040051A']?.Value;
     return convert(value?.[0], 0x0040051a, 'string');
   }
 
@@ -34107,7 +34107,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040059a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040059a']?.Value;
+    const value = this.dwResponse['0040059A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -34245,7 +34245,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x004006fa(): string | undefined {
-    const value = this.dwResponse['004006fa']?.Value;
+    const value = this.dwResponse['004006FA']?.Value;
     return convert(value?.[0], 0x004006fa, 'string');
   }
 
@@ -34263,7 +34263,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040071a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040071a']?.Value;
+    const value = this.dwResponse['0040071A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -34283,7 +34283,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040072a(): number | undefined {
-    const value = this.dwResponse['0040072a']?.Value;
+    const value = this.dwResponse['0040072A']?.Value;
     return convert(value?.[0], 0x0040072a, 'number');
   }
 
@@ -34301,7 +34301,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040073a(): number | undefined {
-    const value = this.dwResponse['0040073a']?.Value;
+    const value = this.dwResponse['0040073A']?.Value;
     return convert(value?.[0], 0x0040073a, 'number');
   }
 
@@ -34319,7 +34319,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040074a(): number | undefined {
-    const value = this.dwResponse['0040074a']?.Value;
+    const value = this.dwResponse['0040074A']?.Value;
     return convert(value?.[0], 0x0040074a, 'number');
   }
 
@@ -34337,7 +34337,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x004008d8(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['004008d8']?.Value;
+    const value = this.dwResponse['004008D8']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -34357,7 +34357,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x004008da(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['004008da']?.Value;
+    const value = this.dwResponse['004008DA']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -34377,7 +34377,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x004008ea(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['004008ea']?.Value;
+    const value = this.dwResponse['004008EA']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -34397,7 +34397,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x004009f8(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['004009f8']?.Value;
+    const value = this.dwResponse['004009F8']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -34579,7 +34579,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040100a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040100a']?.Value;
+    const value = this.dwResponse['0040100A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -35785,7 +35785,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a007(): string | undefined {
-    const value = this.dwResponse['0040a007']?.Value;
+    const value = this.dwResponse['0040A007']?.Value;
     return convert(value?.[0], 0x0040a007, 'string');
   }
 
@@ -35803,7 +35803,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a010(): string | undefined {
-    const value = this.dwResponse['0040a010']?.Value;
+    const value = this.dwResponse['0040A010']?.Value;
     return convert(value?.[0], 0x0040a010, 'string');
   }
 
@@ -35821,7 +35821,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a020(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a020']?.Value;
+    const value = this.dwResponse['0040A020']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -35841,7 +35841,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a021(): string | undefined {
-    const value = this.dwResponse['0040a021']?.Value;
+    const value = this.dwResponse['0040A021']?.Value;
     return convert(value?.[0], 0x0040a021, 'string');
   }
 
@@ -35859,7 +35859,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a022(): string | undefined {
-    const value = this.dwResponse['0040a022']?.Value;
+    const value = this.dwResponse['0040A022']?.Value;
     return convert(value?.[0], 0x0040a022, 'string');
   }
 
@@ -35877,7 +35877,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a023(): Date | undefined {
-    const value = this.dwResponse['0040a023']?.Value;
+    const value = this.dwResponse['0040A023']?.Value;
     return convert(value?.[0], 0x0040a023, 'Date');
   }
 
@@ -35895,7 +35895,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a024(): string | undefined {
-    const value = this.dwResponse['0040a024']?.Value;
+    const value = this.dwResponse['0040A024']?.Value;
     return convert(value?.[0], 0x0040a024, 'string');
   }
 
@@ -35913,7 +35913,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a026(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a026']?.Value;
+    const value = this.dwResponse['0040A026']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -35933,7 +35933,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a027(): string | undefined {
-    const value = this.dwResponse['0040a027']?.Value;
+    const value = this.dwResponse['0040A027']?.Value;
     return convert(value?.[0], 0x0040a027, 'string');
   }
 
@@ -35951,7 +35951,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a028(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a028']?.Value;
+    const value = this.dwResponse['0040A028']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -35971,7 +35971,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a030(): string | undefined {
-    const value = this.dwResponse['0040a030']?.Value;
+    const value = this.dwResponse['0040A030']?.Value;
     return convert(value?.[0], 0x0040a030, 'string');
   }
 
@@ -35989,7 +35989,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a032(): string | undefined {
-    const value = this.dwResponse['0040a032']?.Value;
+    const value = this.dwResponse['0040A032']?.Value;
     return convert(value?.[0], 0x0040a032, 'string');
   }
 
@@ -36007,7 +36007,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a040(): string | undefined {
-    const value = this.dwResponse['0040a040']?.Value;
+    const value = this.dwResponse['0040A040']?.Value;
     return convert(value?.[0], 0x0040a040, 'string');
   }
 
@@ -36025,7 +36025,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a043(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a043']?.Value;
+    const value = this.dwResponse['0040A043']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36045,7 +36045,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a047(): string | undefined {
-    const value = this.dwResponse['0040a047']?.Value;
+    const value = this.dwResponse['0040A047']?.Value;
     return convert(value?.[0], 0x0040a047, 'string');
   }
 
@@ -36063,7 +36063,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a050(): string | undefined {
-    const value = this.dwResponse['0040a050']?.Value;
+    const value = this.dwResponse['0040A050']?.Value;
     return convert(value?.[0], 0x0040a050, 'string');
   }
 
@@ -36081,7 +36081,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a057(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0040a057']?.Value;
+    const value = this.dwResponse['0040A057']?.Value;
     return convert(value, 0x0040a057, 'Array<string | undefined>');
   }
 
@@ -36099,7 +36099,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a060(): string | undefined {
-    const value = this.dwResponse['0040a060']?.Value;
+    const value = this.dwResponse['0040A060']?.Value;
     return convert(value?.[0], 0x0040a060, 'string');
   }
 
@@ -36117,7 +36117,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a066(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a066']?.Value;
+    const value = this.dwResponse['0040A066']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36137,7 +36137,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a067(): any | undefined {
-    const value = this.dwResponse['0040a067']?.Value;
+    const value = this.dwResponse['0040A067']?.Value;
     return convert(value?.[0], 0x0040a067, 'any');
   }
 
@@ -36155,7 +36155,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a068(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a068']?.Value;
+    const value = this.dwResponse['0040A068']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36175,7 +36175,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a070(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a070']?.Value;
+    const value = this.dwResponse['0040A070']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36195,7 +36195,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a073(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a073']?.Value;
+    const value = this.dwResponse['0040A073']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36215,7 +36215,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a075(): any | undefined {
-    const value = this.dwResponse['0040a075']?.Value;
+    const value = this.dwResponse['0040A075']?.Value;
     return convert(value?.[0], 0x0040a075, 'any');
   }
 
@@ -36233,7 +36233,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a076(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a076']?.Value;
+    const value = this.dwResponse['0040A076']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36253,7 +36253,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a078(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a078']?.Value;
+    const value = this.dwResponse['0040A078']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36273,7 +36273,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a07a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a07a']?.Value;
+    const value = this.dwResponse['0040A07A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36293,7 +36293,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a07c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a07c']?.Value;
+    const value = this.dwResponse['0040A07C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36313,7 +36313,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a080(): string | undefined {
-    const value = this.dwResponse['0040a080']?.Value;
+    const value = this.dwResponse['0040A080']?.Value;
     return convert(value?.[0], 0x0040a080, 'string');
   }
 
@@ -36331,7 +36331,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a082(): string | undefined {
-    const value = this.dwResponse['0040a082']?.Value;
+    const value = this.dwResponse['0040A082']?.Value;
     return convert(value?.[0], 0x0040a082, 'string');
   }
 
@@ -36349,7 +36349,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a084(): string | undefined {
-    const value = this.dwResponse['0040a084']?.Value;
+    const value = this.dwResponse['0040A084']?.Value;
     return convert(value?.[0], 0x0040a084, 'string');
   }
 
@@ -36367,7 +36367,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a085(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a085']?.Value;
+    const value = this.dwResponse['0040A085']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36387,7 +36387,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a088(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a088']?.Value;
+    const value = this.dwResponse['0040A088']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36407,7 +36407,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a090(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a090']?.Value;
+    const value = this.dwResponse['0040A090']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36427,7 +36427,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a0b0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040a0b0']?.Value;
+    const value = this.dwResponse['0040A0B0']?.Value;
     return convert(value, 0x0040a0b0, 'Array<number | undefined>');
   }
 
@@ -36445,7 +36445,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a110(): Date | undefined {
-    const value = this.dwResponse['0040a110']?.Value;
+    const value = this.dwResponse['0040A110']?.Value;
     return convert(value?.[0], 0x0040a110, 'Date');
   }
 
@@ -36463,7 +36463,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a112(): string | undefined {
-    const value = this.dwResponse['0040a112']?.Value;
+    const value = this.dwResponse['0040A112']?.Value;
     return convert(value?.[0], 0x0040a112, 'string');
   }
 
@@ -36481,7 +36481,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a120(): string | undefined {
-    const value = this.dwResponse['0040a120']?.Value;
+    const value = this.dwResponse['0040A120']?.Value;
     return convert(value?.[0], 0x0040a120, 'string');
   }
 
@@ -36499,7 +36499,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a121(): Date | undefined {
-    const value = this.dwResponse['0040a121']?.Value;
+    const value = this.dwResponse['0040A121']?.Value;
     return convert(value?.[0], 0x0040a121, 'Date');
   }
 
@@ -36517,7 +36517,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a122(): string | undefined {
-    const value = this.dwResponse['0040a122']?.Value;
+    const value = this.dwResponse['0040A122']?.Value;
     return convert(value?.[0], 0x0040a122, 'string');
   }
 
@@ -36535,7 +36535,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a123(): any | undefined {
-    const value = this.dwResponse['0040a123']?.Value;
+    const value = this.dwResponse['0040A123']?.Value;
     return convert(value?.[0], 0x0040a123, 'any');
   }
 
@@ -36553,7 +36553,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a124(): string | undefined {
-    const value = this.dwResponse['0040a124']?.Value;
+    const value = this.dwResponse['0040A124']?.Value;
     return convert(value?.[0], 0x0040a124, 'string');
   }
 
@@ -36571,7 +36571,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a125(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0040a125']?.Value;
+    const value = this.dwResponse['0040A125']?.Value;
     return convert(value, 0x0040a125, 'Array<string | undefined>');
   }
 
@@ -36589,7 +36589,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a130(): string | undefined {
-    const value = this.dwResponse['0040a130']?.Value;
+    const value = this.dwResponse['0040A130']?.Value;
     return convert(value?.[0], 0x0040a130, 'string');
   }
 
@@ -36607,7 +36607,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a132(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040a132']?.Value;
+    const value = this.dwResponse['0040A132']?.Value;
     return convert(value, 0x0040a132, 'Array<number | undefined>');
   }
 
@@ -36625,7 +36625,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a136(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040a136']?.Value;
+    const value = this.dwResponse['0040A136']?.Value;
     return convert(value, 0x0040a136, 'Array<number | undefined>');
   }
 
@@ -36643,7 +36643,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a138(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040a138']?.Value;
+    const value = this.dwResponse['0040A138']?.Value;
     return convert(value, 0x0040a138, 'Array<number | undefined>');
   }
 
@@ -36661,7 +36661,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a13a(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0040a13a']?.Value;
+    const value = this.dwResponse['0040A13A']?.Value;
     return convert(value, 0x0040a13a, 'Array<string | undefined>');
   }
 
@@ -36679,7 +36679,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a161(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040a161']?.Value;
+    const value = this.dwResponse['0040A161']?.Value;
     return convert(value, 0x0040a161, 'Array<number | undefined>');
   }
 
@@ -36697,7 +36697,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a162(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040a162']?.Value;
+    const value = this.dwResponse['0040A162']?.Value;
     return convert(value, 0x0040a162, 'Array<number | undefined>');
   }
 
@@ -36715,7 +36715,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a163(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040a163']?.Value;
+    const value = this.dwResponse['0040A163']?.Value;
     return convert(value, 0x0040a163, 'Array<number | undefined>');
   }
 
@@ -36733,7 +36733,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a167(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a167']?.Value;
+    const value = this.dwResponse['0040A167']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36753,7 +36753,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a168(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a168']?.Value;
+    const value = this.dwResponse['0040A168']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36773,7 +36773,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a170(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a170']?.Value;
+    const value = this.dwResponse['0040A170']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36793,7 +36793,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a171(): string | undefined {
-    const value = this.dwResponse['0040a171']?.Value;
+    const value = this.dwResponse['0040A171']?.Value;
     return convert(value?.[0], 0x0040a171, 'string');
   }
 
@@ -36811,7 +36811,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a172(): string | undefined {
-    const value = this.dwResponse['0040a172']?.Value;
+    const value = this.dwResponse['0040A172']?.Value;
     return convert(value?.[0], 0x0040a172, 'string');
   }
 
@@ -36829,7 +36829,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a173(): string | undefined {
-    const value = this.dwResponse['0040a173']?.Value;
+    const value = this.dwResponse['0040A173']?.Value;
     return convert(value?.[0], 0x0040a173, 'string');
   }
 
@@ -36847,7 +36847,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a174(): string | undefined {
-    const value = this.dwResponse['0040a174']?.Value;
+    const value = this.dwResponse['0040A174']?.Value;
     return convert(value?.[0], 0x0040a174, 'string');
   }
 
@@ -36865,7 +36865,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a180(): number | undefined {
-    const value = this.dwResponse['0040a180']?.Value;
+    const value = this.dwResponse['0040A180']?.Value;
     return convert(value?.[0], 0x0040a180, 'number');
   }
 
@@ -36883,7 +36883,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a192(): Date | undefined {
-    const value = this.dwResponse['0040a192']?.Value;
+    const value = this.dwResponse['0040A192']?.Value;
     return convert(value?.[0], 0x0040a192, 'Date');
   }
 
@@ -36901,7 +36901,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a193(): string | undefined {
-    const value = this.dwResponse['0040a193']?.Value;
+    const value = this.dwResponse['0040A193']?.Value;
     return convert(value?.[0], 0x0040a193, 'string');
   }
 
@@ -36919,7 +36919,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a194(): string | undefined {
-    const value = this.dwResponse['0040a194']?.Value;
+    const value = this.dwResponse['0040A194']?.Value;
     return convert(value?.[0], 0x0040a194, 'string');
   }
 
@@ -36937,7 +36937,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a195(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a195']?.Value;
+    const value = this.dwResponse['0040A195']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36957,7 +36957,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a290(): string | undefined {
-    const value = this.dwResponse['0040a290']?.Value;
+    const value = this.dwResponse['0040A290']?.Value;
     return convert(value?.[0], 0x0040a290, 'string');
   }
 
@@ -36975,7 +36975,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a296(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a296']?.Value;
+    const value = this.dwResponse['0040A296']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -36995,7 +36995,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a29a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040a29a']?.Value;
+    const value = this.dwResponse['0040A29A']?.Value;
     return convert(value, 0x0040a29a, 'Array<number | undefined>');
   }
 
@@ -37013,7 +37013,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a300(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a300']?.Value;
+    const value = this.dwResponse['0040A300']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37033,7 +37033,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a301(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a301']?.Value;
+    const value = this.dwResponse['0040A301']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37053,7 +37053,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a307(): any | undefined {
-    const value = this.dwResponse['0040a307']?.Value;
+    const value = this.dwResponse['0040A307']?.Value;
     return convert(value?.[0], 0x0040a307, 'any');
   }
 
@@ -37071,7 +37071,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a30a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040a30a']?.Value;
+    const value = this.dwResponse['0040A30A']?.Value;
     return convert(value, 0x0040a30a, 'Array<number | undefined>');
   }
 
@@ -37089,7 +37089,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a313(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a313']?.Value;
+    const value = this.dwResponse['0040A313']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37109,7 +37109,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a340(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a340']?.Value;
+    const value = this.dwResponse['0040A340']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37129,7 +37129,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a352(): any | undefined {
-    const value = this.dwResponse['0040a352']?.Value;
+    const value = this.dwResponse['0040A352']?.Value;
     return convert(value?.[0], 0x0040a352, 'any');
   }
 
@@ -37147,7 +37147,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a354(): string | undefined {
-    const value = this.dwResponse['0040a354']?.Value;
+    const value = this.dwResponse['0040A354']?.Value;
     return convert(value?.[0], 0x0040a354, 'string');
   }
 
@@ -37165,7 +37165,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a358(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a358']?.Value;
+    const value = this.dwResponse['0040A358']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37185,7 +37185,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a360(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a360']?.Value;
+    const value = this.dwResponse['0040A360']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37205,7 +37205,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a370(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a370']?.Value;
+    const value = this.dwResponse['0040A370']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37225,7 +37225,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a372(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a372']?.Value;
+    const value = this.dwResponse['0040A372']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37245,7 +37245,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a375(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a375']?.Value;
+    const value = this.dwResponse['0040A375']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37265,7 +37265,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a380(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a380']?.Value;
+    const value = this.dwResponse['0040A380']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37285,7 +37285,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a385(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a385']?.Value;
+    const value = this.dwResponse['0040A385']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37305,7 +37305,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a390(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a390']?.Value;
+    const value = this.dwResponse['0040A390']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37325,7 +37325,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a402(): string | undefined {
-    const value = this.dwResponse['0040a402']?.Value;
+    const value = this.dwResponse['0040A402']?.Value;
     return convert(value?.[0], 0x0040a402, 'string');
   }
 
@@ -37343,7 +37343,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a403(): string | undefined {
-    const value = this.dwResponse['0040a403']?.Value;
+    const value = this.dwResponse['0040A403']?.Value;
     return convert(value?.[0], 0x0040a403, 'string');
   }
 
@@ -37361,7 +37361,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a404(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a404']?.Value;
+    const value = this.dwResponse['0040A404']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37381,7 +37381,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a491(): string | undefined {
-    const value = this.dwResponse['0040a491']?.Value;
+    const value = this.dwResponse['0040A491']?.Value;
     return convert(value?.[0], 0x0040a491, 'string');
   }
 
@@ -37399,7 +37399,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a492(): string | undefined {
-    const value = this.dwResponse['0040a492']?.Value;
+    const value = this.dwResponse['0040A492']?.Value;
     return convert(value?.[0], 0x0040a492, 'string');
   }
 
@@ -37417,7 +37417,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a493(): string | undefined {
-    const value = this.dwResponse['0040a493']?.Value;
+    const value = this.dwResponse['0040A493']?.Value;
     return convert(value?.[0], 0x0040a493, 'string');
   }
 
@@ -37435,7 +37435,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a494(): string | undefined {
-    const value = this.dwResponse['0040a494']?.Value;
+    const value = this.dwResponse['0040A494']?.Value;
     return convert(value?.[0], 0x0040a494, 'string');
   }
 
@@ -37453,7 +37453,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a496(): string | undefined {
-    const value = this.dwResponse['0040a496']?.Value;
+    const value = this.dwResponse['0040A496']?.Value;
     return convert(value?.[0], 0x0040a496, 'string');
   }
 
@@ -37471,7 +37471,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a504(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a504']?.Value;
+    const value = this.dwResponse['0040A504']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37491,7 +37491,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a525(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a525']?.Value;
+    const value = this.dwResponse['0040A525']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37511,7 +37511,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a600(): string | undefined {
-    const value = this.dwResponse['0040a600']?.Value;
+    const value = this.dwResponse['0040A600']?.Value;
     return convert(value?.[0], 0x0040a600, 'string');
   }
 
@@ -37529,7 +37529,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a601(): string | undefined {
-    const value = this.dwResponse['0040a601']?.Value;
+    const value = this.dwResponse['0040A601']?.Value;
     return convert(value?.[0], 0x0040a601, 'string');
   }
 
@@ -37547,7 +37547,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a603(): string | undefined {
-    const value = this.dwResponse['0040a603']?.Value;
+    const value = this.dwResponse['0040A603']?.Value;
     return convert(value?.[0], 0x0040a603, 'string');
   }
 
@@ -37565,7 +37565,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a730(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a730']?.Value;
+    const value = this.dwResponse['0040A730']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37585,7 +37585,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a731(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a731']?.Value;
+    const value = this.dwResponse['0040A731']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37605,7 +37605,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a732(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a732']?.Value;
+    const value = this.dwResponse['0040A732']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37625,7 +37625,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a744(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040a744']?.Value;
+    const value = this.dwResponse['0040A744']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37645,7 +37645,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040b020(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040b020']?.Value;
+    const value = this.dwResponse['0040B020']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37665,7 +37665,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040db00(): string | undefined {
-    const value = this.dwResponse['0040db00']?.Value;
+    const value = this.dwResponse['0040DB00']?.Value;
     return convert(value?.[0], 0x0040db00, 'string');
   }
 
@@ -37683,7 +37683,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040db06(): string | undefined {
-    const value = this.dwResponse['0040db06']?.Value;
+    const value = this.dwResponse['0040DB06']?.Value;
     return convert(value?.[0], 0x0040db06, 'string');
   }
 
@@ -37701,7 +37701,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040db07(): string | undefined {
-    const value = this.dwResponse['0040db07']?.Value;
+    const value = this.dwResponse['0040DB07']?.Value;
     return convert(value?.[0], 0x0040db07, 'string');
   }
 
@@ -37719,7 +37719,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040db0b(): string | undefined {
-    const value = this.dwResponse['0040db0b']?.Value;
+    const value = this.dwResponse['0040DB0B']?.Value;
     return convert(value?.[0], 0x0040db0b, 'string');
   }
 
@@ -37737,7 +37737,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040db0c(): string | undefined {
-    const value = this.dwResponse['0040db0c']?.Value;
+    const value = this.dwResponse['0040DB0C']?.Value;
     return convert(value?.[0], 0x0040db0c, 'string');
   }
 
@@ -37755,7 +37755,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040db0d(): string | undefined {
-    const value = this.dwResponse['0040db0d']?.Value;
+    const value = this.dwResponse['0040DB0D']?.Value;
     return convert(value?.[0], 0x0040db0d, 'string');
   }
 
@@ -37773,7 +37773,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040db73(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0040db73']?.Value;
+    const value = this.dwResponse['0040DB73']?.Value;
     return convert(value, 0x0040db73, 'Array<number | undefined>');
   }
 
@@ -37791,7 +37791,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e004(): string | undefined {
-    const value = this.dwResponse['0040e004']?.Value;
+    const value = this.dwResponse['0040E004']?.Value;
     return convert(value?.[0], 0x0040e004, 'string');
   }
 
@@ -37809,7 +37809,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e006(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040e006']?.Value;
+    const value = this.dwResponse['0040E006']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37829,7 +37829,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e008(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040e008']?.Value;
+    const value = this.dwResponse['0040E008']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37849,7 +37849,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e011(): string | undefined {
-    const value = this.dwResponse['0040e011']?.Value;
+    const value = this.dwResponse['0040E011']?.Value;
     return convert(value?.[0], 0x0040e011, 'string');
   }
 
@@ -37867,7 +37867,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e020(): string | undefined {
-    const value = this.dwResponse['0040e020']?.Value;
+    const value = this.dwResponse['0040E020']?.Value;
     return convert(value?.[0], 0x0040e020, 'string');
   }
 
@@ -37885,7 +37885,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e021(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040e021']?.Value;
+    const value = this.dwResponse['0040E021']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37905,7 +37905,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e022(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040e022']?.Value;
+    const value = this.dwResponse['0040E022']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37925,7 +37925,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e023(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040e023']?.Value;
+    const value = this.dwResponse['0040E023']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37945,7 +37945,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e024(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0040e024']?.Value;
+    const value = this.dwResponse['0040E024']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -37965,7 +37965,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e030(): string | undefined {
-    const value = this.dwResponse['0040e030']?.Value;
+    const value = this.dwResponse['0040E030']?.Value;
     return convert(value?.[0], 0x0040e030, 'string');
   }
 
@@ -37983,7 +37983,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e031(): string | undefined {
-    const value = this.dwResponse['0040e031']?.Value;
+    const value = this.dwResponse['0040E031']?.Value;
     return convert(value?.[0], 0x0040e031, 'string');
   }
 
@@ -38131,7 +38131,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0044000a(): string | undefined {
-    const value = this.dwResponse['0044000a']?.Value;
+    const value = this.dwResponse['0044000A']?.Value;
     return convert(value?.[0], 0x0044000a, 'string');
   }
 
@@ -38149,7 +38149,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0044000b(): string | undefined {
-    const value = this.dwResponse['0044000b']?.Value;
+    const value = this.dwResponse['0044000B']?.Value;
     return convert(value?.[0], 0x0044000b, 'string');
   }
 
@@ -40221,7 +40221,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0048021a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0048021a']?.Value;
+    const value = this.dwResponse['0048021A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -40241,7 +40241,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0048021e(): number | undefined {
-    const value = this.dwResponse['0048021e']?.Value;
+    const value = this.dwResponse['0048021E']?.Value;
     return convert(value?.[0], 0x0048021e, 'number');
   }
 
@@ -40259,7 +40259,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0048021f(): number | undefined {
-    const value = this.dwResponse['0048021f']?.Value;
+    const value = this.dwResponse['0048021F']?.Value;
     return convert(value?.[0], 0x0048021f, 'number');
   }
 
@@ -40479,7 +40479,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0050001a(): string | undefined {
-    const value = this.dwResponse['0050001a']?.Value;
+    const value = this.dwResponse['0050001A']?.Value;
     return convert(value?.[0], 0x0050001a, 'string');
   }
 
@@ -40497,7 +40497,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0050001b(): string | undefined {
-    const value = this.dwResponse['0050001b']?.Value;
+    const value = this.dwResponse['0050001B']?.Value;
     return convert(value?.[0], 0x0050001b, 'string');
   }
 
@@ -40515,7 +40515,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0050001c(): number | undefined {
-    const value = this.dwResponse['0050001c']?.Value;
+    const value = this.dwResponse['0050001C']?.Value;
     return convert(value?.[0], 0x0050001c, 'number');
   }
 
@@ -40533,7 +40533,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0050001d(): number | undefined {
-    const value = this.dwResponse['0050001d']?.Value;
+    const value = this.dwResponse['0050001D']?.Value;
     return convert(value?.[0], 0x0050001d, 'number');
   }
 
@@ -40551,7 +40551,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0050001e(): string | undefined {
-    const value = this.dwResponse['0050001e']?.Value;
+    const value = this.dwResponse['0050001E']?.Value;
     return convert(value?.[0], 0x0050001e, 'string');
   }
 
@@ -41045,7 +41045,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0052003a(): string | undefined {
-    const value = this.dwResponse['0052003a']?.Value;
+    const value = this.dwResponse['0052003A']?.Value;
     return convert(value?.[0], 0x0052003a, 'string');
   }
 
@@ -42815,7 +42815,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0062000a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0062000a']?.Value;
+    const value = this.dwResponse['0062000A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -42835,7 +42835,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0062000b(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0062000b']?.Value;
+    const value = this.dwResponse['0062000B']?.Value;
     return convert(value, 0x0062000b, 'Array<number | undefined>');
   }
 
@@ -42853,7 +42853,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0062000c(): number | undefined {
-    const value = this.dwResponse['0062000c']?.Value;
+    const value = this.dwResponse['0062000C']?.Value;
     return convert(value?.[0], 0x0062000c, 'number');
   }
 
@@ -42871,7 +42871,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0062000d(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0062000d']?.Value;
+    const value = this.dwResponse['0062000D']?.Value;
     return convert(value, 0x0062000d, 'Array<number | undefined>');
   }
 
@@ -42889,7 +42889,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0062000e(): number | undefined {
-    const value = this.dwResponse['0062000e']?.Value;
+    const value = this.dwResponse['0062000E']?.Value;
     return convert(value?.[0], 0x0062000e, 'number');
   }
 
@@ -42907,7 +42907,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0062000f(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0062000f']?.Value;
+    const value = this.dwResponse['0062000F']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -43079,7 +43079,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0064000f(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0064000f']?.Value;
+    const value = this.dwResponse['0064000F']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -43193,7 +43193,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066000a(): number | undefined {
-    const value = this.dwResponse['0066000a']?.Value;
+    const value = this.dwResponse['0066000A']?.Value;
     return convert(value?.[0], 0x0066000a, 'number');
   }
 
@@ -43211,7 +43211,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066000b(): string | undefined {
-    const value = this.dwResponse['0066000b']?.Value;
+    const value = this.dwResponse['0066000B']?.Value;
     return convert(value?.[0], 0x0066000b, 'string');
   }
 
@@ -43229,7 +43229,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066000c(): number | undefined {
-    const value = this.dwResponse['0066000c']?.Value;
+    const value = this.dwResponse['0066000C']?.Value;
     return convert(value?.[0], 0x0066000c, 'number');
   }
 
@@ -43247,7 +43247,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066000d(): string | undefined {
-    const value = this.dwResponse['0066000d']?.Value;
+    const value = this.dwResponse['0066000D']?.Value;
     return convert(value?.[0], 0x0066000d, 'string');
   }
 
@@ -43265,7 +43265,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066000e(): string | undefined {
-    const value = this.dwResponse['0066000e']?.Value;
+    const value = this.dwResponse['0066000E']?.Value;
     return convert(value?.[0], 0x0066000e, 'string');
   }
 
@@ -43433,7 +43433,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066001a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0066001a']?.Value;
+    const value = this.dwResponse['0066001A']?.Value;
     return convert(value, 0x0066001a, 'Array<number | undefined>');
   }
 
@@ -43451,7 +43451,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066001b(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0066001b']?.Value;
+    const value = this.dwResponse['0066001B']?.Value;
     return convert(value, 0x0066001b, 'Array<number | undefined>');
   }
 
@@ -43469,7 +43469,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066001c(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0066001c']?.Value;
+    const value = this.dwResponse['0066001C']?.Value;
     return convert(value, 0x0066001c, 'Array<number | undefined>');
   }
 
@@ -43487,7 +43487,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066001e(): number | undefined {
-    const value = this.dwResponse['0066001e']?.Value;
+    const value = this.dwResponse['0066001E']?.Value;
     return convert(value?.[0], 0x0066001e, 'number');
   }
 
@@ -43505,7 +43505,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066001f(): number | undefined {
-    const value = this.dwResponse['0066001f']?.Value;
+    const value = this.dwResponse['0066001F']?.Value;
     return convert(value?.[0], 0x0066001f, 'number');
   }
 
@@ -43601,7 +43601,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066002a(): number | undefined {
-    const value = this.dwResponse['0066002a']?.Value;
+    const value = this.dwResponse['0066002A']?.Value;
     return convert(value?.[0], 0x0066002a, 'number');
   }
 
@@ -43619,7 +43619,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066002b(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0066002b']?.Value;
+    const value = this.dwResponse['0066002B']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -43639,7 +43639,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066002c(): number | undefined {
-    const value = this.dwResponse['0066002c']?.Value;
+    const value = this.dwResponse['0066002C']?.Value;
     return convert(value?.[0], 0x0066002c, 'number');
   }
 
@@ -43657,7 +43657,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066002d(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0066002d']?.Value;
+    const value = this.dwResponse['0066002D']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -43677,7 +43677,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066002e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0066002e']?.Value;
+    const value = this.dwResponse['0066002E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -43697,7 +43697,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0066002f(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0066002f']?.Value;
+    const value = this.dwResponse['0066002F']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44059,7 +44059,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006862a0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006862a0']?.Value;
+    const value = this.dwResponse['006862A0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44079,7 +44079,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006862a5(): number | undefined {
-    const value = this.dwResponse['006862a5']?.Value;
+    const value = this.dwResponse['006862A5']?.Value;
     return convert(value?.[0], 0x006862a5, 'number');
   }
 
@@ -44097,7 +44097,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006862c0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006862c0']?.Value;
+    const value = this.dwResponse['006862C0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44117,7 +44117,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006862d0(): number | undefined {
-    const value = this.dwResponse['006862d0']?.Value;
+    const value = this.dwResponse['006862D0']?.Value;
     return convert(value?.[0], 0x006862d0, 'number');
   }
 
@@ -44135,7 +44135,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006862d5(): string | undefined {
-    const value = this.dwResponse['006862d5']?.Value;
+    const value = this.dwResponse['006862D5']?.Value;
     return convert(value?.[0], 0x006862d5, 'string');
   }
 
@@ -44153,7 +44153,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006862e0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006862e0']?.Value;
+    const value = this.dwResponse['006862E0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44173,7 +44173,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006862f0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['006862f0']?.Value;
+    const value = this.dwResponse['006862F0']?.Value;
     return convert(value, 0x006862f0, 'Array<number | undefined>');
   }
 
@@ -44191,7 +44191,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006862f2(): number | undefined {
-    const value = this.dwResponse['006862f2']?.Value;
+    const value = this.dwResponse['006862F2']?.Value;
     return convert(value?.[0], 0x006862f2, 'number');
   }
 
@@ -44393,7 +44393,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006863a0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006863a0']?.Value;
+    const value = this.dwResponse['006863A0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44413,7 +44413,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006863a4(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006863a4']?.Value;
+    const value = this.dwResponse['006863A4']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44433,7 +44433,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006863a8(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006863a8']?.Value;
+    const value = this.dwResponse['006863A8']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44453,7 +44453,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006863ac(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006863ac']?.Value;
+    const value = this.dwResponse['006863AC']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44473,7 +44473,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006863b0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006863b0']?.Value;
+    const value = this.dwResponse['006863B0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44493,7 +44493,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006863c0(): number | undefined {
-    const value = this.dwResponse['006863c0']?.Value;
+    const value = this.dwResponse['006863C0']?.Value;
     return convert(value?.[0], 0x006863c0, 'number');
   }
 
@@ -44511,7 +44511,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006863d0(): string | undefined {
-    const value = this.dwResponse['006863d0']?.Value;
+    const value = this.dwResponse['006863D0']?.Value;
     return convert(value?.[0], 0x006863d0, 'string');
   }
 
@@ -44529,7 +44529,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006863e0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006863e0']?.Value;
+    const value = this.dwResponse['006863E0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44549,7 +44549,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006863f0(): number | undefined {
-    const value = this.dwResponse['006863f0']?.Value;
+    const value = this.dwResponse['006863F0']?.Value;
     return convert(value?.[0], 0x006863f0, 'number');
   }
 
@@ -44735,7 +44735,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006864a0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['006864a0']?.Value;
+    const value = this.dwResponse['006864A0']?.Value;
     return convert(value, 0x006864a0, 'Array<number | undefined>');
   }
 
@@ -44753,7 +44753,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006864c0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['006864c0']?.Value;
+    const value = this.dwResponse['006864C0']?.Value;
     return convert(value, 0x006864c0, 'Array<number | undefined>');
   }
 
@@ -44771,7 +44771,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006864d0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['006864d0']?.Value;
+    const value = this.dwResponse['006864D0']?.Value;
     return convert(value, 0x006864d0, 'Array<number | undefined>');
   }
 
@@ -44789,7 +44789,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006864f0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['006864f0']?.Value;
+    const value = this.dwResponse['006864F0']?.Value;
     return convert(value, 0x006864f0, 'Array<number | undefined>');
   }
 
@@ -44979,7 +44979,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006865a0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006865a0']?.Value;
+    const value = this.dwResponse['006865A0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -44999,7 +44999,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006865b0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['006865b0']?.Value;
+    const value = this.dwResponse['006865B0']?.Value;
     return convert(value, 0x006865b0, 'Array<number | undefined>');
   }
 
@@ -45017,7 +45017,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006865d0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['006865d0']?.Value;
+    const value = this.dwResponse['006865D0']?.Value;
     return convert(value, 0x006865d0, 'Array<number | undefined>');
   }
 
@@ -45035,7 +45035,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006865e0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['006865e0']?.Value;
+    const value = this.dwResponse['006865E0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -45055,7 +45055,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x006865f0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['006865f0']?.Value;
+    const value = this.dwResponse['006865F0']?.Value;
     return convert(value, 0x006865f0, 'Array<number | undefined>');
   }
 
@@ -45547,7 +45547,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0070005a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0070005a']?.Value;
+    const value = this.dwResponse['0070005A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -46687,7 +46687,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0070030a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0070030a']?.Value;
+    const value = this.dwResponse['0070030A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -46707,7 +46707,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0070030c(): string | undefined {
-    const value = this.dwResponse['0070030c']?.Value;
+    const value = this.dwResponse['0070030C']?.Value;
     return convert(value?.[0], 0x0070030c, 'string');
   }
 
@@ -46725,7 +46725,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0070030d(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0070030d']?.Value;
+    const value = this.dwResponse['0070030D']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -46841,7 +46841,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0070031a(): string | undefined {
-    const value = this.dwResponse['0070031a']?.Value;
+    const value = this.dwResponse['0070031A']?.Value;
     return convert(value?.[0], 0x0070031a, 'string');
   }
 
@@ -46859,7 +46859,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0070031c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0070031c']?.Value;
+    const value = this.dwResponse['0070031C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -46879,7 +46879,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0070031e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0070031e']?.Value;
+    const value = this.dwResponse['0070031E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -47065,7 +47065,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072000a(): string | undefined {
-    const value = this.dwResponse['0072000a']?.Value;
+    const value = this.dwResponse['0072000A']?.Value;
     return convert(value?.[0], 0x0072000a, 'string');
   }
 
@@ -47083,7 +47083,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072000c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0072000c']?.Value;
+    const value = this.dwResponse['0072000C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -47103,7 +47103,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072000e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0072000e']?.Value;
+    const value = this.dwResponse['0072000E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -47347,7 +47347,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072003a(): string | undefined {
-    const value = this.dwResponse['0072003a']?.Value;
+    const value = this.dwResponse['0072003A']?.Value;
     return convert(value?.[0], 0x0072003a, 'string');
   }
 
@@ -47365,7 +47365,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072003c(): Array<Uint8Array | undefined> | undefined {
-    const value = this.dwResponse['0072003c']?.Value;
+    const value = this.dwResponse['0072003C']?.Value;
     return convert(value, 0x0072003c, 'Array<Uint8Array | undefined>');
   }
 
@@ -47383,7 +47383,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072003e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0072003e']?.Value;
+    const value = this.dwResponse['0072003E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -47565,7 +47565,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072006a(): Array<any | undefined> | undefined {
-    const value = this.dwResponse['0072006a']?.Value;
+    const value = this.dwResponse['0072006A']?.Value;
     return convert(value, 0x0072006a, 'Array<any | undefined>');
   }
 
@@ -47583,7 +47583,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072006c(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['0072006c']?.Value;
+    const value = this.dwResponse['0072006C']?.Value;
     return convert(value, 0x0072006c, 'Array<string | undefined>');
   }
 
@@ -47673,7 +47673,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072007a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0072007a']?.Value;
+    const value = this.dwResponse['0072007A']?.Value;
     return convert(value, 0x0072007a, 'Array<number | undefined>');
   }
 
@@ -47691,7 +47691,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072007c(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0072007c']?.Value;
+    const value = this.dwResponse['0072007C']?.Value;
     return convert(value, 0x0072007c, 'Array<number | undefined>');
   }
 
@@ -47709,7 +47709,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072007e(): Array<Uint8Array | undefined> | undefined {
-    const value = this.dwResponse['0072007e']?.Value;
+    const value = this.dwResponse['0072007E']?.Value;
     return convert(value, 0x0072007e, 'Array<Uint8Array | undefined>');
   }
 
@@ -47839,7 +47839,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072010a(): number | undefined {
-    const value = this.dwResponse['0072010a']?.Value;
+    const value = this.dwResponse['0072010A']?.Value;
     return convert(value?.[0], 0x0072010a, 'number');
   }
 
@@ -47857,7 +47857,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072010c(): number | undefined {
-    const value = this.dwResponse['0072010c']?.Value;
+    const value = this.dwResponse['0072010C']?.Value;
     return convert(value?.[0], 0x0072010c, 'number');
   }
 
@@ -47875,7 +47875,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072010e(): number | undefined {
-    const value = this.dwResponse['0072010e']?.Value;
+    const value = this.dwResponse['0072010E']?.Value;
     return convert(value?.[0], 0x0072010e, 'number');
   }
 
@@ -49017,7 +49017,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074100c(): string | undefined {
-    const value = this.dwResponse['0074100c']?.Value;
+    const value = this.dwResponse['0074100C']?.Value;
     return convert(value?.[0], 0x0074100c, 'string');
   }
 
@@ -49035,7 +49035,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074100e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0074100e']?.Value;
+    const value = this.dwResponse['0074100E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -49183,7 +49183,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074102a(): number | undefined {
-    const value = this.dwResponse['0074102a']?.Value;
+    const value = this.dwResponse['0074102A']?.Value;
     return convert(value?.[0], 0x0074102a, 'number');
   }
 
@@ -49201,7 +49201,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074102b(): number | undefined {
-    const value = this.dwResponse['0074102b']?.Value;
+    const value = this.dwResponse['0074102B']?.Value;
     return convert(value?.[0], 0x0074102b, 'number');
   }
 
@@ -49219,7 +49219,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074102c(): number | undefined {
-    const value = this.dwResponse['0074102c']?.Value;
+    const value = this.dwResponse['0074102C']?.Value;
     return convert(value?.[0], 0x0074102c, 'number');
   }
 
@@ -49237,7 +49237,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074102d(): number | undefined {
-    const value = this.dwResponse['0074102d']?.Value;
+    const value = this.dwResponse['0074102D']?.Value;
     return convert(value?.[0], 0x0074102d, 'number');
   }
 
@@ -49347,7 +49347,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074103a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0074103a']?.Value;
+    const value = this.dwResponse['0074103A']?.Value;
     return convert(value, 0x0074103a, 'Array<number | undefined>');
   }
 
@@ -49465,7 +49465,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074104a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0074104a']?.Value;
+    const value = this.dwResponse['0074104A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -49485,7 +49485,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074104c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0074104c']?.Value;
+    const value = this.dwResponse['0074104C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -49505,7 +49505,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074104e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0074104e']?.Value;
+    const value = this.dwResponse['0074104E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -49933,7 +49933,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074133a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['0074133a']?.Value;
+    const value = this.dwResponse['0074133A']?.Value;
     return convert(value, 0x0074133a, 'Array<number | undefined>');
   }
 
@@ -50025,7 +50025,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0076000a(): string | undefined {
-    const value = this.dwResponse['0076000a']?.Value;
+    const value = this.dwResponse['0076000A']?.Value;
     return convert(value?.[0], 0x0076000a, 'string');
   }
 
@@ -50043,7 +50043,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0076000c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0076000c']?.Value;
+    const value = this.dwResponse['0076000C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -50063,7 +50063,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0076000e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0076000e']?.Value;
+    const value = this.dwResponse['0076000E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -50327,7 +50327,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x007600a0(): number | undefined {
-    const value = this.dwResponse['007600a0']?.Value;
+    const value = this.dwResponse['007600A0']?.Value;
     return convert(value?.[0], 0x007600a0, 'number');
   }
 
@@ -50345,7 +50345,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x007600b0(): number | undefined {
-    const value = this.dwResponse['007600b0']?.Value;
+    const value = this.dwResponse['007600B0']?.Value;
     return convert(value?.[0], 0x007600b0, 'number');
   }
 
@@ -50363,7 +50363,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x007600c0(): number | undefined {
-    const value = this.dwResponse['007600c0']?.Value;
+    const value = this.dwResponse['007600C0']?.Value;
     return convert(value?.[0], 0x007600c0, 'number');
   }
 
@@ -50475,7 +50475,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0078002a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['0078002a']?.Value;
+    const value = this.dwResponse['0078002A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -50495,7 +50495,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0078002e(): number | undefined {
-    const value = this.dwResponse['0078002e']?.Value;
+    const value = this.dwResponse['0078002E']?.Value;
     return convert(value?.[0], 0x0078002e, 'number');
   }
 
@@ -50587,7 +50587,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x007800a0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['007800a0']?.Value;
+    const value = this.dwResponse['007800A0']?.Value;
     return convert(value, 0x007800a0, 'Array<number | undefined>');
   }
 
@@ -50605,7 +50605,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x007800b0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['007800b0']?.Value;
+    const value = this.dwResponse['007800B0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -50625,7 +50625,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x007800b2(): string | undefined {
-    const value = this.dwResponse['007800b2']?.Value;
+    const value = this.dwResponse['007800B2']?.Value;
     return convert(value?.[0], 0x007800b2, 'string');
   }
 
@@ -50643,7 +50643,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x007800b4(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['007800b4']?.Value;
+    const value = this.dwResponse['007800B4']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -50663,7 +50663,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x007800b6(): number | undefined {
-    const value = this.dwResponse['007800b6']?.Value;
+    const value = this.dwResponse['007800B6']?.Value;
     return convert(value?.[0], 0x007800b6, 'number');
   }
 
@@ -50681,7 +50681,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x007800b8(): number | undefined {
-    const value = this.dwResponse['007800b8']?.Value;
+    const value = this.dwResponse['007800B8']?.Value;
     return convert(value?.[0], 0x007800b8, 'number');
   }
 
@@ -51427,7 +51427,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x1000xxx0(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['1000xxx0']?.Value;
+    const value = this.dwResponse['1000XXX0']?.Value;
     throw new Error('Unsupported field EscapeTriplet (1000xxx0)');
   }
 
@@ -51445,7 +51445,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x1000xxx1(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['1000xxx1']?.Value;
+    const value = this.dwResponse['1000XXX1']?.Value;
     throw new Error('Unsupported field RunLengthTriplet (1000xxx1)');
   }
 
@@ -51463,7 +51463,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x1000xxx2(): number | undefined {
-    const value = this.dwResponse['1000xxx2']?.Value;
+    const value = this.dwResponse['1000XXX2']?.Value;
     throw new Error('Unsupported field HuffmanTableSize (1000xxx2)');
   }
 
@@ -51481,7 +51481,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x1000xxx3(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['1000xxx3']?.Value;
+    const value = this.dwResponse['1000XXX3']?.Value;
     throw new Error('Unsupported field HuffmanTableTriplet (1000xxx3)');
   }
 
@@ -51499,7 +51499,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x1000xxx4(): number | undefined {
-    const value = this.dwResponse['1000xxx4']?.Value;
+    const value = this.dwResponse['1000XXX4']?.Value;
     throw new Error('Unsupported field ShiftTableSize (1000xxx4)');
   }
 
@@ -51517,7 +51517,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x1000xxx5(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['1000xxx5']?.Value;
+    const value = this.dwResponse['1000XXX5']?.Value;
     throw new Error('Unsupported field ShiftTableTriplet (1000xxx5)');
   }
 
@@ -51535,7 +51535,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x1010xxxx(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['1010xxxx']?.Value;
+    const value = this.dwResponse['1010XXXX']?.Value;
     throw new Error('Unsupported field ZonalMap (1010xxxx)');
   }
 
@@ -51571,7 +51571,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x2000001e(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['2000001e']?.Value;
+    const value = this.dwResponse['2000001E']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -51789,7 +51789,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x2000006a(): string | undefined {
-    const value = this.dwResponse['2000006a']?.Value;
+    const value = this.dwResponse['2000006A']?.Value;
     return convert(value?.[0], 0x2000006a, 'string');
   }
 
@@ -51807,7 +51807,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x200000a0(): number | undefined {
-    const value = this.dwResponse['200000a0']?.Value;
+    const value = this.dwResponse['200000A0']?.Value;
     return convert(value?.[0], 0x200000a0, 'number');
   }
 
@@ -51825,7 +51825,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x200000a1(): number | undefined {
-    const value = this.dwResponse['200000a1']?.Value;
+    const value = this.dwResponse['200000A1']?.Value;
     return convert(value?.[0], 0x200000a1, 'number');
   }
 
@@ -51843,7 +51843,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x200000a2(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['200000a2']?.Value;
+    const value = this.dwResponse['200000A2']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -51863,7 +51863,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x200000a4(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['200000a4']?.Value;
+    const value = this.dwResponse['200000A4']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -51883,7 +51883,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x200000a8(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['200000a8']?.Value;
+    const value = this.dwResponse['200000A8']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -52069,7 +52069,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x201000a6(): string | undefined {
-    const value = this.dwResponse['201000a6']?.Value;
+    const value = this.dwResponse['201000A6']?.Value;
     return convert(value?.[0], 0x201000a6, 'string');
   }
 
@@ -52087,7 +52087,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x201000a7(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['201000a7']?.Value;
+    const value = this.dwResponse['201000A7']?.Value;
     return convert(value, 0x201000a7, 'Array<string | undefined>');
   }
 
@@ -52105,7 +52105,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x201000a8(): string | undefined {
-    const value = this.dwResponse['201000a8']?.Value;
+    const value = this.dwResponse['201000A8']?.Value;
     return convert(value?.[0], 0x201000a8, 'string');
   }
 
@@ -52123,7 +52123,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x201000a9(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['201000a9']?.Value;
+    const value = this.dwResponse['201000A9']?.Value;
     return convert(value, 0x201000a9, 'Array<string | undefined>');
   }
 
@@ -52249,7 +52249,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x2010015e(): number | undefined {
-    const value = this.dwResponse['2010015e']?.Value;
+    const value = this.dwResponse['2010015E']?.Value;
     return convert(value?.[0], 0x2010015e, 'number');
   }
 
@@ -52453,7 +52453,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x202000a0(): string | undefined {
-    const value = this.dwResponse['202000a0']?.Value;
+    const value = this.dwResponse['202000A0']?.Value;
     return convert(value?.[0], 0x202000a0, 'string');
   }
 
@@ -52471,7 +52471,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x202000a2(): string | undefined {
-    const value = this.dwResponse['202000a2']?.Value;
+    const value = this.dwResponse['202000A2']?.Value;
     return convert(value?.[0], 0x202000a2, 'string');
   }
 
@@ -53337,7 +53337,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x213000a0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['213000a0']?.Value;
+    const value = this.dwResponse['213000A0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -53357,7 +53357,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x213000c0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['213000c0']?.Value;
+    const value = this.dwResponse['213000C0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -53485,7 +53485,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x2200000a(): string | undefined {
-    const value = this.dwResponse['2200000a']?.Value;
+    const value = this.dwResponse['2200000A']?.Value;
     return convert(value?.[0], 0x2200000a, 'string');
   }
 
@@ -53503,7 +53503,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x2200000b(): number | undefined {
-    const value = this.dwResponse['2200000b']?.Value;
+    const value = this.dwResponse['2200000B']?.Value;
     return convert(value?.[0], 0x2200000b, 'number');
   }
 
@@ -53521,7 +53521,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x2200000c(): string | undefined {
-    const value = this.dwResponse['2200000c']?.Value;
+    const value = this.dwResponse['2200000C']?.Value;
     return convert(value?.[0], 0x2200000c, 'string');
   }
 
@@ -53539,7 +53539,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x2200000d(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['2200000d']?.Value;
+    const value = this.dwResponse['2200000D']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -53559,7 +53559,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x2200000e(): Array<Uint16Array | undefined> | undefined {
-    const value = this.dwResponse['2200000e']?.Value;
+    const value = this.dwResponse['2200000E']?.Value;
     return convert(value, 0x2200000e, 'Array<Uint16Array | undefined>');
   }
 
@@ -53577,7 +53577,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x2200000f(): string | undefined {
-    const value = this.dwResponse['2200000f']?.Value;
+    const value = this.dwResponse['2200000F']?.Value;
     return convert(value?.[0], 0x2200000f, 'string');
   }
 
@@ -53649,7 +53649,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3002000a(): string | undefined {
-    const value = this.dwResponse['3002000a']?.Value;
+    const value = this.dwResponse['3002000A']?.Value;
     return convert(value?.[0], 0x3002000a, 'string');
   }
 
@@ -53667,7 +53667,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3002000c(): string | undefined {
-    const value = this.dwResponse['3002000c']?.Value;
+    const value = this.dwResponse['3002000C']?.Value;
     return convert(value?.[0], 0x3002000c, 'string');
   }
 
@@ -53685,7 +53685,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3002000d(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['3002000d']?.Value;
+    const value = this.dwResponse['3002000D']?.Value;
     return convert(value, 0x3002000d, 'Array<number | undefined>');
   }
 
@@ -53703,7 +53703,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3002000e(): number | undefined {
-    const value = this.dwResponse['3002000e']?.Value;
+    const value = this.dwResponse['3002000E']?.Value;
     return convert(value?.[0], 0x3002000e, 'number');
   }
 
@@ -54159,7 +54159,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3004000a(): string | undefined {
-    const value = this.dwResponse['3004000a']?.Value;
+    const value = this.dwResponse['3004000A']?.Value;
     return convert(value?.[0], 0x3004000a, 'string');
   }
 
@@ -54177,7 +54177,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3004000c(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['3004000c']?.Value;
+    const value = this.dwResponse['3004000C']?.Value;
     return convert(value, 0x3004000c, 'Array<number | undefined>');
   }
 
@@ -54195,7 +54195,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3004000e(): number | undefined {
-    const value = this.dwResponse['3004000e']?.Value;
+    const value = this.dwResponse['3004000E']?.Value;
     return convert(value?.[0], 0x3004000e, 'number');
   }
 
@@ -54735,7 +54735,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3006002a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['3006002a']?.Value;
+    const value = this.dwResponse['3006002A']?.Value;
     return convert(value, 0x3006002a, 'Array<number | undefined>');
   }
 
@@ -54753,7 +54753,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3006002c(): number | undefined {
-    const value = this.dwResponse['3006002c']?.Value;
+    const value = this.dwResponse['3006002C']?.Value;
     return convert(value?.[0], 0x3006002c, 'number');
   }
 
@@ -55105,7 +55105,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600a0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300600a0']?.Value;
+    const value = this.dwResponse['300600A0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -55125,7 +55125,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600a4(): string | undefined {
-    const value = this.dwResponse['300600a4']?.Value;
+    const value = this.dwResponse['300600A4']?.Value;
     return convert(value?.[0], 0x300600a4, 'string');
   }
 
@@ -55143,7 +55143,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600a6(): any | undefined {
-    const value = this.dwResponse['300600a6']?.Value;
+    const value = this.dwResponse['300600A6']?.Value;
     return convert(value?.[0], 0x300600a6, 'any');
   }
 
@@ -55161,7 +55161,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600b0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300600b0']?.Value;
+    const value = this.dwResponse['300600B0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -55181,7 +55181,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600b2(): string | undefined {
-    const value = this.dwResponse['300600b2']?.Value;
+    const value = this.dwResponse['300600B2']?.Value;
     return convert(value?.[0], 0x300600b2, 'string');
   }
 
@@ -55199,7 +55199,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600b4(): number | undefined {
-    const value = this.dwResponse['300600b4']?.Value;
+    const value = this.dwResponse['300600B4']?.Value;
     return convert(value?.[0], 0x300600b4, 'number');
   }
 
@@ -55217,7 +55217,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600b6(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300600b6']?.Value;
+    const value = this.dwResponse['300600B6']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -55237,7 +55237,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600b7(): number | undefined {
-    const value = this.dwResponse['300600b7']?.Value;
+    const value = this.dwResponse['300600B7']?.Value;
     return convert(value?.[0], 0x300600b7, 'number');
   }
 
@@ -55255,7 +55255,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600b8(): number | undefined {
-    const value = this.dwResponse['300600b8']?.Value;
+    const value = this.dwResponse['300600B8']?.Value;
     return convert(value?.[0], 0x300600b8, 'number');
   }
 
@@ -55273,7 +55273,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600b9(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300600b9']?.Value;
+    const value = this.dwResponse['300600B9']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -55293,7 +55293,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600c0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300600c0']?.Value;
+    const value = this.dwResponse['300600C0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -55313,7 +55313,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600c2(): string | undefined {
-    const value = this.dwResponse['300600c2']?.Value;
+    const value = this.dwResponse['300600C2']?.Value;
     return convert(value?.[0], 0x300600c2, 'string');
   }
 
@@ -55331,7 +55331,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600c4(): string | undefined {
-    const value = this.dwResponse['300600c4']?.Value;
+    const value = this.dwResponse['300600C4']?.Value;
     return convert(value?.[0], 0x300600c4, 'string');
   }
 
@@ -55349,7 +55349,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600c6(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300600c6']?.Value;
+    const value = this.dwResponse['300600C6']?.Value;
     return convert(value, 0x300600c6, 'Array<number | undefined>');
   }
 
@@ -55367,7 +55367,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300600c8(): string | undefined {
-    const value = this.dwResponse['300600c8']?.Value;
+    const value = this.dwResponse['300600C8']?.Value;
     return convert(value?.[0], 0x300600c8, 'string');
   }
 
@@ -55535,7 +55535,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008002a(): string | undefined {
-    const value = this.dwResponse['3008002a']?.Value;
+    const value = this.dwResponse['3008002A']?.Value;
     return convert(value?.[0], 0x3008002a, 'string');
   }
 
@@ -55553,7 +55553,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008002b(): string | undefined {
-    const value = this.dwResponse['3008002b']?.Value;
+    const value = this.dwResponse['3008002B']?.Value;
     return convert(value?.[0], 0x3008002b, 'string');
   }
 
@@ -55571,7 +55571,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008002c(): string | undefined {
-    const value = this.dwResponse['3008002c']?.Value;
+    const value = this.dwResponse['3008002C']?.Value;
     return convert(value?.[0], 0x3008002c, 'string');
   }
 
@@ -55681,7 +55681,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008003a(): number | undefined {
-    const value = this.dwResponse['3008003a']?.Value;
+    const value = this.dwResponse['3008003A']?.Value;
     return convert(value?.[0], 0x3008003a, 'number');
   }
 
@@ -55699,7 +55699,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008003b(): number | undefined {
-    const value = this.dwResponse['3008003b']?.Value;
+    const value = this.dwResponse['3008003B']?.Value;
     return convert(value?.[0], 0x3008003b, 'number');
   }
 
@@ -55939,7 +55939,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008005a(): number | undefined {
-    const value = this.dwResponse['3008005a']?.Value;
+    const value = this.dwResponse['3008005A']?.Value;
     return convert(value?.[0], 0x3008005a, 'number');
   }
 
@@ -56087,7 +56087,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008006a(): number | undefined {
-    const value = this.dwResponse['3008006a']?.Value;
+    const value = this.dwResponse['3008006A']?.Value;
     return convert(value?.[0], 0x3008006a, 'number');
   }
 
@@ -56179,7 +56179,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008007a(): number | undefined {
-    const value = this.dwResponse['3008007a']?.Value;
+    const value = this.dwResponse['3008007A']?.Value;
     return convert(value?.[0], 0x3008007a, 'number');
   }
 
@@ -56273,7 +56273,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300800a0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300800a0']?.Value;
+    const value = this.dwResponse['300800A0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -56293,7 +56293,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300800b0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300800b0']?.Value;
+    const value = this.dwResponse['300800B0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -56313,7 +56313,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300800c0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300800c0']?.Value;
+    const value = this.dwResponse['300800C0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -56333,7 +56333,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300800d0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300800d0']?.Value;
+    const value = this.dwResponse['300800D0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -56353,7 +56353,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300800e0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300800e0']?.Value;
+    const value = this.dwResponse['300800E0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -56373,7 +56373,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300800f0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300800f0']?.Value;
+    const value = this.dwResponse['300800F0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -56393,7 +56393,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300800f2(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300800f2']?.Value;
+    const value = this.dwResponse['300800F2']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -56413,7 +56413,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300800f4(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300800f4']?.Value;
+    const value = this.dwResponse['300800F4']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -56433,7 +56433,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300800f6(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300800f6']?.Value;
+    const value = this.dwResponse['300800F6']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -56659,7 +56659,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008013a(): number | undefined {
-    const value = this.dwResponse['3008013a']?.Value;
+    const value = this.dwResponse['3008013A']?.Value;
     return convert(value?.[0], 0x3008013a, 'number');
   }
 
@@ -56677,7 +56677,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x3008013c(): number | undefined {
-    const value = this.dwResponse['3008013c']?.Value;
+    const value = this.dwResponse['3008013C']?.Value;
     return convert(value?.[0], 0x3008013c, 'number');
   }
 
@@ -57069,7 +57069,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0002(): string | undefined {
-    const value = this.dwResponse['300a0002']?.Value;
+    const value = this.dwResponse['300A0002']?.Value;
     return convert(value?.[0], 0x300a0002, 'string');
   }
 
@@ -57087,7 +57087,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0003(): string | undefined {
-    const value = this.dwResponse['300a0003']?.Value;
+    const value = this.dwResponse['300A0003']?.Value;
     return convert(value?.[0], 0x300a0003, 'string');
   }
 
@@ -57105,7 +57105,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0006(): Date | undefined {
-    const value = this.dwResponse['300a0006']?.Value;
+    const value = this.dwResponse['300A0006']?.Value;
     return convert(value?.[0], 0x300a0006, 'Date');
   }
 
@@ -57123,7 +57123,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0007(): string | undefined {
-    const value = this.dwResponse['300a0007']?.Value;
+    const value = this.dwResponse['300A0007']?.Value;
     return convert(value?.[0], 0x300a0007, 'string');
   }
 
@@ -57141,7 +57141,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0009(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['300a0009']?.Value;
+    const value = this.dwResponse['300A0009']?.Value;
     return convert(value, 0x300a0009, 'Array<string | undefined>');
   }
 
@@ -57159,7 +57159,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a000a(): string | undefined {
-    const value = this.dwResponse['300a000a']?.Value;
+    const value = this.dwResponse['300A000A']?.Value;
     return convert(value?.[0], 0x300a000a, 'string');
   }
 
@@ -57177,7 +57177,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a000b(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['300a000b']?.Value;
+    const value = this.dwResponse['300A000B']?.Value;
     return convert(value, 0x300a000b, 'Array<string | undefined>');
   }
 
@@ -57195,7 +57195,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a000c(): string | undefined {
-    const value = this.dwResponse['300a000c']?.Value;
+    const value = this.dwResponse['300A000C']?.Value;
     return convert(value?.[0], 0x300a000c, 'string');
   }
 
@@ -57213,7 +57213,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0010(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0010']?.Value;
+    const value = this.dwResponse['300A0010']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -57233,7 +57233,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0012(): number | undefined {
-    const value = this.dwResponse['300a0012']?.Value;
+    const value = this.dwResponse['300A0012']?.Value;
     return convert(value?.[0], 0x300a0012, 'number');
   }
 
@@ -57251,7 +57251,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0013(): string | undefined {
-    const value = this.dwResponse['300a0013']?.Value;
+    const value = this.dwResponse['300A0013']?.Value;
     return convert(value?.[0], 0x300a0013, 'string');
   }
 
@@ -57269,7 +57269,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0014(): string | undefined {
-    const value = this.dwResponse['300a0014']?.Value;
+    const value = this.dwResponse['300A0014']?.Value;
     return convert(value?.[0], 0x300a0014, 'string');
   }
 
@@ -57287,7 +57287,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0015(): string | undefined {
-    const value = this.dwResponse['300a0015']?.Value;
+    const value = this.dwResponse['300A0015']?.Value;
     return convert(value?.[0], 0x300a0015, 'string');
   }
 
@@ -57305,7 +57305,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0016(): string | undefined {
-    const value = this.dwResponse['300a0016']?.Value;
+    const value = this.dwResponse['300A0016']?.Value;
     return convert(value?.[0], 0x300a0016, 'string');
   }
 
@@ -57323,7 +57323,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0018(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a0018']?.Value;
+    const value = this.dwResponse['300A0018']?.Value;
     return convert(value, 0x300a0018, 'Array<number | undefined>');
   }
 
@@ -57341,7 +57341,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a001a(): number | undefined {
-    const value = this.dwResponse['300a001a']?.Value;
+    const value = this.dwResponse['300A001A']?.Value;
     return convert(value?.[0], 0x300a001a, 'number');
   }
 
@@ -57359,7 +57359,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0020(): string | undefined {
-    const value = this.dwResponse['300a0020']?.Value;
+    const value = this.dwResponse['300A0020']?.Value;
     return convert(value?.[0], 0x300a0020, 'string');
   }
 
@@ -57377,7 +57377,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0021(): number | undefined {
-    const value = this.dwResponse['300a0021']?.Value;
+    const value = this.dwResponse['300A0021']?.Value;
     return convert(value?.[0], 0x300a0021, 'number');
   }
 
@@ -57395,7 +57395,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0022(): number | undefined {
-    const value = this.dwResponse['300a0022']?.Value;
+    const value = this.dwResponse['300A0022']?.Value;
     return convert(value?.[0], 0x300a0022, 'number');
   }
 
@@ -57413,7 +57413,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0023(): number | undefined {
-    const value = this.dwResponse['300a0023']?.Value;
+    const value = this.dwResponse['300A0023']?.Value;
     return convert(value?.[0], 0x300a0023, 'number');
   }
 
@@ -57431,7 +57431,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0025(): number | undefined {
-    const value = this.dwResponse['300a0025']?.Value;
+    const value = this.dwResponse['300A0025']?.Value;
     return convert(value?.[0], 0x300a0025, 'number');
   }
 
@@ -57449,7 +57449,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0026(): number | undefined {
-    const value = this.dwResponse['300a0026']?.Value;
+    const value = this.dwResponse['300A0026']?.Value;
     return convert(value?.[0], 0x300a0026, 'number');
   }
 
@@ -57467,7 +57467,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0027(): number | undefined {
-    const value = this.dwResponse['300a0027']?.Value;
+    const value = this.dwResponse['300A0027']?.Value;
     return convert(value?.[0], 0x300a0027, 'number');
   }
 
@@ -57485,7 +57485,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0028(): number | undefined {
-    const value = this.dwResponse['300a0028']?.Value;
+    const value = this.dwResponse['300A0028']?.Value;
     return convert(value?.[0], 0x300a0028, 'number');
   }
 
@@ -57503,7 +57503,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a002a(): number | undefined {
-    const value = this.dwResponse['300a002a']?.Value;
+    const value = this.dwResponse['300A002A']?.Value;
     return convert(value?.[0], 0x300a002a, 'number');
   }
 
@@ -57521,7 +57521,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a002b(): number | undefined {
-    const value = this.dwResponse['300a002b']?.Value;
+    const value = this.dwResponse['300A002B']?.Value;
     return convert(value?.[0], 0x300a002b, 'number');
   }
 
@@ -57539,7 +57539,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a002c(): number | undefined {
-    const value = this.dwResponse['300a002c']?.Value;
+    const value = this.dwResponse['300A002C']?.Value;
     return convert(value?.[0], 0x300a002c, 'number');
   }
 
@@ -57557,7 +57557,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a002d(): number | undefined {
-    const value = this.dwResponse['300a002d']?.Value;
+    const value = this.dwResponse['300A002D']?.Value;
     return convert(value?.[0], 0x300a002d, 'number');
   }
 
@@ -57575,7 +57575,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0040(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0040']?.Value;
+    const value = this.dwResponse['300A0040']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -57595,7 +57595,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0042(): number | undefined {
-    const value = this.dwResponse['300a0042']?.Value;
+    const value = this.dwResponse['300A0042']?.Value;
     return convert(value?.[0], 0x300a0042, 'number');
   }
 
@@ -57613,7 +57613,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0043(): string | undefined {
-    const value = this.dwResponse['300a0043']?.Value;
+    const value = this.dwResponse['300A0043']?.Value;
     return convert(value?.[0], 0x300a0043, 'string');
   }
 
@@ -57631,7 +57631,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0044(): number | undefined {
-    const value = this.dwResponse['300a0044']?.Value;
+    const value = this.dwResponse['300A0044']?.Value;
     return convert(value?.[0], 0x300a0044, 'number');
   }
 
@@ -57649,7 +57649,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0046(): number | undefined {
-    const value = this.dwResponse['300a0046']?.Value;
+    const value = this.dwResponse['300A0046']?.Value;
     return convert(value?.[0], 0x300a0046, 'number');
   }
 
@@ -57667,7 +57667,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0048(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0048']?.Value;
+    const value = this.dwResponse['300A0048']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -57687,7 +57687,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a004a(): number | undefined {
-    const value = this.dwResponse['300a004a']?.Value;
+    const value = this.dwResponse['300A004A']?.Value;
     return convert(value?.[0], 0x300a004a, 'number');
   }
 
@@ -57705,7 +57705,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a004b(): number | undefined {
-    const value = this.dwResponse['300a004b']?.Value;
+    const value = this.dwResponse['300A004B']?.Value;
     return convert(value?.[0], 0x300a004b, 'number');
   }
 
@@ -57723,7 +57723,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a004c(): number | undefined {
-    const value = this.dwResponse['300a004c']?.Value;
+    const value = this.dwResponse['300A004C']?.Value;
     return convert(value?.[0], 0x300a004c, 'number');
   }
 
@@ -57741,7 +57741,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a004e(): number | undefined {
-    const value = this.dwResponse['300a004e']?.Value;
+    const value = this.dwResponse['300A004E']?.Value;
     return convert(value?.[0], 0x300a004e, 'number');
   }
 
@@ -57759,7 +57759,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a004f(): number | undefined {
-    const value = this.dwResponse['300a004f']?.Value;
+    const value = this.dwResponse['300A004F']?.Value;
     return convert(value?.[0], 0x300a004f, 'number');
   }
 
@@ -57777,7 +57777,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0050(): number | undefined {
-    const value = this.dwResponse['300a0050']?.Value;
+    const value = this.dwResponse['300A0050']?.Value;
     return convert(value?.[0], 0x300a0050, 'number');
   }
 
@@ -57795,7 +57795,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0051(): number | undefined {
-    const value = this.dwResponse['300a0051']?.Value;
+    const value = this.dwResponse['300A0051']?.Value;
     return convert(value?.[0], 0x300a0051, 'number');
   }
 
@@ -57813,7 +57813,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0052(): number | undefined {
-    const value = this.dwResponse['300a0052']?.Value;
+    const value = this.dwResponse['300A0052']?.Value;
     return convert(value?.[0], 0x300a0052, 'number');
   }
 
@@ -57831,7 +57831,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0053(): number | undefined {
-    const value = this.dwResponse['300a0053']?.Value;
+    const value = this.dwResponse['300A0053']?.Value;
     return convert(value?.[0], 0x300a0053, 'number');
   }
 
@@ -57849,7 +57849,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0055(): string | undefined {
-    const value = this.dwResponse['300a0055']?.Value;
+    const value = this.dwResponse['300A0055']?.Value;
     return convert(value?.[0], 0x300a0055, 'string');
   }
 
@@ -57867,7 +57867,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0070(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0070']?.Value;
+    const value = this.dwResponse['300A0070']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -57887,7 +57887,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0071(): number | undefined {
-    const value = this.dwResponse['300a0071']?.Value;
+    const value = this.dwResponse['300A0071']?.Value;
     return convert(value?.[0], 0x300a0071, 'number');
   }
 
@@ -57905,7 +57905,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0072(): string | undefined {
-    const value = this.dwResponse['300a0072']?.Value;
+    const value = this.dwResponse['300A0072']?.Value;
     return convert(value?.[0], 0x300a0072, 'string');
   }
 
@@ -57923,7 +57923,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0078(): number | undefined {
-    const value = this.dwResponse['300a0078']?.Value;
+    const value = this.dwResponse['300A0078']?.Value;
     return convert(value?.[0], 0x300a0078, 'number');
   }
 
@@ -57941,7 +57941,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0079(): number | undefined {
-    const value = this.dwResponse['300a0079']?.Value;
+    const value = this.dwResponse['300A0079']?.Value;
     return convert(value?.[0], 0x300a0079, 'number');
   }
 
@@ -57959,7 +57959,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a007a(): number | undefined {
-    const value = this.dwResponse['300a007a']?.Value;
+    const value = this.dwResponse['300A007A']?.Value;
     return convert(value?.[0], 0x300a007a, 'number');
   }
 
@@ -57977,7 +57977,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0080(): number | undefined {
-    const value = this.dwResponse['300a0080']?.Value;
+    const value = this.dwResponse['300A0080']?.Value;
     return convert(value?.[0], 0x300a0080, 'number');
   }
 
@@ -57995,7 +57995,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0082(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a0082']?.Value;
+    const value = this.dwResponse['300A0082']?.Value;
     return convert(value, 0x300a0082, 'Array<number | undefined>');
   }
 
@@ -58013,7 +58013,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0084(): number | undefined {
-    const value = this.dwResponse['300a0084']?.Value;
+    const value = this.dwResponse['300A0084']?.Value;
     return convert(value?.[0], 0x300a0084, 'number');
   }
 
@@ -58031,7 +58031,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0086(): number | undefined {
-    const value = this.dwResponse['300a0086']?.Value;
+    const value = this.dwResponse['300A0086']?.Value;
     return convert(value?.[0], 0x300a0086, 'number');
   }
 
@@ -58049,7 +58049,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0088(): number | undefined {
-    const value = this.dwResponse['300a0088']?.Value;
+    const value = this.dwResponse['300A0088']?.Value;
     return convert(value?.[0], 0x300a0088, 'number');
   }
 
@@ -58067,7 +58067,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0089(): number | undefined {
-    const value = this.dwResponse['300a0089']?.Value;
+    const value = this.dwResponse['300A0089']?.Value;
     return convert(value?.[0], 0x300a0089, 'number');
   }
 
@@ -58085,7 +58085,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a008a(): number | undefined {
-    const value = this.dwResponse['300a008a']?.Value;
+    const value = this.dwResponse['300A008A']?.Value;
     return convert(value?.[0], 0x300a008a, 'number');
   }
 
@@ -58103,7 +58103,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a008b(): string | undefined {
-    const value = this.dwResponse['300a008b']?.Value;
+    const value = this.dwResponse['300A008B']?.Value;
     return convert(value?.[0], 0x300a008b, 'string');
   }
 
@@ -58121,7 +58121,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a008c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a008c']?.Value;
+    const value = this.dwResponse['300A008C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -58141,7 +58141,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a008d(): number | undefined {
-    const value = this.dwResponse['300a008d']?.Value;
+    const value = this.dwResponse['300A008D']?.Value;
     return convert(value?.[0], 0x300a008d, 'number');
   }
 
@@ -58159,7 +58159,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a008e(): number | undefined {
-    const value = this.dwResponse['300a008e']?.Value;
+    const value = this.dwResponse['300A008E']?.Value;
     return convert(value?.[0], 0x300a008e, 'number');
   }
 
@@ -58177,7 +58177,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a008f(): number | undefined {
-    const value = this.dwResponse['300a008f']?.Value;
+    const value = this.dwResponse['300A008F']?.Value;
     return convert(value?.[0], 0x300a008f, 'number');
   }
 
@@ -58195,7 +58195,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00a0(): number | undefined {
-    const value = this.dwResponse['300a00a0']?.Value;
+    const value = this.dwResponse['300A00A0']?.Value;
     return convert(value?.[0], 0x300a00a0, 'number');
   }
 
@@ -58213,7 +58213,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00a2(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a00a2']?.Value;
+    const value = this.dwResponse['300A00A2']?.Value;
     return convert(value, 0x300a00a2, 'Array<number | undefined>');
   }
 
@@ -58231,7 +58231,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00a4(): number | undefined {
-    const value = this.dwResponse['300a00a4']?.Value;
+    const value = this.dwResponse['300A00A4']?.Value;
     return convert(value?.[0], 0x300a00a4, 'number');
   }
 
@@ -58249,7 +58249,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00b0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a00b0']?.Value;
+    const value = this.dwResponse['300A00B0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -58269,7 +58269,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00b2(): string | undefined {
-    const value = this.dwResponse['300a00b2']?.Value;
+    const value = this.dwResponse['300A00B2']?.Value;
     return convert(value?.[0], 0x300a00b2, 'string');
   }
 
@@ -58287,7 +58287,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00b3(): string | undefined {
-    const value = this.dwResponse['300a00b3']?.Value;
+    const value = this.dwResponse['300A00B3']?.Value;
     return convert(value?.[0], 0x300a00b3, 'string');
   }
 
@@ -58305,7 +58305,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00b4(): number | undefined {
-    const value = this.dwResponse['300a00b4']?.Value;
+    const value = this.dwResponse['300A00B4']?.Value;
     return convert(value?.[0], 0x300a00b4, 'number');
   }
 
@@ -58323,7 +58323,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00b6(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a00b6']?.Value;
+    const value = this.dwResponse['300A00B6']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -58343,7 +58343,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00b8(): string | undefined {
-    const value = this.dwResponse['300a00b8']?.Value;
+    const value = this.dwResponse['300A00B8']?.Value;
     return convert(value?.[0], 0x300a00b8, 'string');
   }
 
@@ -58361,7 +58361,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00ba(): number | undefined {
-    const value = this.dwResponse['300a00ba']?.Value;
+    const value = this.dwResponse['300A00BA']?.Value;
     return convert(value?.[0], 0x300a00ba, 'number');
   }
 
@@ -58379,7 +58379,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00bb(): number | undefined {
-    const value = this.dwResponse['300a00bb']?.Value;
+    const value = this.dwResponse['300A00BB']?.Value;
     return convert(value?.[0], 0x300a00bb, 'number');
   }
 
@@ -58397,7 +58397,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00bc(): number | undefined {
-    const value = this.dwResponse['300a00bc']?.Value;
+    const value = this.dwResponse['300A00BC']?.Value;
     return convert(value?.[0], 0x300a00bc, 'number');
   }
 
@@ -58415,7 +58415,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00be(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a00be']?.Value;
+    const value = this.dwResponse['300A00BE']?.Value;
     return convert(value, 0x300a00be, 'Array<number | undefined>');
   }
 
@@ -58433,7 +58433,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00c0(): number | undefined {
-    const value = this.dwResponse['300a00c0']?.Value;
+    const value = this.dwResponse['300A00C0']?.Value;
     return convert(value?.[0], 0x300a00c0, 'number');
   }
 
@@ -58451,7 +58451,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00c2(): string | undefined {
-    const value = this.dwResponse['300a00c2']?.Value;
+    const value = this.dwResponse['300A00C2']?.Value;
     return convert(value?.[0], 0x300a00c2, 'string');
   }
 
@@ -58469,7 +58469,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00c4(): string | undefined {
-    const value = this.dwResponse['300a00c4']?.Value;
+    const value = this.dwResponse['300A00C4']?.Value;
     return convert(value?.[0], 0x300a00c4, 'string');
   }
 
@@ -58487,7 +58487,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00c5(): number | undefined {
-    const value = this.dwResponse['300a00c5']?.Value;
+    const value = this.dwResponse['300A00C5']?.Value;
     return convert(value?.[0], 0x300a00c5, 'number');
   }
 
@@ -58505,7 +58505,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00c6(): string | undefined {
-    const value = this.dwResponse['300a00c6']?.Value;
+    const value = this.dwResponse['300A00C6']?.Value;
     return convert(value?.[0], 0x300a00c6, 'string');
   }
 
@@ -58523,7 +58523,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00c7(): string | undefined {
-    const value = this.dwResponse['300a00c7']?.Value;
+    const value = this.dwResponse['300A00C7']?.Value;
     return convert(value?.[0], 0x300a00c7, 'string');
   }
 
@@ -58541,7 +58541,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00c8(): number | undefined {
-    const value = this.dwResponse['300a00c8']?.Value;
+    const value = this.dwResponse['300A00C8']?.Value;
     return convert(value?.[0], 0x300a00c8, 'number');
   }
 
@@ -58559,7 +58559,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00ca(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a00ca']?.Value;
+    const value = this.dwResponse['300A00CA']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -58579,7 +58579,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00cc(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['300a00cc']?.Value;
+    const value = this.dwResponse['300A00CC']?.Value;
     return convert(value, 0x300a00cc, 'Array<string | undefined>');
   }
 
@@ -58597,7 +58597,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00ce(): string | undefined {
-    const value = this.dwResponse['300a00ce']?.Value;
+    const value = this.dwResponse['300A00CE']?.Value;
     return convert(value?.[0], 0x300a00ce, 'string');
   }
 
@@ -58615,7 +58615,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d0(): number | undefined {
-    const value = this.dwResponse['300a00d0']?.Value;
+    const value = this.dwResponse['300A00D0']?.Value;
     return convert(value?.[0], 0x300a00d0, 'number');
   }
 
@@ -58633,7 +58633,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d1(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a00d1']?.Value;
+    const value = this.dwResponse['300A00D1']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -58653,7 +58653,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d2(): number | undefined {
-    const value = this.dwResponse['300a00d2']?.Value;
+    const value = this.dwResponse['300A00D2']?.Value;
     return convert(value?.[0], 0x300a00d2, 'number');
   }
 
@@ -58671,7 +58671,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d3(): string | undefined {
-    const value = this.dwResponse['300a00d3']?.Value;
+    const value = this.dwResponse['300A00D3']?.Value;
     return convert(value?.[0], 0x300a00d3, 'string');
   }
 
@@ -58689,7 +58689,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d4(): string | undefined {
-    const value = this.dwResponse['300a00d4']?.Value;
+    const value = this.dwResponse['300A00D4']?.Value;
     return convert(value?.[0], 0x300a00d4, 'string');
   }
 
@@ -58707,7 +58707,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d5(): number | undefined {
-    const value = this.dwResponse['300a00d5']?.Value;
+    const value = this.dwResponse['300A00D5']?.Value;
     return convert(value?.[0], 0x300a00d5, 'number');
   }
 
@@ -58725,7 +58725,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d6(): number | undefined {
-    const value = this.dwResponse['300a00d6']?.Value;
+    const value = this.dwResponse['300A00D6']?.Value;
     return convert(value?.[0], 0x300a00d6, 'number');
   }
 
@@ -58743,7 +58743,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d7(): number | undefined {
-    const value = this.dwResponse['300a00d7']?.Value;
+    const value = this.dwResponse['300A00D7']?.Value;
     return convert(value?.[0], 0x300a00d7, 'number');
   }
 
@@ -58761,7 +58761,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d8(): number | undefined {
-    const value = this.dwResponse['300a00d8']?.Value;
+    const value = this.dwResponse['300A00D8']?.Value;
     return convert(value?.[0], 0x300a00d8, 'number');
   }
 
@@ -58779,7 +58779,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00d9(): number | undefined {
-    const value = this.dwResponse['300a00d9']?.Value;
+    const value = this.dwResponse['300A00D9']?.Value;
     return convert(value?.[0], 0x300a00d9, 'number');
   }
 
@@ -58797,7 +58797,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00da(): number | undefined {
-    const value = this.dwResponse['300a00da']?.Value;
+    const value = this.dwResponse['300A00DA']?.Value;
     return convert(value?.[0], 0x300a00da, 'number');
   }
 
@@ -58815,7 +58815,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00db(): number | undefined {
-    const value = this.dwResponse['300a00db']?.Value;
+    const value = this.dwResponse['300A00DB']?.Value;
     return convert(value?.[0], 0x300a00db, 'number');
   }
 
@@ -58833,7 +58833,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00dc(): string | undefined {
-    const value = this.dwResponse['300a00dc']?.Value;
+    const value = this.dwResponse['300A00DC']?.Value;
     return convert(value?.[0], 0x300a00dc, 'string');
   }
 
@@ -58851,7 +58851,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e0(): number | undefined {
-    const value = this.dwResponse['300a00e0']?.Value;
+    const value = this.dwResponse['300A00E0']?.Value;
     return convert(value?.[0], 0x300a00e0, 'number');
   }
 
@@ -58869,7 +58869,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e1(): string | undefined {
-    const value = this.dwResponse['300a00e1']?.Value;
+    const value = this.dwResponse['300A00E1']?.Value;
     return convert(value?.[0], 0x300a00e1, 'string');
   }
 
@@ -58887,7 +58887,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e2(): number | undefined {
-    const value = this.dwResponse['300a00e2']?.Value;
+    const value = this.dwResponse['300A00E2']?.Value;
     return convert(value?.[0], 0x300a00e2, 'number');
   }
 
@@ -58905,7 +58905,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e3(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a00e3']?.Value;
+    const value = this.dwResponse['300A00E3']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -58925,7 +58925,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e4(): number | undefined {
-    const value = this.dwResponse['300a00e4']?.Value;
+    const value = this.dwResponse['300A00E4']?.Value;
     return convert(value?.[0], 0x300a00e4, 'number');
   }
 
@@ -58943,7 +58943,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e5(): string | undefined {
-    const value = this.dwResponse['300a00e5']?.Value;
+    const value = this.dwResponse['300A00E5']?.Value;
     return convert(value?.[0], 0x300a00e5, 'string');
   }
 
@@ -58961,7 +58961,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e6(): number | undefined {
-    const value = this.dwResponse['300a00e6']?.Value;
+    const value = this.dwResponse['300A00E6']?.Value;
     return convert(value?.[0], 0x300a00e6, 'number');
   }
 
@@ -58979,7 +58979,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e7(): number | undefined {
-    const value = this.dwResponse['300a00e7']?.Value;
+    const value = this.dwResponse['300A00E7']?.Value;
     return convert(value?.[0], 0x300a00e7, 'number');
   }
 
@@ -58997,7 +58997,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e8(): number | undefined {
-    const value = this.dwResponse['300a00e8']?.Value;
+    const value = this.dwResponse['300A00E8']?.Value;
     return convert(value?.[0], 0x300a00e8, 'number');
   }
 
@@ -59015,7 +59015,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00e9(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a00e9']?.Value;
+    const value = this.dwResponse['300A00E9']?.Value;
     return convert(value, 0x300a00e9, 'Array<number | undefined>');
   }
 
@@ -59033,7 +59033,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00ea(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a00ea']?.Value;
+    const value = this.dwResponse['300A00EA']?.Value;
     return convert(value, 0x300a00ea, 'Array<number | undefined>');
   }
 
@@ -59051,7 +59051,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00eb(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a00eb']?.Value;
+    const value = this.dwResponse['300A00EB']?.Value;
     return convert(value, 0x300a00eb, 'Array<number | undefined>');
   }
 
@@ -59069,7 +59069,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00ec(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a00ec']?.Value;
+    const value = this.dwResponse['300A00EC']?.Value;
     return convert(value, 0x300a00ec, 'Array<number | undefined>');
   }
 
@@ -59087,7 +59087,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00ed(): number | undefined {
-    const value = this.dwResponse['300a00ed']?.Value;
+    const value = this.dwResponse['300A00ED']?.Value;
     return convert(value?.[0], 0x300a00ed, 'number');
   }
 
@@ -59105,7 +59105,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00ee(): string | undefined {
-    const value = this.dwResponse['300a00ee']?.Value;
+    const value = this.dwResponse['300A00EE']?.Value;
     return convert(value?.[0], 0x300a00ee, 'string');
   }
 
@@ -59123,7 +59123,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00ef(): string | undefined {
-    const value = this.dwResponse['300a00ef']?.Value;
+    const value = this.dwResponse['300A00EF']?.Value;
     return convert(value?.[0], 0x300a00ef, 'string');
   }
 
@@ -59141,7 +59141,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00f0(): number | undefined {
-    const value = this.dwResponse['300a00f0']?.Value;
+    const value = this.dwResponse['300A00F0']?.Value;
     return convert(value?.[0], 0x300a00f0, 'number');
   }
 
@@ -59159,7 +59159,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00f2(): number | undefined {
-    const value = this.dwResponse['300a00f2']?.Value;
+    const value = this.dwResponse['300A00F2']?.Value;
     return convert(value?.[0], 0x300a00f2, 'number');
   }
 
@@ -59177,7 +59177,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00f3(): number | undefined {
-    const value = this.dwResponse['300a00f3']?.Value;
+    const value = this.dwResponse['300A00F3']?.Value;
     return convert(value?.[0], 0x300a00f3, 'number');
   }
 
@@ -59195,7 +59195,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00f4(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a00f4']?.Value;
+    const value = this.dwResponse['300A00F4']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -59215,7 +59215,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00f5(): string | undefined {
-    const value = this.dwResponse['300a00f5']?.Value;
+    const value = this.dwResponse['300A00F5']?.Value;
     return convert(value?.[0], 0x300a00f5, 'string');
   }
 
@@ -59233,7 +59233,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00f6(): number | undefined {
-    const value = this.dwResponse['300a00f6']?.Value;
+    const value = this.dwResponse['300A00F6']?.Value;
     return convert(value?.[0], 0x300a00f6, 'number');
   }
 
@@ -59251,7 +59251,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00f7(): number | undefined {
-    const value = this.dwResponse['300a00f7']?.Value;
+    const value = this.dwResponse['300A00F7']?.Value;
     return convert(value?.[0], 0x300a00f7, 'number');
   }
 
@@ -59269,7 +59269,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00f8(): string | undefined {
-    const value = this.dwResponse['300a00f8']?.Value;
+    const value = this.dwResponse['300A00F8']?.Value;
     return convert(value?.[0], 0x300a00f8, 'string');
   }
 
@@ -59287,7 +59287,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00f9(): string | undefined {
-    const value = this.dwResponse['300a00f9']?.Value;
+    const value = this.dwResponse['300A00F9']?.Value;
     return convert(value?.[0], 0x300a00f9, 'string');
   }
 
@@ -59305,7 +59305,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00fa(): string | undefined {
-    const value = this.dwResponse['300a00fa']?.Value;
+    const value = this.dwResponse['300A00FA']?.Value;
     return convert(value?.[0], 0x300a00fa, 'string');
   }
 
@@ -59323,7 +59323,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00fb(): string | undefined {
-    const value = this.dwResponse['300a00fb']?.Value;
+    const value = this.dwResponse['300A00FB']?.Value;
     return convert(value?.[0], 0x300a00fb, 'string');
   }
 
@@ -59341,7 +59341,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00fc(): number | undefined {
-    const value = this.dwResponse['300a00fc']?.Value;
+    const value = this.dwResponse['300A00FC']?.Value;
     return convert(value?.[0], 0x300a00fc, 'number');
   }
 
@@ -59359,7 +59359,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00fe(): string | undefined {
-    const value = this.dwResponse['300a00fe']?.Value;
+    const value = this.dwResponse['300A00FE']?.Value;
     return convert(value?.[0], 0x300a00fe, 'string');
   }
 
@@ -59377,7 +59377,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0100(): number | undefined {
-    const value = this.dwResponse['300a0100']?.Value;
+    const value = this.dwResponse['300A0100']?.Value;
     return convert(value?.[0], 0x300a0100, 'number');
   }
 
@@ -59395,7 +59395,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0102(): number | undefined {
-    const value = this.dwResponse['300a0102']?.Value;
+    const value = this.dwResponse['300A0102']?.Value;
     return convert(value?.[0], 0x300a0102, 'number');
   }
 
@@ -59413,7 +59413,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0104(): number | undefined {
-    const value = this.dwResponse['300a0104']?.Value;
+    const value = this.dwResponse['300A0104']?.Value;
     return convert(value?.[0], 0x300a0104, 'number');
   }
 
@@ -59431,7 +59431,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0106(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a0106']?.Value;
+    const value = this.dwResponse['300A0106']?.Value;
     return convert(value, 0x300a0106, 'Array<number | undefined>');
   }
 
@@ -59449,7 +59449,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0107(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0107']?.Value;
+    const value = this.dwResponse['300A0107']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -59469,7 +59469,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0108(): string | undefined {
-    const value = this.dwResponse['300a0108']?.Value;
+    const value = this.dwResponse['300A0108']?.Value;
     return convert(value?.[0], 0x300a0108, 'string');
   }
 
@@ -59487,7 +59487,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0109(): string | undefined {
-    const value = this.dwResponse['300a0109']?.Value;
+    const value = this.dwResponse['300A0109']?.Value;
     return convert(value?.[0], 0x300a0109, 'string');
   }
 
@@ -59505,7 +59505,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a010a(): string | undefined {
-    const value = this.dwResponse['300a010a']?.Value;
+    const value = this.dwResponse['300A010A']?.Value;
     return convert(value?.[0], 0x300a010a, 'string');
   }
 
@@ -59523,7 +59523,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a010c(): number | undefined {
-    const value = this.dwResponse['300a010c']?.Value;
+    const value = this.dwResponse['300A010C']?.Value;
     return convert(value?.[0], 0x300a010c, 'number');
   }
 
@@ -59541,7 +59541,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a010e(): number | undefined {
-    const value = this.dwResponse['300a010e']?.Value;
+    const value = this.dwResponse['300A010E']?.Value;
     return convert(value?.[0], 0x300a010e, 'number');
   }
 
@@ -59559,7 +59559,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0110(): number | undefined {
-    const value = this.dwResponse['300a0110']?.Value;
+    const value = this.dwResponse['300A0110']?.Value;
     return convert(value?.[0], 0x300a0110, 'number');
   }
 
@@ -59577,7 +59577,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0111(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0111']?.Value;
+    const value = this.dwResponse['300A0111']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -59597,7 +59597,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0112(): number | undefined {
-    const value = this.dwResponse['300a0112']?.Value;
+    const value = this.dwResponse['300A0112']?.Value;
     return convert(value?.[0], 0x300a0112, 'number');
   }
 
@@ -59615,7 +59615,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0114(): number | undefined {
-    const value = this.dwResponse['300a0114']?.Value;
+    const value = this.dwResponse['300A0114']?.Value;
     return convert(value?.[0], 0x300a0114, 'number');
   }
 
@@ -59633,7 +59633,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0115(): number | undefined {
-    const value = this.dwResponse['300a0115']?.Value;
+    const value = this.dwResponse['300A0115']?.Value;
     return convert(value?.[0], 0x300a0115, 'number');
   }
 
@@ -59651,7 +59651,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0116(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0116']?.Value;
+    const value = this.dwResponse['300A0116']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -59671,7 +59671,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0118(): string | undefined {
-    const value = this.dwResponse['300a0118']?.Value;
+    const value = this.dwResponse['300A0118']?.Value;
     return convert(value?.[0], 0x300a0118, 'string');
   }
 
@@ -59689,7 +59689,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a011a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a011a']?.Value;
+    const value = this.dwResponse['300A011A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -59709,7 +59709,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a011c(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a011c']?.Value;
+    const value = this.dwResponse['300A011C']?.Value;
     return convert(value, 0x300a011c, 'Array<number | undefined>');
   }
 
@@ -59727,7 +59727,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a011e(): number | undefined {
-    const value = this.dwResponse['300a011e']?.Value;
+    const value = this.dwResponse['300A011E']?.Value;
     return convert(value?.[0], 0x300a011e, 'number');
   }
 
@@ -59745,7 +59745,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a011f(): string | undefined {
-    const value = this.dwResponse['300a011f']?.Value;
+    const value = this.dwResponse['300A011F']?.Value;
     return convert(value?.[0], 0x300a011f, 'string');
   }
 
@@ -59763,7 +59763,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0120(): number | undefined {
-    const value = this.dwResponse['300a0120']?.Value;
+    const value = this.dwResponse['300A0120']?.Value;
     return convert(value?.[0], 0x300a0120, 'number');
   }
 
@@ -59781,7 +59781,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0121(): string | undefined {
-    const value = this.dwResponse['300a0121']?.Value;
+    const value = this.dwResponse['300A0121']?.Value;
     return convert(value?.[0], 0x300a0121, 'string');
   }
 
@@ -59799,7 +59799,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0122(): number | undefined {
-    const value = this.dwResponse['300a0122']?.Value;
+    const value = this.dwResponse['300A0122']?.Value;
     return convert(value?.[0], 0x300a0122, 'number');
   }
 
@@ -59817,7 +59817,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0123(): string | undefined {
-    const value = this.dwResponse['300a0123']?.Value;
+    const value = this.dwResponse['300A0123']?.Value;
     return convert(value?.[0], 0x300a0123, 'string');
   }
 
@@ -59835,7 +59835,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0124(): number | undefined {
-    const value = this.dwResponse['300a0124']?.Value;
+    const value = this.dwResponse['300A0124']?.Value;
     return convert(value?.[0], 0x300a0124, 'number');
   }
 
@@ -59853,7 +59853,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0125(): number | undefined {
-    const value = this.dwResponse['300a0125']?.Value;
+    const value = this.dwResponse['300A0125']?.Value;
     return convert(value?.[0], 0x300a0125, 'number');
   }
 
@@ -59871,7 +59871,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0126(): string | undefined {
-    const value = this.dwResponse['300a0126']?.Value;
+    const value = this.dwResponse['300A0126']?.Value;
     return convert(value?.[0], 0x300a0126, 'string');
   }
 
@@ -59889,7 +59889,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0128(): number | undefined {
-    const value = this.dwResponse['300a0128']?.Value;
+    const value = this.dwResponse['300A0128']?.Value;
     return convert(value?.[0], 0x300a0128, 'number');
   }
 
@@ -59907,7 +59907,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0129(): number | undefined {
-    const value = this.dwResponse['300a0129']?.Value;
+    const value = this.dwResponse['300A0129']?.Value;
     return convert(value?.[0], 0x300a0129, 'number');
   }
 
@@ -59925,7 +59925,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a012a(): number | undefined {
-    const value = this.dwResponse['300a012a']?.Value;
+    const value = this.dwResponse['300A012A']?.Value;
     return convert(value?.[0], 0x300a012a, 'number');
   }
 
@@ -59943,7 +59943,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a012c(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a012c']?.Value;
+    const value = this.dwResponse['300A012C']?.Value;
     return convert(value, 0x300a012c, 'Array<number | undefined>');
   }
 
@@ -59961,7 +59961,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a012e(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a012e']?.Value;
+    const value = this.dwResponse['300A012E']?.Value;
     return convert(value, 0x300a012e, 'Array<number | undefined>');
   }
 
@@ -59979,7 +59979,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0130(): number | undefined {
-    const value = this.dwResponse['300a0130']?.Value;
+    const value = this.dwResponse['300A0130']?.Value;
     return convert(value?.[0], 0x300a0130, 'number');
   }
 
@@ -59997,7 +59997,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0134(): number | undefined {
-    const value = this.dwResponse['300a0134']?.Value;
+    const value = this.dwResponse['300A0134']?.Value;
     return convert(value?.[0], 0x300a0134, 'number');
   }
 
@@ -60015,7 +60015,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0140(): number | undefined {
-    const value = this.dwResponse['300a0140']?.Value;
+    const value = this.dwResponse['300A0140']?.Value;
     return convert(value?.[0], 0x300a0140, 'number');
   }
 
@@ -60033,7 +60033,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0142(): string | undefined {
-    const value = this.dwResponse['300a0142']?.Value;
+    const value = this.dwResponse['300A0142']?.Value;
     return convert(value?.[0], 0x300a0142, 'string');
   }
 
@@ -60051,7 +60051,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0144(): number | undefined {
-    const value = this.dwResponse['300a0144']?.Value;
+    const value = this.dwResponse['300A0144']?.Value;
     return convert(value?.[0], 0x300a0144, 'number');
   }
 
@@ -60069,7 +60069,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0146(): string | undefined {
-    const value = this.dwResponse['300a0146']?.Value;
+    const value = this.dwResponse['300A0146']?.Value;
     return convert(value?.[0], 0x300a0146, 'string');
   }
 
@@ -60087,7 +60087,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0148(): number | undefined {
-    const value = this.dwResponse['300a0148']?.Value;
+    const value = this.dwResponse['300A0148']?.Value;
     return convert(value?.[0], 0x300a0148, 'number');
   }
 
@@ -60105,7 +60105,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a014a(): number | undefined {
-    const value = this.dwResponse['300a014a']?.Value;
+    const value = this.dwResponse['300A014A']?.Value;
     return convert(value?.[0], 0x300a014a, 'number');
   }
 
@@ -60123,7 +60123,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a014c(): string | undefined {
-    const value = this.dwResponse['300a014c']?.Value;
+    const value = this.dwResponse['300A014C']?.Value;
     return convert(value?.[0], 0x300a014c, 'string');
   }
 
@@ -60141,7 +60141,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a014e(): number | undefined {
-    const value = this.dwResponse['300a014e']?.Value;
+    const value = this.dwResponse['300A014E']?.Value;
     return convert(value?.[0], 0x300a014e, 'number');
   }
 
@@ -60159,7 +60159,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0180(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0180']?.Value;
+    const value = this.dwResponse['300A0180']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -60179,7 +60179,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0182(): number | undefined {
-    const value = this.dwResponse['300a0182']?.Value;
+    const value = this.dwResponse['300A0182']?.Value;
     return convert(value?.[0], 0x300a0182, 'number');
   }
 
@@ -60197,7 +60197,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0183(): string | undefined {
-    const value = this.dwResponse['300a0183']?.Value;
+    const value = this.dwResponse['300A0183']?.Value;
     return convert(value?.[0], 0x300a0183, 'string');
   }
 
@@ -60215,7 +60215,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0184(): string | undefined {
-    const value = this.dwResponse['300a0184']?.Value;
+    const value = this.dwResponse['300A0184']?.Value;
     return convert(value?.[0], 0x300a0184, 'string');
   }
 
@@ -60233,7 +60233,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0190(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0190']?.Value;
+    const value = this.dwResponse['300A0190']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -60253,7 +60253,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0192(): string | undefined {
-    const value = this.dwResponse['300a0192']?.Value;
+    const value = this.dwResponse['300A0192']?.Value;
     return convert(value?.[0], 0x300a0192, 'string');
   }
 
@@ -60271,7 +60271,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0194(): string | undefined {
-    const value = this.dwResponse['300a0194']?.Value;
+    const value = this.dwResponse['300A0194']?.Value;
     return convert(value?.[0], 0x300a0194, 'string');
   }
 
@@ -60289,7 +60289,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0198(): string | undefined {
-    const value = this.dwResponse['300a0198']?.Value;
+    const value = this.dwResponse['300A0198']?.Value;
     return convert(value?.[0], 0x300a0198, 'string');
   }
 
@@ -60307,7 +60307,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0199(): number | undefined {
-    const value = this.dwResponse['300a0199']?.Value;
+    const value = this.dwResponse['300A0199']?.Value;
     return convert(value?.[0], 0x300a0199, 'number');
   }
 
@@ -60325,7 +60325,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a019a(): number | undefined {
-    const value = this.dwResponse['300a019a']?.Value;
+    const value = this.dwResponse['300A019A']?.Value;
     return convert(value?.[0], 0x300a019a, 'number');
   }
 
@@ -60343,7 +60343,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01a0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a01a0']?.Value;
+    const value = this.dwResponse['300A01A0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -60363,7 +60363,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01a2(): string | undefined {
-    const value = this.dwResponse['300a01a2']?.Value;
+    const value = this.dwResponse['300A01A2']?.Value;
     return convert(value?.[0], 0x300a01a2, 'string');
   }
 
@@ -60381,7 +60381,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01a4(): string | undefined {
-    const value = this.dwResponse['300a01a4']?.Value;
+    const value = this.dwResponse['300A01A4']?.Value;
     return convert(value?.[0], 0x300a01a4, 'string');
   }
 
@@ -60399,7 +60399,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01a8(): string | undefined {
-    const value = this.dwResponse['300a01a8']?.Value;
+    const value = this.dwResponse['300A01A8']?.Value;
     return convert(value?.[0], 0x300a01a8, 'string');
   }
 
@@ -60417,7 +60417,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01b0(): string | undefined {
-    const value = this.dwResponse['300a01b0']?.Value;
+    const value = this.dwResponse['300A01B0']?.Value;
     return convert(value?.[0], 0x300a01b0, 'string');
   }
 
@@ -60435,7 +60435,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01b4(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a01b4']?.Value;
+    const value = this.dwResponse['300A01B4']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -60455,7 +60455,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01b6(): string | undefined {
-    const value = this.dwResponse['300a01b6']?.Value;
+    const value = this.dwResponse['300A01B6']?.Value;
     return convert(value?.[0], 0x300a01b6, 'string');
   }
 
@@ -60473,7 +60473,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01b8(): string | undefined {
-    const value = this.dwResponse['300a01b8']?.Value;
+    const value = this.dwResponse['300A01B8']?.Value;
     return convert(value?.[0], 0x300a01b8, 'string');
   }
 
@@ -60491,7 +60491,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01bc(): number | undefined {
-    const value = this.dwResponse['300a01bc']?.Value;
+    const value = this.dwResponse['300A01BC']?.Value;
     return convert(value?.[0], 0x300a01bc, 'number');
   }
 
@@ -60509,7 +60509,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01d2(): number | undefined {
-    const value = this.dwResponse['300a01d2']?.Value;
+    const value = this.dwResponse['300A01D2']?.Value;
     return convert(value?.[0], 0x300a01d2, 'number');
   }
 
@@ -60527,7 +60527,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01d4(): number | undefined {
-    const value = this.dwResponse['300a01d4']?.Value;
+    const value = this.dwResponse['300A01D4']?.Value;
     return convert(value?.[0], 0x300a01d4, 'number');
   }
 
@@ -60545,7 +60545,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01d6(): number | undefined {
-    const value = this.dwResponse['300a01d6']?.Value;
+    const value = this.dwResponse['300A01D6']?.Value;
     return convert(value?.[0], 0x300a01d6, 'number');
   }
 
@@ -60563,7 +60563,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0200(): string | undefined {
-    const value = this.dwResponse['300a0200']?.Value;
+    const value = this.dwResponse['300A0200']?.Value;
     return convert(value?.[0], 0x300a0200, 'string');
   }
 
@@ -60581,7 +60581,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0202(): string | undefined {
-    const value = this.dwResponse['300a0202']?.Value;
+    const value = this.dwResponse['300A0202']?.Value;
     return convert(value?.[0], 0x300a0202, 'string');
   }
 
@@ -60599,7 +60599,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0206(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0206']?.Value;
+    const value = this.dwResponse['300A0206']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -60619,7 +60619,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0210(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0210']?.Value;
+    const value = this.dwResponse['300A0210']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -60639,7 +60639,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0212(): number | undefined {
-    const value = this.dwResponse['300a0212']?.Value;
+    const value = this.dwResponse['300A0212']?.Value;
     return convert(value?.[0], 0x300a0212, 'number');
   }
 
@@ -60657,7 +60657,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0214(): string | undefined {
-    const value = this.dwResponse['300a0214']?.Value;
+    const value = this.dwResponse['300A0214']?.Value;
     return convert(value?.[0], 0x300a0214, 'string');
   }
 
@@ -60675,7 +60675,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0216(): string | undefined {
-    const value = this.dwResponse['300a0216']?.Value;
+    const value = this.dwResponse['300A0216']?.Value;
     return convert(value?.[0], 0x300a0216, 'string');
   }
 
@@ -60693,7 +60693,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0218(): number | undefined {
-    const value = this.dwResponse['300a0218']?.Value;
+    const value = this.dwResponse['300A0218']?.Value;
     return convert(value?.[0], 0x300a0218, 'number');
   }
 
@@ -60711,7 +60711,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a021a(): number | undefined {
-    const value = this.dwResponse['300a021a']?.Value;
+    const value = this.dwResponse['300A021A']?.Value;
     return convert(value?.[0], 0x300a021a, 'number');
   }
 
@@ -60729,7 +60729,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a021b(): string | undefined {
-    const value = this.dwResponse['300a021b']?.Value;
+    const value = this.dwResponse['300A021B']?.Value;
     return convert(value?.[0], 0x300a021b, 'string');
   }
 
@@ -60747,7 +60747,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a021c(): string | undefined {
-    const value = this.dwResponse['300a021c']?.Value;
+    const value = this.dwResponse['300A021C']?.Value;
     return convert(value?.[0], 0x300a021c, 'string');
   }
 
@@ -60765,7 +60765,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0222(): number | undefined {
-    const value = this.dwResponse['300a0222']?.Value;
+    const value = this.dwResponse['300A0222']?.Value;
     return convert(value?.[0], 0x300a0222, 'number');
   }
 
@@ -60783,7 +60783,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0224(): number | undefined {
-    const value = this.dwResponse['300a0224']?.Value;
+    const value = this.dwResponse['300A0224']?.Value;
     return convert(value?.[0], 0x300a0224, 'number');
   }
 
@@ -60801,7 +60801,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0226(): string | undefined {
-    const value = this.dwResponse['300a0226']?.Value;
+    const value = this.dwResponse['300A0226']?.Value;
     return convert(value?.[0], 0x300a0226, 'string');
   }
 
@@ -60819,7 +60819,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0228(): number | undefined {
-    const value = this.dwResponse['300a0228']?.Value;
+    const value = this.dwResponse['300A0228']?.Value;
     return convert(value?.[0], 0x300a0228, 'number');
   }
 
@@ -60837,7 +60837,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0229(): string | undefined {
-    const value = this.dwResponse['300a0229']?.Value;
+    const value = this.dwResponse['300A0229']?.Value;
     return convert(value?.[0], 0x300a0229, 'string');
   }
 
@@ -60855,7 +60855,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a022a(): number | undefined {
-    const value = this.dwResponse['300a022a']?.Value;
+    const value = this.dwResponse['300A022A']?.Value;
     return convert(value?.[0], 0x300a022a, 'number');
   }
 
@@ -60873,7 +60873,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a022b(): number | undefined {
-    const value = this.dwResponse['300a022b']?.Value;
+    const value = this.dwResponse['300A022B']?.Value;
     return convert(value?.[0], 0x300a022b, 'number');
   }
 
@@ -60891,7 +60891,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a022c(): Date | undefined {
-    const value = this.dwResponse['300a022c']?.Value;
+    const value = this.dwResponse['300A022C']?.Value;
     return convert(value?.[0], 0x300a022c, 'Date');
   }
 
@@ -60909,7 +60909,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a022e(): string | undefined {
-    const value = this.dwResponse['300a022e']?.Value;
+    const value = this.dwResponse['300A022E']?.Value;
     return convert(value?.[0], 0x300a022e, 'string');
   }
 
@@ -60927,7 +60927,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0230(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0230']?.Value;
+    const value = this.dwResponse['300A0230']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -60947,7 +60947,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0232(): string | undefined {
-    const value = this.dwResponse['300a0232']?.Value;
+    const value = this.dwResponse['300A0232']?.Value;
     return convert(value?.[0], 0x300a0232, 'string');
   }
 
@@ -60965,7 +60965,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0234(): number | undefined {
-    const value = this.dwResponse['300a0234']?.Value;
+    const value = this.dwResponse['300A0234']?.Value;
     return convert(value?.[0], 0x300a0234, 'number');
   }
 
@@ -60983,7 +60983,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0236(): string | undefined {
-    const value = this.dwResponse['300a0236']?.Value;
+    const value = this.dwResponse['300A0236']?.Value;
     return convert(value?.[0], 0x300a0236, 'string');
   }
 
@@ -61001,7 +61001,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0238(): string | undefined {
-    const value = this.dwResponse['300a0238']?.Value;
+    const value = this.dwResponse['300A0238']?.Value;
     return convert(value?.[0], 0x300a0238, 'string');
   }
 
@@ -61019,7 +61019,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0240(): number | undefined {
-    const value = this.dwResponse['300a0240']?.Value;
+    const value = this.dwResponse['300A0240']?.Value;
     return convert(value?.[0], 0x300a0240, 'number');
   }
 
@@ -61037,7 +61037,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0242(): string | undefined {
-    const value = this.dwResponse['300a0242']?.Value;
+    const value = this.dwResponse['300A0242']?.Value;
     return convert(value?.[0], 0x300a0242, 'string');
   }
 
@@ -61055,7 +61055,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0244(): string | undefined {
-    const value = this.dwResponse['300a0244']?.Value;
+    const value = this.dwResponse['300A0244']?.Value;
     return convert(value?.[0], 0x300a0244, 'string');
   }
 
@@ -61073,7 +61073,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0250(): number | undefined {
-    const value = this.dwResponse['300a0250']?.Value;
+    const value = this.dwResponse['300A0250']?.Value;
     return convert(value?.[0], 0x300a0250, 'number');
   }
 
@@ -61091,7 +61091,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0260(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0260']?.Value;
+    const value = this.dwResponse['300A0260']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -61111,7 +61111,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0262(): number | undefined {
-    const value = this.dwResponse['300a0262']?.Value;
+    const value = this.dwResponse['300A0262']?.Value;
     return convert(value?.[0], 0x300a0262, 'number');
   }
 
@@ -61129,7 +61129,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0263(): string | undefined {
-    const value = this.dwResponse['300a0263']?.Value;
+    const value = this.dwResponse['300A0263']?.Value;
     return convert(value?.[0], 0x300a0263, 'string');
   }
 
@@ -61147,7 +61147,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0264(): string | undefined {
-    const value = this.dwResponse['300a0264']?.Value;
+    const value = this.dwResponse['300A0264']?.Value;
     return convert(value?.[0], 0x300a0264, 'string');
   }
 
@@ -61165,7 +61165,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0266(): string | undefined {
-    const value = this.dwResponse['300a0266']?.Value;
+    const value = this.dwResponse['300A0266']?.Value;
     return convert(value?.[0], 0x300a0266, 'string');
   }
 
@@ -61183,7 +61183,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a026a(): number | undefined {
-    const value = this.dwResponse['300a026a']?.Value;
+    const value = this.dwResponse['300A026A']?.Value;
     return convert(value?.[0], 0x300a026a, 'number');
   }
 
@@ -61201,7 +61201,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a026c(): number | undefined {
-    const value = this.dwResponse['300a026c']?.Value;
+    const value = this.dwResponse['300A026C']?.Value;
     return convert(value?.[0], 0x300a026c, 'number');
   }
 
@@ -61219,7 +61219,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0280(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0280']?.Value;
+    const value = this.dwResponse['300A0280']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -61239,7 +61239,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0282(): number | undefined {
-    const value = this.dwResponse['300a0282']?.Value;
+    const value = this.dwResponse['300A0282']?.Value;
     return convert(value?.[0], 0x300a0282, 'number');
   }
 
@@ -61257,7 +61257,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0284(): number | undefined {
-    const value = this.dwResponse['300a0284']?.Value;
+    const value = this.dwResponse['300A0284']?.Value;
     return convert(value?.[0], 0x300a0284, 'number');
   }
 
@@ -61275,7 +61275,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0286(): number | undefined {
-    const value = this.dwResponse['300a0286']?.Value;
+    const value = this.dwResponse['300A0286']?.Value;
     return convert(value?.[0], 0x300a0286, 'number');
   }
 
@@ -61293,7 +61293,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0288(): string | undefined {
-    const value = this.dwResponse['300a0288']?.Value;
+    const value = this.dwResponse['300A0288']?.Value;
     return convert(value?.[0], 0x300a0288, 'string');
   }
 
@@ -61311,7 +61311,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a028a(): number | undefined {
-    const value = this.dwResponse['300a028a']?.Value;
+    const value = this.dwResponse['300A028A']?.Value;
     return convert(value?.[0], 0x300a028a, 'number');
   }
 
@@ -61329,7 +61329,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a028c(): number | undefined {
-    const value = this.dwResponse['300a028c']?.Value;
+    const value = this.dwResponse['300A028C']?.Value;
     return convert(value?.[0], 0x300a028c, 'number');
   }
 
@@ -61347,7 +61347,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0290(): number | undefined {
-    const value = this.dwResponse['300a0290']?.Value;
+    const value = this.dwResponse['300A0290']?.Value;
     return convert(value?.[0], 0x300a0290, 'number');
   }
 
@@ -61365,7 +61365,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0291(): string | undefined {
-    const value = this.dwResponse['300a0291']?.Value;
+    const value = this.dwResponse['300A0291']?.Value;
     return convert(value?.[0], 0x300a0291, 'string');
   }
 
@@ -61383,7 +61383,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0292(): string | undefined {
-    const value = this.dwResponse['300a0292']?.Value;
+    const value = this.dwResponse['300A0292']?.Value;
     return convert(value?.[0], 0x300a0292, 'string');
   }
 
@@ -61401,7 +61401,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0294(): string | undefined {
-    const value = this.dwResponse['300a0294']?.Value;
+    const value = this.dwResponse['300A0294']?.Value;
     return convert(value?.[0], 0x300a0294, 'string');
   }
 
@@ -61419,7 +61419,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0296(): number | undefined {
-    const value = this.dwResponse['300a0296']?.Value;
+    const value = this.dwResponse['300A0296']?.Value;
     return convert(value?.[0], 0x300a0296, 'number');
   }
 
@@ -61437,7 +61437,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0298(): string | undefined {
-    const value = this.dwResponse['300a0298']?.Value;
+    const value = this.dwResponse['300A0298']?.Value;
     return convert(value?.[0], 0x300a0298, 'string');
   }
 
@@ -61455,7 +61455,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a029c(): number | undefined {
-    const value = this.dwResponse['300a029c']?.Value;
+    const value = this.dwResponse['300A029C']?.Value;
     return convert(value?.[0], 0x300a029c, 'number');
   }
 
@@ -61473,7 +61473,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a029e(): number | undefined {
-    const value = this.dwResponse['300a029e']?.Value;
+    const value = this.dwResponse['300A029E']?.Value;
     return convert(value?.[0], 0x300a029e, 'number');
   }
 
@@ -61491,7 +61491,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02a0(): number | undefined {
-    const value = this.dwResponse['300a02a0']?.Value;
+    const value = this.dwResponse['300A02A0']?.Value;
     return convert(value?.[0], 0x300a02a0, 'number');
   }
 
@@ -61509,7 +61509,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02a2(): number | undefined {
-    const value = this.dwResponse['300a02a2']?.Value;
+    const value = this.dwResponse['300A02A2']?.Value;
     return convert(value?.[0], 0x300a02a2, 'number');
   }
 
@@ -61527,7 +61527,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02a4(): number | undefined {
-    const value = this.dwResponse['300a02a4']?.Value;
+    const value = this.dwResponse['300A02A4']?.Value;
     return convert(value?.[0], 0x300a02a4, 'number');
   }
 
@@ -61545,7 +61545,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02b0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a02b0']?.Value;
+    const value = this.dwResponse['300A02B0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -61565,7 +61565,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02b2(): number | undefined {
-    const value = this.dwResponse['300a02b2']?.Value;
+    const value = this.dwResponse['300A02B2']?.Value;
     return convert(value?.[0], 0x300a02b2, 'number');
   }
 
@@ -61583,7 +61583,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02b3(): string | undefined {
-    const value = this.dwResponse['300a02b3']?.Value;
+    const value = this.dwResponse['300A02B3']?.Value;
     return convert(value?.[0], 0x300a02b3, 'string');
   }
 
@@ -61601,7 +61601,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02b4(): string | undefined {
-    const value = this.dwResponse['300a02b4']?.Value;
+    const value = this.dwResponse['300A02B4']?.Value;
     return convert(value?.[0], 0x300a02b4, 'string');
   }
 
@@ -61619,7 +61619,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02b8(): number | undefined {
-    const value = this.dwResponse['300a02b8']?.Value;
+    const value = this.dwResponse['300A02B8']?.Value;
     return convert(value?.[0], 0x300a02b8, 'number');
   }
 
@@ -61637,7 +61637,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02ba(): number | undefined {
-    const value = this.dwResponse['300a02ba']?.Value;
+    const value = this.dwResponse['300A02BA']?.Value;
     return convert(value?.[0], 0x300a02ba, 'number');
   }
 
@@ -61655,7 +61655,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02c8(): number | undefined {
-    const value = this.dwResponse['300a02c8']?.Value;
+    const value = this.dwResponse['300A02C8']?.Value;
     return convert(value?.[0], 0x300a02c8, 'number');
   }
 
@@ -61673,7 +61673,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02d0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a02d0']?.Value;
+    const value = this.dwResponse['300A02D0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -61693,7 +61693,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02d2(): number | undefined {
-    const value = this.dwResponse['300a02d2']?.Value;
+    const value = this.dwResponse['300A02D2']?.Value;
     return convert(value?.[0], 0x300a02d2, 'number');
   }
 
@@ -61711,7 +61711,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02d4(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a02d4']?.Value;
+    const value = this.dwResponse['300A02D4']?.Value;
     return convert(value, 0x300a02d4, 'Array<number | undefined>');
   }
 
@@ -61729,7 +61729,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02d6(): number | undefined {
-    const value = this.dwResponse['300a02d6']?.Value;
+    const value = this.dwResponse['300A02D6']?.Value;
     return convert(value?.[0], 0x300a02d6, 'number');
   }
 
@@ -61747,7 +61747,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02e0(): string | undefined {
-    const value = this.dwResponse['300a02e0']?.Value;
+    const value = this.dwResponse['300A02E0']?.Value;
     return convert(value?.[0], 0x300a02e0, 'string');
   }
 
@@ -61765,7 +61765,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02e1(): string | undefined {
-    const value = this.dwResponse['300a02e1']?.Value;
+    const value = this.dwResponse['300A02E1']?.Value;
     return convert(value?.[0], 0x300a02e1, 'string');
   }
 
@@ -61783,7 +61783,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02e2(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a02e2']?.Value;
+    const value = this.dwResponse['300A02E2']?.Value;
     return convert(value, 0x300a02e2, 'Array<number | undefined>');
   }
 
@@ -61801,7 +61801,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02e3(): number | undefined {
-    const value = this.dwResponse['300a02e3']?.Value;
+    const value = this.dwResponse['300A02E3']?.Value;
     return convert(value?.[0], 0x300a02e3, 'number');
   }
 
@@ -61819,7 +61819,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02e4(): number | undefined {
-    const value = this.dwResponse['300a02e4']?.Value;
+    const value = this.dwResponse['300A02E4']?.Value;
     return convert(value?.[0], 0x300a02e4, 'number');
   }
 
@@ -61837,7 +61837,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02e5(): number | undefined {
-    const value = this.dwResponse['300a02e5']?.Value;
+    const value = this.dwResponse['300A02E5']?.Value;
     return convert(value?.[0], 0x300a02e5, 'number');
   }
 
@@ -61855,7 +61855,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02e6(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a02e6']?.Value;
+    const value = this.dwResponse['300A02E6']?.Value;
     return convert(value, 0x300a02e6, 'Array<number | undefined>');
   }
 
@@ -61873,7 +61873,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02e7(): number | undefined {
-    const value = this.dwResponse['300a02e7']?.Value;
+    const value = this.dwResponse['300A02E7']?.Value;
     return convert(value?.[0], 0x300a02e7, 'number');
   }
 
@@ -61891,7 +61891,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02e8(): number | undefined {
-    const value = this.dwResponse['300a02e8']?.Value;
+    const value = this.dwResponse['300A02E8']?.Value;
     return convert(value?.[0], 0x300a02e8, 'number');
   }
 
@@ -61909,7 +61909,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02ea(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a02ea']?.Value;
+    const value = this.dwResponse['300A02EA']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -61929,7 +61929,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0302(): number | undefined {
-    const value = this.dwResponse['300a0302']?.Value;
+    const value = this.dwResponse['300A0302']?.Value;
     return convert(value?.[0], 0x300a0302, 'number');
   }
 
@@ -61947,7 +61947,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0304(): number | undefined {
-    const value = this.dwResponse['300a0304']?.Value;
+    const value = this.dwResponse['300A0304']?.Value;
     return convert(value?.[0], 0x300a0304, 'number');
   }
 
@@ -61965,7 +61965,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0306(): Uint8Array | undefined {
-    const value = this.dwResponse['300a0306']?.Value;
+    const value = this.dwResponse['300A0306']?.Value;
     return convert(value?.[0], 0x300a0306, 'Uint8Array');
   }
 
@@ -61983,7 +61983,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0308(): string | undefined {
-    const value = this.dwResponse['300a0308']?.Value;
+    const value = this.dwResponse['300A0308']?.Value;
     return convert(value?.[0], 0x300a0308, 'string');
   }
 
@@ -62001,7 +62001,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a030a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a030a']?.Value;
+    const value = this.dwResponse['300A030A']?.Value;
     return convert(value, 0x300a030a, 'Array<number | undefined>');
   }
 
@@ -62019,7 +62019,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a030c(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a030c']?.Value;
+    const value = this.dwResponse['300A030C']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62039,7 +62039,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a030d(): number | undefined {
-    const value = this.dwResponse['300a030d']?.Value;
+    const value = this.dwResponse['300A030D']?.Value;
     return convert(value?.[0], 0x300a030d, 'number');
   }
 
@@ -62057,7 +62057,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a030f(): string | undefined {
-    const value = this.dwResponse['300a030f']?.Value;
+    const value = this.dwResponse['300A030F']?.Value;
     return convert(value?.[0], 0x300a030f, 'string');
   }
 
@@ -62075,7 +62075,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0312(): number | undefined {
-    const value = this.dwResponse['300a0312']?.Value;
+    const value = this.dwResponse['300A0312']?.Value;
     return convert(value?.[0], 0x300a0312, 'number');
   }
 
@@ -62093,7 +62093,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0314(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0314']?.Value;
+    const value = this.dwResponse['300A0314']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62113,7 +62113,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0316(): number | undefined {
-    const value = this.dwResponse['300a0316']?.Value;
+    const value = this.dwResponse['300A0316']?.Value;
     return convert(value?.[0], 0x300a0316, 'number');
   }
 
@@ -62131,7 +62131,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0318(): string | undefined {
-    const value = this.dwResponse['300a0318']?.Value;
+    const value = this.dwResponse['300A0318']?.Value;
     return convert(value?.[0], 0x300a0318, 'string');
   }
 
@@ -62149,7 +62149,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0320(): string | undefined {
-    const value = this.dwResponse['300a0320']?.Value;
+    const value = this.dwResponse['300A0320']?.Value;
     return convert(value?.[0], 0x300a0320, 'string');
   }
 
@@ -62167,7 +62167,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0322(): string | undefined {
-    const value = this.dwResponse['300a0322']?.Value;
+    const value = this.dwResponse['300A0322']?.Value;
     return convert(value?.[0], 0x300a0322, 'string');
   }
 
@@ -62185,7 +62185,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0330(): number | undefined {
-    const value = this.dwResponse['300a0330']?.Value;
+    const value = this.dwResponse['300A0330']?.Value;
     return convert(value?.[0], 0x300a0330, 'number');
   }
 
@@ -62203,7 +62203,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0332(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0332']?.Value;
+    const value = this.dwResponse['300A0332']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62223,7 +62223,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0334(): number | undefined {
-    const value = this.dwResponse['300a0334']?.Value;
+    const value = this.dwResponse['300A0334']?.Value;
     return convert(value?.[0], 0x300a0334, 'number');
   }
 
@@ -62241,7 +62241,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0336(): string | undefined {
-    const value = this.dwResponse['300a0336']?.Value;
+    const value = this.dwResponse['300A0336']?.Value;
     return convert(value?.[0], 0x300a0336, 'string');
   }
 
@@ -62259,7 +62259,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0338(): string | undefined {
-    const value = this.dwResponse['300a0338']?.Value;
+    const value = this.dwResponse['300A0338']?.Value;
     return convert(value?.[0], 0x300a0338, 'string');
   }
 
@@ -62277,7 +62277,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a033a(): string | undefined {
-    const value = this.dwResponse['300a033a']?.Value;
+    const value = this.dwResponse['300A033A']?.Value;
     return convert(value?.[0], 0x300a033a, 'string');
   }
 
@@ -62295,7 +62295,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a033c(): number | undefined {
-    const value = this.dwResponse['300a033c']?.Value;
+    const value = this.dwResponse['300A033C']?.Value;
     return convert(value?.[0], 0x300a033c, 'number');
   }
 
@@ -62313,7 +62313,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0340(): number | undefined {
-    const value = this.dwResponse['300a0340']?.Value;
+    const value = this.dwResponse['300A0340']?.Value;
     return convert(value?.[0], 0x300a0340, 'number');
   }
 
@@ -62331,7 +62331,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0342(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0342']?.Value;
+    const value = this.dwResponse['300A0342']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62351,7 +62351,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0344(): number | undefined {
-    const value = this.dwResponse['300a0344']?.Value;
+    const value = this.dwResponse['300A0344']?.Value;
     return convert(value?.[0], 0x300a0344, 'number');
   }
 
@@ -62369,7 +62369,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0346(): string | undefined {
-    const value = this.dwResponse['300a0346']?.Value;
+    const value = this.dwResponse['300A0346']?.Value;
     return convert(value?.[0], 0x300a0346, 'string');
   }
 
@@ -62387,7 +62387,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0348(): string | undefined {
-    const value = this.dwResponse['300a0348']?.Value;
+    const value = this.dwResponse['300A0348']?.Value;
     return convert(value?.[0], 0x300a0348, 'string');
   }
 
@@ -62405,7 +62405,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a034a(): string | undefined {
-    const value = this.dwResponse['300a034a']?.Value;
+    const value = this.dwResponse['300A034A']?.Value;
     return convert(value?.[0], 0x300a034a, 'string');
   }
 
@@ -62423,7 +62423,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a034c(): string | undefined {
-    const value = this.dwResponse['300a034c']?.Value;
+    const value = this.dwResponse['300A034C']?.Value;
     return convert(value?.[0], 0x300a034c, 'string');
   }
 
@@ -62441,7 +62441,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0350(): string | undefined {
-    const value = this.dwResponse['300a0350']?.Value;
+    const value = this.dwResponse['300A0350']?.Value;
     return convert(value?.[0], 0x300a0350, 'string');
   }
 
@@ -62459,7 +62459,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0352(): string | undefined {
-    const value = this.dwResponse['300a0352']?.Value;
+    const value = this.dwResponse['300A0352']?.Value;
     return convert(value?.[0], 0x300a0352, 'string');
   }
 
@@ -62477,7 +62477,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0354(): string | undefined {
-    const value = this.dwResponse['300a0354']?.Value;
+    const value = this.dwResponse['300A0354']?.Value;
     return convert(value?.[0], 0x300a0354, 'string');
   }
 
@@ -62495,7 +62495,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0356(): number | undefined {
-    const value = this.dwResponse['300a0356']?.Value;
+    const value = this.dwResponse['300A0356']?.Value;
     return convert(value?.[0], 0x300a0356, 'number');
   }
 
@@ -62513,7 +62513,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0358(): number | undefined {
-    const value = this.dwResponse['300a0358']?.Value;
+    const value = this.dwResponse['300A0358']?.Value;
     return convert(value?.[0], 0x300a0358, 'number');
   }
 
@@ -62531,7 +62531,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a035a(): number | undefined {
-    const value = this.dwResponse['300a035a']?.Value;
+    const value = this.dwResponse['300A035A']?.Value;
     return convert(value?.[0], 0x300a035a, 'number');
   }
 
@@ -62549,7 +62549,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0360(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0360']?.Value;
+    const value = this.dwResponse['300A0360']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62569,7 +62569,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0362(): string | undefined {
-    const value = this.dwResponse['300a0362']?.Value;
+    const value = this.dwResponse['300A0362']?.Value;
     return convert(value?.[0], 0x300a0362, 'string');
   }
 
@@ -62587,7 +62587,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0364(): number | undefined {
-    const value = this.dwResponse['300a0364']?.Value;
+    const value = this.dwResponse['300A0364']?.Value;
     return convert(value?.[0], 0x300a0364, 'number');
   }
 
@@ -62605,7 +62605,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0366(): number | undefined {
-    const value = this.dwResponse['300a0366']?.Value;
+    const value = this.dwResponse['300A0366']?.Value;
     return convert(value?.[0], 0x300a0366, 'number');
   }
 
@@ -62623,7 +62623,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0370(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0370']?.Value;
+    const value = this.dwResponse['300A0370']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62643,7 +62643,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0372(): string | undefined {
-    const value = this.dwResponse['300a0372']?.Value;
+    const value = this.dwResponse['300A0372']?.Value;
     return convert(value?.[0], 0x300a0372, 'string');
   }
 
@@ -62661,7 +62661,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0374(): number | undefined {
-    const value = this.dwResponse['300a0374']?.Value;
+    const value = this.dwResponse['300A0374']?.Value;
     return convert(value?.[0], 0x300a0374, 'number');
   }
 
@@ -62679,7 +62679,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0380(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0380']?.Value;
+    const value = this.dwResponse['300A0380']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62699,7 +62699,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0382(): number | undefined {
-    const value = this.dwResponse['300a0382']?.Value;
+    const value = this.dwResponse['300A0382']?.Value;
     return convert(value?.[0], 0x300a0382, 'number');
   }
 
@@ -62717,7 +62717,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0384(): number | undefined {
-    const value = this.dwResponse['300a0384']?.Value;
+    const value = this.dwResponse['300A0384']?.Value;
     return convert(value?.[0], 0x300a0384, 'number');
   }
 
@@ -62735,7 +62735,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0386(): number | undefined {
-    const value = this.dwResponse['300a0386']?.Value;
+    const value = this.dwResponse['300A0386']?.Value;
     return convert(value?.[0], 0x300a0386, 'number');
   }
 
@@ -62753,7 +62753,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0388(): number | undefined {
-    const value = this.dwResponse['300a0388']?.Value;
+    const value = this.dwResponse['300A0388']?.Value;
     return convert(value?.[0], 0x300a0388, 'number');
   }
 
@@ -62771,7 +62771,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a038a(): number | undefined {
-    const value = this.dwResponse['300a038a']?.Value;
+    const value = this.dwResponse['300A038A']?.Value;
     return convert(value?.[0], 0x300a038a, 'number');
   }
 
@@ -62789,7 +62789,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0390(): string | undefined {
-    const value = this.dwResponse['300a0390']?.Value;
+    const value = this.dwResponse['300A0390']?.Value;
     return convert(value?.[0], 0x300a0390, 'string');
   }
 
@@ -62807,7 +62807,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0392(): number | undefined {
-    const value = this.dwResponse['300a0392']?.Value;
+    const value = this.dwResponse['300A0392']?.Value;
     return convert(value?.[0], 0x300a0392, 'number');
   }
 
@@ -62825,7 +62825,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0394(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a0394']?.Value;
+    const value = this.dwResponse['300A0394']?.Value;
     return convert(value, 0x300a0394, 'Array<number | undefined>');
   }
 
@@ -62843,7 +62843,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0396(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a0396']?.Value;
+    const value = this.dwResponse['300A0396']?.Value;
     return convert(value, 0x300a0396, 'Array<number | undefined>');
   }
 
@@ -62861,7 +62861,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0398(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a0398']?.Value;
+    const value = this.dwResponse['300A0398']?.Value;
     return convert(value, 0x300a0398, 'Array<number | undefined>');
   }
 
@@ -62879,7 +62879,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a039a(): number | undefined {
-    const value = this.dwResponse['300a039a']?.Value;
+    const value = this.dwResponse['300A039A']?.Value;
     return convert(value?.[0], 0x300a039a, 'number');
   }
 
@@ -62897,7 +62897,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a03a0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a03a0']?.Value;
+    const value = this.dwResponse['300A03A0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62917,7 +62917,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a03a2(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a03a2']?.Value;
+    const value = this.dwResponse['300A03A2']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62937,7 +62937,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a03a4(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a03a4']?.Value;
+    const value = this.dwResponse['300A03A4']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62957,7 +62957,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a03a6(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a03a6']?.Value;
+    const value = this.dwResponse['300A03A6']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62977,7 +62977,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a03a8(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a03a8']?.Value;
+    const value = this.dwResponse['300A03A8']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -62997,7 +62997,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a03aa(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a03aa']?.Value;
+    const value = this.dwResponse['300A03AA']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63017,7 +63017,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a03ac(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a03ac']?.Value;
+    const value = this.dwResponse['300A03AC']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63037,7 +63037,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0401(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0401']?.Value;
+    const value = this.dwResponse['300A0401']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63057,7 +63057,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0410(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0410']?.Value;
+    const value = this.dwResponse['300A0410']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63077,7 +63077,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0412(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['300a0412']?.Value;
+    const value = this.dwResponse['300A0412']?.Value;
     return convert(value, 0x300a0412, 'Array<number | undefined>');
   }
 
@@ -63095,7 +63095,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0420(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0420']?.Value;
+    const value = this.dwResponse['300A0420']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63115,7 +63115,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0421(): string | undefined {
-    const value = this.dwResponse['300a0421']?.Value;
+    const value = this.dwResponse['300A0421']?.Value;
     return convert(value?.[0], 0x300a0421, 'string');
   }
 
@@ -63133,7 +63133,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0423(): string | undefined {
-    const value = this.dwResponse['300a0423']?.Value;
+    const value = this.dwResponse['300A0423']?.Value;
     return convert(value?.[0], 0x300a0423, 'string');
   }
 
@@ -63151,7 +63151,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0424(): number | undefined {
-    const value = this.dwResponse['300a0424']?.Value;
+    const value = this.dwResponse['300A0424']?.Value;
     return convert(value?.[0], 0x300a0424, 'number');
   }
 
@@ -63169,7 +63169,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0425(): number | undefined {
-    const value = this.dwResponse['300a0425']?.Value;
+    const value = this.dwResponse['300A0425']?.Value;
     return convert(value?.[0], 0x300a0425, 'number');
   }
 
@@ -63187,7 +63187,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0431(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300a0431']?.Value;
+    const value = this.dwResponse['300A0431']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63207,7 +63207,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0432(): string | undefined {
-    const value = this.dwResponse['300a0432']?.Value;
+    const value = this.dwResponse['300A0432']?.Value;
     return convert(value?.[0], 0x300a0432, 'string');
   }
 
@@ -63225,7 +63225,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0433(): number | undefined {
-    const value = this.dwResponse['300a0433']?.Value;
+    const value = this.dwResponse['300A0433']?.Value;
     return convert(value?.[0], 0x300a0433, 'number');
   }
 
@@ -63243,7 +63243,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0434(): number | undefined {
-    const value = this.dwResponse['300a0434']?.Value;
+    const value = this.dwResponse['300A0434']?.Value;
     return convert(value?.[0], 0x300a0434, 'number');
   }
 
@@ -63261,7 +63261,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0435(): number | undefined {
-    const value = this.dwResponse['300a0435']?.Value;
+    const value = this.dwResponse['300A0435']?.Value;
     return convert(value?.[0], 0x300a0435, 'number');
   }
 
@@ -63279,7 +63279,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0436(): number | undefined {
-    const value = this.dwResponse['300a0436']?.Value;
+    const value = this.dwResponse['300A0436']?.Value;
     return convert(value?.[0], 0x300a0436, 'number');
   }
 
@@ -63297,7 +63297,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0002(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c0002']?.Value;
+    const value = this.dwResponse['300C0002']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63317,7 +63317,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0004(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c0004']?.Value;
+    const value = this.dwResponse['300C0004']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63337,7 +63337,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0006(): number | undefined {
-    const value = this.dwResponse['300c0006']?.Value;
+    const value = this.dwResponse['300C0006']?.Value;
     return convert(value?.[0], 0x300c0006, 'number');
   }
 
@@ -63355,7 +63355,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0007(): number | undefined {
-    const value = this.dwResponse['300c0007']?.Value;
+    const value = this.dwResponse['300C0007']?.Value;
     return convert(value?.[0], 0x300c0007, 'number');
   }
 
@@ -63373,7 +63373,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0008(): number | undefined {
-    const value = this.dwResponse['300c0008']?.Value;
+    const value = this.dwResponse['300C0008']?.Value;
     return convert(value?.[0], 0x300c0008, 'number');
   }
 
@@ -63391,7 +63391,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0009(): number | undefined {
-    const value = this.dwResponse['300c0009']?.Value;
+    const value = this.dwResponse['300C0009']?.Value;
     return convert(value?.[0], 0x300c0009, 'number');
   }
 
@@ -63409,7 +63409,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c000a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c000a']?.Value;
+    const value = this.dwResponse['300C000A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63429,7 +63429,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c000c(): number | undefined {
-    const value = this.dwResponse['300c000c']?.Value;
+    const value = this.dwResponse['300C000C']?.Value;
     return convert(value?.[0], 0x300c000c, 'number');
   }
 
@@ -63447,7 +63447,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c000e(): number | undefined {
-    const value = this.dwResponse['300c000e']?.Value;
+    const value = this.dwResponse['300C000E']?.Value;
     return convert(value?.[0], 0x300c000e, 'number');
   }
 
@@ -63465,7 +63465,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0020(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c0020']?.Value;
+    const value = this.dwResponse['300C0020']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63485,7 +63485,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0022(): number | undefined {
-    const value = this.dwResponse['300c0022']?.Value;
+    const value = this.dwResponse['300C0022']?.Value;
     return convert(value?.[0], 0x300c0022, 'number');
   }
 
@@ -63503,7 +63503,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0040(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c0040']?.Value;
+    const value = this.dwResponse['300C0040']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63523,7 +63523,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0042(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c0042']?.Value;
+    const value = this.dwResponse['300C0042']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63543,7 +63543,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0050(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c0050']?.Value;
+    const value = this.dwResponse['300C0050']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63563,7 +63563,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0051(): number | undefined {
-    const value = this.dwResponse['300c0051']?.Value;
+    const value = this.dwResponse['300C0051']?.Value;
     return convert(value?.[0], 0x300c0051, 'number');
   }
 
@@ -63581,7 +63581,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0055(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c0055']?.Value;
+    const value = this.dwResponse['300C0055']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63601,7 +63601,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0060(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c0060']?.Value;
+    const value = this.dwResponse['300C0060']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63621,7 +63621,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c006a(): number | undefined {
-    const value = this.dwResponse['300c006a']?.Value;
+    const value = this.dwResponse['300C006A']?.Value;
     return convert(value?.[0], 0x300c006a, 'number');
   }
 
@@ -63639,7 +63639,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0080(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c0080']?.Value;
+    const value = this.dwResponse['300C0080']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63659,7 +63659,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c00a0(): number | undefined {
-    const value = this.dwResponse['300c00a0']?.Value;
+    const value = this.dwResponse['300C00A0']?.Value;
     return convert(value?.[0], 0x300c00a0, 'number');
   }
 
@@ -63677,7 +63677,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c00b0(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c00b0']?.Value;
+    const value = this.dwResponse['300C00B0']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63697,7 +63697,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c00c0(): number | undefined {
-    const value = this.dwResponse['300c00c0']?.Value;
+    const value = this.dwResponse['300C00C0']?.Value;
     return convert(value?.[0], 0x300c00c0, 'number');
   }
 
@@ -63715,7 +63715,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c00d0(): number | undefined {
-    const value = this.dwResponse['300c00d0']?.Value;
+    const value = this.dwResponse['300C00D0']?.Value;
     return convert(value?.[0], 0x300c00d0, 'number');
   }
 
@@ -63733,7 +63733,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c00e0(): number | undefined {
-    const value = this.dwResponse['300c00e0']?.Value;
+    const value = this.dwResponse['300C00E0']?.Value;
     return convert(value?.[0], 0x300c00e0, 'number');
   }
 
@@ -63751,7 +63751,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c00f0(): number | undefined {
-    const value = this.dwResponse['300c00f0']?.Value;
+    const value = this.dwResponse['300C00F0']?.Value;
     return convert(value?.[0], 0x300c00f0, 'number');
   }
 
@@ -63769,7 +63769,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c00f2(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['300c00f2']?.Value;
+    const value = this.dwResponse['300C00F2']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -63789,7 +63789,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c00f4(): number | undefined {
-    const value = this.dwResponse['300c00f4']?.Value;
+    const value = this.dwResponse['300C00F4']?.Value;
     return convert(value?.[0], 0x300c00f4, 'number');
   }
 
@@ -63807,7 +63807,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c00f6(): number | undefined {
-    const value = this.dwResponse['300c00f6']?.Value;
+    const value = this.dwResponse['300C00F6']?.Value;
     return convert(value?.[0], 0x300c00f6, 'number');
   }
 
@@ -63825,7 +63825,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0100(): number | undefined {
-    const value = this.dwResponse['300c0100']?.Value;
+    const value = this.dwResponse['300C0100']?.Value;
     return convert(value?.[0], 0x300c0100, 'number');
   }
 
@@ -63843,7 +63843,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0102(): number | undefined {
-    const value = this.dwResponse['300c0102']?.Value;
+    const value = this.dwResponse['300C0102']?.Value;
     return convert(value?.[0], 0x300c0102, 'number');
   }
 
@@ -63861,7 +63861,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300c0104(): number | undefined {
-    const value = this.dwResponse['300c0104']?.Value;
+    const value = this.dwResponse['300C0104']?.Value;
     return convert(value?.[0], 0x300c0104, 'number');
   }
 
@@ -63879,7 +63879,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300e0002(): string | undefined {
-    const value = this.dwResponse['300e0002']?.Value;
+    const value = this.dwResponse['300E0002']?.Value;
     return convert(value?.[0], 0x300e0002, 'string');
   }
 
@@ -63897,7 +63897,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300e0004(): Date | undefined {
-    const value = this.dwResponse['300e0004']?.Value;
+    const value = this.dwResponse['300E0004']?.Value;
     return convert(value?.[0], 0x300e0004, 'Date');
   }
 
@@ -63915,7 +63915,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300e0005(): string | undefined {
-    const value = this.dwResponse['300e0005']?.Value;
+    const value = this.dwResponse['300E0005']?.Value;
     return convert(value?.[0], 0x300e0005, 'string');
   }
 
@@ -63933,7 +63933,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300e0008(): any | undefined {
-    const value = this.dwResponse['300e0008']?.Value;
+    const value = this.dwResponse['300E0008']?.Value;
     return convert(value?.[0], 0x300e0008, 'any');
   }
 
@@ -64007,7 +64007,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x400800ff(): string | undefined {
-    const value = this.dwResponse['400800ff']?.Value;
+    const value = this.dwResponse['400800FF']?.Value;
     return convert(value?.[0], 0x400800ff, 'string');
   }
 
@@ -64133,7 +64133,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4008010a(): any | undefined {
-    const value = this.dwResponse['4008010a']?.Value;
+    const value = this.dwResponse['4008010A']?.Value;
     return convert(value?.[0], 0x4008010a, 'any');
   }
 
@@ -64151,7 +64151,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4008010c(): any | undefined {
-    const value = this.dwResponse['4008010c']?.Value;
+    const value = this.dwResponse['4008010C']?.Value;
     return convert(value?.[0], 0x4008010c, 'any');
   }
 
@@ -64301,7 +64301,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4008011a(): string | undefined {
-    const value = this.dwResponse['4008011a']?.Value;
+    const value = this.dwResponse['4008011A']?.Value;
     return convert(value?.[0], 0x4008011a, 'string');
   }
 
@@ -64557,7 +64557,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010100a(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['4010100a']?.Value;
+    const value = this.dwResponse['4010100A']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -64741,7 +64741,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010101a(): string | undefined {
-    const value = this.dwResponse['4010101a']?.Value;
+    const value = this.dwResponse['4010101A']?.Value;
     return convert(value?.[0], 0x4010101a, 'string');
   }
 
@@ -64759,7 +64759,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010101b(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['4010101b']?.Value;
+    const value = this.dwResponse['4010101B']?.Value;
     return convert(value, 0x4010101b, 'Array<number | undefined>');
   }
 
@@ -64777,7 +64777,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010101c(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['4010101c']?.Value;
+    const value = this.dwResponse['4010101C']?.Value;
     return convert(value, 0x4010101c, 'Array<number | undefined>');
   }
 
@@ -64795,7 +64795,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010101d(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['4010101d']?.Value;
+    const value = this.dwResponse['4010101D']?.Value;
     return convert(value, 0x4010101d, 'Array<number | undefined>');
   }
 
@@ -64813,7 +64813,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010101e(): string | undefined {
-    const value = this.dwResponse['4010101e']?.Value;
+    const value = this.dwResponse['4010101E']?.Value;
     return convert(value?.[0], 0x4010101e, 'string');
   }
 
@@ -64831,7 +64831,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010101f(): string | undefined {
-    const value = this.dwResponse['4010101f']?.Value;
+    const value = this.dwResponse['4010101F']?.Value;
     return convert(value?.[0], 0x4010101f, 'string');
   }
 
@@ -65011,7 +65011,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010102a(): string | undefined {
-    const value = this.dwResponse['4010102a']?.Value;
+    const value = this.dwResponse['4010102A']?.Value;
     return convert(value?.[0], 0x4010102a, 'string');
   }
 
@@ -65029,7 +65029,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010102b(): string | undefined {
-    const value = this.dwResponse['4010102b']?.Value;
+    const value = this.dwResponse['4010102B']?.Value;
     return convert(value?.[0], 0x4010102b, 'string');
   }
 
@@ -65159,7 +65159,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010103a(): string | undefined {
-    const value = this.dwResponse['4010103a']?.Value;
+    const value = this.dwResponse['4010103A']?.Value;
     return convert(value?.[0], 0x4010103a, 'string');
   }
 
@@ -65579,7 +65579,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010106d(): string | undefined {
-    const value = this.dwResponse['4010106d']?.Value;
+    const value = this.dwResponse['4010106D']?.Value;
     return convert(value?.[0], 0x4010106d, 'string');
   }
 
@@ -65597,7 +65597,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010106e(): string | undefined {
-    const value = this.dwResponse['4010106e']?.Value;
+    const value = this.dwResponse['4010106E']?.Value;
     return convert(value?.[0], 0x4010106e, 'string');
   }
 
@@ -65615,7 +65615,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010106f(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['4010106f']?.Value;
+    const value = this.dwResponse['4010106F']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -65789,7 +65789,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010107a(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['4010107a']?.Value;
+    const value = this.dwResponse['4010107A']?.Value;
     return convert(value, 0x4010107a, 'Array<number | undefined>');
   }
 
@@ -65807,7 +65807,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010107b(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['4010107b']?.Value;
+    const value = this.dwResponse['4010107B']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -65827,7 +65827,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010107c(): string | undefined {
-    const value = this.dwResponse['4010107c']?.Value;
+    const value = this.dwResponse['4010107C']?.Value;
     return convert(value?.[0], 0x4010107c, 'string');
   }
 
@@ -65845,7 +65845,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010107d(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['4010107d']?.Value;
+    const value = this.dwResponse['4010107D']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -65865,7 +65865,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010107e(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['4010107e']?.Value;
+    const value = this.dwResponse['4010107E']?.Value;
     return convert(value, 0x4010107e, 'Array<number | undefined>');
   }
 
@@ -65883,7 +65883,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4ffe0001(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['4ffe0001']?.Value;
+    const value = this.dwResponse['4FFE0001']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -65903,7 +65903,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0005(): number | undefined {
-    const value = this.dwResponse['50xx0005']?.Value;
+    const value = this.dwResponse['50XX0005']?.Value;
     throw new Error('Unsupported field CurveDimensions (50xx0005)');
   }
 
@@ -65921,7 +65921,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0010(): number | undefined {
-    const value = this.dwResponse['50xx0010']?.Value;
+    const value = this.dwResponse['50XX0010']?.Value;
     throw new Error('Unsupported field NumberOfPoints (50xx0010)');
   }
 
@@ -65939,7 +65939,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0020(): string | undefined {
-    const value = this.dwResponse['50xx0020']?.Value;
+    const value = this.dwResponse['50XX0020']?.Value;
     throw new Error('Unsupported field TypeOfData (50xx0020)');
   }
 
@@ -65957,7 +65957,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0022(): string | undefined {
-    const value = this.dwResponse['50xx0022']?.Value;
+    const value = this.dwResponse['50XX0022']?.Value;
     throw new Error('Unsupported field CurveDescription (50xx0022)');
   }
 
@@ -65975,7 +65975,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0030(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['50xx0030']?.Value;
+    const value = this.dwResponse['50XX0030']?.Value;
     throw new Error('Unsupported field AxisUnits (50xx0030)');
   }
 
@@ -65993,7 +65993,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0040(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['50xx0040']?.Value;
+    const value = this.dwResponse['50XX0040']?.Value;
     throw new Error('Unsupported field AxisLabels (50xx0040)');
   }
 
@@ -66011,7 +66011,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0103(): number | undefined {
-    const value = this.dwResponse['50xx0103']?.Value;
+    const value = this.dwResponse['50XX0103']?.Value;
     throw new Error('Unsupported field DataValueRepresentation (50xx0103)');
   }
 
@@ -66029,7 +66029,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0104(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['50xx0104']?.Value;
+    const value = this.dwResponse['50XX0104']?.Value;
     throw new Error('Unsupported field MinimumCoordinateValue (50xx0104)');
   }
 
@@ -66047,7 +66047,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0105(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['50xx0105']?.Value;
+    const value = this.dwResponse['50XX0105']?.Value;
     throw new Error('Unsupported field MaximumCoordinateValue (50xx0105)');
   }
 
@@ -66065,7 +66065,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0106(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['50xx0106']?.Value;
+    const value = this.dwResponse['50XX0106']?.Value;
     throw new Error('Unsupported field CurveRange (50xx0106)');
   }
 
@@ -66083,7 +66083,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0110(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['50xx0110']?.Value;
+    const value = this.dwResponse['50XX0110']?.Value;
     throw new Error('Unsupported field CurveDataDescriptor (50xx0110)');
   }
 
@@ -66101,7 +66101,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0112(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['50xx0112']?.Value;
+    const value = this.dwResponse['50XX0112']?.Value;
     throw new Error('Unsupported field CoordinateStartValue (50xx0112)');
   }
 
@@ -66119,7 +66119,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx0114(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['50xx0114']?.Value;
+    const value = this.dwResponse['50XX0114']?.Value;
     throw new Error('Unsupported field CoordinateStepValue (50xx0114)');
   }
 
@@ -66137,7 +66137,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx1001(): string | undefined {
-    const value = this.dwResponse['50xx1001']?.Value;
+    const value = this.dwResponse['50XX1001']?.Value;
     throw new Error('Unsupported field CurveActivationLayer (50xx1001)');
   }
 
@@ -66155,7 +66155,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx2000(): number | undefined {
-    const value = this.dwResponse['50xx2000']?.Value;
+    const value = this.dwResponse['50XX2000']?.Value;
     throw new Error('Unsupported field AudioType (50xx2000)');
   }
 
@@ -66173,7 +66173,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx2002(): number | undefined {
-    const value = this.dwResponse['50xx2002']?.Value;
+    const value = this.dwResponse['50XX2002']?.Value;
     throw new Error('Unsupported field AudioSampleFormat (50xx2002)');
   }
 
@@ -66191,7 +66191,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx2004(): number | undefined {
-    const value = this.dwResponse['50xx2004']?.Value;
+    const value = this.dwResponse['50XX2004']?.Value;
     throw new Error('Unsupported field NumberOfChannels (50xx2004)');
   }
 
@@ -66209,7 +66209,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx2006(): number | undefined {
-    const value = this.dwResponse['50xx2006']?.Value;
+    const value = this.dwResponse['50XX2006']?.Value;
     throw new Error('Unsupported field NumberOfSamples (50xx2006)');
   }
 
@@ -66227,7 +66227,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx2008(): number | undefined {
-    const value = this.dwResponse['50xx2008']?.Value;
+    const value = this.dwResponse['50XX2008']?.Value;
     throw new Error('Unsupported field SampleRate (50xx2008)');
   }
 
@@ -66245,7 +66245,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx200a(): number | undefined {
-    const value = this.dwResponse['50xx200a']?.Value;
+    const value = this.dwResponse['50XX200A']?.Value;
     throw new Error('Unsupported field TotalTime (50xx200A)');
   }
 
@@ -66263,7 +66263,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx2500(): string | undefined {
-    const value = this.dwResponse['50xx2500']?.Value;
+    const value = this.dwResponse['50XX2500']?.Value;
     throw new Error('Unsupported field CurveLabel (50xx2500)');
   }
 
@@ -66281,7 +66281,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx2600(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['50xx2600']?.Value;
+    const value = this.dwResponse['50XX2600']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -66301,7 +66301,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx2610(): number | undefined {
-    const value = this.dwResponse['50xx2610']?.Value;
+    const value = this.dwResponse['50XX2610']?.Value;
     throw new Error('Unsupported field CurveReferencedOverlayGroup (50xx2610)');
   }
 
@@ -66415,7 +66415,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0010(): number | undefined {
-    const value = this.dwResponse['60xx0010']?.Value;
+    const value = this.dwResponse['60XX0010']?.Value;
     throw new Error('Unsupported field OverlayRows (60xx0010)');
   }
 
@@ -66433,7 +66433,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0011(): number | undefined {
-    const value = this.dwResponse['60xx0011']?.Value;
+    const value = this.dwResponse['60XX0011']?.Value;
     throw new Error('Unsupported field OverlayColumns (60xx0011)');
   }
 
@@ -66451,7 +66451,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0012(): number | undefined {
-    const value = this.dwResponse['60xx0012']?.Value;
+    const value = this.dwResponse['60XX0012']?.Value;
     throw new Error('Unsupported field OverlayPlanes (60xx0012)');
   }
 
@@ -66469,7 +66469,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0015(): number | undefined {
-    const value = this.dwResponse['60xx0015']?.Value;
+    const value = this.dwResponse['60XX0015']?.Value;
     throw new Error('Unsupported field NumberOfFramesInOverlay (60xx0015)');
   }
 
@@ -66487,7 +66487,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0022(): string | undefined {
-    const value = this.dwResponse['60xx0022']?.Value;
+    const value = this.dwResponse['60XX0022']?.Value;
     throw new Error('Unsupported field OverlayDescription (60xx0022)');
   }
 
@@ -66505,7 +66505,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0040(): string | undefined {
-    const value = this.dwResponse['60xx0040']?.Value;
+    const value = this.dwResponse['60XX0040']?.Value;
     throw new Error('Unsupported field OverlayType (60xx0040)');
   }
 
@@ -66523,7 +66523,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0045(): string | undefined {
-    const value = this.dwResponse['60xx0045']?.Value;
+    const value = this.dwResponse['60XX0045']?.Value;
     throw new Error('Unsupported field OverlaySubtype (60xx0045)');
   }
 
@@ -66541,7 +66541,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0050(): Array<Uint8Array | undefined> | undefined {
-    const value = this.dwResponse['60xx0050']?.Value;
+    const value = this.dwResponse['60XX0050']?.Value;
     throw new Error('Unsupported field OverlayOrigin (60xx0050)');
   }
 
@@ -66559,7 +66559,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0051(): number | undefined {
-    const value = this.dwResponse['60xx0051']?.Value;
+    const value = this.dwResponse['60XX0051']?.Value;
     throw new Error('Unsupported field ImageFrameOrigin (60xx0051)');
   }
 
@@ -66577,7 +66577,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0052(): number | undefined {
-    const value = this.dwResponse['60xx0052']?.Value;
+    const value = this.dwResponse['60XX0052']?.Value;
     throw new Error('Unsupported field OverlayPlaneOrigin (60xx0052)');
   }
 
@@ -66595,7 +66595,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0060(): string | undefined {
-    const value = this.dwResponse['60xx0060']?.Value;
+    const value = this.dwResponse['60XX0060']?.Value;
     throw new Error('Unsupported field OverlayCompressionCode (60xx0060)');
   }
 
@@ -66613,7 +66613,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0061(): string | undefined {
-    const value = this.dwResponse['60xx0061']?.Value;
+    const value = this.dwResponse['60XX0061']?.Value;
     throw new Error('Unsupported field OverlayCompressionOriginator (60xx0061)');
   }
 
@@ -66631,7 +66631,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0062(): string | undefined {
-    const value = this.dwResponse['60xx0062']?.Value;
+    const value = this.dwResponse['60XX0062']?.Value;
     throw new Error('Unsupported field OverlayCompressionLabel (60xx0062)');
   }
 
@@ -66649,7 +66649,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0063(): string | undefined {
-    const value = this.dwResponse['60xx0063']?.Value;
+    const value = this.dwResponse['60XX0063']?.Value;
     throw new Error('Unsupported field OverlayCompressionDescription (60xx0063)');
   }
 
@@ -66667,7 +66667,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0066(): Array<Uint16Array | undefined> | undefined {
-    const value = this.dwResponse['60xx0066']?.Value;
+    const value = this.dwResponse['60XX0066']?.Value;
     throw new Error('Unsupported field OverlayCompressionStepPointers (60xx0066)');
   }
 
@@ -66685,7 +66685,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0068(): number | undefined {
-    const value = this.dwResponse['60xx0068']?.Value;
+    const value = this.dwResponse['60XX0068']?.Value;
     throw new Error('Unsupported field OverlayRepeatInterval (60xx0068)');
   }
 
@@ -66703,7 +66703,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0069(): number | undefined {
-    const value = this.dwResponse['60xx0069']?.Value;
+    const value = this.dwResponse['60XX0069']?.Value;
     throw new Error('Unsupported field OverlayBitsGrouped (60xx0069)');
   }
 
@@ -66721,7 +66721,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0100(): number | undefined {
-    const value = this.dwResponse['60xx0100']?.Value;
+    const value = this.dwResponse['60XX0100']?.Value;
     throw new Error('Unsupported field OverlayBitsAllocated (60xx0100)');
   }
 
@@ -66739,7 +66739,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0102(): number | undefined {
-    const value = this.dwResponse['60xx0102']?.Value;
+    const value = this.dwResponse['60XX0102']?.Value;
     throw new Error('Unsupported field OverlayBitPosition (60xx0102)');
   }
 
@@ -66757,7 +66757,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0110(): string | undefined {
-    const value = this.dwResponse['60xx0110']?.Value;
+    const value = this.dwResponse['60XX0110']?.Value;
     throw new Error('Unsupported field OverlayFormat (60xx0110)');
   }
 
@@ -66775,7 +66775,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0200(): number | undefined {
-    const value = this.dwResponse['60xx0200']?.Value;
+    const value = this.dwResponse['60XX0200']?.Value;
     throw new Error('Unsupported field OverlayLocation (60xx0200)');
   }
 
@@ -66793,7 +66793,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0800(): Array<string | undefined> | undefined {
-    const value = this.dwResponse['60xx0800']?.Value;
+    const value = this.dwResponse['60XX0800']?.Value;
     throw new Error('Unsupported field OverlayCodeLabel (60xx0800)');
   }
 
@@ -66811,7 +66811,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0802(): number | undefined {
-    const value = this.dwResponse['60xx0802']?.Value;
+    const value = this.dwResponse['60XX0802']?.Value;
     throw new Error('Unsupported field OverlayNumberOfTables (60xx0802)');
   }
 
@@ -66829,7 +66829,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0803(): Array<Uint16Array | undefined> | undefined {
-    const value = this.dwResponse['60xx0803']?.Value;
+    const value = this.dwResponse['60XX0803']?.Value;
     throw new Error('Unsupported field OverlayCodeTableLocation (60xx0803)');
   }
 
@@ -66847,7 +66847,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx0804(): number | undefined {
-    const value = this.dwResponse['60xx0804']?.Value;
+    const value = this.dwResponse['60XX0804']?.Value;
     throw new Error('Unsupported field OverlayBitsForCodeWord (60xx0804)');
   }
 
@@ -66865,7 +66865,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1001(): string | undefined {
-    const value = this.dwResponse['60xx1001']?.Value;
+    const value = this.dwResponse['60XX1001']?.Value;
     throw new Error('Unsupported field OverlayActivationLayer (60xx1001)');
   }
 
@@ -66883,7 +66883,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1100(): number | undefined {
-    const value = this.dwResponse['60xx1100']?.Value;
+    const value = this.dwResponse['60XX1100']?.Value;
     throw new Error('Unsupported field OverlayDescriptorGray (60xx1100)');
   }
 
@@ -66901,7 +66901,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1101(): number | undefined {
-    const value = this.dwResponse['60xx1101']?.Value;
+    const value = this.dwResponse['60XX1101']?.Value;
     throw new Error('Unsupported field OverlayDescriptorRed (60xx1101)');
   }
 
@@ -66919,7 +66919,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1102(): number | undefined {
-    const value = this.dwResponse['60xx1102']?.Value;
+    const value = this.dwResponse['60XX1102']?.Value;
     throw new Error('Unsupported field OverlayDescriptorGreen (60xx1102)');
   }
 
@@ -66937,7 +66937,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1103(): number | undefined {
-    const value = this.dwResponse['60xx1103']?.Value;
+    const value = this.dwResponse['60XX1103']?.Value;
     throw new Error('Unsupported field OverlayDescriptorBlue (60xx1103)');
   }
 
@@ -66955,7 +66955,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1200(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['60xx1200']?.Value;
+    const value = this.dwResponse['60XX1200']?.Value;
     throw new Error('Unsupported field OverlaysGray (60xx1200)');
   }
 
@@ -66973,7 +66973,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1201(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['60xx1201']?.Value;
+    const value = this.dwResponse['60XX1201']?.Value;
     throw new Error('Unsupported field OverlaysRed (60xx1201)');
   }
 
@@ -66991,7 +66991,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1202(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['60xx1202']?.Value;
+    const value = this.dwResponse['60XX1202']?.Value;
     throw new Error('Unsupported field OverlaysGreen (60xx1202)');
   }
 
@@ -67009,7 +67009,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1203(): Array<number | undefined> | undefined {
-    const value = this.dwResponse['60xx1203']?.Value;
+    const value = this.dwResponse['60XX1203']?.Value;
     throw new Error('Unsupported field OverlaysBlue (60xx1203)');
   }
 
@@ -67027,7 +67027,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1301(): number | undefined {
-    const value = this.dwResponse['60xx1301']?.Value;
+    const value = this.dwResponse['60XX1301']?.Value;
     throw new Error('Unsupported field ROIArea (60xx1301)');
   }
 
@@ -67045,7 +67045,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1302(): number | undefined {
-    const value = this.dwResponse['60xx1302']?.Value;
+    const value = this.dwResponse['60XX1302']?.Value;
     throw new Error('Unsupported field ROIMean (60xx1302)');
   }
 
@@ -67063,7 +67063,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1303(): number | undefined {
-    const value = this.dwResponse['60xx1303']?.Value;
+    const value = this.dwResponse['60XX1303']?.Value;
     throw new Error('Unsupported field ROIStandardDeviation (60xx1303)');
   }
 
@@ -67081,7 +67081,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx1500(): string | undefined {
-    const value = this.dwResponse['60xx1500']?.Value;
+    const value = this.dwResponse['60XX1500']?.Value;
     throw new Error('Unsupported field OverlayLabel (60xx1500)');
   }
 
@@ -67099,7 +67099,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x7fxx0011(): number | undefined {
-    const value = this.dwResponse['7fxx0011']?.Value;
+    const value = this.dwResponse['7FXX0011']?.Value;
     throw new Error('Unsupported field VariableNextDataGroup (7Fxx0011)');
   }
 
@@ -67117,7 +67117,7 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get xfffafffa(): Array<Partial<Dataset> | undefined> | undefined {
-    const value = this.dwResponse['fffafffa']?.Value;
+    const value = this.dwResponse['FFFAFFFA']?.Value;
     
       return value?.map(v => new DICOMWebDataset(v, this.requester));
     
@@ -67426,18 +67426,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x001021b0(): string | string | undefined {
-    const element = this.dwResponse['001021b0'];
+    const element = this.dwResponse['001021B0'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getAdditionalPatientHistory(): Promise<string> {
-    const element = this.dwResponse['001021b0'];
+    const element = this.dwResponse['001021B0'];
     if (typeof element !== 'string') {
       return this.x001021b0 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['001021b0'] = { Value: [value], vr: 'LT' };
+    this.dwResponse['001021B0'] = { Value: [value], vr: 'LT' };
     return value;
     
   }
@@ -67911,18 +67911,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014400c(): string | string | undefined {
-    const element = this.dwResponse['0014400c'];
+    const element = this.dwResponse['0014400C'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getReceiverNotes(): Promise<string> {
-    const element = this.dwResponse['0014400c'];
+    const element = this.dwResponse['0014400C'];
     if (typeof element !== 'string') {
       return this.x0014400c as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0014400c'] = { Value: [value], vr: 'LT' };
+    this.dwResponse['0014400C'] = { Value: [value], vr: 'LT' };
     return value;
     
   }
@@ -67933,18 +67933,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014400f(): string | string | undefined {
-    const element = this.dwResponse['0014400f'];
+    const element = this.dwResponse['0014400F'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getPreAmplifierNotes(): Promise<string> {
-    const element = this.dwResponse['0014400f'];
+    const element = this.dwResponse['0014400F'];
     if (typeof element !== 'string') {
       return this.x0014400f as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0014400f'] = { Value: [value], vr: 'LT' };
+    this.dwResponse['0014400F'] = { Value: [value], vr: 'LT' };
     return value;
     
   }
@@ -67999,18 +67999,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014405c(): string | string | undefined {
-    const element = this.dwResponse['0014405c'];
+    const element = this.dwResponse['0014405C'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getDelayLawIdentifier(): Promise<string> {
-    const element = this.dwResponse['0014405c'];
+    const element = this.dwResponse['0014405C'];
     if (typeof element !== 'string') {
       return this.x0014405c as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0014405c'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0014405C'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -68065,18 +68065,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0014409b(): string | string | undefined {
-    const element = this.dwResponse['0014409b'];
+    const element = this.dwResponse['0014409B'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getScanProcedure(): Promise<string> {
-    const element = this.dwResponse['0014409b'];
+    const element = this.dwResponse['0014409B'];
     if (typeof element !== 'string') {
       return this.x0014409b as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0014409b'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0014409B'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -68087,18 +68087,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018003a(): string | string | undefined {
-    const element = this.dwResponse['0018003a'];
+    const element = this.dwResponse['0018003A'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getInterventionDescription(): Promise<string> {
-    const element = this.dwResponse['0018003a'];
+    const element = this.dwResponse['0018003A'];
     if (typeof element !== 'string') {
       return this.x0018003a as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0018003a'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0018003A'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -68307,18 +68307,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0018a003(): string | string | undefined {
-    const element = this.dwResponse['0018a003'];
+    const element = this.dwResponse['0018A003'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getContributionDescription(): Promise<string> {
-    const element = this.dwResponse['0018a003'];
+    const element = this.dwResponse['0018A003'];
     if (typeof element !== 'string') {
       return this.x0018a003 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0018a003'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0018A003'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -68763,18 +68763,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x00287fe0(): string | string | undefined {
-    const element = this.dwResponse['00287fe0'];
+    const element = this.dwResponse['00287FE0'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getPixelDataProviderURL(): Promise<string> {
-    const element = this.dwResponse['00287fe0'];
+    const element = this.dwResponse['00287FE0'];
     if (typeof element !== 'string') {
       return this.x00287fe0 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['00287fe0'] = { Value: [value], vr: 'UT' };
+    this.dwResponse['00287FE0'] = { Value: [value], vr: 'UT' };
     return value;
     
   }
@@ -69071,18 +69071,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a074(): Uint8Array | string | undefined {
-    const element = this.dwResponse['0040a074'];
+    const element = this.dwResponse['0040A074'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getObjectBinaryIdentifierTrial(): Promise<Uint8Array> {
-    const element = this.dwResponse['0040a074'];
+    const element = this.dwResponse['0040A074'];
     if (typeof element !== 'string') {
       return this.x0040a074 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['0040a074'] = { Value: [value], vr: 'OB' };
+    this.dwResponse['0040A074'] = { Value: [value], vr: 'OB' };
     return value;
     
   }
@@ -69093,18 +69093,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a089(): Uint8Array | string | undefined {
-    const element = this.dwResponse['0040a089'];
+    const element = this.dwResponse['0040A089'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getObjectDirectoryBinaryIdentifierTrial(): Promise<Uint8Array> {
-    const element = this.dwResponse['0040a089'];
+    const element = this.dwResponse['0040A089'];
     if (typeof element !== 'string') {
       return this.x0040a089 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['0040a089'] = { Value: [value], vr: 'OB' };
+    this.dwResponse['0040A089'] = { Value: [value], vr: 'OB' };
     return value;
     
   }
@@ -69115,18 +69115,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a160(): string | string | undefined {
-    const element = this.dwResponse['0040a160'];
+    const element = this.dwResponse['0040A160'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getTextValue(): Promise<string> {
-    const element = this.dwResponse['0040a160'];
+    const element = this.dwResponse['0040A160'];
     if (typeof element !== 'string') {
       return this.x0040a160 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0040a160'] = { Value: [value], vr: 'UT' };
+    this.dwResponse['0040A160'] = { Value: [value], vr: 'UT' };
     return value;
     
   }
@@ -69137,18 +69137,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a16a(): string | string | undefined {
-    const element = this.dwResponse['0040a16a'];
+    const element = this.dwResponse['0040A16A'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getBibliographicCitationTrial(): Promise<string> {
-    const element = this.dwResponse['0040a16a'];
+    const element = this.dwResponse['0040A16A'];
     if (typeof element !== 'string') {
       return this.x0040a16a as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0040a16a'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0040A16A'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -69159,18 +69159,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a224(): string | string | undefined {
-    const element = this.dwResponse['0040a224'];
+    const element = this.dwResponse['0040A224'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getIdentificationDescriptionTrial(): Promise<string> {
-    const element = this.dwResponse['0040a224'];
+    const element = this.dwResponse['0040A224'];
     if (typeof element !== 'string') {
       return this.x0040a224 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0040a224'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0040A224'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -69181,18 +69181,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a297(): string | string | undefined {
-    const element = this.dwResponse['0040a297'];
+    const element = this.dwResponse['0040A297'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getAlgorithmDescriptionTrial(): Promise<string> {
-    const element = this.dwResponse['0040a297'];
+    const element = this.dwResponse['0040A297'];
     if (typeof element !== 'string') {
       return this.x0040a297 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0040a297'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0040A297'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -69203,18 +69203,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a33a(): string | string | undefined {
-    const element = this.dwResponse['0040a33a'];
+    const element = this.dwResponse['0040A33A'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getReportStatusCommentTrial(): Promise<string> {
-    const element = this.dwResponse['0040a33a'];
+    const element = this.dwResponse['0040A33A'];
     if (typeof element !== 'string') {
       return this.x0040a33a as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0040a33a'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0040A33A'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -69225,18 +69225,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a353(): string | string | undefined {
-    const element = this.dwResponse['0040a353'];
+    const element = this.dwResponse['0040A353'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getAddressTrial(): Promise<string> {
-    const element = this.dwResponse['0040a353'];
+    const element = this.dwResponse['0040A353'];
     if (typeof element !== 'string') {
       return this.x0040a353 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0040a353'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0040A353'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -69247,18 +69247,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040a992(): string | string | undefined {
-    const element = this.dwResponse['0040a992'];
+    const element = this.dwResponse['0040A992'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getUniformResourceLocatorTrial(): Promise<string> {
-    const element = this.dwResponse['0040a992'];
+    const element = this.dwResponse['0040A992'];
     if (typeof element !== 'string') {
       return this.x0040a992 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0040a992'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0040A992'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -69269,18 +69269,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e001(): string | string | undefined {
-    const element = this.dwResponse['0040e001'];
+    const element = this.dwResponse['0040E001'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getHL7InstanceIdentifier(): Promise<string> {
-    const element = this.dwResponse['0040e001'];
+    const element = this.dwResponse['0040E001'];
     if (typeof element !== 'string') {
       return this.x0040e001 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0040e001'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0040E001'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -69291,18 +69291,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0040e010(): string | string | undefined {
-    const element = this.dwResponse['0040e010'];
+    const element = this.dwResponse['0040E010'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getRetrieveURI(): Promise<string> {
-    const element = this.dwResponse['0040e010'];
+    const element = this.dwResponse['0040E010'];
     if (typeof element !== 'string') {
       return this.x0040e010 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0040e010'] = { Value: [value], vr: 'UT' };
+    this.dwResponse['0040E010'] = { Value: [value], vr: 'UT' };
     return value;
     
   }
@@ -69788,18 +69788,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0070030f(): string | string | undefined {
-    const element = this.dwResponse['0070030f'];
+    const element = this.dwResponse['0070030F'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getFiducialDescription(): Promise<string> {
-    const element = this.dwResponse['0070030f'];
+    const element = this.dwResponse['0070030F'];
     if (typeof element !== 'string') {
       return this.x0070030f as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0070030f'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0070030F'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -69832,18 +69832,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0072006e(): string | string | undefined {
-    const element = this.dwResponse['0072006e'];
+    const element = this.dwResponse['0072006E'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getSelectorSTValue(): Promise<string> {
-    const element = this.dwResponse['0072006e'];
+    const element = this.dwResponse['0072006E'];
     if (typeof element !== 'string') {
       return this.x0072006e as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0072006e'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0072006E'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -69898,18 +69898,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x0074100a(): string | string | undefined {
-    const element = this.dwResponse['0074100a'];
+    const element = this.dwResponse['0074100A'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getContactURI(): Promise<string> {
-    const element = this.dwResponse['0074100a'];
+    const element = this.dwResponse['0074100A'];
     if (typeof element !== 'string') {
       return this.x0074100a as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['0074100a'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['0074100A'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70464,18 +70464,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0004(): string | string | undefined {
-    const element = this.dwResponse['300a0004'];
+    const element = this.dwResponse['300A0004'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getRTPlanDescription(): Promise<string> {
-    const element = this.dwResponse['300a0004'];
+    const element = this.dwResponse['300A0004'];
     if (typeof element !== 'string') {
       return this.x300a0004 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a0004'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A0004'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70486,18 +70486,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a000e(): string | string | undefined {
-    const element = this.dwResponse['300a000e'];
+    const element = this.dwResponse['300A000E'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getPrescriptionDescription(): Promise<string> {
-    const element = this.dwResponse['300a000e'];
+    const element = this.dwResponse['300A000E'];
     if (typeof element !== 'string') {
       return this.x300a000e as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a000e'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A000E'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70508,18 +70508,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a007b(): string | string | undefined {
-    const element = this.dwResponse['300a007b'];
+    const element = this.dwResponse['300A007B'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getFractionPattern(): Promise<string> {
-    const element = this.dwResponse['300a007b'];
+    const element = this.dwResponse['300A007B'];
     if (typeof element !== 'string') {
       return this.x300a007b as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a007b'] = { Value: [value], vr: 'LT' };
+    this.dwResponse['300A007B'] = { Value: [value], vr: 'LT' };
     return value;
     
   }
@@ -70530,18 +70530,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00c3(): string | string | undefined {
-    const element = this.dwResponse['300a00c3'];
+    const element = this.dwResponse['300A00C3'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getBeamDescription(): Promise<string> {
-    const element = this.dwResponse['300a00c3'];
+    const element = this.dwResponse['300A00C3'];
     if (typeof element !== 'string') {
       return this.x300a00c3 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a00c3'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A00C3'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70552,18 +70552,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a00dd(): string | string | undefined {
-    const element = this.dwResponse['300a00dd'];
+    const element = this.dwResponse['300A00DD'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getBolusDescription(): Promise<string> {
-    const element = this.dwResponse['300a00dd'];
+    const element = this.dwResponse['300A00DD'];
     if (typeof element !== 'string') {
       return this.x300a00dd as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a00dd'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A00DD'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70574,18 +70574,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0196(): string | string | undefined {
-    const element = this.dwResponse['300a0196'];
+    const element = this.dwResponse['300A0196'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getFixationDeviceDescription(): Promise<string> {
-    const element = this.dwResponse['300a0196'];
+    const element = this.dwResponse['300A0196'];
     if (typeof element !== 'string') {
       return this.x300a0196 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a0196'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A0196'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70596,18 +70596,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01a6(): string | string | undefined {
-    const element = this.dwResponse['300a01a6'];
+    const element = this.dwResponse['300A01A6'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getShieldingDeviceDescription(): Promise<string> {
-    const element = this.dwResponse['300a01a6'];
+    const element = this.dwResponse['300A01A6'];
     if (typeof element !== 'string') {
       return this.x300a01a6 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a01a6'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A01A6'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70618,18 +70618,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01b2(): string | string | undefined {
-    const element = this.dwResponse['300a01b2'];
+    const element = this.dwResponse['300A01B2'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getSetupTechniqueDescription(): Promise<string> {
-    const element = this.dwResponse['300a01b2'];
+    const element = this.dwResponse['300A01B2'];
     if (typeof element !== 'string') {
       return this.x300a01b2 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a01b2'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A01B2'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70640,18 +70640,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01ba(): string | string | undefined {
-    const element = this.dwResponse['300a01ba'];
+    const element = this.dwResponse['300A01BA'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getSetupDeviceDescription(): Promise<string> {
-    const element = this.dwResponse['300a01ba'];
+    const element = this.dwResponse['300A01BA'];
     if (typeof element !== 'string') {
       return this.x300a01ba as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a01ba'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A01BA'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70662,18 +70662,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a01d0(): string | string | undefined {
-    const element = this.dwResponse['300a01d0'];
+    const element = this.dwResponse['300A01D0'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getSetupReferenceDescription(): Promise<string> {
-    const element = this.dwResponse['300a01d0'];
+    const element = this.dwResponse['300A01D0'];
     if (typeof element !== 'string') {
       return this.x300a01d0 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a01d0'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A01D0'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70684,18 +70684,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a02eb(): string | string | undefined {
-    const element = this.dwResponse['300a02eb'];
+    const element = this.dwResponse['300A02EB'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getCompensatorDescription(): Promise<string> {
-    const element = this.dwResponse['300a02eb'];
+    const element = this.dwResponse['300A02EB'];
     if (typeof element !== 'string') {
       return this.x300a02eb as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a02eb'] = { Value: [value], vr: 'LT' };
+    this.dwResponse['300A02EB'] = { Value: [value], vr: 'LT' };
     return value;
     
   }
@@ -70706,18 +70706,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0402(): string | string | undefined {
-    const element = this.dwResponse['300a0402'];
+    const element = this.dwResponse['300A0402'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getSetupImageComment(): Promise<string> {
-    const element = this.dwResponse['300a0402'];
+    const element = this.dwResponse['300A0402'];
     if (typeof element !== 'string') {
       return this.x300a0402 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a0402'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A0402'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70728,18 +70728,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x300a0422(): string | string | undefined {
-    const element = this.dwResponse['300a0422'];
+    const element = this.dwResponse['300A0422'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getGeneralAccessoryDescription(): Promise<string> {
-    const element = this.dwResponse['300a0422'];
+    const element = this.dwResponse['300A0422'];
     if (typeof element !== 'string') {
       return this.x300a0422 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['300a0422'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['300A0422'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70794,18 +70794,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4008010b(): string | string | undefined {
-    const element = this.dwResponse['4008010b'];
+    const element = this.dwResponse['4008010B'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getInterpretationText(): Promise<string> {
-    const element = this.dwResponse['4008010b'];
+    const element = this.dwResponse['4008010B'];
     if (typeof element !== 'string') {
       return this.x4008010b as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['4008010b'] = { Value: [value], vr: 'ST' };
+    this.dwResponse['4008010B'] = { Value: [value], vr: 'ST' };
     return value;
     
   }
@@ -70948,18 +70948,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x4010106c(): Uint8Array | string | undefined {
-    const element = this.dwResponse['4010106c'];
+    const element = this.dwResponse['4010106C'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getDetectorCalibrationData(): Promise<Uint8Array> {
-    const element = this.dwResponse['4010106c'];
+    const element = this.dwResponse['4010106C'];
     if (typeof element !== 'string') {
       return this.x4010106c as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['4010106c'] = { Value: [value], vr: 'OB' };
+    this.dwResponse['4010106C'] = { Value: [value], vr: 'OB' };
     return value;
     
   }
@@ -70992,18 +70992,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx200c(): Uint8Array | string | undefined {
-    const element = this.dwResponse['50xx200c'];
+    const element = this.dwResponse['50XX200C'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getAudioSampleData(): Promise<Uint8Array> {
-    const element = this.dwResponse['50xx200c'];
+    const element = this.dwResponse['50XX200C'];
     if (typeof element !== 'string') {
       return this.x50xx200c as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['50xx200c'] = { Value: [value], vr: 'OB or OW' };
+    this.dwResponse['50XX200C'] = { Value: [value], vr: 'OB or OW' };
     return value;
     
   }
@@ -71014,18 +71014,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx200e(): string | string | undefined {
-    const element = this.dwResponse['50xx200e'];
+    const element = this.dwResponse['50XX200E'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getAudioComments(): Promise<string> {
-    const element = this.dwResponse['50xx200e'];
+    const element = this.dwResponse['50XX200E'];
     if (typeof element !== 'string') {
       return this.x50xx200e as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['50xx200e'] = { Value: [value], vr: 'LT' };
+    this.dwResponse['50XX200E'] = { Value: [value], vr: 'LT' };
     return value;
     
   }
@@ -71036,18 +71036,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x50xx3000(): Uint8Array | string | undefined {
-    const element = this.dwResponse['50xx3000'];
+    const element = this.dwResponse['50XX3000'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getCurveData(): Promise<Uint8Array> {
-    const element = this.dwResponse['50xx3000'];
+    const element = this.dwResponse['50XX3000'];
     if (typeof element !== 'string') {
       return this.x50xx3000 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['50xx3000'] = { Value: [value], vr: 'OB or OW' };
+    this.dwResponse['50XX3000'] = { Value: [value], vr: 'OB or OW' };
     return value;
     
   }
@@ -71102,18 +71102,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x5400100a(): Uint8Array | string | undefined {
-    const element = this.dwResponse['5400100a'];
+    const element = this.dwResponse['5400100A'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getWaveformPaddingValue(): Promise<Uint8Array> {
-    const element = this.dwResponse['5400100a'];
+    const element = this.dwResponse['5400100A'];
     if (typeof element !== 'string') {
       return this.x5400100a as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['5400100a'] = { Value: [value], vr: 'OB or OW' };
+    this.dwResponse['5400100A'] = { Value: [value], vr: 'OB or OW' };
     return value;
     
   }
@@ -71184,18 +71184,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx3000(): Uint8Array | string | undefined {
-    const element = this.dwResponse['60xx3000'];
+    const element = this.dwResponse['60XX3000'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getOverlayData(): Promise<Uint8Array> {
-    const element = this.dwResponse['60xx3000'];
+    const element = this.dwResponse['60XX3000'];
     if (typeof element !== 'string') {
       return this.x60xx3000 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['60xx3000'] = { Value: [value], vr: 'OB or OW' };
+    this.dwResponse['60XX3000'] = { Value: [value], vr: 'OB or OW' };
     return value;
     
   }
@@ -71206,18 +71206,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x60xx4000(): string | string | undefined {
-    const element = this.dwResponse['60xx4000'];
+    const element = this.dwResponse['60XX4000'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getOverlayComments(): Promise<string> {
-    const element = this.dwResponse['60xx4000'];
+    const element = this.dwResponse['60XX4000'];
     if (typeof element !== 'string') {
       return this.x60xx4000 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = response.text();
-    this.dwResponse['60xx4000'] = { Value: [value], vr: 'LT' };
+    this.dwResponse['60XX4000'] = { Value: [value], vr: 'LT' };
     return value;
     
   }
@@ -71228,18 +71228,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x7fe00010(): Uint8Array | string | undefined {
-    const element = this.dwResponse['7fe00010'];
+    const element = this.dwResponse['7FE00010'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getPixelData(): Promise<Uint8Array> {
-    const element = this.dwResponse['7fe00010'];
+    const element = this.dwResponse['7FE00010'];
     if (typeof element !== 'string') {
       return this.x7fe00010 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['7fe00010'] = { Value: [value], vr: 'OB or OW' };
+    this.dwResponse['7FE00010'] = { Value: [value], vr: 'OB or OW' };
     return value;
     
   }
@@ -71250,18 +71250,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x7fe00020(): Uint8Array | string | undefined {
-    const element = this.dwResponse['7fe00020'];
+    const element = this.dwResponse['7FE00020'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getCoefficientsSDVN(): Promise<Uint8Array> {
-    const element = this.dwResponse['7fe00020'];
+    const element = this.dwResponse['7FE00020'];
     if (typeof element !== 'string') {
       return this.x7fe00020 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['7fe00020'] = { Value: [value], vr: 'OW' };
+    this.dwResponse['7FE00020'] = { Value: [value], vr: 'OW' };
     return value;
     
   }
@@ -71272,18 +71272,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x7fe00030(): Uint8Array | string | undefined {
-    const element = this.dwResponse['7fe00030'];
+    const element = this.dwResponse['7FE00030'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getCoefficientsSDHN(): Promise<Uint8Array> {
-    const element = this.dwResponse['7fe00030'];
+    const element = this.dwResponse['7FE00030'];
     if (typeof element !== 'string') {
       return this.x7fe00030 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['7fe00030'] = { Value: [value], vr: 'OW' };
+    this.dwResponse['7FE00030'] = { Value: [value], vr: 'OW' };
     return value;
     
   }
@@ -71294,18 +71294,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x7fe00040(): Uint8Array | string | undefined {
-    const element = this.dwResponse['7fe00040'];
+    const element = this.dwResponse['7FE00040'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getCoefficientsSDDN(): Promise<Uint8Array> {
-    const element = this.dwResponse['7fe00040'];
+    const element = this.dwResponse['7FE00040'];
     if (typeof element !== 'string') {
       return this.x7fe00040 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['7fe00040'] = { Value: [value], vr: 'OW' };
+    this.dwResponse['7FE00040'] = { Value: [value], vr: 'OW' };
     return value;
     
   }
@@ -71316,18 +71316,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x7fxx0010(): Uint8Array | string | undefined {
-    const element = this.dwResponse['7fxx0010'];
+    const element = this.dwResponse['7FXX0010'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getVariablePixelData(): Promise<Uint8Array> {
-    const element = this.dwResponse['7fxx0010'];
+    const element = this.dwResponse['7FXX0010'];
     if (typeof element !== 'string') {
       return this.x7fxx0010 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['7fxx0010'] = { Value: [value], vr: 'OB or OW' };
+    this.dwResponse['7FXX0010'] = { Value: [value], vr: 'OB or OW' };
     return value;
     
   }
@@ -71338,18 +71338,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x7fxx0020(): Uint8Array | string | undefined {
-    const element = this.dwResponse['7fxx0020'];
+    const element = this.dwResponse['7FXX0020'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getVariableCoefficientsSDVN(): Promise<Uint8Array> {
-    const element = this.dwResponse['7fxx0020'];
+    const element = this.dwResponse['7FXX0020'];
     if (typeof element !== 'string') {
       return this.x7fxx0020 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['7fxx0020'] = { Value: [value], vr: 'OW' };
+    this.dwResponse['7FXX0020'] = { Value: [value], vr: 'OW' };
     return value;
     
   }
@@ -71360,18 +71360,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x7fxx0030(): Uint8Array | string | undefined {
-    const element = this.dwResponse['7fxx0030'];
+    const element = this.dwResponse['7FXX0030'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getVariableCoefficientsSDHN(): Promise<Uint8Array> {
-    const element = this.dwResponse['7fxx0030'];
+    const element = this.dwResponse['7FXX0030'];
     if (typeof element !== 'string') {
       return this.x7fxx0030 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['7fxx0030'] = { Value: [value], vr: 'OW' };
+    this.dwResponse['7FXX0030'] = { Value: [value], vr: 'OW' };
     return value;
     
   }
@@ -71382,18 +71382,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get x7fxx0040(): Uint8Array | string | undefined {
-    const element = this.dwResponse['7fxx0040'];
+    const element = this.dwResponse['7FXX0040'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getVariableCoefficientsSDDN(): Promise<Uint8Array> {
-    const element = this.dwResponse['7fxx0040'];
+    const element = this.dwResponse['7FXX0040'];
     if (typeof element !== 'string') {
       return this.x7fxx0040 as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['7fxx0040'] = { Value: [value], vr: 'OW' };
+    this.dwResponse['7FXX0040'] = { Value: [value], vr: 'OW' };
     return value;
     
   }
@@ -71404,18 +71404,18 @@ export class DICOMWebDataset implements Dataset {
   }
 
   get xfffcfffc(): Uint8Array | string | undefined {
-    const element = this.dwResponse['fffcfffc'];
+    const element = this.dwResponse['FFFCFFFC'];
     return element === undefined || typeof element === 'string' ? element : element.Value[0];
   }
 
   async getDataSetTrailingPadding(): Promise<Uint8Array> {
-    const element = this.dwResponse['fffcfffc'];
+    const element = this.dwResponse['FFFCFFFC'];
     if (typeof element !== 'string') {
       return this.xfffcfffc as any;
     }
     const response = await this.requester.qido({ path: element });
     const value = new Uint8Array(await response.arrayBuffer());
-    this.dwResponse['fffcfffc'] = { Value: [value], vr: 'OB' };
+    this.dwResponse['FFFCFFFC'] = { Value: [value], vr: 'OB' };
     return value;
     
   }
